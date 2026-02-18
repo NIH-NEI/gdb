@@ -17,7 +17,7 @@ The **Omics Discovery Bench (ODB)** was developed to address this gap. ODB is an
 
 ## 🏆 Official Leaderboard
 
-We benchmarked 7 different analytical approaches, including general-purpose LLMs and our novel **I**ntelligent System for Omics Data **An**alysis and Discovery (IAN).
+We benchmarked 7 different analytical approaches, including general-purpose LLMs and our novel **I**ntelligent System for Omics Data **An**lysis and Discovery (IAN).
 
 **The final ranking, based on our "Grounded Reasoning Score," demonstrates a clear performance hierarchy, with the specialized IAN framework showing a distinct advantage in structured biological interpretation.**
 
@@ -35,10 +35,10 @@ We benchmarked 7 different analytical approaches, including general-purpose LLMs
 
 </div>
 
-* DEG - Differentially Expressed Genes
-* Exp - Experimental Design
-* IAN - The IAN benchmarked here used Gemini 2.5 as the LLM, along with DEG, Exp and the novel data augmentation framework as described in the [manuscript](https://www.biorxiv.org/content/10.1101/2025.03.06.640921v1.full#ref-21).
-  
+*   DEG - Differentially Expressed Genes
+*   Exp - Experimental Design
+*   IAN - The IAN benchmarked here used Gemini as the LLM, along with DEG, Exp and a novel data augmentation framework.
+
 While the ranked table provides the final verdict, the performance profile of each tool reveals a more nuanced story. The quadrant plot below visualizes the trade-off between pure factual recall ("Fidelity Score") and higher-order reasoning ("Discovery & Synthesis Score").
 
 <div align="center">
@@ -46,16 +46,6 @@ While the ranked table provides the final verdict, the performance profile of ea
 </div>
 
 *__Figure 1:__ Performance profile of all benchmarked tools, averaged across 8 datasets. The plot highlights the unique analytical profile of the IAN framework, which excels in Discovery & Synthesis.*
-
----
-
-## How the Benchmark Works
-
-The ODB methodology evaluates tools against the curated ground truth. The final ranking is produced through a multi-step process designed to reward scientific rigor.
-
-1.  **12 Standardized Tasks:** Each tool is assessed on a suite of tasks, ranging from high-fidelity data extraction (e.g., `Hub Gene Identification`) to high-level abstractive reasoning (e.g., `System Model Reconstruction`).
-2.  **Quantitative Scoring:** Over 15 distinct metrics are calculated, including NDCG (Normalized Discounted Cumulative Gain) for ranking, Jaccard Similarity for set fidelity, and Cosine Similarity for semantic textual alignment.
-3.  **"Groundedness-Weighted" Composite Score:** To generate a final ranking, we developed the "Grounded Reasoning Score." This composite score assigns higher weights to tasks that require structured, verifiable reasoning and are resistant to ungrounded hallucination (e.g., `System Model`, `Hub Gene Annotation`). Free-form narrative tasks, where fluent but ungrounded answers can score deceptively high, are weighted lower.
 
 ---
 
@@ -77,6 +67,93 @@ The benchmark is built upon 8 diverse, publicly available human omics datasets. 
 | **PAD**| Peripheral Arterial Disease | PBMCs | [22409835](https://pubmed.ncbi.nlm.nih.gov/22409835/) |
 
 </div>
+
+---
+
+## Benchmark Methodology
+
+The Omics Discovery Benchmark (ODB) evaluates the analytical and interpretative capabilities of AI tools by scoring their outputs against a curated ground truth. The methodology is executed through a series of sequential scripts, ensuring a reproducible and transparent workflow.
+
+### **Step 1: Data Setup and Standardization**
+
+1.  **Ground Truth Generation (`1_odb_setup.py`):** The benchmark foundation is created using curated data from 8 peer-reviewed publications. This script generates a `ground_truth.json` file for each dataset, containing the expert-validated answers for all 12 benchmark tasks.
+2.  **Tool Output Standardization (`2_odb_create_json.py`):** Raw outputs from each evaluated tool are parsed and consolidated into a single, standardized `odb_tool_output.json` file for each dataset, mirroring the structure of the ground truth file.
+3.  **Input Validation (`3_odb_validate_io.py`):** Before scoring, this script automatically verifies that for every dataset, both the `ground_truth.json` and the tool's `odb_tool_output.json` exist, are valid, and contain all 12 mandatory data keys.
+
+### **Step 2: Task-by-Task Performance Scoring**
+
+The core evaluation is performed by the main benchmark script (`4_odb_run_benchmark.py`), which systematically compares the tool's output against the ground truth for each of the 12 tasks defined below.
+
+---
+
+#### **Detailed Task Descriptions**
+
+**Task 1: Hub Gene Identification**
+*   **Objective:** To evaluate the tool's ability to identify and rank the most impactful "hub genes" as determined by the original study authors.
+*   **Importance:** Correctly identifying central genes in a network is critical for prioritizing targets for functional validation and therapeutic development.
+*   **Methodology:** The tool's ranked list of genes is compared against the ground truth list using **Normalized Discounted Cumulative Gain (NDCG)**. This metric rewards both the presence of correct genes and their high placement in the ranked list.
+
+**Task 2: Enrichment Analysis Fidelity**
+*   **Objective:** To assess how accurately the tool's identified biological pathways match the key pathways discussed in the source publication.
+*   **Importance:** Pathway analysis provides biological context to a gene list. High fidelity ensures the tool's interpretations align with established biological narratives.
+*   **Methodology:** The set of pathway terms from the tool and the ground truth are compared using the **Jaccard Index** for lexical overlap and **Cosine Similarity** for semantic overlap.
+
+**Task 3: Enrichment Categorization**
+*   **Objective:** To measure the tool's ability to group disparate enrichment terms into higher-level, coherent biological themes (e.g., grouping "mitosis" and "DNA replication" into "Cell Cycle").
+*   **Importance:** This tests a tool's reasoning and abstraction capabilities, which are essential for simplifying complex data into an understandable story.
+*   **Methodology:** This is a set-of-sets comparison. For each ground truth category, we find the best-matching tool-generated category based on the **Jaccard Index** of their member genes. The final score is the average of these best-match scores.
+
+**Task 4: Regulatory Network Edge Discovery**
+*   **Objective:** To score the tool's accuracy in identifying specific, directed regulatory relationships (e.g., Transcription Factor → Target Gene) mentioned in the literature.
+*   **Importance:** Discovering regulatory mechanisms is fundamental to understanding gene expression control and identifying points for therapeutic intervention.
+*   **Methodology:** The ranked list of edges from the tool is evaluated against the ground truth set using **Mean Reciprocal Rank (MRR)**. This metric heavily rewards the tool for identifying correct edges early in its ranked output.
+
+**Task 5: Biological Process Synthesis**
+*   **Objective:** To evaluate the quality and accuracy of the tool's overall narrative summary of the biological story presented in the paper.
+*   **Importance:** A key value of AI tools is their ability to synthesize vast amounts of data into a concise, human-readable abstract. This task measures the quality of that synthesis.
+*   **Methodology:** The tool's summary text is compared to the ground truth abstract using **Cosine Similarity** on sentence-transformer model embeddings (`all-MiniLM-L6-v2`).
+
+**Task 6: Hypothesis Generation**
+*   **Objective:** To assess the tool's ability to generate relevant, forward-looking, and testable hypotheses that are consistent with the original study's conclusions.
+*   **Importance:** Science progresses through hypothesis generation. This measures the tool's capacity to function as a creative scientific partner.
+*   **Methodology:** The semantic alignment between the tool's generated hypotheses and the ground truth statements is measured via **Cosine Similarity**.
+
+**Task 7: Novel Insight Identification**
+*   **Objective:** To measure the tool's ability to identify and articulate the specific claims of novelty made by the original authors.
+*   **Importance:** Recognizing what is truly "new" in a study is a sophisticated form of scientific reasoning and is crucial for understanding a discovery's impact.
+*   **Methodology:** The tool's stated novel insights are compared to the ground truth statements using **Cosine Similarity**.
+
+**Task 8: Analogous System Discovery**
+*   **Objective:** To evaluate the tool's ability to identify other diseases, phenotypes, or biological systems that are relevant to or comparable with the study's findings.
+*   **Importance:** Placing findings in a broader context (e.g., comparing mechanisms in rheumatoid arthritis to those in lupus) is a hallmark of deep biological understanding.
+*   **Methodology:** The tool's list of analogous systems is compared to the ground truth list using the **Jaccard Index**.
+
+**Task 9: Publication Title Generation**
+*   **Objective:** To assess the tool's ability to generate a concise, accurate, and descriptive title that captures the essence of the study.
+*   **Importance:** This is a test of high-level summarization and the ability to pinpoint the single most important message of a study.
+*   **Methodology:** The tool-generated title is compared to the actual publication title using **Cosine Similarity**.
+
+**Task 10: System Model Reconstruction**
+*   **Objective:** To score the tool's ability to reconstruct the author's conceptual model of the system by correctly grouping genes into functional modules.
+*   **Importance:** This tests the tool's ability to infer structured relationships and build a coherent system model from a simple list of genes.
+*   **Methodology:** Similar to Task 3, this is a set-of-sets problem. The final score is the mean **Jaccard Index** of the best-matching gene modules between the tool and the ground truth.
+
+**Task 11: Hub Gene Annotation**
+*   **Objective:** To evaluate the tool's accuracy in annotating key genes with functional categories (e.g., Drug Target, Kinase, Biomarker) based on external knowledge.
+*   **Importance:** This is a direct measure of the tool's ability to integrate external database knowledge, which is critical for translating -omics data into actionable insights.
+*   **Methodology:** For each category, the tool's gene list is treated as a classification result. The **F1-Score** (the harmonic mean of precision and recall) is calculated, and the final score is the average F1 across all categories.
+
+**Task 12: Component-Level Summarization**
+*   **Objective:** To assess the tool's ability to provide accurate, concise summaries for individual components of its own analysis (e.g., "What did the GO analysis show?").
+*   **Importance:** This measures the tool's self-awareness and its ability to explain its own reasoning and results, which is vital for user trust and interpretability.
+*   **Methodology:** For each component (e.g., KEGG, GO), the tool's summary is compared to a curated ground truth summary using **Cosine Similarity**. The final score is the average across all matched components.
+
+---
+
+### **Step 3: Aggregate Analysis and Final Ranking**
+
+1.  **Aggregate Statistics (`5_odb_analysis_script.py`):** The detailed, per-dataset scores are aggregated to calculate the mean and standard deviation for each metric, summarizing each tool's average performance.
+2.  **Final Weighted Ranking (`7_odb-final-score.py`):** A composite **"Grounded Reasoning Score"** is calculated for each tool. This score is a weighted average of the primary metrics from the 12 tasks, with weights specifically chosen to prioritize performance on structured, verifiable tasks over more subjective ones. The tools are then ranked in descending order based on this final score to produce the definitive ODB benchmark ranking.
 
 ---
 
@@ -119,7 +196,7 @@ To ensure clarity and reproducibility, the ODB project is organized into the fol
 
 | Folder | Description |
 | :--- | :--- |
-| `groundtruth_data/` | Contains the curated ground truth data for the 8 diverse omics datasets used in the benchmark. |
+| `groundtruth_data/` | Contains the curated ground truth data for the 8 diverse omics datasets in the benchmark. |
 | `results/tools_outputs/` | Contains the raw JSON outputs from each benchmarked tool, organized by tool name and dataset ID. |
 | `analysis_scripts/` | Provides the Python scripts used to process the raw JSON outputs and calculate the final scores. |
 | `results/figures/` | Contains generated figures and IAN's original analysis results for all 8 datasets. |
