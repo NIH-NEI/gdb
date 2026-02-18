@@ -1,0 +1,143 @@
+{
+    "pmid": "33503442",
+    "phenotype": "Uveitis",
+    "publication_title": "Whole-Blood Transcriptome Analysis of Non-infectious Uveitis Reveals a Coordinated Network of Core Pathways and Key Regulatory Genes",
+    "biological_process_synthesis": {
+        "description": "Ground truth text for the main biological story.",
+        "text": "To identify a unifying molecular signature in non-infectious uveitis across different etiologies, this work analyzed whole-blood transcriptomes from a large patient cohort. The analysis revealed a prominent and consistent interferon-gamma (IFN-\u03b3) driven, Th1-type signature, with IRF1 identified as a key upstream regulator. The authors conclude that IFN-\u03b3 signaling is a central, unifying feature of the disease process and a primary driver of the associated inflammation."
+    },
+    "hub_genes_ranked": {
+        "description": "Ranked list of hub genes as emphasized in the publication.",
+        "genes": [
+            "IRF1",
+            "ICAM1",
+            "UTY",
+            "TYK2",
+            "IL15RA",
+            "IL15",
+            "MEF2A",
+            "GSK3A",
+            "IL10RB",
+            "MEF2B",
+            "MEF2D",
+            "LINC00278"
+        ]
+    },
+    "enriched_pathways": {
+        "description": "Key pathways/terms explicitly mentioned and discussed in the publication.",
+        "terms": [
+            "interferon-gamma-mediated signaling pathway",
+            "antigen processing and presentation",
+            "response to virus"
+        ]
+    },
+    "enrichment_categorization": {
+        "description": "High-level functional themes used in the paper to group enrichment results.",
+        "categories": [
+            {
+                "category_name": "Interferon Response",
+                "terms": [
+                    "interferon-gamma-mediated signaling pathway",
+                    "response to interferon-gamma"
+                ]
+            },
+            {
+                "category_name": "Antigen Presentation",
+                "terms": [
+                    "antigen processing and presentation"
+                ]
+            },
+            {
+                "category_name": "Viral Defense",
+                "terms": [
+                    "response to virus",
+                    "defense response to virus"
+                ]
+            }
+        ]
+    },
+    "regulatory_network_edges": {
+        "description": "List of directed TF->Target gene pairs mentioned in the publication.",
+        "edges": [
+            {
+                "source": "IRF1",
+                "target": "GBP1"
+            },
+            {
+                "source": "IRF1",
+                "target": "STAT1"
+            },
+            {
+                "source": "IRF1",
+                "target": "ICAM1"
+            }
+        ]
+    },
+    "integrated_system_nodes": {
+        "description": "Key gene modules identified in the author's overall system model.",
+        "modules": [
+            {
+                "module_name": "Core IFN-\u03b3 Signature Module",
+                "associated_phenotype": "Interferon-Gamma Response and Inflammation",
+                "genes": [
+                    "IRF1",
+                    "STAT1",
+                    "TYK2",
+                    "ICAM1",
+                    "GBP1",
+                    "CXCL9"
+                ]
+            }
+        ]
+    },
+    "hypotheses": {
+        "description": "Forward-looking or novel hypotheses from the paper.",
+        "statements": [
+            "The data suggest that IFN-\u03b3 is a central and unifying feature of the disease process.",
+            "Targeting the IFN-\u03b3 pathway may therefore represent a valid therapeutic approach for a broad spectrum of uveitis patients.",
+            "Further studies are needed to determine the cellular source of the IFN-\u03b3 signature and its upstream regulation."
+        ]
+    },
+    "novel_insights": {
+        "description": "Statements explicitly marked as novel or unexpected in the paper.",
+        "statements": [
+            "Our work is novel in that it identifies a prominent IFN-\u03b3 driven, Th1-type signature as a unifying feature across a large cohort of patients with different underlying etiologies of non-infectious uveitis.",
+            "The data suggest that IFN-\u03b3 is a central and unifying feature of the disease process, a concept that provides new insight into its pathogenesis."
+        ]
+    },
+    "analogous_systems": {
+        "description": "Other diseases or phenotypes the paper compares its findings to.",
+        "systems": [
+            "Sarcoidosis",
+            "Beh\u00e7et's disease",
+            "Vogt-Koyanagi-Harada (VKH) disease",
+            "Ankylosing spondylitis",
+            "Multiple sclerosis"
+        ]
+    },
+    "hub_gene_annotation": {
+        "description": "Classification of hub genes based on external database queries.",
+        "drug_targets": [
+            "TYK2",
+            "GSK3A",
+            "ICAM1"
+        ],
+        "kinases": [
+            "TYK2",
+            "GSK3A"
+        ],
+        "biomarkers": [
+            "ICAM1",
+            "IRF1"
+        ]
+    },
+    "component_summaries": {
+        "description": "Curated summaries of individual analysis components (KEGG, GO, etc.).",
+        "summaries": [
+            {
+                "component": "GO",
+                "summary": "Functional enrichment analysis of the top DEGs revealed a highly significant over-representation of GO terms related to the 'interferon-gamma-mediated signaling pathway', 'antigen processing and presentation', and 'response to virus'."
+            }
+        ]
+    }
+}
