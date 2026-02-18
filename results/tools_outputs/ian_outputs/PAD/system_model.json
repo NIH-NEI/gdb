@@ -1,0 +1,51 @@
+{
+  "modules": [
+    {
+      "module_name": "Innate Immune Activation",
+      "associated_phenotype": "Inflammatory Signaling",
+      "genes": [
+        "FCAR",
+        "IFIH1",
+        "NLRP3",
+        "OASL",
+        "TLR4"
+      ]
+    },
+    {
+      "module_name": "Apoptosis & Cell Stress",
+      "associated_phenotype": "Cell Death and Damage Response",
+      "genes": [
+        "BCL2A1",
+        "CDKN1A",
+        "DUSP1",
+        "DUSP5",
+        "FOS",
+        "PMAIP1",
+        "PPP1R15A",
+        "PTGS2",
+        "SOD2"
+      ]
+    },
+    {
+      "module_name": "Cell Migration & Adhesion",
+      "associated_phenotype": "Leukocyte Trafficking & Vascular Interaction",
+      "genes": [
+        "CXCR4",
+        "PLAUR",
+        "THBS1"
+      ]
+    },
+    {
+      "module_name": "Upstream Regulatory TFs",
+      "associated_phenotype": "Orchestration of Gene Expression",
+      "genes": [
+        "FOS",
+        "JUND",
+        "KLF4",
+        "RELA",
+        "RELB",
+        "RUNX2"
+      ]
+    }
+  ]
+}

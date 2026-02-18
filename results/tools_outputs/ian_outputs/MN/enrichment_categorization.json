@@ -1,0 +1,110 @@
+{
+  "categories": [
+    {
+      "component": "WikiPathways",
+      "categories": [
+        {
+          "category_name": "Metabolism",
+          "terms": [
+            "Vitamin B12 metabolism",
+            "Amino acid metabolism"
+          ]
+        },
+        {
+          "category_name": "Immune System",
+          "terms": [
+            "Complement system",
+            "Microglia pathogen phagocytosis pathway"
+          ]
+        },
+        {
+          "category_name": "Cell Signaling",
+          "terms": [
+            "TGF-beta signaling",
+            "Vitamin D Receptor pathway"
+          ]
+        },
+        {
+          "category_name": "Disease/Infection",
+          "terms": [
+            "Hepatitis C and Hepatocellular Carcinoma",
+            "COVID-19"
+          ]
+        }
+      ]
+    },
+    {
+      "component": "KEGG",
+      "categories": [
+        {
+          "category_name": "Metabolism",
+          "terms": [
+            "Carbohydrate metabolism",
+            "Amino acid metabolism",
+            "Steroid hormone biosynthesis"
+          ]
+        },
+        {
+          "category_name": "Immune System",
+          "terms": []
+        },
+        {
+          "category_name": "Disease/Infection",
+          "terms": [
+            "African trypanosomiasis",
+            "Malaria"
+          ]
+        }
+      ]
+    },
+    {
+      "component": "Reactome",
+      "categories": [
+        {
+          "category_name": "Immune Response",
+          "terms": [
+            "Platelet degranulation",
+            "Neutrophil degranulation"
+          ]
+        },
+        {
+          "category_name": "Metabolism",
+          "terms": [
+            "Vitamin metabolism",
+            "Amino acid metabolism"
+          ]
+        },
+        {
+          "category_name": "Cell Adhesion & ECM",
+          "terms": []
+        }
+      ]
+    },
+    {
+      "component": "GO",
+      "categories": [
+        {
+          "category_name": "Metabolism",
+          "terms": [
+            "amino acid metabolic process"
+          ]
+        },
+        {
+          "category_name": "Immune Response",
+          "terms": [
+            "immune cell activation",
+            "T cell proliferation"
+          ]
+        },
+        {
+          "category_name": "Angiogenesis",
+          "terms": []
+        },
+        {
+          "category_name": "Detoxification",
+          "terms": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "edges": [
+    {
+      "source": "FOXM1",
+      "target": "CCNA2"
+    },
+    {
+      "source": "FOXM1",
+      "target": "CDC20"
+    },
+    {
+      "source": "FOXM1",
+      "target": "CDKN3"
+    },
+    {
+      "source": "FOXM1",
+      "target": "HJURP"
+    },
+    {
+      "source": "FOXM1",
+      "target": "KIF14"
+    },
+    {
+      "source": "FOXM1",
+      "target": "MKI67"
+    },
+    {
+      "source": "FOXM1",
+      "target": "RRM2"
+    },
+    {
+      "source": "FOXM1",
+      "target": "TOP2A"
+    },
+    {
+      "source": "FOXM1",
+      "target": "TROAP"
+    },
+    {
+      "source": "GATA3",
+      "target": "RORC"
+    },
+    {
+      "source": "GATA3",
+      "target": "TBX21"
+    },
+    {
+      "source": "MYB",
+      "target": "CCR5"
+    },
+    {
+      "source": "MYB",
+      "target": "CDC20"
+    },
+    {
+      "source": "MYB",
+      "target": "CD82"
+    },
+    {
+      "source": "MYB",
+      "target": "DUSP10"
+    },
+    {
+      "source": "MYB",
+      "target": "EZH2"
+    },
+    {
+      "source": "MYB",
+      "target": "FGFR1"
+    },
+    {
+      "source": "MYB",
+      "target": "IFNG"
+    },
+    {
+      "source": "MYB",
+      "target": "IL2RB"
+    },
+    {
+      "source": "MYB",
+      "target": "MYBL2"
+    },
+    {
+      "source": "MYB",
+      "target": "RGS1"
+    },
+    {
+      "source": "MYB",
+      "target": "RORC"
+    },
+    {
+      "source": "MYB",
+      "target": "RRM2"
+    },
+    {
+      "source": "MYB",
+      "target": "TBX21"
+    },
+    {
+      "source": "NR3C1",
+      "target": "CDKN1A"
+    },
+    {
+      "source": "NR3C1",
+      "target": "IFNG"
+    },
+    {
+      "source": "NR3C1",
+      "target": "ITGB1"
+    },
+    {
+      "source": "NR3C1",
+      "target": "VCAM1"
+    },
+    {
+      "source": "RELA",
+      "target": "CD58"
+    },
+    {
+      "source": "RELA",
+      "target": "CLIC1"
+    },
+    {
+      "source": "RELA",
+      "target": "IFNG"
+    },
+    {
+      "source": "RELA",
+      "target": "ITGB1"
+    },
+    {
+      "source": "RELA",
+      "target": "MAF"
+    },
+    {
+      "source": "RELA",
+      "target": "VCAM1"
+    },
+    {
+      "source": "SOX2",
+      "target": "CD82"
+    },
+    {
+      "source": "SOX2",
+      "target": "FGFR1"
+    },
+    {
+      "source": "SOX2",
+      "target": "KIF14"
+    },
+    {
+      "source": "STAT1",
+      "target": "CD74"
+    },
+    {
+      "source": "STAT1",
+      "target": "HLA-DQA1"
+    },
+    {
+      "source": "STAT1",
+      "target": "HLA-DRA"
+    },
+    {
+      "source": "TP63",
+      "target": "CD82"
+    },
+    {
+      "source": "TP63",
+      "target": "CDKN1A"
+    },
+    {
+      "source": "TP63",
+      "target": "CDKN2C"
+    },
+    {
+      "source": "TP63",
+      "target": "CDKN3"
+    },
+    {
+      "source": "TP63",
+      "target": "ITGB1"
+    },
+    {
+      "source": "TP63",
+      "target": "MAF"
+    },
+    {
+      "source": "TP63",
+      "target": "SLC1A5"
+    },
+    {
+      "source": "TP63",
+      "target": "SMAD3"
+    }
+  ]
+}

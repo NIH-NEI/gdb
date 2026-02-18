@@ -1,0 +1,51 @@
+{
+  "modules": [
+    {
+      "module_name": "Dysregulated Immune Response",
+      "associated_phenotype": "Inflammation and Immune Activation",
+      "genes": [
+        "C1QA",
+        "C1QB",
+        "C1QC",
+        "C4BPA",
+        "CD274",
+        "FCGR1A",
+        "GBP1",
+        "GBP5",
+        "PDCD1LG2",
+        "SERPING1"
+      ]
+    },
+    {
+      "module_name": "Extracellular Matrix Remodeling",
+      "associated_phenotype": "Tissue Structure Alteration & Adhesion",
+      "genes": [
+        "ANK2",
+        "COL4A3",
+        "COL4A4",
+        "FN1",
+        "PARVA"
+      ]
+    },
+    {
+      "module_name": "Neuronal Signaling",
+      "associated_phenotype": "Potential Neuroinflammation",
+      "genes": [
+        "GRIN3A",
+        "NRN1",
+        "SYN2"
+      ]
+    },
+    {
+      "module_name": "Upstream Regulatory TFs",
+      "associated_phenotype": "Orchestration of Gene Expression",
+      "genes": [
+        "IRF1",
+        "POU5F1",
+        "RELB",
+        "SMAD4",
+        "TFAP2C"
+      ]
+    }
+  ]
+}

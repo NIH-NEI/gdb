@@ -1,0 +1,108 @@
+{
+  "categories": [
+    {
+      "component": "WikiPathways",
+      "categories": [
+        {
+          "category_name": "Immune Response and Signaling",
+          "terms": [
+            "Allograft rejection",
+            "TNF alpha signaling",
+            "Cancer immunotherapy by CTLA4 blockade"
+          ]
+        },
+        {
+          "category_name": "Cell Cycle and Proliferation",
+          "terms": [
+            "Cell cycle",
+            "Regulation of sister chromatid separation"
+          ]
+        },
+        {
+          "category_name": "Apoptosis and Cell Death",
+          "terms": [
+            "Apoptosis"
+          ]
+        },
+        {
+          "category_name": "Viral Infection",
+          "terms": [
+            "Ebola virus infection",
+            "SARS CoV 2 signaling",
+            "Hepatitis C"
+          ]
+        }
+      ]
+    },
+    {
+      "component": "KEGG",
+      "categories": [
+        {
+          "category_name": "Immune Response and Signaling",
+          "terms": [
+            "Cytokine-cytokine receptor interaction",
+            "Th1 and Th2 cell differentiation",
+            "Antigen processing and presentation"
+          ]
+        },
+        {
+          "category_name": "Cell Cycle and Proliferation",
+          "terms": [
+            "Cell cycle",
+            "Oocyte meiosis"
+          ]
+        },
+        {
+          "category_name": "Viral Infections and Life Cycles",
+          "terms": [
+            "Viral life cycle - HIV-1",
+            "Hepatitis C",
+            "Influenza A"
+          ]
+        }
+      ]
+    },
+    {
+      "component": "Reactome",
+      "categories": [
+        {
+          "category_name": "Immune Cell Activation and Signaling",
+          "terms": [
+            "TCR signaling",
+            "MHC class II antigen presentation",
+            "Cytokine Signaling in Immune system"
+          ]
+        },
+        {
+          "category_name": "Cell Cycle and Proliferation",
+          "terms": [
+            "Mitotic G2-G2/M phases",
+            "Cell Cycle, Mitotic",
+            "G1/S Transition"
+          ]
+        },
+        {
+          "category_name": "Extracellular Matrix Organization and Remodeling",
+          "terms": []
+        }
+      ]
+    },
+    {
+      "component": "GO",
+      "categories": [
+        {
+          "category_name": "T Cell Activation and Differentiation",
+          "terms": []
+        },
+        {
+          "category_name": "MHC Protein Complex Assembly",
+          "terms": []
+        },
+        {
+          "category_name": "Cell Cycle and Proliferation",
+          "terms": []
+        }
+      ]
+    }
+  ]
+}

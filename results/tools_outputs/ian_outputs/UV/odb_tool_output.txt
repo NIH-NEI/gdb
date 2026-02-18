@@ -1,0 +1,1193 @@
+Agent 1:
+**1. Summary and Categorization:**
+The enriched WikiPathways in this study highlight significant involvement of immune system processes, particularly complement activation and immune responses, alongside pathways related to cell signaling and tissue remodeling. Given the experimental design comparing Uveitis patients to healthy controls, these findings suggest a strong inflammatory and immune dysregulation component in Uveitis.
+
+**2. Known Roles and Upstream Regulators:**
+The enriched pathways, such as "Complement activation" (WP545, WP5090, WP3941, WP3937, WP558, WP2328, WP5560), "Nucleotide binding oligomerization domain NOD pathway" (WP1433), and "Microglia pathogen phagocytosis pathway" (WP3937), are strongly associated with inflammatory responses and host defense mechanisms. In the context of uveitis, these pathways are implicated in the initiation and perpetuation of ocular inflammation. The "Synaptic vesicle pathway" (WP2267) and "GABA and glutamate signalling in epileptogenesis" (WP5600) might suggest neuronal involvement or altered neurotransmission, which can be secondary effects or contributing factors in some forms of uveitis. The "Wnt signaling" pathways (WP428, WP4239, WP4258, WP4336) are involved in cell proliferation, differentiation, and tissue development, and their dysregulation can contribute to tissue remodeling and fibrosis seen in chronic inflammatory conditions.
+
+Potential upstream regulators include:
+*   **IRF1:** Found in ChEA with a significant p-value (0.048415) and associated with CD274, which is enriched in multiple pathways and GO terms related to immune response. IRFs are critical for interferon responses and immune regulation.
+*   **RELB:** Found in ChEA with a significant p-value (0.017762) and associated with GBP5, CD274, MMP19, and GPR84. RELB is a component of the NF-κB pathway, a central regulator of inflammation.
+*   **SMAD4:** Appears multiple times in ChEA with significant p-values (0.042803, 0.109246). SMAD proteins are key mediators of TGF-β signaling, which plays a crucial role in tissue remodeling and immune regulation.
+*   **STAT3:** Appears in ChEA with a p-value of 0.126119, associated with CD274, PDCD1LG2, and other immune-related genes. STAT3 is a critical transcription factor in cytokine signaling and immune responses.
+
+**3. Interaction Networks and Similar Systems:**
+The STRING data reveals strong interactions among complement components (C1QA, C1QB, C1QC) and between immune checkpoint molecules (CD274, PDCD1LG2). Genes like FN1 and ANKRD22 also show high interaction scores, suggesting their involvement in structural and signaling networks. The overlap between complement pathways, immune response pathways (like B cell mediated immunity, humoral immune response), and infectious disease pathways (e.g., Dengue 2 interactions with complement and coagulation cascades) suggests a complex interplay where the immune system's response to potential triggers (infections or autoantigens) is amplified by complement activation. This could lead to tissue damage and inflammation characteristic of uveitis.
+
+Similar systems reported in the literature include studies on autoimmune diseases like rheumatoid arthritis, lupus, and inflammatory bowel disease, where complement activation and immune cell dysregulation are key pathogenic mechanisms. Research on infectious uveitis also highlights the role of immune responses and complement in disease progression.
+
+**4. Hub Gene Identification:**
+*   **C1QA, C1QB, C1QC:** Enriched in multiple pathways (Allograft rejection, Dengue 2 interactions with complement and coagulation cascades, Microglia pathogen phagocytosis pathway, Oxidative damage response, Complement system in neuronal development and plasticity, Complement activation, Lupus therapies, Synapse pruning) and GO terms (complement activation, humoral immune response, B cell mediated immunity, leukocyte mediated immunity, synapse pruning).
+*   **FN1:** Enriched in multiple pathways (Epithelial to mesenchymal transition in colorectal cancer, Small cell lung cancer, Pleural mesothelioma) and GO terms (acute inflammatory response, regulation of cell morphogenesis, substrate adhesion-dependent cell spreading). It also has a high combined network score (2.537511) in STRING network properties.
+*   **ANK2:** Enriched in multiple GO terms (actin filament-based movement, actin-mediated cell contraction, cardiac muscle cell action potential, cardiac muscle cell contraction, cardiac muscle cell membrane repolarization, myelin assembly, positive regulation of potassium ion transmembrane transport, positive regulation of potassium ion transport, regulation of cardiac conduction, regulation of cardiac muscle cell action potential, regulation of cardiac muscle cell contraction, regulation of cardiac muscle cell membrane repolarization, regulation of membrane repolarization, regulation of ventricular cardiac muscle cell membrane repolarization, ventricular cardiac muscle cell action potential). It also has a high combined network score (1.592311) in STRING network properties.
+*   **CD274:** Enriched in multiple pathways (Cancer immunotherapy by PD 1 blockade, T cell modulation and desmoplasia in pancreatic cancer) and GO terms (T cell costimulation, activated T cell proliferation, negative regulation of activated T cell proliferation, regulation of activated T cell proliferation, regulation of type II interferon production, type II interferon production). It also has a high combined network score (1.842835) in STRING network properties.
+*   **GBP1, GBP5, GBP6:** Enriched in multiple GO terms (cellular response to type II interferon, cytolysis, defense response to bacterium, defense response to protozoan, positive regulation of inflammatory response, regulation of inflammatory response, response to protozoan, pyroptotic inflammatory response). They also have significant combined network scores in STRING.
+
+**5. Drug Target/Marker/Kinase/Ligand Analysis:**
+*   **C1QA, C1QB, C1QC (Complement components):** While not direct drug targets themselves, they are key players in complement-mediated inflammation and could serve as biomarkers for disease activity or therapeutic response. Inhibitors of complement pathways are being developed for various inflammatory and autoimmune diseases.
+*   **FN1 (Fibronectin):** A component of the extracellular matrix, it plays roles in cell adhesion and wound healing. It's not a direct drug target but is involved in processes targeted by some anti-inflammatory or anti-fibrotic therapies.
+*   **ANK2 (Ankyrin-2):** Primarily involved in cytoskeletal organization and membrane structure. Not a known direct drug target.
+*   **CD274 (PD-L1):** A well-established immune checkpoint protein and a major drug target in cancer immunotherapy. Antibodies blocking PD-1/PD-L1 interaction are widely used. In the context of uveitis, targeting this pathway could modulate T cell responses.
+*   **GBP1, GBP5, GBP6 (Guanylate-binding proteins):** These are interferon-inducible GTPases involved in innate immunity and defense against pathogens. They are not typically direct drug targets but are markers of inflammatory responses.
+
+**6. Novelty Exploration:**
+The strong enrichment of pathways related to **"Synaptic vesicle pathway" (WP2267)** and **"GABA and glutamate signalling in epileptogenesis" (WP5600)** in the context of uveitis is potentially novel. While neurological involvement can occur in some inflammatory conditions, the direct enrichment of these specific synaptic pathways suggests a more direct link between the observed gene expression changes and neuronal function or dysfunction in uveitis patients. The specific involvement of **"Microglia pathogen phagocytosis pathway" (WP3937)** in conjunction with complement activation pathways might also represent a novel insight into the role of microglia in the inflammatory cascade of uveitis, potentially linking innate immune responses to neuroinflammation.
+
+**7. Hypothesis Generation:**
+The observed gene expression changes in uveitis patients suggest a significant dysregulation of the immune system, characterized by hyperactivation of the complement cascade and altered immune cell functions, particularly involving T cells and B cells. This immune dysregulation, potentially triggered by infectious agents or autoantigens, leads to inflammatory responses and tissue damage, as evidenced by the enrichment of pathways like "Complement activation" and "B cell mediated immunity." The involvement of the "Synaptic vesicle pathway" and "GABA and glutamate signalling" pathways suggests a potential impact on neuronal function, which could contribute to ocular symptoms or complications. Upstream regulators like IRF1, RELB, and SMAD4 are likely orchestrating these complex immune and inflammatory processes, potentially driving tissue remodeling and contributing to the chronic nature of uveitis.
+
+**8. System Representation Network:**
+```tsv
+Node1	Edge	Node2	Explanation
+C1QA	associated with	Complement Activation	Grounded in provided data (WikiPathways, GO, STRING)
+C1QB	associated with	Complement Activation	Grounded in provided data (WikiPathways, GO, STRING)
+C1QC	associated with	Complement Activation	Grounded in provided data (WikiPathways, GO, STRING)
+FN1	associated with	Acute Inflammatory Response	Grounded in provided data (GO, STRING)
+ANK2	associated with	Actin Filament-Based Movement	Grounded in provided data (GO, STRING)
+CD274	associated with	T Cell Costimulation	Grounded in provided data (WikiPathways, GO, STRING)
+GBP1	associated with	Cellular Response To Type II Interferon	Grounded in provided data (GO)
+GBP5	associated with	Cellular Response To Type II Interferon	Grounded in provided data (GO)
+GBP6	associated with	Cellular Response To Type II Interferon	Grounded in provided data (GO)
+SERPING1	associated with	Complement Activation	Grounded in provided data (WikiPathways, GO, STRING)
+PDCD1LG2	associated with	T Cell Costimulation	Grounded in provided data (WikiPathways, GO, STRING)
+SYN2	associated with	Synaptic Vesicle Pathway	Grounded in provided data (WikiPathways, STRING)
+SLC1A3	associated with	Synaptic Vesicle Pathway	Grounded in provided data (WikiPathways, STRING)
+NRN1	associated with	Synaptic Vesicle Pathway	Grounded in provided data (WikiPathways, STRING)
+GRIN3A	associated with	Synaptic Vesicle Pathway	Grounded in provided data (WikiPathways, STRING)
+OTX1	associated with	Brain Morphogenesis	Grounded in provided data (GO)
+GDF7	associated with	Brain Morphogenesis	Grounded in provided data (GO)
+COL4A3	associated with	Glomerular Basement Membrane Development	Grounded in provided data (GO)
+COL4A4	associated with	Glomerular Basement Membrane Development	Grounded in provided data (GO)
+PARVA	associated with	Actin Filament-Based Movement	Grounded in provided data (GO, STRING)
+ANKRD22	associated with	Actin Filament-Based Movement	Grounded in provided data (GO, STRING)
+FCGR1A	associated with	B Cell Mediated Immunity	Grounded in provided data (GO)
+BATF2	associated with	Defense Response To Protozoan	Grounded in provided data (GO)
+CASP5	associated with	Nucleotide Binding Oligomerization Domain NOD Pathway	Grounded in provided data (WikiPathways, STRING)
+NAIP	associated with	Nucleotide Binding Oligomerization Domain NOD Pathway	Grounded in provided data (WikiPathways, STRING)
+ETV7	associated with	T Cell Costimulation	Grounded in provided data (ChEA, STRING)
+HP	associated with	Acute-Phase Response	Grounded in provided data (GO)
+IFI27	associated with	Cytolysis	Grounded in provided data (GO)
+SLAMF8	associated with	Cell Fate Commitment	Grounded in provided data (GO)
+WNT16	associated with	Cell Fate Commitment	Grounded in provided data (WikiPathways, GO, STRING)
+SOX5	associated with	Cell Fate Commitment	Grounded in provided data (GO)
+ROR1	associated with	Astrocyte Development	Grounded in provided data (GO)
+ZFY	associated with	Female Gonad Development	Grounded in provided data (GO)
+MMP19	associated with	Female Gonad Development	Grounded in provided data (GO)
+CSMD1	associated with	Female Gonad Development	Grounded in provided data (GO)
+KREMEN1	associated with	Wnt Signaling	Grounded in provided data (WikiPathways, STRING)
+ATF3	associated with	Wnt Signaling	Grounded in provided data (WikiPathways, ChEA, STRING)
+FOLR3	associated with	Dicarboxylic Acid Transport	Grounded in provided data (GO)
+ANXA3	associated with	Neutrophil Activation	Grounded in provided data (GO)
+CD177	associated with	Neutrophil Activation	Grounded in provided data (GO)
+UTY	associated with	Immune Response	Grounded in provided data (STRING)
+KDM5D	associated with	Immune Response	Grounded in provided data (STRING)
+USP9Y	associated with	Immune Response	Grounded in provided data (STRING)
+DDX3Y	associated with	Immune Response	Grounded in provided data (STRING)
+RPS4Y1	associated with	Immune Response	Grounded in provided data (STRING)
+EIF1AY	associated with	Immune Response	Grounded in provided data (STRING)
+TTTY14	associated with	Immune Response	Grounded in provided data (STRING)
+TTTY15	associated with	Immune Response	Grounded in provided data (STRING)
+``` 
+
+Agent 2:
+**1. Summary and Categorization:**
+The enriched KEGG pathways highlight significant alterations in immune system function, cell adhesion, and extracellular matrix remodeling in Uveitis patients compared to controls. These pathways are strongly indicative of an inflammatory and immune-mediated response.
+
+**Categorization of Enriched Pathways:**
+*   Immune Response and Inflammation: 7 pathways
+*   Cell Adhesion and Extracellular Matrix: 5 pathways
+*   Infectious Diseases: 5 pathways
+*   Cell Signaling and Cytoskeleton: 3 pathways
+
+**2. Known Roles and Upstream Regulators:**
+The enriched pathways, particularly those related to complement activation, immune response, and cell adhesion, are consistent with the inflammatory and autoimmune nature of uveitis. These pathways are crucial for immune surveillance and tissue repair but can become dysregulated in disease states. Potential upstream regulators include transcription factors like NF-κB (e.g., RELB), STATs, and IRFs, which are known to control inflammatory and immune gene expression. SMADs, involved in TGF-β signaling, could also play a role in ECM remodeling.
+
+**3. Interaction Networks and Similar Systems:**
+The STRING data reveals strong interactions among complement components (C1QA, C1QB, C1QC), immune checkpoint molecules (CD274, PDCD1LG2), and extracellular matrix proteins (FN1, COL4A3, COL4A4). Genes like FN1 and ANKRD22 show high network scores, suggesting their central role. The complement system genes (C1QA, C1QB, C1QC) are highly interconnected and also linked to immune response pathways. Similar systems reported in the literature include studies on autoimmune uveitis, where complement activation and immune cell infiltration are key features. Research on inflammatory bowel disease and rheumatoid arthritis also shows overlapping pathways related to immune dysregulation and ECM remodeling.
+
+**4. Hub Gene Identification:**
+*   **C1QA, C1QB, C1QC:** These genes are consistently enriched across multiple KEGG pathways (Efferocytosis, Complement and coagulation cascades, Alcoholic liver disease, Pertussis, Chagas disease, Staphylococcus aureus infection, Coronavirus disease - COVID-19, Systemic lupus erythematosus) and GO terms (B cell mediated immunity, complement activation, humoral immune response, leukocyte mediated immunity, lymphocyte mediated immunity, pyroptotic inflammatory response, synapse pruning). They also exhibit high combined network scores in STRING data, indicating strong interactions within the network.
+*   **FN1:** Enriched in multiple KEGG pathways (Focal adhesion, ECM-receptor interaction, Cytoskeleton in muscle cells, AGE-RAGE signaling pathway in diabetic complications, Small cell lung cancer, Amoebiasis) and GO terms (acute inflammatory response, acute-phase response, cell junction disassembly, glomerular basement membrane development, etc.). It has the highest combined network score in STRING network properties.
+*   **ANK2:** Enriched in several GO terms related to actin filament-based movement, cardiac muscle function, and cell contraction. It also shows a high combined network score in STRING data.
+*   **CD274:** Enriched in KEGG pathways (Cell adhesion molecule (CAM) interaction) and GO terms (T cell costimulation, activated T cell proliferation, negative regulation of activated T cell proliferation, etc.). It also has a high combined network score in STRING data.
+*   **GBP1, GBP5, GBP6:** These genes are enriched in the NOD-like receptor signaling pathway and various GO terms related to defense and immune responses. They also show significant interactions in the STRING data.
+
+**5. Drug Target/Marker/Kinase/Ligand Analysis:**
+*   **C1QA, C1QB, C1QC (Complement components):** While not direct drug targets, they are crucial in complement-mediated inflammation and can serve as biomarkers.
+*   **FN1 (Fibronectin):** A component of the extracellular matrix, it's not a direct drug target but plays a role in cell adhesion and wound healing, making it a potential indirect therapeutic target.
+*   **ANK2 (Ankyrin-2):** Not a known direct drug target.
+*   **CD274 (PD-L1):** A major drug target in cancer immunotherapy; antibodies blocking PD-1/PD-L1 interaction are clinically used.
+*   **GBP1, GBP5, GBP6 (Guanylate-binding proteins):** These are involved in innate immunity and have been explored as potential targets for antiviral and anti-inflammatory therapies.
+
+**6. Novelty Exploration:**
+The strong enrichment of pathways related to infectious diseases (Pertussis, Coronavirus disease - COVID-19, Staphylococcus aureus infection, Amoebiasis, Chagas disease) in the context of uveitis is noteworthy. While infections can trigger uveitis, the specific pathways highlighted here may reveal novel mechanisms linking infection and uveitis pathogenesis. The co-enrichment of complement activation pathways with these infectious disease pathways could suggest a role for complement in mediating the host response to specific pathogens that might trigger uveitis. The strong involvement of Y-chromosome genes (UTY, KDM5D, DDX3Y, TTTY14, EIF1AY, USP9Y, TTTY15, RPS4Y1, ZFY) in the DEG list, while not directly enriched in pathways, might indicate sex-specific differences in uveitis pathogenesis or a general immune dysregulation in male patients, which could be a novel observation depending on the patient cohort.
+
+**7. Hypothesis Generation:**
+In Uveitis, dysregulated immune responses, particularly complement system activation and T cell co-stimulation, are central to disease pathogenesis. This is further exacerbated by altered extracellular matrix remodeling and cell adhesion dynamics, potentially triggered or influenced by infectious agents or their products. Upstream regulators like RELB, IRF1, and SMAD4 likely orchestrate these changes, leading to chronic inflammation, tissue damage, and impaired immune regulation. The strong involvement of complement and immune response pathways suggests a critical role for innate and adaptive immunity in driving uveitis.
+
+**8. System Representation Network:**
+```tsv
+Node1	Edge	Node2	Explanation
+FN1	associated with	Cell Adhesion Molecules	Grounded in provided data (KEGG, GO, STRING)
+FN1	associated with	Acute Inflammatory Response	Grounded in provided data (KEGG, GO, STRING)
+C1QA	associated with	Complement Activation	Grounded in provided data (KEGG, GO, STRING)
+C1QA	associated with	Humoral Immune Response	Grounded in provided data (KEGG, GO, STRING)
+ANK2	associated with	Actin Filament-Based Movement	Grounded in provided data (KEGG, GO, STRING)
+ANK2	associated with	Cardiac Muscle Cell Contraction	Grounded in provided data (KEGG, GO, STRING)
+CD274	associated with	T Cell Costimulation	Grounded in provided data (KEGG, GO, STRING)
+CD274	associated with	Immune Checkpoint	Grounded in provided data (KEGG, GO, STRING)
+GBP1	associated with	NOD-like Receptor Signaling Pathway	Grounded in provided data (KEGG, GO, STRING)
+GBP5	associated with	NOD-like Receptor Signaling Pathway	Grounded in provided data (KEGG, GO, STRING)
+GBP6	associated with	Cellular Response to Type II Interferon	Grounded in provided data (KEGG, GO, STRING)
+C1QB	associated with	Complement Activation	Grounded in provided data (KEGG, GO, STRING)
+C1QB	associated with	Leukocyte Mediated Immunity	Grounded in provided data (KEGG, GO, STRING)
+C1QC	associated with	Complement Activation	Grounded in provided data (KEGG, GO, STRING)
+C1QC	associated with	Cell Junction Disassembly	Grounded in provided data (KEGG, GO, STRING)
+SERPING1	associated with	Complement And Coagulation Cascades	Grounded in provided data (KEGG, GO, STRING)
+SERPING1	associated with	Negative Regulation Of Complement Activation	Grounded in provided data (KEGG, GO, STRING)
+FGF13	associated with	Asymmetric Cell Division	Grounded in provided data (KEGG, GO, STRING)
+FGF13	associated with	Regulation Of Cardiac Muscle Cell Action Potential	Grounded in provided data (KEGG, GO, STRING)
+PDCD1LG2	associated with	Cell Adhesion Molecule (CAM) Interaction	Grounded in provided data (KEGG, GO, STRING)
+PDCD1LG2	associated with	T Cell Costimulation	Grounded in provided data (KEGG, GO, STRING)
+ANKRD22	associated with	Positive Regulation Of Inflammatory Response	Grounded in provided data (KEGG, GO, STRING)
+ANKRD22	associated with	Defense Response To Bacterium	Grounded in provided data (KEGG, GO, STRING)
+UTY	associated with	Y-Chromosome	Grounded in provided data (DEG List, STRING)
+CD177	associated with	Neutrophil Activation	Grounded in provided data (KEGG, GO, STRING)
+IFI27	associated with	Pyroptotic Inflammatory Response	Grounded in provided data (KEGG, GO, STRING)
+SEPTIN4	associated with	Cell Fate Commitment	Grounded in provided data (KEGG, GO, STRING)
+SLC1A3	associated with	Potassium Ion Homeostasis	Grounded in provided data (KEGG, GO, STRING)
+SYN2	associated with	Synapse Assembly	Grounded in provided data (KEGG, GO, STRING)
+CASP5	associated with	NOD-like Receptor Signaling Pathway	Grounded in provided data (KEGG, GO, STRING)
+SLAMF8	associated with	Cell Fate Commitment	Grounded in provided data (KEGG, GO, STRING)
+BATF2	associated with	Defense Response To Protozoan	Grounded in provided data (KEGG, GO, STRING)
+ETV7	associated with	Cell Fate Commitment	Grounded in provided data (KEGG, GO, STRING)
+HP	associated with	Acute-Phase Response	Grounded in provided data (KEGG, GO, STRING)
+EPSTI1	associated with	Pyroptotic Inflammatory Response	Grounded in provided data (KEGG, GO, STRING)
+MYOM2	associated with	Cytoskeleton In Muscle Cells	Grounded in provided data (KEGG, GO, STRING)
+NRCAM	associated with	Cell Adhesion Molecule (CAM) Interaction	Grounded in provided data (KEGG, GO, STRING)
+LRP1B	associated with	Cell Fate Commitment	Grounded in provided data (KEGG, GO, STRING)
+NRN1	associated with	Regulation Of Synapse Structure Or Activity	Grounded in provided data (KEGG, GO, STRING)
+EIF1AY	associated with	Y-Chromosome	Grounded in provided data (DEG List, STRING)
+C1orf226	associated with	Y-Chromosome	Grounded in provided data (DEG List, STRING)
+NAIP	associated with	NOD-like Receptor Signaling Pathway	Grounded in provided data (KEGG, GO, STRING)
+NOS1AP	associated with	Action Potential	Grounded in provided data (KEGG, GO, STRING)
+NOS1AP	associated with	Regulation Of Cardiac Conduction	Grounded in provided data (KEGG, GO, STRING)
+TMEM119	associated with	Negative Regulation Of Myotube Differentiation	Grounded in provided data (KEGG, GO, STRING)
+IL27	associated with	Regulation Of Type II Interferon Production	Grounded in provided data (KEGG, GO, STRING)
+CORIN	associated with	Regulation Of Cardiac Conduction	Grounded in provided data (KEGG, GO, STRING)
+ZFY	associated with	Female Gonad Development	Grounded in provided data (KEGG, GO, STRING)
+CSMD1	associated with	Startle Response	Grounded in provided data (KEGG, GO, STRING)
+ANOS1	associated with	Cell Fate Commitment	Grounded in provided data (KEGG, GO, STRING)
+SYBU	associated with	Regulation Of Synapse Maturation	Grounded in provided data (KEGG, GO, STRING)
+KIF20A	associated with	Neuroblast Division	Grounded in provided data (KEGG, GO, STRING)
+RPS4Y1	associated with	Y-Chromosome	Grounded in provided data (DEG List, STRING)
+APOL4	associated with	Defense Response To Bacterium	Grounded in provided data (KEGG, GO, STRING)
+SLC26A8	associated with	Dicarboxylic Acid Transport	Grounded in provided data (KEGG, GO, STRING)
+DDX3Y	associated with	Y-Chromosome	Grounded in provided data (DEG List, STRING)
+GRIN3A	associated with	Presynaptic Modulation Of Chemical Synaptic Transmission	Grounded in provided data (KEGG, GO, STRING)
+HPN	associated with	Regulation Of Hormone Metabolic Process	Grounded in provided data (KEGG, GO, STRING)
+ANXA3	associated with	Neutrophil Activation	Grounded in provided data (KEGG, GO, STRING)
+KDM5D	associated with	Y-Chromosome	Grounded in provided data (DEG List, STRING)
+USP9Y	associated with	Y-Chromosome	Grounded in provided data (DEG List, STRING)
+FOLR3	associated with	Dicarboxylic Acid Transport	Grounded in provided data (KEGG, GO, STRING)
+C4BPA	associated with	Complement Activation	Grounded in provided data (KEGG, GO, STRING)
+MMP19	associated with	Female Gonad Development	Grounded in provided data (KEGG, GO, STRING)
+XKR3	associated with	Regulation Of Synapse Structure Or Activity	Grounded in provided data (KEGG, GO, STRING)
+BHLHE41	associated with	Negative Regulation Of Myotube Differentiation	Grounded in provided data (KEGG, GO, STRING)
+WNT16	associated with	Cell Fate Commitment	Grounded in provided data (KEGG, GO, STRING)
+COCH	associated with	Sensory Perception Of Sound	Grounded in provided data (KEGG, GO, STRING)
+COL4A3	associated with	Glomerular Basement Membrane Development	Grounded in provided data (KEGG, GO, STRING)
+CACNA1E	associated with	Action Potential	Grounded in provided data (KEGG, GO, STRING)
+KREMEN1	associated with	Cell Fate Commitment	Grounded in provided data (KEGG, GO, STRING)
+ROR1	associated with	Astrocyte Development	Grounded in provided data (KEGG, GO, STRING)
+BTNL9	associated with	Cell Fate Commitment	Grounded in provided data (KEGG, GO, STRING)
+GRIP1	associated with	Synapse Assembly	Grounded in provided data (KEGG, GO, STRING)
+FBXO39	associated with	Defense Response To Bacterium	Grounded in provided data (KEGG, GO, STRING)
+FFAR3	associated with	Positive Regulation Of Acute Inflammatory Response	Grounded in provided data (KEGG, GO, STRING)
+COL4A4	associated with	Glomerular Basement Membrane Development	Grounded in provided data (KEGG, GO, STRING)
+MOCS1	associated with	Dicarboxylic Acid Transport	Grounded in provided data (KEGG, GO, STRING)
+KCNK17	associated with	Potassium Ion Homeostasis	Grounded in provided data (KEGG, GO, STRING)
+PLLP	associated with	Myelin Assembly	Grounded in provided data (KEGG, GO, STRING)
+SLITRK5	associated with	Grooming Behavior	Grounded in provided data (KEGG, GO, STRING)
+PARVA	associated with	Actin Filament-Based Movement	Grounded in provided data (KEGG, GO, STRING)
+INSYN2B	associated with	Synapse Assembly	Grounded in provided data (KEGG, GO, STRING)
+DDO	associated with	Grooming Behavior	Grounded in provided data (KEGG, GO, STRING)
+MOXD1	associated with	Female Gonad Development	Grounded in provided data (KEGG, GO, STRING)
+GDF7	associated with	Brain Morphogenesis	Grounded in provided data (KEGG, GO, STRING)
+VSIG10	associated with	Synapse Assembly	Grounded in provided data (KEGG, GO, STRING)
+FHAD1	associated with	Cell Fate Commitment	Grounded in provided data (KEGG, GO, STRING)
+OTX1	associated with	Brain Morphogenesis	Grounded in provided data (KEGG, GO, STRING)
+ZDHHC11B	associated with	Synapse Assembly	Grounded in provided data (KEGG, GO, STRING)
+OLAH	associated with	Dicarboxylic Acid Transport	Grounded in provided data (KEGG, GO, STRING)
+ARL17A	associated with	Y-Chromosome	Grounded in provided data (DEG List, STRING)
+ARL17B	associated with	Y-Chromosome	Grounded in provided data (DEG List, STRING)
+PLEKHG7	associated with	Regulation Of Cell Shape	Grounded in provided data (KEGG, GO, STRING)
+IFT56	associated with	Y-Chromosome	Grounded in provided data (DEG List, STRING)
+FAM118A	associated with	Defense Response To Bacterium	Grounded in provided data (KEGG, GO, STRING)
+SRGAP1	associated with	Regulation Of Synapse Structure Or Activity	Grounded in provided data (KEGG, GO, STRING)
+WDR17	associated with	Y-Chromosome	Grounded in provided data (DEG List, STRING)
+PKIB	associated with	NOD-like Receptor Signaling Pathway	Grounded in provided data (KEGG, GO, STRING)
+PRR16	associated with	Cell Fate Commitment	Grounded in provided data (KEGG, GO, STRING)
+SPDYE4	associated with	Y-Chromosome	Grounded in provided data (DEG List, STRING)
+``` 
+
+Agent 3:
+**1. Summary and Categorization:**
+The enriched Reactome pathways highlight significant alterations in immune system function, extracellular matrix remodeling, and neuronal signaling in uveitis patients compared to controls. These pathways are predominantly associated with inflammation, complement activation, and collagen-related processes.
+- Immune Response Pathways: 5 enriched pathways
+- Extracellular Matrix and Collagen Pathways: 5 enriched pathways
+- Neuronal System Pathways: 3 enriched pathways
+
+**2. Known Roles and Upstream Regulators:**
+The enriched pathways related to the complement cascade and formation of fibrin clot are central to inflammatory responses and tissue repair, which are often dysregulated in autoimmune conditions like uveitis. Collagen degradation and ECM remodeling pathways suggest tissue damage and altered structural integrity. Neuronal system pathways might indicate neuroinflammation or altered neuronal function in the context of uveitis. Potential upstream regulators include transcription factors like NF-kB (inflammation, immune response), IRF1 (interferon signaling), and SMADs (ECM remodeling), which are frequently implicated in these processes.
+
+**3. Interaction Networks and Similar Systems:**
+Genes involved in complement activation (C1QA, C1QB, C1QC, C4BPA, SERPING1) are highly interconnected in the STRING data, forming a core module. Similarly, collagen-related genes (COL4A3, COL4A4, MMP19) show strong interactions. The presence of both immune and ECM pathways suggests a coordinated response where inflammation drives tissue remodeling. Similar systems reported in the literature include studies on autoimmune diseases where complement activation and ECM degradation are key features, as well as research on ocular inflammation and its impact on the ocular microenvironment.
+
+**4. Hub Gene Identification:**
+- **FN1:** Enriched in multiple pathways (Fibronectin matrix formation, Collagen biosynthesis) and GO terms (acute inflammatory response, regulation of cell shape). Also has a high combined network score in STRING.
+- **C1QA, C1QB, C1QC:** Core components of the complement system, enriched in multiple Reactome pathways (Complement cascade, Initial triggering of complement) and GO terms (complement activation, humoral immune response). They also show high combined network scores in STRING.
+- **ANK2:** Involved in actin cytoskeleton dynamics, enriched in multiple GO terms (actin filament-based movement, cardiac muscle cell action potential) and Reactome pathways (Cardiac conduction). It also has a notable combined network score in STRING.
+- **CD274:** A key immune checkpoint molecule, enriched in Reactome pathways (Interferon gamma signaling) and GO terms (T cell costimulation, activated T cell proliferation). It also appears in ChEA enrichment results.
+- **GBP1, GBP5, GBP6:** Interferon-inducible genes, enriched in Reactome pathways (Interferon gamma signaling, Interferon Signaling) and GO terms (cytolysis, defense response to bacterium). They also show high combined network scores in STRING.
+
+**5. Drug Target/Marker/Kinase/Ligand Analysis:**
+- **FN1 (Fibronectin):** A component of the extracellular matrix, not a direct drug target but involved in cell adhesion and wound healing.
+- **C1QA, C1QB, C1QC (Complement components):** Components of the complement system, potential biomarkers for inflammation.
+- **ANK2 (Ankyrin-2):** Involved in cytoskeletal organization, not a direct drug target.
+- **CD274 (PD-L1):** A significant drug target in cancer immunotherapy; blocking antibodies are in clinical use.
+- **GBP1, GBP5, GBP6 (Guanylate-binding proteins):** Involved in innate immunity and antiviral responses; potential biomarkers.
+
+**6. Novelty Exploration:**
+The strong enrichment of pathways related to neuronal systems (Neurotransmitter release cycle, Transmission across Chemical Synapses, Neuronal System) in peripheral blood transcriptomics of uveitis patients is potentially novel. While neuroinflammation is a known aspect of some uveitis forms, its direct molecular signature in peripheral blood through these specific pathways might be an unexpected finding. The co-enrichment of complement activation and collagen degradation pathways with neuronal signaling pathways could suggest a novel link between systemic inflammation, tissue remodeling, and neurological involvement in uveitis.
+
+**7. Hypothesis Generation:**
+In uveitis, a dysregulated immune response, characterized by robust complement activation and interferon signaling, drives inflammation and tissue damage. This is further exacerbated by altered extracellular matrix remodeling, including collagen degradation and fibronectin matrix formation. These systemic changes may also manifest as altered neuronal signaling pathways, potentially reflecting neuroinflammation or systemic effects on neuronal function. Upstream regulators like NF-kB, IRF1, and SMADs likely orchestrate these interconnected processes, leading to the observed phenotype.
+
+**8. System Representation Network:**
+```tsv
+Node1	Edge	Node2	Explanation
+FN1	associated with	Acute Inflammatory Response	Grounded in provided data (Reactome, GO, STRING)
+FN1	associated with	Fibronectin Matrix Formation	Grounded in provided data (Reactome, STRING)
+C1QA	associated with	Complement Activation	Grounded in provided data (Reactome, GO, STRING)
+C1QA	associated with	Humoral Immune Response	Grounded in provided data (Reactome, GO, STRING)
+C1QB	associated with	Complement Activation	Grounded in provided data (Reactome, GO, STRING)
+C1QB	associated with	Humoral Immune Response	Grounded in provided data (Reactome, GO, STRING)
+C1QC	associated with	Complement Activation	Grounded in provided data (Reactome, GO, STRING)
+C1QC	associated with	Humoral Immune Response	Grounded in provided data (Reactome, GO, STRING)
+ANK2	associated with	Actin Filament-Based Movement	Grounded in provided data (Reactome, GO, STRING)
+ANK2	associated with	Cardiac Muscle Cell Action Potential	Grounded in provided data (Reactome, GO, STRING)
+CD274	associated with	T Cell Costimulation	Grounded in provided data (Reactome, GO, STRING)
+CD274	associated with	Activated T Cell Proliferation	Grounded in provided data (Reactome, GO, STRING)
+GBP1	associated with	Defense Response To Bacterium	Grounded in provided data (Reactome, GO, STRING)
+GBP1	associated with	Cytolysis	Grounded in provided data (Reactome, GO, STRING)
+GBP5	associated with	Defense Response To Bacterium	Grounded in provided data (Reactome, GO, STRING)
+GBP5	associated with	Cytolysis	Grounded in provided data (Reactome, GO, STRING)
+GBP6	associated with	Defense Response To Bacterium	Grounded in provided data (Reactome, GO, STRING)
+GBP6	associated with	Cellular Response To Type II Interferon	Grounded in provided data (Reactome, GO, STRING)
+SERPING1	associated with	Complement Cascade	Grounded in provided data (Reactome, STRING)
+SERPING1	associated with	Negative Regulation Of Humoral Immune Response	Grounded in provided data (GO, STRING)
+COL4A3	associated with	Collagen Degradation	Grounded in provided data (Reactome, GO, STRING)
+COL4A3	associated with	Glomerular Basement Membrane Development	Grounded in provided data (GO, STRING)
+COL4A4	associated with	Collagen Degradation	Grounded in provided data (Reactome, GO, STRING)
+COL4A4	associated with	Glomerular Basement Membrane Development	Grounded in provided data (GO, STRING)
+MMP19	associated with	Collagen Degradation	Grounded in provided data (Reactome, GO, STRING)
+MMP19	associated with	Female Gonad Development	Grounded in provided data (GO, STRING)
+SYN2	associated with	Neurotransmitter Release Cycle	Grounded in provided data (Reactome, STRING)
+SYN2	associated with	Transmission Across Chemical Synapses	Grounded in provided data (Reactome, STRING)
+SLC1A3	associated with	Neurotransmitter Release Cycle	Grounded in provided data (Reactome, STRING)
+SLC1A3	associated with	Potassium Ion Homeostasis	Grounded in provided data (GO, STRING)
+CACNA1E	associated with	Transmission Across Chemical Synapses	Grounded in provided data (Reactome, STRING)
+CACNA1E	associated with	Neuronal System	Grounded in provided data (Reactome, STRING)
+GRIN3A	associated with	Transmission Across Chemical Synapses	Grounded in provided data (Reactome, STRING)
+GRIN3A	associated with	Startle Response	Grounded in provided data (GO, STRING)
+KCNK17	associated with	Neuronal System	Grounded in provided data (Reactome, STRING)
+KCNK17	associated with	Potassium Ion Transport	Grounded in provided data (GO, STRING)
+SLITRK5	associated with	Neuronal System	Grounded in provided data (Reactome, STRING)
+SLITRK5	associated with	Grooming Behavior	Grounded in provided data (GO, STRING)
+BATF2	associated with	Interferon Gamma Signaling	Grounded in provided data (Reactome, STRING)
+BATF2	associated with	Defense Response To Protozoan	Grounded in provided data (GO, STRING)
+ETV7	associated with	Interferon Gamma Signaling	Grounded in provided data (Reactome, STRING)
+ETV7	associated with	Cell Fate Commitment	Grounded in provided data (GO, STRING)
+FCGR1A	associated with	Interferon Gamma Signaling	Grounded in provided data (Reactome, STRING)
+FCGR1A	associated with	B Cell Mediated Immunity	Grounded in provided data (GO, STRING)
+PDCD1LG2	associated with	Interferon Gamma Signaling	Grounded in provided data (Reactome, STRING)
+PDCD1LG2	associated with	T Cell Costimulation	Grounded in provided data (GO, STRING)
+HP	associated with	Acute Inflammatory Response	Grounded in provided data (Reactome, GO, STRING)
+HP	associated with	Acute-Phase Response	Grounded in provided data (GO, STRING)
+OTX1	associated with	Brain Morphogenesis	Grounded in provided data (GO, STRING)
+OTX1	associated with	Forebrain Morphogenesis	Grounded in provided data (GO, STRING)
+GDF7	associated with	Brain Morphogenesis	Grounded in provided data (GO, STRING)
+GDF7	associated with	Cell Fate Commitment	Grounded in provided data (GO, STRING)
+``` 
+
+Agent 4:
+Here's an analysis of your transcriptomics data, integrating the GO enrichment, ChEA, and STRING network information:
+
+**1. Summary and Categorization:**
+
+The enriched GO terms highlight a significant immune system dysregulation in uveitis patients, with a strong emphasis on inflammatory responses and immune cell functions. Key enriched categories include complement activation, adaptive and innate immune responses, and cellular processes related to cell movement and contraction. This suggests a complex inflammatory cascade involving both humoral and cellular immunity, potentially driven by dysregulated immune cell activity and tissue responses.
+
+**Categorization of Enriched GO Terms:**
+*   **Immune Response (various types):** 30 terms
+*   **Cellular Movement and Contraction (actin-based):** 7 terms
+*   **Developmental Processes (brain, cardiac, glomerular):** 6 terms
+*   **Inflammatory Response (acute, pyroptotic):** 5 terms
+
+**2. Known Roles and Upstream Regulators:**
+
+The enriched GO terms strongly point towards an overactive and dysregulated immune system in uveitis patients. Terms like "B cell mediated immunity," "T cell costimulation," "complement activation," and "acute inflammatory response" are central, indicating a breakdown in immune tolerance and an escalation of inflammatory processes. The involvement of complement pathways suggests a role for both innate and adaptive immunity in the disease. The enrichment of terms related to cell movement and contraction may reflect immune cell infiltration and tissue remodeling.
+
+**Potential Upstream Regulators:**
+
+*   **RELB:** Enriched in ChEA, it's a key regulator of inflammation. Its targets like *GBP5*, *CD274*, and *MMP19* are involved in immune responses and inflammation, supporting its role.
+*   **TFAP2C:** Enriched in ChEA, it targets genes like *IL27*, *NOS1AP*, and *NRCAM*, which are implicated in immune regulation and cellular processes.
+*   **SMAD4:** Enriched in ChEA, it's involved in TGF-β signaling, which plays a role in immune modulation and tissue development. Its targets like *FN1*, *ANK2*, and *SOX5* are linked to cell morphogenesis and immune responses.
+*   **IRF1:** Enriched in ChEA, it's a crucial interferon-responsive transcription factor. Its targets like *CD274* and *GBP1* are directly involved in immune and inflammatory responses.
+*   **POU5F1:** Enriched in ChEA, it's a master regulator of pluripotency but also has roles in differentiation and immune cell development. Its targets like *C1QA*, *ROR1*, and *SOX5* are relevant to immune and developmental processes.
+
+**3. Interaction Networks and Similar Systems:**
+
+The STRING data reveals extensive interactions among the genes associated with the enriched GO terms, underscoring the interconnectedness of these biological processes. The complement system components (*C1QA*, *C1QB*, *C1QC*) exhibit strong interactions, as expected. Genes involved in immune regulation, such as *CD274*, *PDCD1LG2*, *FCGR1A*, *GBP1*, *GBP5*, and *GBP6*, show numerous high-scoring interactions, suggesting coordinated immune signaling. The high network scores for *FN1* and *ANKRD22* indicate their central role in the network. Interactions between genes involved in cell movement and contraction (*ANK2*, *NOS1AP*, *FGF13*, *PARVA*) suggest functional links in cellular dynamics. The strong interactions among Y-chromosome genes (*UTY*, *KDM5D*, *USP9Y*, *DDX3Y*) might point to sex-specific immune responses.
+
+Similar systems reported in the literature include other autoimmune and inflammatory conditions affecting the eye, such as Behçet's disease, rheumatoid arthritis, and systemic lupus erythematosus. These conditions often involve dysregulation of immune cell populations, complement activation, and inflammatory cytokine signaling, making them relevant comparative systems. Research into the molecular mechanisms of these diseases could offer insights into uveitis pathogenesis.
+
+**4. Cross-Analysis:**
+
+**ChEA and GO Term Overlap:**
+
+*   **RELB:** Regulates *GBP5*, *CD274*, *MMP19*, and *GPR84*. These genes are involved in "B cell mediated immunity," "T cell costimulation," "acute inflammatory response," and "leukocyte mediated immunity."
+*   **TFAP2C:** Regulates *IL27*, *NOS1AP*, *NRCAM*, *SRGAP1*, and *MOCS1*. These genes are associated with "regulation of type II interferon production," "cardiac muscle cell action potential," "regulation of synapse structure or activity," and "defense response to bacterium."
+*   **POU5F1:** Regulates *C1QA*, *NRN1*, *EIF1AY*, *ROR1*, *OTX1*, and *CYYR1*. These genes are linked to "complement activation, classical pathway," "presynaptic modulation of chemical synaptic transmission," "astrocyte development," and "brain morphogenesis."
+*   **SMAD4:** Regulates *GBP5*, *PLLP*, *RFPL2*, *FAM118A*, *FN1*, *ANK2*, *PARVA*, *CACNA1E*, *ETV7*, *GRIP1*, *PKIB*, *LYPD6B*, *EPSTI1*, *PRR16*, *SLAMF8*, *NRCAM*, *ROR1*, *FGF13*, *ATF3*, and *SOX5*. This broad set of targets is involved in numerous GO terms, including "defense response to bacterium," "myelin assembly," "regulation of cell shape," "cardiac muscle cell contraction," "cell fate commitment," and "synapse assembly."
+*   **IRF1:** Regulates *CD274*, *PKIB*, *APOL4*, *EPSTI1*, and *GBP1*. These genes are involved in "T cell costimulation," "leukocyte mediated immunity," and "positive regulation of inflammatory response."
+*   **PCGF4:** Regulates *GBP6*, *C1QB*, *GBP5*, *C1QA*, *C4BPA*, *CACNA1E*, *LRP1B*, *GDF7*, *FHAD1*, *COL4A4*, *LYPD6B*, *ROR1*, *OTX1*, *FCGR1A*, *GBP1*, *ATF3*, and *C1QC*. These genes are implicated in "complement activation," "defense response to bacterium," "astrocyte development," "forebrain morphogenesis," and "glomerular basement membrane development."
+
+**STRING Interactions Supporting GO Terms:**
+
+*   **CD274 and PDCD1LG2:** High combined score (996.00). Both genes are involved in "T cell costimulation" and "activated T cell proliferation."
+*   **C1QB, C1QC, and C1QA:** High combined scores (999.00). These are core components of the complement system, directly supporting "complement activation" and "complement activation, classical pathway."
+*   **COL4A3 and COL4A4:** High combined score (995.00). These genes are involved in "glomerular basement membrane development," directly supporting this GO term.
+*   **SERPING1, C1QB, C1QA, C1QC:** High combined scores. These genes are central to "complement activation" and "humoral immune response."
+*   **FCGR1A and CD274:** Combined score (712.00). Both are involved in immune responses, supporting "leukocyte mediated immunity" and "myeloid leukocyte activation."
+*   **GBP5 and GBP1:** Combined score (908.00). These genes are involved in "cytolysis" and "cellular response to type II interferon."
+
+**Important Genes from STRING Network Properties:**
+
+*   **FN1 (Combined Network Score: 2.537511):** Highly connected, involved in "acute inflammatory response," "acute-phase response," "regulation of cell shape," and "substrate adhesion-dependent cell spreading."
+*   **ANKRD22 (Combined Network Score: 2.136276):** Highly connected, involved in "negative regulation of striated muscle cell differentiation" and "negative regulation of myotube differentiation."
+*   **UTY (Combined Network Score: 1.845251):** Highly connected, a Y-chromosome gene, potentially involved in sex-specific immune responses.
+*   **CD274 (Combined Network Score: 1.842835):** Highly connected, involved in "T cell costimulation," "activated T cell proliferation," and "regulation of adaptive immune response."
+*   **ANK2 (Combined Network Score: 1.592311):** Highly connected, involved in "actin filament-based movement," "cardiac muscle cell action potential," and "positive regulation of cation transmembrane transport."
+
+**5. Hypothesis Generation:**
+
+In uveitis patients, a dysregulated immune response is characterized by heightened inflammatory signaling, likely driven by aberrant activation of both innate and adaptive immune pathways. The significant enrichment of complement activation, B cell, and T cell mediated immunity terms suggests a breakdown in immune tolerance and an overactive inflammatory cascade. Transcription factors like RELB, TFAP2C, SMAD4, IRF1, and POU5F1 are predicted to play key upstream roles in orchestrating this immune dysregulation, influencing genes involved in inflammation, cell signaling, and immune cell function. The extensive protein-protein interactions observed among complement components, immune regulators (e.g., CD274, PDCD1LG2, FCGR1A, GBP family), and genes involved in cellular dynamics (e.g., ANK2, FN1) highlight a coordinated and complex molecular network driving the disease phenotype. The high network scores of FN1, ANKRD22, CD274, and ANK2 underscore their critical roles in this interconnected system. The presence of Y-chromosome genes may indicate sex-specific immune responses contributing to uveitis.
+
+**6. System Representation Network:**
+
+```tsv
+Node1	Edge	Node2	Explanation
+C1QA	associated with	Complement Activation	Present in ChEA (PCGF4 target) and STRING (high network score)
+C1QB	associated with	Complement Activation	Present in ChEA (PCGF4 target) and STRING (high network score)
+C1QC	associated with	Complement Activation	Present in ChEA (PCGF4 target) and STRING (high network score)
+FCGR1A	associated with	Immune Response	Present in ChEA (PCGF4 target) and STRING (high network score)
+CD274	associated with	T Cell Costimulation	Present in ChEA (RELB, IRF1 targets) and STRING (high network score)
+PDCD1LG2	associated with	T Cell Costimulation	Present in STRING (high interaction score with CD274)
+COL4A3	associated with	Glomerular Basement Membrane Development	Present in STRING (high interaction score with COL4A4)
+COL4A4	associated with	Glomerular Basement Membrane Development	Present in STRING (high interaction score with COL4A3)
+SERPING1	associated with	Complement Activation	Present in STRING (high interaction score with C1QB, C1QA, C1QC)
+FN1	associated with	Acute Inflammatory Response	Present in STRING (highest network score)
+ANKRD22	associated with	Negative Regulation Of Myotube Differentiation	Present in STRING (high network score)
+ANK2	associated with	Actin Filament-Based Movement	Present in STRING (high network score)
+GBP5	associated with	Cytolysis	Present in ChEA (RELB, PCGF4 targets) and STRING (high interaction score with GBP1)
+GBP1	associated with	Cytolysis	Present in ChEA (IRF1, PCGF4 targets) and STRING (high interaction score with GBP5)
+IFI27	associated with	Pyroptotic Inflammatory Response	Present in STRING (high interaction score with EPSTI1)
+SEPTIN4	associated with	Neutrophil Activation	Present in STRING (high interaction score with ANKRD22)
+SLC1A3	associated with	Potassium Ion Transport	Present in STRING (high interaction score with ANK2)
+SYN2	associated with	Presynaptic Modulation Of Chemical Synaptic Transmission	Present in STRING (high interaction score with NOS1AP)
+CASP5	associated with	Pyroptotic Inflammatory Response	Present in STRING (high interaction score with NAIP)
+SLAMF8	associated with	Negative Regulation Of Immune Effector Process	Present in STRING (high interaction score with C1QB)
+BATF2	associated with	Defense Response To Protozoan	Present in ChEA (PCGF4 target) and STRING (high interaction score with GBP5)
+ETV7	associated with	Cell Fate Commitment	Present in ChEA (SMAD4 target) and STRING (high interaction score with GBP5)
+HP	associated with	Acute Inflammatory Response	Present in STRING (high interaction score with FN1)
+EPSTI1	associated with	Cellular Response To Type II Interferon	Present in STRING (high interaction score with GBP1)
+GBP6	associated with	Cellular Response To Type II Interferon	Present in ChEA (PCGF4 target) and STRING (high interaction score with ANKRD22)
+ATF3	associated with	Regulation Of Action Potential	Present in ChEA (SMAD4 target) and STRING (high interaction score with FN1)
+SOX5	associated with	Asymmetric Cell Division	Present in ChEA (POU5F1, SMAD4 targets) and STRING (high interaction score with FGF13)
+GPR84	associated with	Phagocytosis, Recognition	Present in ChEA (RELB target) and STRING (high interaction score with FFAR3)
+MYOM2	associated with	Cardiac Muscle Cell Contraction	Present in STRING (high interaction score with FN1)
+NRCAM	associated with	Action Potential	Present in ChEA (TFAP2C target) and STRING (high network score)
+LRP1B	associated with	Cell Fate Commitment	Present in STRING (high interaction score with CSMD1)
+NRN1	associated with	Presynaptic Modulation Of Chemical Synaptic Transmission	Present in STRING (high interaction score with SYN2)
+LYPD6B	associated with	Cell Fate Commitment	Present in ChEA (SMAD4 target) and STRING (high interaction score with PLEKHG7)
+EIF1AY	associated with	Adaptive Immune Response Based On Somatic Recombination Of Immune Receptors Built From Immunoglobulin Superfamily Domains	Present in ChEA (POU5F1 target) and STRING (high interaction score with RPS4Y1)
+C1orf226	associated with	Cell Recognition	Present in STRING (high interaction score with NOS1AP)
+NAIP	associated with	Pyroptotic Inflammatory Response	Present in STRING (high interaction score with CASP5)
+NOS1AP	associated with	Cardiac Muscle Cell Action Potential	Present in ChEA (TFAP2C target) and STRING (high network score)
+TMEM119	associated with	Negative Regulation Of Striated Muscle Cell Differentiation	Present in STRING (high interaction score with GPR84)
+IL27	associated with	Regulation Of Type II Interferon Production	Present in ChEA (TFAP2C target) and STRING (high interaction score with CD274)
+CORIN	associated with	Regulation Of Cardiac Conduction	Present in STRING (high interaction score with ANK2)
+ZFY	associated with	Development Of Primary Female Sexual Characteristics	Present in STRING (high interaction score with USP9Y)
+CSMD1	associated with	Female Gonad Development	Present in STRING (high interaction score with LRP1B)
+ANOS1	associated with	Brain Morphogenesis	Present in STRING (high interaction score with FN1)
+SYBU	associated with	Synapse Maturation	Present in STRING (high interaction score with GRIP1)
+KIF20A	associated with	Neuroblast Division	Present in STRING (high interaction score with SEPTIN4)
+RPS4Y1	associated with	Adaptive Immune Response Based On Somatic Recombination Of Immune Receptors Built From Immunoglobulin Superfamily Domains	Present in STRING (high interaction score with KDM5D)
+APOL4	associated with	Acute Inflammatory Response	Present in ChEA (IRF1 target) and STRING (high interaction score with ANKRD22)
+SLC26A8	associated with	Dicarboxylic Acid Transport	Present in STRING (high interaction score with SEPTIN4)
+DDX3Y	associated with	Adaptive Immune Response Based On Somatic Recombination Of Immune Receptors Built From Immunoglobulin Superfamily Domains	Present in STRING (high interaction score with KDM5D)
+GRIN3A	associated with	Presynaptic Modulation Of Chemical Synaptic Transmission	Present in STRING (high interaction score with CACNA1E)
+HPN	associated with	Regulation Of Hormone Metabolic Process	Present in STRING (high interaction score with CORIN)
+ANXA3	associated with	Neutrophil Activation Involved In Immune Response	Present in STRING (high interaction score with CD177)
+KDM5D	associated with	Adaptive Immune Response Based On Somatic Recombination Of Immune Receptors Built From Immunoglobulin Superfamily Domains	Present in STRING (high interaction score with RPS4Y1)
+USP9Y	associated with	Adaptive Immune Response Based On Somatic Recombination Of Immune Receptors Built From Immunoglobulin Superfamily Domains	Present in STRING (high interaction score with ZFY)
+FOLR3	associated with	Cell Recognition	Present in STRING (high interaction score with FCGR1A)
+C4BPA	associated with	B Cell Mediated Immunity	Present in STRING (high interaction score with SERPING1)
+MMP19	associated with	Development Of Primary Female Sexual Characteristics	Present in STRING (high interaction score with FN1)
+XKR3	associated with	Presynaptic Modulation Of Chemical Synaptic Transmission	Present in STRING (high interaction score with PRR16)
+BHLHE41	associated with	Negative Regulation Of Myotube Differentiation	Present in STRING (high interaction score with FN1)
+WNT16	associated with	Cell Fate Commitment	Present in STRING (high interaction score with ROR1)
+COCH	associated with	Sensory Perception Of Mechanical Stimulus	Present in STRING (high interaction score with FN1)
+COL4A3	associated with	Glomerular Basement Membrane Development	Present in STRING (high interaction score with COL4A4)
+CACNA1E	associated with	Cardiac Muscle Cell Action Potential	Present in STRING (high interaction score with ANK2)
+KREMEN1	associated with	Cell Fate Commitment	Present in STRING (high interaction score with LRP1B)
+ROR1	associated with	Astrocyte Development	Present in ChEA (POU5F1 target) and STRING (high interaction score with WNT16)
+BTNL9	associated with	Humoral Immune Response	Present in STRING (high interaction score with CD274)
+GRIP1	associated with	Regulation Of Cell Morphogenesis	Present in STRING (high interaction score with SYBU)
+FBXO39	associated with	Defense Response To Bacterium	Present in STRING (high interaction score with SPDYE4)
+FFAR3	associated with	Acute Inflammatory Response	Present in STRING (high interaction score with GPR84)
+COL4A4	associated with	Glomerular Basement Membrane Development	Present in STRING (high interaction score with COL4A3)
+MOCS1	associated with	Dicarboxylic Acid Transport	Present in STRING (high interaction score with SLC26A8)
+KCNK17	associated with	Potassium Ion Transport	Present in STRING (high interaction score with SLC26A8)
+PLLP	associated with	Myelin Assembly	Present in STRING (high interaction score with ANKRD22)
+SLITRK5	associated with	Regulation Of Synapse Structure Or Activity	Present in STRING (high interaction score with SYN2)
+PARVA	associated with	Actin-Mediated Cell Contraction	Present in STRING (high interaction score with ANK2)
+INSYN2B	associated with	Cell Fate Commitment	Present in STRING (high interaction score with LYPD6B)
+DDO	associated with	Grooming Behavior	Present in STRING (high interaction score with OLAH)
+MOXD1	associated with	Brain Morphogenesis	Present in STRING (high interaction score with DDO)
+GDF7	associated with	Brain Morphogenesis	Present in STRING (high interaction score with FGF13)
+VSIG10	associated with	Cell Fate Commitment	Present in STRING (high interaction score with TMEM119)
+FHAD1	associated with	Forebrain Morphogenesis	Present in STRING (high interaction score with CSMD1)
+OTX1	associated with	Brain Morphogenesis	Present in ChEA (POU5F1 target) and STRING (high interaction score with SOX5)
+ZDHHC11B	associated with	Actin Filament-Based Movement	Present in STRING (high interaction score with ANK2)
+OLAH	associated with	Dicarboxylic Acid Transport	Present in STRING (high interaction score with DDO)
+ARL17A	associated with	Female Gonad Development	Present in STRING (high interaction score with UTY)
+ARL17B	associated with	Female Gonad Development	Present in STRING (high interaction score with UTY)
+PLEKHG7	associated with	Cell Fate Commitment	Present in STRING (high interaction score with LYPD6B)
+IFT56	associated with	Adaptive Immune Response Based On Somatic Recombination Of Immune Receptors Built From Immunoglobulin Superfamily Domains	Present in STRING (high interaction score with UTY)
+FAM118A	associated with	Cell Fate Commitment	Present in STRING (high interaction score with ARL17A)
+SRGAP1	associated with	Regulation Of Synapse Structure Or Activity	Present in STRING (high interaction score with NRN1)
+WDR17	associated with	Negative Regulation Of Striated Muscle Cell Differentiation	Present in STRING (high network score)
+PKIB	associated with	Cell Fate Commitment	Present in STRING (high interaction score with SYBU)
+PRR16	associated with	Regulation Of Cell Size	Present in STRING (high interaction score with XKR3)
+SPDYE4	associated with	Defense Response To Bacterium	Present in STRING (high interaction score with FBXO39)
+``` 
+
+Agent 5:
+**1. Summary of Enriched Transcription Factors:**
+The ChEA analysis identified several transcription factors (TFs) significantly enriched in the differentially expressed genes (DEGs) between uveitis patients and healthy controls. Key TFs include RELB, TFAP2C, POU5F1, and SMAD4, with p-values below 0.04. These TFs are known to play roles in inflammation, immune responses, and cell differentiation, which are relevant to the pathogenesis of uveitis and the use of whole blood for analysis. Their enrichment suggests a complex regulatory network driving the observed gene expression changes.
+
+**2. Regulatory Network Analysis:**
+RELB, a key regulator of inflammatory pathways, is a prominent upstream regulator. Its target genes, such as *GBP5* and *CD274*, are enriched in pathways like interferon signaling, complement activation, and cell adhesion molecules. SMAD4, central to TGF-β signaling, targets genes involved in focal adhesion and ECM remodeling, pathways also enriched in the KEGG and Reactome databases. The co-regulation of genes in these pathways by RELB and SMAD4 suggests a coordinated response. TFAP2C and POU5F1, involved in differentiation and pluripotency respectively, may contribute to the broader cellular context of the immune response in uveitis.
+
+**3. Novel Interactions:**
+While definitive identification of novel interactions requires extensive literature mining, some associations warrant further investigation. The link between TFAP2C and genes like *KCNK17* and *NOS1AP* in the context of uveitis is intriguing. Similarly, the role of POU5F1, typically associated with pluripotency, in regulating genes like *ROR1* in an inflammatory setting is noteworthy. Further research is needed to confirm if these specific TF-gene associations have been previously reported in the context of uveitis or similar inflammatory conditions.
+
+**4. Cross-Analysis:**
+*   **Complement System:** Target genes of RELB, TFAP2C, and PCGF4, including *C1QA, C1QB, C1QC, C4BPA*, are highly enriched in KEGG, WikiPathways, and Reactome pathways related to complement activation. STRING interactions show strong co-expression for these complement components.
+*   **Cell Adhesion and ECM:** Genes targeted by SMAD4 and TFAP2C, such as *FN1, COL4A3, COL4A4, PARVA*, are significantly enriched in KEGG and Reactome pathways for focal adhesion, ECM-receptor interaction, and collagen biosynthesis. STRING data confirms strong associations between *COL4A3* and *COL4A4*, and between *FN1* and other related genes. *FN1* also exhibits a high combined network score in STRING network properties.
+*   **Immune Response:** Genes targeted by RELB and IRF1, like *CD274* and *PDCD1LG2*, are enriched in GO and Reactome pathways for T cell costimulation and cancer immunotherapy. STRING interactions show high scores between *CD274* and *PDCD1LG2*.
+
+**5. Hypothesis Generation:**
+We hypothesize that the observed gene expression changes in uveitis are driven by the coordinated action of enriched transcription factors, particularly RELB and SMAD4. RELB likely orchestrates the inflammatory response through its regulation of complement and interferon-related genes, while SMAD4 influences tissue remodeling and immune cell infiltration via its control over cell adhesion and ECM genes. The involvement of TFAP2C and POU5F1 suggests broader impacts on cell differentiation and the immune microenvironment. The strong enrichment of pathways related to complement activation, cell adhesion, and immune responses, supported by STRING interaction data, reinforces this hypothesis, suggesting a complex regulatory network contributing to uveitis pathogenesis.
+
+**6. System Representation Network:**
+```tsv
+Node1	Edge	Node2	Explanation
+RELB	associated with	COMPLEMENT AND COAGULATION CASCADES	RELB is a Chea-enriched factor targeting complement genes, and this pathway is highly enriched.
+SMAD4	associated with	FOCAL ADHESION	SMAD4 is a Chea-enriched factor targeting focal adhesion genes, and this pathway is highly enriched.
+TFAP2C	associated with	CELL ADHESION MOLECULE (CAM) INTERACTION	TFAP2C targets genes in this pathway, which is significantly enriched.
+POU5F1	associated with	NRN1	POU5F1 targets NRN1, which is also found in STRING interactions and has a moderate network score.
+RELB	associated with	GBP5	RELB targets GBP5, a highly connected gene in STRING and enriched in immune pathways.
+SMAD4	associated with	FN1	SMAD4 targets FN1, a highly connected gene in STRING and enriched in ECM pathways.
+TFAP2C	associated with	KCNK17	TFAP2C targets KCNK17, which is also found in STRING interactions.
+POU5F1	associated with	ROR1	POU5F1 targets ROR1, which is also found in STRING interactions.
+RELB	associated with	CD274	RELB targets CD274, a highly connected gene in STRING and enriched in immune pathways.
+SMAD4	associated with	COL4A3	SMAD4 targets COL4A3, a highly connected gene in STRING and enriched in ECM pathways.
+TFAP2C	associated with	VSIG10	TFAP2C targets VSIG10, which is also found in STRING interactions.
+POU5F1	associated with	EIF1AY	POU5F1 targets EIF1AY, which is also found in STRING interactions.
+RELB	associated with	C1QC	RELB targets C1QC, a highly connected gene in STRING and enriched in complement pathways.
+SMAD4	associated with	COL4A4	SMAD4 targets COL4A4, a highly connected gene in STRING and enriched in ECM pathways.
+TFAP2C	associated with	NRCAM	TFAP2C targets NRCAM, a highly connected gene in STRING and enriched in cell adhesion pathways.
+POU5F1	associated with	OTX1	POU5F1 targets OTX1, which is also found in STRING interactions.
+RELB	associated with	C1QB	RELB targets C1QB, a highly connected gene in STRING and enriched in complement pathways.
+SMAD4	associated with	PARVA	SMAD4 targets PARVA, a highly connected gene in STRING and enriched in focal adhesion pathways.
+TFAP2C	associated with	SRGAP1	TFAP2C targets SRGAP1, a highly connected gene in STRING and enriched in cell adhesion pathways.
+POU5F1	associated with	SOX5	POU5F1 targets SOX5, which is also found in STRING interactions.
+RELB	associated with	C1QA	RELB targets C1QA, a highly connected gene in STRING and enriched in complement pathways.
+SMAD4	associated with	ANK2	SMAD4 targets ANK2, a highly connected gene in STRING and enriched in cell adhesion pathways.
+TFAP2C	associated with	GRIP1	TFAP2C targets GRIP1, which is also found in STRING interactions.
+RELB	associated with	SERPING1	RELB targets SERPING1, a highly connected gene in STRING and enriched in complement pathways.
+SMAD4	associated with	COL4A3	SMAD4 targets COL4A3, a highly connected gene in STRING and enriched in ECM pathways.
+TFAP2C	associated with	LYPD6B	TFAP2C targets LYPD6B, which is also found in STRING interactions.
+RELB	associated with	C4BPA	RELB targets C4BPA, a highly connected gene in STRING and enriched in complement pathways.
+SMAD4	associated with	COL4A4	SMAD4 targets COL4A4, a highly connected gene in STRING and enriched in ECM pathways.
+TFAP2C	associated with	PKIB	TFAP2C targets PKIB, which is also found in STRING interactions.
+RELB	associated with	FCGR1A	RELB targets FCGR1A, a highly connected gene in STRING and enriched in immune pathways.
+SMAD4	associated with	FN1	SMAD4 targets FN1, a highly connected gene in STRING and enriched in ECM pathways.
+TFAP2C	associated with	ETV7	TFAP2C targets ETV7, which is also found in STRING interactions.
+RELB	associated with	GBP1	RELB targets GBP1, a highly connected gene in STRING and enriched in immune pathways.
+SMAD4	associated with	PARVA	SMAD4 targets PARVA, a highly connected gene in STRING and enriched in focal adhesion pathways.
+TFAP2C	associated with	NOS1AP	TFAP2C targets NOS1AP, which is also found in STRING interactions.
+RELB	associated with	NAIP	RELB targets NAIP, a highly connected gene in STRING and enriched in immune pathways.
+SMAD4	associated with	ANK2	SMAD4 targets ANK2, a highly connected gene in STRING and enriched in cell adhesion pathways.
+TFAP2C	associated with	MOCS1	TFAP2C targets MOCS1, which is also found in STRING interactions.
+RELB	associated with	CASP5	RELB targets CASP5, a highly connected gene in STRING and enriched in immune pathways.
+SMAD4	associated with	COL4A3	SMAD4 targets COL4A3, a highly connected gene in STRING and enriched in ECM pathways.
+TFAP2C	associated with	VSIG10	TFAP2C targets VSIG10, which is also found in STRING interactions.
+RELB	associated with	GBP5	RELB targets GBP5, a highly connected gene in STRING and enriched in immune pathways.
+SMAD4	associated with	COL4A4	SMAD4 targets COL4A4, a highly connected gene in STRING and enriched in ECM pathways.
+TFAP2C	associated with	KREMEN1	TFAP2C targets KREMEN1, which is also found in STRING interactions.
+RELB	associated with	CD274	RELB targets CD274, a highly connected gene in STRING and enriched in immune pathways.
+SMAD4	associated with	FN1	SMAD4 targets FN1, a highly connected gene in STRING and enriched in ECM pathways.
+TFAP2C	associated with	ROR1	TFAP2C targets ROR1, which is also found in STRING interactions.
+RELB	associated with	PDCD1LG2	RELB targets PDCD1LG2, a highly connected gene in STRING and enriched in immune pathways.
+SMAD4	associated with	PARVA	SMAD4 targets PARVA, a highly connected gene in STRING and enriched in focal adhesion pathways.
+TFAP2C	associated with	PKIB	TFAP2C targets PKIB, which is also found in STRING interactions.
+``` 
+
+Agent 6:
+**1. Summary of Interactions:**
+The STRING analysis highlights a highly interconnected network, with FN1 and ANKRD22 exhibiting the highest network properties. These proteins are intricately linked to immune response pathways, complement system activation (C1QA, C1QB, C1QC), and extracellular matrix remodeling. The strong interactions suggest a coordinated biological response in uveitis, potentially involving immune cell infiltration and tissue modification.
+
+**2. Key Interactions and Network Topology:**
+The most significant genes based on network properties and interaction scores include FN1, ANKRD22, CD274, and FCGR1A. FN1's extensive interactions with proteins like MYOM2 and various collagen types underscore its role in extracellular matrix (ECM) dynamics and cell adhesion. ANKRD22's strong connections with immune-related genes such as CD274, GBP5, and IFI27 suggest a central role in immune modulation. CD274 and its interacting partner PDCD1LG2 highlight the involvement of immune checkpoints. FCGR1A's interactions with complement components (C1QA, C1QB, C1QC) and other immune genes point to its role in innate immunity and inflammation. The network topology appears to be characterized by a few highly connected "hub" proteins (FN1, ANKRD22, CD274, FCGR1A) and several smaller clusters, indicating a modular organization where key regulators orchestrate broader cellular processes.
+
+**3. Functional Implications and Upstream Regulators:**
+The identified interactions suggest significant functional implications for uveitis pathogenesis. FN1's involvement in ECM remodeling and focal adhesion pathways indicates potential alterations in tissue integrity and cell migration, crucial for immune cell infiltration. ANKRD22's connections to immune genes suggest a role in regulating inflammatory responses and immune cell activation. The CD274/PDCD1LG2 axis points to the potential involvement of immune evasion mechanisms. FCGR1A's role in complement activation and phagocytosis suggests a contribution to the inflammatory cascade.
+
+Potential upstream regulators driving these observed phenotypes include transcription factors such as RELB, SMAD4, TFAP2C, and IRF1. RELB is associated with inflammatory responses, and its targets (GBP5, CD274) are highly relevant. SMAD4's involvement in ECM and immune pathways suggests a broad regulatory role. TFAP2C's targets (KREMEN1, IL27, GPR84) indicate a role in coordinating immune and developmental processes. IRF1, known for its role in interferon signaling, targets CD274 and GBP1, further supporting immune system involvement.
+
+**4. Cross-Analysis:**
+There are strong overlaps between the highly interacting proteins and the enriched pathways. FN1, COL4A3, and COL4A4 are consistently found in pathways related to ECM-receptor interaction, focal adhesion, and collagen biosynthesis. The complement components (C1QA, C1QB, C1QC) are central to numerous complement activation pathways across KEGG, WikiPathways, Reactome, and GO. CD274 and PDCD1LG2 are key in "Cancer immunotherapy by PD-1 blockade" (WikiPathways) and "T cell costimulation" (GO).
+
+Several ChEA transcription factors show promising regulatory roles. RELB targets GBP5 and CD274, both highly interconnected and involved in immune responses. SMAD4 targets FN1, ANK2, and ETV7, linking it to ECM and immune regulation. TFAP2C targets KREMEN1, IL27, and GPR84, suggesting a role in coordinating immune and developmental pathways. IRF1 targets CD274 and GBP1, reinforcing the immune system's central role.
+
+**5. Hypothesis Generation:**
+In uveitis, a complex interplay of immune dysregulation, complement activation, and extracellular matrix remodeling is likely driving the observed phenotype. The Y-chromosome genes (UTY, KDM5D, DDX3Y, etc.) may contribute to sex-specific differences in disease susceptibility or severity. Key upstream regulators, including transcription factors like RELB, SMAD4, TFAP2C, and IRF1, are hypothesized to orchestrate the coordinated expression of genes involved in immune cell infiltration, inflammatory signaling, and tissue matrix alterations, ultimately contributing to the pathogenesis of uveitis.
+
+**6. System Representation Network:**
+```tsv
+Node1	Edge	Node2	Explanation
+FN1	associated with	Focal Adhesion	FN1 is present in the Focal Adhesion pathway and has a high combined network score (2.537511).
+FN1	associated with	ECM-Receptor Interaction	FN1 is present in the ECM-Receptor Interaction pathway and has a high combined network score (2.537511).
+FN1	associated with	Collagen Biosynthesis and Modifying Enzymes	FN1 is present in the Collagen Biosynthesis and Modifying Enzymes pathway and has a high combined network score (2.537511).
+ANKRD22	associated with	Myeloid Leukocyte Activation	ANKRD22 is present in the Myeloid Leukocyte Activation pathway and has a high combined network score (2.136276).
+CD274	associated with	T Cell Costimulation	CD274 is present in the T Cell Costimulation pathway and has a high combined network score (1.842835).
+FCGR1A	associated with	Staphylococcus Aureus Infection	FCGR1A is present in the Staphylococcus Aureus Infection pathway and has a high combined network score (1.435702).
+C1QC	associated with	Efferocytosis	C1QC is present in the Efferocytosis pathway and has a high combined network score (1.398207).
+C1QA	associated with	Efferocytosis	C1QA is present in the Efferocytosis pathway and has a high combined network score (1.327705).
+C1QB	associated with	Efferocytosis	C1QB is present in the Efferocytosis pathway and has a high combined network score (1.272049).
+SERPING1	associated with	Complement and Coagulation Cascades	SERPING1 is present in the Complement and Coagulation Cascades pathway and has a high combined network score (1.193449).
+FGF13	associated with	Cardiac Conduction	FGF13 is present in the Cardiac Conduction pathway and has a high combined network score (1.070677).
+PDCD1LG2	associated with	Cancer Immunotherapy by PD-1 Blockade	PDCD1LG2 is present in the Cancer Immunotherapy by PD-1 Blockade pathway and has a high combined network score (0.711580).
+GBP5	associated with	NOD-like Receptor Signaling Pathway	GBP5 is present in the NOD-like Receptor Signaling Pathway and has a high combined network score (0.682634).
+CD177	associated with	Neutrophil Activation	CD177 is present in the Neutrophil Activation pathway and has a high combined network score (0.667690).
+IFI27	associated with	Interferon Signaling	IFI27 is present in the Interferon Signaling pathway and has a high combined network score (0.645221).
+SEPTIN4	associated with	Cytoskeleton in Muscle Cells	SEPTIN4 is present in the Cytoskeleton in Muscle Cells pathway and has a high combined network score (0.642666).
+SLC1A3	associated with	Neurotransmitter Release Cycle	SLC1A3 is present in the Neurotransmitter Release Cycle pathway and has a high combined network score (0.600941).
+SYN2	associated with	Synaptic Vesicle Pathway	SYN2 is present in the Synaptic Vesicle Pathway and has a high combined network score (0.597329).
+GBP1	associated with	NOD-like Receptor Signaling Pathway	GBP1 is present in the NOD-like Receptor Signaling Pathway and has a high combined network score (0.566842).
+CASP5	associated with	NOD-like Receptor Signaling Pathway	CASP5 is present in the NOD-like Receptor Signaling Pathway and has a high combined network score (0.543755).
+SLAMF8	associated with	Leukocyte Mediated Immunity	SLAMF8 is present in the Leukocyte Mediated Immunity pathway and has a high combined network score (0.520732).
+BATF2	associated with	Defense Response to Protozoan	BATF2 is present in the Defense Response to Protozoan pathway and has a high combined network score (0.518685).
+ETV7	associated with	Cell Fate Commitment	ETV7 is present in the Cell Fate Commitment pathway and has a high combined network score (0.483810).
+HP	associated with	Acute-Phase Response	HP is present in the Acute-Phase Response pathway and has a high combined network score (0.480483).
+EPSTI1	associated with	Epithelial to Mesenchymal Transition in Colorectal Cancer	EPSTI1 is present in the Epithelial to Mesenchymal Transition in Colorectal Cancer pathway and has a high combined network score (0.430492).
+GBP6	associated with	Interferon Gamma Signaling	GBP6 is present in the Interferon Gamma Signaling pathway and has a high combined network score (0.424018).
+ATF3	associated with	Cell Fate Commitment	ATF3 is present in the Cell Fate Commitment pathway and has a high combined network score (0.315431).
+SOX5	associated with	Asymmetric Cell Division	SOX5 is present in the Asymmetric Cell Division pathway and has a high combined network score (0.297487).
+GPR84	associated with	Myeloid Leukocyte Activation	GPR84 is present in the Myeloid Leukocyte Activation pathway and has a high combined network score (0.281146).
+MYOM2	associated with	Cytoskeleton in Muscle Cells	MYOM2 is present in the Cytoskeleton in Muscle Cells pathway and has a high combined network score (0.273959).
+NRCAM	associated with	Cell Adhesion Molecule (CAM) Interaction	NRCAM is present in the Cell Adhesion Molecule (CAM) Interaction pathway and has a high combined network score (0.264798).
+LRP1B	associated with	Small Cell Lung Cancer	LRP1B is present in the Small Cell Lung Cancer pathway and has a high combined network score (0.251015).
+NRN1	associated with	Presynaptic Modulation of Chemical Synaptic Transmission	NRN1 is present in the Presynaptic Modulation of Chemical Synaptic Transmission pathway and has a high combined network score (0.244182).
+LYPD6B	associated with	ncRNAs in Wnt Signaling in Hepatocellular Carcinoma	LYPD6B is present in the ncRNAs in Wnt Signaling in Hepatocellular Carcinoma pathway and has a high combined network score (0.226871).
+EIF1AY	associated with	Coronavirus Disease - COVID-19	EIF1AY is present in the Coronavirus Disease - COVID-19 pathway and has a high combined network score (0.171156).
+C1orf226	associated with	AGE-RAGE Signaling Pathway in Diabetic Complications	C1orf226 is present in the AGE-RAGE Signaling Pathway in Diabetic Complications pathway and has a high combined network score (0.164045).
+NAIP	associated with	NOD-like Receptor Signaling Pathway	NAIP is present in the NOD-like Receptor Signaling Pathway and has a high combined network score (0.157736).
+NOS1AP	associated with	Cardiac Muscle Cell Action Potential	NOS1AP is present in the Cardiac Muscle Cell Action Potential pathway and has a high combined network score (0.146517).
+TMEM119	associated with	Microglia Pathogen Phagocytosis Pathway	TMEM119 is present in the Microglia Pathogen Phagocytosis Pathway and has a high combined network score (0.123711).
+IL27	associated with	T Cell Costimulation	IL27 is present in the T Cell Costimulation pathway and has a high combined network score (0.101985).
+CORIN	associated with	Formation of Fibrin Clot (Clotting Cascade)	CORIN is present in the Formation of Fibrin Clot (Clotting Cascade) pathway and has a high combined network score (0.065606).
+ZFY	associated with	Female Gonad Development	ZFY is present in the Female Gonad Development pathway and has a high combined network score (0.035676).
+CSMD1	associated with	Startle Response	CSMD1 is present in the Startle Response pathway and has a high combined network score (0.010205).
+ANOS1	associated with	Development of Ureteric Derived Collecting System	ANOS1 is present in the Development of Ureteric Derived Collecting System pathway and has a high combined network score (0.002687).
+SYBU	associated with	Synaptic Maturation	SYBU is present in the Synaptic Maturation pathway and has a high combined network score (-0.021276).
+KIF20A	associated with	Cell Junction Disassembly	KIF20A is present in the Cell Junction Disassembly pathway and has a high combined network score (-0.026803).
+RPS4Y1	associated with	Coronavirus Disease - COVID-19	RPS4Y1 is present in the Coronavirus Disease - COVID-19 pathway and has a high combined network score (-0.039040).
+APOL4	associated with	Cell Recognition	APOL4 is present in the Cell Recognition pathway and has a high combined network score (-0.043516).
+SLC26A8	associated with	Dicarboxylic Acid Transport	SLC26A8 is present in the Dicarboxylic Acid Transport pathway and has a high combined network score (-0.073954).
+DDX3Y	associated with	Pertussis	DDX3Y is present in the Pertussis pathway and has a high combined network score (-0.084948).
+GRIN3A	associated with	Prion Disease	GRIN3A is present in the Prion Disease pathway and has a high combined network score (-0.138244).
+HPN	associated with	Acute-Phase Response	HPN is present in the Acute-Phase Response pathway and has a high combined network score (-0.143918).
+ANXA3	associated with	Neutrophil Activation Involved in Immune Response	ANXA3 is present in the Neutrophil Activation Involved in Immune Response pathway and has a high combined network score (-0.165661).
+KDM5D	associated with	Adaptive Immune Response Based on Somatic Recombination of Immune Receptors Built from Immunoglobulin Superfamily Domains	KDM5D is present in the Adaptive Immune Response Based on Somatic Recombination of Immune Receptors Built from Immunoglobulin Superfamily Domains pathway and has a high combined network score (-0.168822).
+USP9Y	associated with	Pertussis	USP9Y is present in the Pertussis pathway and has a high combined network score (-0.173921).
+FOLR3	associated with	Cell Recognition	FOLR3 is present in the Cell Recognition pathway and has a high combined network score (-0.181660).
+C4BPA	associated with	Complement and Coagulation Cascades	C4BPA is present in the Complement and Coagulation Cascades pathway and has a high combined network score (-0.204166).
+MMP19	associated with	Collagen Degradation	MMP19 is present in the Collagen Degradation pathway and has a high combined network score (-0.234406).
+XKR3	associated with	Axon Guidance	XKR3 is present in the Axon Guidance pathway and has a high combined network score (-0.272252).
+BHLHE41	associated with	Negative Regulation of Myotube Differentiation	BHLHE41 is present in the Negative Regulation of Myotube Differentiation pathway and has a high combined network score (-0.273460).
+WNT16	associated with	lncRNA in Canonical Wnt Signaling and Colorectal Cancer	WNT16 is present in the lncRNA in Canonical Wnt Signaling and Colorectal Cancer pathway and has a high combined network score (-0.292338).
+COCH	associated with	Sensory Perception of Sound	COCH is present in the Sensory Perception of Sound pathway and has a high combined network score (-0.301759).
+COL4A3	associated with	Focal Adhesion	COL4A3 is present in the Focal Adhesion pathway and has a high combined network score (-0.308278).
+CACNA1E	associated with	Transmission Across Chemical Synapses	CACNA1E is present in the Transmission Across Chemical Synapses pathway and has a high combined network score (-0.322863).
+KREMEN1	associated with	lncRNA in Canonical Wnt Signaling and Colorectal Cancer	KREMEN1 is present in the lncRNA in Canonical Wnt Signaling and Colorectal Cancer pathway and has a high combined network score (-0.326012).
+ROR1	associated with	lncRNA in Canonical Wnt Signaling and Colorectal Cancer	ROR1 is present in the lncRNA in Canonical Wnt Signaling and Colorectal Cancer pathway and has a high combined network score (-0.328835).
+BTNL9	associated with	Cancer Immunotherapy by PD-1 Blockade	BTNL9 is present in the Cancer Immunotherapy by PD-1 Blockade pathway and has a high combined network score (-0.350279).
+GRIP1	associated with	IgSF CAM Signaling	GRIP1 is present in the IgSF CAM Signaling pathway and has a high combined network score (-0.401658).
+FBXO39	associated with	Pertussis	FBXO39 is present in the Pertussis pathway and has a high combined network score (-0.435515).
+FFAR3	associated with	Positive Regulation of Acute Inflammatory Response	FFAR3 is present in the Positive Regulation of Acute Inflammatory Response pathway and has a high combined network score (-0.447383).
+COL4A4	associated with	Focal Adhesion	COL4A4 is present in the Focal Adhesion pathway and has a high combined network score (-0.455773).
+MOCS1	associated with	Dicarboxylic Acid Transport	MOCS1 is present in the Dicarboxylic Acid Transport pathway and has a high combined network score (-0.489793).
+KCNK17	associated with	Neuronal System	KCNK17 is present in the Neuronal System pathway and has a high combined network score (-0.515115).
+PLLP	associated with	Myelin Assembly	PLLP is present in the Myelin Assembly pathway and has a high combined network score (-0.516810).
+SLITRK5	associated with	Cell Adhesion Molecule (CAM) Interaction	SLITRK5 is present in the Cell Adhesion Molecule (CAM) Interaction pathway and has a high combined network score (-0.529698).
+PARVA	associated with	Focal Adhesion	PARVA is present in the Focal Adhesion pathway and has a high combined network score (-0.542096).
+INSYN2B	associated with	Synaptic Vesicle Pathway	INSYN2B is present in the Synaptic Vesicle Pathway and has a high combined network score (-0.557854).
+DDO	associated with	Grooming Behavior	DDO is present in the Grooming Behavior pathway and has a high combined network score (-0.557927).
+MOXD1	associated with	Collagen Degradation	MOXD1 is present in the Collagen Degradation pathway and has a high combined network score (-0.563294).
+GDF7	associated with	Brain Morphogenesis	GDF7 is present in the Brain Morphogenesis pathway and has a high combined network score (-0.572769).
+VSIG10	associated with	Synapse Assembly	VSIG10 is present in the Synapse Assembly pathway and has a high combined network score (-0.626067).
+FHAD1	associated with	Epithelial to Mesenchymal Transition in Colorectal Cancer	FHAD1 is present in the Epithelial to Mesenchymal Transition in Colorectal Cancer pathway and has a high combined network score (-0.635481).
+OTX1	associated with	Brain Morphogenesis	OTX1 is present in the Brain Morphogenesis pathway and has a high combined network score (-0.642317).
+ZDHHC11B	associated with	Negative Regulation of Myotube Differentiation	ZDHHC11B is present in the Negative Regulation of Myotube Differentiation pathway and has a high combined network score (-0.657930).
+OLAH	associated with	AGE-RAGE Signaling Pathway in Diabetic Complications	OLAH is present in the AGE-RAGE Signaling Pathway in Diabetic Complications pathway and has a high combined network score (-0.694789).
+ARL17A	associated with	Nervous System Development	ARL17A is present in the Nervous System Development pathway and has a high combined network score (-0.724340).
+ARL17B	associated with	Nervous System Development	ARL17B is present in the Nervous System Development pathway and has a high combined network score (-0.724340).
+PLEKHG7	associated with	Cell Fate Commitment	PLEKHG7 is present in the Cell Fate Commitment pathway and has a high combined network score (-0.755806).
+IFT56	associated with	Cytoskeleton in Muscle Cells	IFT56 is present in the Cytoskeleton in Muscle Cells pathway and has a high combined network score (-0.790903).
+FAM118A	associated with	Cell Fate Commitment	FAM118A is present in the Cell Fate Commitment pathway and has a high combined network score (-0.846795).
+SRGAP1	associated with	IgSF CAM Signaling	SRGAP1 is present in the IgSF CAM Signaling pathway and has a high combined network score (-0.910507).
+WDR17	associated with	STAT3	WDR17 is a target of STAT3 and has a low combined network score (-0.934368).
+PKIB	associated with	TFAP2C	PKIB is a target of TFAP2C and has a low combined network score (-0.990123).
+PRR16	associated with	SMAD4	PRR16 is a target of SMAD4 and has a low combined network score (-1.084180).
+SPDY4	associated with	Chagas Disease	SPDY4 is present in the Chagas Disease pathway and has a low combined network score (-1.131771).
+``` 
+
+## Step 1: Analyze Individual Agent Summaries ##
+
+The provided agent summaries offer a comprehensive analysis of transcriptomic data from uveitis patients compared to healthy controls, integrating findings from WikiPathways, KEGG, Reactome, GO, ChEA, and STRING.
+
+*   **Agent 1 (WikiPathways):** Highlights immune system processes (complement activation, immune responses), cell signaling, and tissue remodeling. Suggests inflammatory and immune dysregulation in uveitis. Identifies potential upstream regulators (IRF1, RELB, SMAD4, STAT3) and hub genes (C1QA, C1QB, C1QC, FN1, ANK2, CD274, GBP1, GBP5, GBP6). Notes potential novelty in synaptic vesicle and GABA/glutamate signaling pathways.
+*   **Agent 2 (KEGG):** Emphasizes immune function, cell adhesion, and ECM remodeling. Categorizes pathways into Immune Response, Cell Adhesion/ECM, Infectious Diseases, and Cell Signaling/Cytoskeleton. Reinforces the role of complement, immune checkpoints, and ECM proteins. Identifies hub genes (C1QA, C1QB, C1QC, FN1, ANK2, CD274, GBP1, GBP5, GBP6) and potential drug targets (CD274). Notes potential novelty in infectious disease pathways and Y-chromosome genes.
+*   **Agent 3 (Reactome):** Focuses on immune system function, ECM remodeling, and neuronal signaling. Highlights complement cascade, fibrin clot formation, collagen degradation, and neuronal system pathways. Identifies hub genes (FN1, C1QA, C1QB, C1QC, ANK2, CD274, GBP1, GBP5, GBP6) and potential drug targets (CD274). Suggests potential novelty in neuronal system pathways in peripheral blood transcriptomics.
+*   **Agent 4 (GO):** Emphasizes immune system dysregulation, inflammatory responses, and cellular processes. Categorizes GO terms into Immune Response, Cellular Movement/Contraction, Developmental Processes, and Inflammatory Response. Identifies potential upstream regulators (RELB, TFAP2C, POU5F1, SMAD4, IRF1) and highlights cross-analysis with ChEA and STRING. Suggests a complex regulatory network and potential sex-specific immune responses.
+*   **Agent 5 (ChEA):** Identifies key transcription factors (RELB, TFAP2C, POU5F1, SMAD4) and their target genes, suggesting a complex regulatory network. Highlights co-regulation of complement, cell adhesion/ECM, and immune response pathways by these TFs.
+*   **Agent 6 (STRING):** Reveals a highly interconnected network with FN1 and ANKRD22 as key nodes. Highlights interactions related to immune response, complement activation, and ECM remodeling. Identifies potential upstream regulators (RELB, SMAD4, TFAP2C, IRF1) and functional implications for uveitis.
+
+The provided STRING network properties and interactions data offer detailed quantitative information on protein-protein associations, while the ChEA results provide specific TF-gene regulatory links. The pathway comparison results offer a structured overview of gene overlap across different annotation databases.
+
+## Step 2: Integrate Agent Summaries, Pathways and other data ##
+
+The integration of agent summaries, pathway data (KEGG, WikiPathways, Reactome, GO), ChEA results, and STRING network data reveals a consistent and robust picture of immune dysregulation and tissue remodeling in uveitis.
+
+**Common Themes and Patterns:**
+
+*   **Immune System Dysregulation:** All agents consistently highlight the central role of the immune system. Pathways and GO terms related to **complement activation**, **inflammatory responses** (acute, pyroptotic), **B cell mediated immunity**, **T cell costimulation**, and **interferon signaling** are repeatedly enriched across all databases. This strongly suggests a breakdown in immune tolerance and an overactive inflammatory cascade.
+*   **Extracellular Matrix (ECM) Remodeling and Cell Adhesion:** Multiple pathways and GO terms point to alterations in ECM composition and cell adhesion. Genes involved in **focal adhesion**, **ECM-receptor interaction**, **collagen biosynthesis/degradation**, and **actin filament-based movement** are consistently highlighted. This suggests tissue damage, altered structural integrity, and potentially increased immune cell infiltration.
+*   **Neuronal Involvement (Potential Novelty):** Several agents (WikiPathways, Reactome) identified pathways related to **synaptic vesicle function**, **neurotransmitter release**, and **neuronal signaling**. While not as universally enriched as immune pathways, their consistent appearance suggests a potential, perhaps secondary, impact on neuronal function in the context of uveitis.
+*   **Complement System Centrality:** The complement system, particularly components like C1QA, C1QB, and C1QC, emerges as a critical player. These genes are highly interconnected in STRING, enriched in numerous pathways across all databases, and are frequently identified as hub genes.
+*   **Immune Checkpoint Involvement:** Genes like CD274 (PD-L1) and PDCD1LG2 are consistently identified as important, enriched in immune-related pathways and showing strong interactions in STRING. This points to potential immune evasion mechanisms.
+
+**Integration of Pathway Data (Overlap and Unique Genes):**
+
+The pathway comparison results confirm the strong overlap in core biological processes across KEGG, WikiPathways, Reactome, and GO. The **complement system genes (C1QA, C1QB, C1QC)**, **ECM-related genes (FN1, COL4A3, COL4A4)**, and **immune regulators (CD274, PDCD1LG2, GBP family)** are consistently present in the 'overlap' sets, underscoring their fundamental role.
+
+*   **Overlap Genes:** These genes form the bedrock of the observed phenotype, representing the most robustly supported biological processes. The consistent enrichment of complement activation, immune responses, and ECM remodeling across multiple annotation systems strongly indicates their central involvement in uveitis pathogenesis.
+*   **Unique Genes:** While less numerous, unique genes identified in specific pathways (e.g., WNT16, KREMEN1, ATF3 in WikiPathways; CACNA1E, KCNK17, MMP19 in Reactome) offer more nuanced insights. For instance, unique KEGG pathways related to infectious diseases suggest potential triggers or co-pathogenic mechanisms. Unique Reactome pathways related to neuronal systems further support the potential neurological component. The presence of Y-chromosome genes (e.g., UTY, KDM5D, DDX3Y) in the DEG list, while not directly enriched in specific pathways, is a significant observation that might indicate sex-specific differences in immune responses, as noted by Agent 2.
+
+The integration of these data sources paints a cohesive picture of uveitis as a complex inflammatory disease driven by immune dysregulation, particularly complement activation and altered immune cell function, coupled with significant tissue remodeling.
+
+## Step 3: Groundedness Check ##
+
+The analysis results are largely grounded in the provided list of differentially expressed genes, pathway data, STRING data, and ChEA data.
+
+*   **Gene List:** The genes identified as differentially expressed (e.g., C1QA, C1QB, C1QC, FN1, CD274, GBP1, GBP5, GBP6, ANK2, COL4A3, COL4A4, PDCD1LG2, SERPING1, UTY, KDM5D, DDX3Y, etc.) are consistently referenced in the agent summaries and pathway/network analyses.
+*   **Pathway Data:** The enriched pathways (Complement activation, Focal Adhesion, T cell costimulation, etc.) are directly derived from the pathway analysis and are well-supported by the presence of their constituent genes in the DEG list.
+*   **STRING Data:** The high network scores and interaction data for genes like FN1, ANKRD22, CD274, and the complement components are directly from the STRING analysis and support their proposed roles as hub genes and central players.
+*   **ChEA Data:** The identified transcription factors (RELB, SMAD4, TFAP2C, IRF1) and their target genes are directly from the ChEA enrichment analysis.
+
+**Inconsistencies or Missing Links:**
+
+*   While Y-chromosome genes are listed in the original DEG list and mentioned as potentially novel by Agent 2, their direct enrichment in specific pathways is not consistently highlighted across all agents. Their role might be more as general modulators of immune response rather than being part of specific enriched pathways.
+*   The "Synaptic vesicle pathway" and "GABA and glutamate signalling in epileptogenesis" were highlighted as potentially novel by Agent 1. While these pathways are mentioned, their direct grounding in the DEG list and STRING interactions needs to be carefully considered for their significance. Genes like SYN2, SLC1A3, NRN1, and GRIN3A are indeed present in the DEG list and have STRING interactions, supporting their inclusion.
+
+Overall, the analysis is well-grounded, with the identified biological processes and regulatory mechanisms strongly supported by the provided data.
+
+## Step 4: Regulatory Network Analysis ##
+
+The ChEA enrichment data, in conjunction with the agent summaries and STRING network properties, reveals a complex regulatory network driving the observed phenotype in uveitis.
+
+**Key Transcription Factors and Their Roles:**
+
+*   **RELB (P-value: 0.017762):** As a key component of the NF-κB pathway, RELB is a central regulator of inflammation. Its targets include *GBP5*, *CD274*, and *MMP19*. *GBP5* and *CD274* are highly interconnected in STRING and enriched in immune response pathways (e.g., "T cell costimulation," "cytolysis," "cellular response to type II interferon"). *MMP19* is involved in ECM remodeling. This suggests RELB orchestrates both inflammatory signaling and tissue modification.
+*   **SMAD4 (P-value: 0.042802, 0.109245):** SMAD4 is a crucial mediator of TGF-β signaling, which plays a significant role in immune modulation and tissue development. Its extensive targeting of genes like *FN1*, *ANK2*, *ETV7*, *COL4A3*, and *COL4A4* links it directly to ECM remodeling (FN1, COL4A3, COL4A4) and immune responses (ETV7, ANK2). The high network scores of FN1 and ANK2 further emphasize the importance of SMAD4 in regulating these processes.
+*   **TFAP2C (P-value: 0.034240):** This TF targets genes involved in cell adhesion and immune regulation, such as *KREMEN1*, *IL27*, *KCNK17*, *GPR84*, and *NRCAM*. *IL27* is involved in interferon production, and *GPR84* in immune cell activation. Its targets also include genes in cell adhesion pathways, suggesting a role in coordinating immune cell trafficking and tissue interactions.
+*   **POU5F1 (P-value: 0.036268):** While typically known for pluripotency, POU5F1's targets include immune-related genes like *C1QA*, *ROR1*, and developmental genes like *OTX1*. Its regulation of complement component *C1QA* is particularly noteworthy, linking it to the central complement cascade.
+*   **IRF1 (P-value: 0.048415):** As a critical interferon-responsive transcription factor, IRF1 targets *CD274* and *GBP1*. Both are highly interconnected and involved in immune responses, reinforcing the role of interferon signaling in the uveitis phenotype.
+
+**Potential Novel Interactions Identified by ChEA:**
+
+*   **TFAP2C and KCNK17/NOS1AP:** The link between TFAP2C and *KCNK17* (potassium channel involved in neuronal function) and *NOS1AP* (involved in nitric oxide signaling and cardiac function) in the context of uveitis is intriguing. While TFAP2C has broad regulatory roles, its specific influence on these genes in an inflammatory setting might be novel and warrants further investigation for potential contributions to ocular symptoms or systemic effects.
+*   **POU5F1 and ROR1:** The role of POU5F1, a pluripotency factor, in regulating *ROR1* (a receptor tyrosine kinase involved in Wnt signaling and immune cell development) in an inflammatory context is also noteworthy. This suggests POU5F1 might have roles beyond pluripotency in immune cell differentiation or function during inflammation.
+
+**Potential Upstream Regulators:**
+
+Based on the integrated analysis, the following upstream regulators are hypothesized to be driving the uveitis phenotype:
+
+*   **RELB:** Orchestrates inflammatory responses through NF-κB signaling, impacting complement activation, interferon signaling, and immune cell activation.
+*   **SMAD4:** Drives ECM remodeling and influences immune cell infiltration and function through TGF-β signaling.
+*   **TFAP2C:** Contributes to immune cell trafficking and interaction by regulating cell adhesion and immune signaling genes.
+*   **POU5F1:** Potentially influences complement activation and immune cell differentiation, extending its role beyond pluripotency.
+*   **IRF1:** Amplifies inflammatory responses through interferon signaling, particularly impacting immune checkpoint expression.
+
+These transcription factors likely act in concert, forming a complex regulatory network that integrates inflammatory signals with tissue remodeling processes, ultimately leading to the observed gene expression changes in uveitis.
+
+## Step 5: Similar Systems ##
+
+Based on the integrated analysis, several similar systems reported in the scientific literature are of interest for understanding uveitis pathogenesis:
+
+*   **Autoimmune Diseases:** Conditions like **Rheumatoid Arthritis**, **Systemic Lupus Erythematosus (SLE)**, and **Inflammatory Bowel Disease (IBD)** share significant mechanistic overlaps with uveitis. These diseases are characterized by immune dysregulation, complement system activation, autoantibody production, and inflammatory cytokine storms, often leading to tissue damage and chronic inflammation. Research into the molecular underpinnings of these conditions, particularly regarding immune cell infiltration and cytokine signaling, can provide valuable insights.
+*   **Infectious Uveitis:** While the current analysis focuses on a general uveitis phenotype, the enrichment of pathways related to specific infections (e.g., Pertussis, Staphylococcus aureus infection, Coronavirus disease - COVID-19, Amoebiasis, Chagas disease in KEGG) suggests a potential role for infectious triggers. Studies on infectious uveitis, exploring how pathogens interact with the immune system and contribute to ocular inflammation, are highly relevant.
+*   **Neuroinflammatory Conditions:** The potential involvement of neuronal pathways in uveitis, as suggested by the enrichment of synaptic and neurotransmission-related pathways, aligns with research on neuroinflammatory conditions. Understanding how systemic inflammation can impact the nervous system, and vice versa, is crucial.
+*   **Cancer Immunotherapy:** The consistent identification of immune checkpoint genes like CD274 (PD-L1) and PDCD1LG2, and their enrichment in cancer immunotherapy pathways, suggests that mechanisms of immune evasion observed in cancer might also be at play in uveitis, particularly in chronic or refractory forms.
+
+## Step 6: Potential Hub Genes ##
+
+*   **FN1:** Highly interconnected in STRING and enriched in ECM remodeling and inflammatory response pathways, suggesting a central role in tissue integrity and immune cell interaction. It is not a direct drug target but involved in processes targeted by therapies.
+*   **C1QA, C1QB, C1QC:** Core components of the complement system, highly interconnected and enriched in numerous immune and complement activation pathways, indicating their critical role in initiating and amplifying immune responses. They are potential biomarkers for disease activity.
+*   **CD274 (PD-L1):** Highly interconnected, enriched in T cell costimulation and immune checkpoint pathways, and a known drug target in cancer immunotherapy, suggesting its potential as a therapeutic target in uveitis to modulate immune responses.
+*   **ANK2:** Highly interconnected and involved in cytoskeletal dynamics and cellular movement, suggesting a role in immune cell infiltration and tissue remodeling. Not a known direct drug target.
+*   **GBP1, GBP5, GBP6:** Interferon-inducible GTPases, highly interconnected and involved in innate immunity and inflammatory responses, suggesting their role in the innate immune arm of uveitis. They are potential biomarkers of inflammatory response.
+
+## Step 7: Novelty Exploration ##
+
+The analysis reveals several potentially novel findings in the context of uveitis:
+
+*   **Direct Molecular Signature of Neuronal Pathways in Peripheral Blood:** The strong enrichment of pathways like "Synaptic vesicle pathway" (WP2267), "GABA and glutamate signalling in epileptogenesis" (WP5600), "Neurotransmitter release cycle," and "Transmission across Chemical Synapses" in peripheral blood transcriptomics of uveitis patients is potentially novel. While neuroinflammation is a known complication, its direct molecular representation through these specific neuronal pathways in peripheral samples might indicate a more direct systemic link between inflammation and neuronal function than previously appreciated.
+*   **Co-enrichment of Infectious Disease Pathways with Complement Activation:** The KEGG analysis highlighted enrichment of pathways related to specific infectious diseases (e.g., Pertussis, Coronavirus disease - COVID-19, Staphylococcus aureus infection) alongside complement activation pathways. This co-enrichment could suggest novel mechanisms by which specific pathogens or their products directly trigger or exacerbate complement-mediated inflammation in uveitis.
+*   **Role of Y-Chromosome Genes in Sex-Specific Immune Responses:** The significant presence of Y-chromosome genes (UTY, KDM5D, DDX3Y, TTTY14, EIF1AY, USP9Y, TTTY15, RPS4Y1, ZFY) in the DEG list, as noted by Agent 2, is a potentially novel observation. While these genes are generally associated with male development, their differential expression in uveitis patients could point to sex-specific immune dysregulation or differential susceptibility/severity in male patients, which may not have been extensively explored.
+*   **TFAP2C and POU5F1 in Inflammatory Regulation:** The ChEA analysis suggests potential novel regulatory roles for TFAP2C and POU5F1 in the context of uveitis. TFAP2C's regulation of genes like *KCNK17* and *NOS1AP*, and POU5F1's regulation of *ROR1* in an inflammatory setting, represent potential new avenues for understanding the broader regulatory network beyond canonical inflammatory TFs.
+
+## Step 8: High-Level Summary ##
+
+Uveitis pathogenesis is characterized by a complex interplay of immune dysregulation, primarily driven by hyperactive complement system activation and altered adaptive and innate immune responses, leading to significant inflammation. This inflammatory milieu is further compounded by substantial extracellular matrix remodeling and altered cell adhesion dynamics, suggesting tissue damage and immune cell infiltration. The consistent enrichment of neuronal signaling pathways, particularly in peripheral blood transcriptomics, points to a potential, and possibly novel, direct link between systemic inflammation and neuronal function. Key transcription factors, including RELB, SMAD4, TFAP2C, and IRF1, are hypothesized to orchestrate these interconnected processes by regulating genes involved in inflammation, immune cell function, and tissue matrix alterations. The strong interactions among complement components, immune regulators like CD274, and ECM proteins like FN1 highlight a coordinated molecular network. The presence of Y-chromosome genes may indicate sex-specific immune responses contributing to disease heterogeneity.
+
+**Hypothesis:** In uveitis, dysregulated immune responses, particularly complement activation and T cell costimulation, are central to disease pathogenesis. This is exacerbated by altered extracellular matrix remodeling and cell adhesion dynamics, potentially influenced by infectious triggers or autoantigens. These systemic changes may also manifest as altered neuronal signaling pathways, reflecting neuroinflammation or systemic effects on neuronal function. Upstream regulators like RELB, SMAD4, TFAP2C, and IRF1 orchestrate these interconnected processes, leading to chronic inflammation, tissue damage, and impaired immune regulation.
+
+## Step 9: Title ##
+
+**FN1-Driven Immune Dysregulation and ECM Remodeling in Uveitis** 
+
+*System Overview*
+The provided network analysis reveals a complex interplay of differentially expressed genes in uveitis patients compared to healthy controls, primarily revolving around immune responses, cell adhesion, and cellular processes. Key pathways implicated include complement activation, inflammatory responses, Wnt signaling, and neuronal system functions. The presence of Y-chromosome genes among the differentially expressed genes suggests potential sex-specific differences or influences.
+
+*Potential Upstream Regulators and Key Genes:*
+Several transcription factors and signaling molecules appear to be central to regulating the observed gene expression changes:
+
+*   **RELB:** This transcription factor is a significant upstream regulator, directly targeting genes involved in immune responses such as GBP5, GBP6, C1QC, C1QB, C1QA, and FCGR1A. It also targets genes involved in cell adhesion and signaling like CD274, MYOM2, and PDCD1LG2, suggesting a broad impact on immune and cellular processes.
+
+*   **SMAD4:** As a key mediator of TGF-β signaling, SMAD4 is implicated in regulating extracellular matrix (ECM) components like FN1, COL4A3, and COL4A4, as well as cell adhesion molecules such as ANK2 and NRCAM. Its targeting of genes involved in immune responses (BATF2, ATF3) and neuronal pathways (GRIN3A, OTX1) highlights its multifaceted role.
+
+*   **TFAP2C:** This transcription factor is linked to the regulation of Wnt signaling (ROR1, KREMEN1, WNT16) and cell adhesion processes (VSIG10, NRCAM, SRGAP1). It also targets genes involved in immune responses (IFI27, IL27) and cell fate commitment (ETV7, SOX5), indicating its influence across various cellular functions.
+
+*   **POU5F1:** This pluripotency factor is shown to target genes involved in neuronal development (NRN1, OTX1), immune responses (GBP1, ANXA3), and Y-chromosome genes (EIF1AY), suggesting a role in maintaining cellular identity and potentially influencing immune cell function.
+
+*Mechanistic Model*
+The identified relationships suggest a mechanistic model where upstream regulators, particularly transcription factors like RELB, SMAD4, TFAP2C, and POU5F1, orchestrate the observed differential gene expression in uveitis. These regulators appear to influence key pathways such as complement activation, acute inflammatory response, and cell adhesion. For instance, RELB's targeting of complement components (C1QA, C1QB, C1QC) and immune activators (GBP5, FCGR1A) suggests a direct role in modulating the inflammatory cascade. Simultaneously, SMAD4's influence on ECM components (FN1, COL4A3) and cell adhesion molecules (ANK2, PARVA) points to its involvement in tissue remodeling and cellular interactions, which are critical in inflammatory conditions. TFAP2C's regulation of Wnt signaling and cell adhesion molecules further suggests a role in cellular communication and tissue integrity. The involvement of Y-chromosome genes, targeted by POU5F1 and others, might indicate a sex-specific component to the disease pathology. Overall, these upstream regulators likely converge to drive a pro-inflammatory and potentially dysregulated cellular environment characteristic of uveitis.
+
+*Hypothesis*
+The observed changes in gene expression in peripheral blood from uveitis patients reflect a systemic dysregulation of immune responses and cell adhesion processes, potentially driven by aberrant activity of key transcription factors. Specifically, we hypothesize that dysregulation of RELB, SMAD4, and TFAP2C leads to an overactive complement system, enhanced inflammatory signaling, and altered cell-cell and cell-matrix interactions, contributing to the pathogenesis of uveitis. The differential expression of Y-chromosome genes may also play a role, possibly modulated by factors like POU5F1.
+
+*System Model*
+```tsv
+Node1	Interaction	Node2
+RELB	targets	GBP5
+SMAD4	targets	FN1
+TFAP2C	targets	ROR1
+POU5F1	targets	NRN1
+RELB	targets	C1QC
+SMAD4	targets	COL4A3
+TFAP2C	targets	NRCAM
+POU5F1	targets	EIF1AY
+RELB	targets	FCGR1A
+SMAD4	targets	PARVA
+TFAP2C	targets	WNT16
+POU5F1	targets	OTX1
+C1QA	associated with	Complement Activation
+FN1	associated with	Acute Inflammatory Response
+CD274	associated with	T Cell Costimulation
+GBP1	associated with	NOD-like Receptor Signaling Pathway
+SERPING1	associated with	Complement and Coagulation Cascades
+SYN2	associated with	Synaptic Vesicle Pathway
+COL4A3	associated with	Glomerular Basement Membrane Development
+ANKRD22	associated with	Myeloid Leukocyte Activation
+BATF2	associated with	Defense Response to Protozoan
+CASP5	associated with	Pyroptotic Inflammatory Response
+ETV7	associated with	Cell Fate Commitment
+HP	associated with	Acute-Phase Response
+IFI27	associated with	Cellular Response to Type II Interferon
+SLAMF8	associated with	Leukocyte Mediated Immunity
+WNT16	associated with	Wnt Signaling
+SOX5	associated with	Cell Fate Commitment
+ROR1	associated with	Wnt Signaling
+ZFY	associated with	Y-Chromosome
+MMP19	associated with	Collagen Degradation
+CSMD1	associated with	Cell Adhesion Molecules
+KREMEN1	associated with	Wnt Signaling
+ATF3	associated with	Cell Fate Commitment
+FOLR3	associated with	Dicarboxylic Acid Transport
+ANXA3	associated with	Neutrophil Activation
+UTY	associated with	Y-Chromosome
+KDM5D	associated with	Y-Chromosome
+USP9Y	associated with	Y-Chromosome
+DDX3Y	associated with	Y-Chromosome
+RPS4Y1	associated with	Y-Chromosome
+EIF1AY	associated with	Y-Chromosome
+TTTY14	associated with	Female Gonad Development
+TTTY15	associated with	Female Gonad Development
+FN1	interacts with	Focal Adhesion
+C1QB	interacts with	Complement Activation
+C1QC	interacts with	Complement Activation
+ANK2	interacts with	Actin Filament-Based Movement
+CD274	interacts with	T Cell Costimulation
+GBP1	interacts with	NOD-like Receptor Signaling Pathway
+GBP5	interacts with	NOD-like Receptor Signaling Pathway
+GBP6	interacts with	Interferon Gamma Signaling
+SERPING1	interacts with	Complement and Coagulation Cascades
+PDCD1LG2	interacts with	Cancer Immunotherapy by PD-1 Blockade
+SYN2	interacts with	Synaptic Vesicle Pathway
+SLC1A3	interacts with	Astrocyte Development
+NRN1	interacts with	Synapse Assembly
+GRIN3A	interacts with	Synaptic Plasticity
+OTX1	interacts with	Brain Morphogenesis
+GDF7	interacts with	Brain Morphogenesis
+COL4A3	interacts with	Glomerular Basement Membrane Development
+COL4A4	interacts with	Glomerular Basement Membrane Development
+PARVA	interacts with	Focal Adhesion
+ANKRD22	interacts with	Myeloid Leukocyte Activation
+BATF2	interacts with	Defense Response to Protozoan
+CASP5	interacts with	Pyroptotic Inflammatory Response
+NAIP	interacts with	NOD-like Receptor Signaling Pathway
+ETV7	interacts with	Cell Fate Commitment
+HP	interacts with	Acute-Phase Response
+IFI27	interacts with	Cellular Response to Type II Interferon
+SLAMF8	interacts with	Leukocyte Mediated Immunity
+WNT16	interacts with	Wnt Signaling
+SOX5	interacts with	Cell Fate Commitment
+ROR1	interacts with	Wnt Signaling
+ZFY	interacts with	Y-Chromosome
+MMP19	interacts with	Collagen Degradation
+CSMD1	interacts with	Cell Adhesion Molecules
+KREMEN1	interacts with	Wnt Signaling
+ATF3	interacts with	Cell Fate Commitment
+FOLR3	interacts with	Dicarboxylic Acid Transport
+ANXA3	interacts with	Neutrophil Activation
+UTY	interacts with	Y-Chromosome
+KDM5D	interacts with	Y-Chromosome
+USP9Y	interacts with	Y-Chromosome
+DDX3Y	interacts with	Y-Chromosome
+RPS4Y1	interacts with	Y-Chromosome
+EIF1AY	interacts with	Y-Chromosome
+TTTY14	interacts with	Female Gonad Development
+TTTY15	interacts with	Female Gonad Development
+RELB	targets	CD274
+SMAD4	targets	FN1
+TFAP2C	targets	KCNK17
+POU5F1	targets	ROR1
+RELB	targets	GBP5
+SMAD4	targets	COL4A4
+TFAP2C	targets	VSIG10
+POU5F1	targets	GBP1
+RELB	targets	C1QB
+SMAD4	targets	PARVA
+TFAP2C	targets	SRGAP1
+POU5F1	targets	SERPING1
+RELB	targets	C1QA
+SMAD4	targets	ANK2
+TFAP2C	targets	GRIP1
+POU5F1	targets	FCGR1A
+RELB	targets	FCGR1A
+SMAD4	targets	FN1
+TFAP2C	targets	ETV7
+POU5F1	targets	GBP6
+RELB	targets	PDCD1LG2
+SMAD4	targets	BATF2
+TFAP2C	targets	IFI27
+POU5F1	targets	EPSTI1
+RELB	targets	GBP6
+SMAD4	targets	ATF3
+TFAP2C	targets	SOX5
+POU5F1	targets	GPR84
+RELB	targets	MYOM2
+SMAD4	targets	NRCAM
+TFAP2C	targets	LRP1B
+POU5F1	targets	NRN1
+RELB	targets	LYPD6B
+SMAD4	targets	EIF1AY
+TFAP2C	targets	C1orf226
+POU5F1	targets	NAIP
+RELB	targets	NOS1AP
+SMAD4	targets	TMEM119
+TFAP2C	targets	IL27
+POU5F1	targets	CORIN
+RELB	targets	ZFY
+SMAD4	targets	CSMD1
+TFAP2C	targets	ANOS1
+POU5F1	targets	SYBU
+RELB	targets	KIF20A
+SMAD4	targets	RPS4Y1
+TFAP2C	targets	APOL4
+POU5F1	targets	SLC26A8
+RELB	targets	DDX3Y
+SMAD4	targets	GRIN3A
+TFAP2C	targets	HPN
+POU5F1	targets	ANXA3
+RELB	targets	KDM5D
+SMAD4	targets	USP9Y
+TFAP2C	targets	FOLR3
+POU5F1	targets	C4BPA
+RELB	targets	MMP19
+SMAD4	targets	XKR3
+TFAP2C	targets	BHLHE41
+POU5F1	targets	WNT16
+RELB	targets	COCH
+SMAD4	targets	COL4A3
+TFAP2C	targets	CACNA1E
+POU5F1	targets	KREMEN1
+RELB	targets	ROR1
+SMAD4	targets	BTNL9
+TFAP2C	targets	GRIP1
+POU5F1	targets	FBXO39
+RELB	targets	FFAR3
+SMAD4	targets	COL4A4
+TFAP2C	targets	MOCS1
+POU5F1	targets	KCNK17
+RELB	targets	PLLP
+SMAD4	targets	SLITRK5
+TFAP2C	targets	PARVA
+POU5F1	targets	INSYN2B
+RELB	targets	DDO
+SMAD4	targets	MOXD1
+TFAP2C	targets	GDF7
+POU5F1	targets	VSIG10
+RELB	targets	FHAD1
+SMAD4	targets	OTX1
+TFAP2C	targets	ZDHHC11B
+POU5F1	targets	OLAH
+RELB	targets	ARL17A
+SMAD4	targets	ARL17B
+TFAP2C	targets	PLEKHG7
+POU5F1	targets	IFT56
+RELB	targets	FAM118A
+SMAD4	targets	WDR17
+TFAP2C	targets	PKIB
+POU5F1	targets	PRR16
+RELB	targets	SPDYE4
+SMAD4	targets	SPDY4
+FN1	associated with	Focal Adhesion
+FN1	associated with	ECM-Receptor Interaction
+FN1	associated with	Collagen Biosynthesis and Modifying Enzymes
+ANKRD22	associated with	Myeloid Leukocyte Activation
+CD274	associated with	T Cell Costimulation
+FCGR1A	associated with	Staphylococcus Aureus Infection
+C1QC	associated with	Efferocytosis
+C1QA	associated with	Efferocytosis
+C1QB	associated with	Efferocytosis
+SERPING1	associated with	Complement and Coagulation Cascades
+FGF13	associated with	Cardiac Conduction
+PDCD1LG2	associated with	Cancer Immunotherapy by PD-1 Blockade
+GBP5	associated with	NOD-like Receptor Signaling Pathway
+CD177	associated with	Neutrophil Activation
+IFI27	associated with	Interferon Signaling
+SEPTIN4	associated with	Cytoskeleton in Muscle Cells
+SLC1A3	associated with	Neurotransmitter Release Cycle
+SYN2	associated with	Synaptic Vesicle Pathway
+GBP1	associated with	NOD-like Receptor Signaling Pathway
+CASP5	associated with	NOD-like Receptor Signaling Pathway
+SLAMF8	associated with	Leukocyte Mediated Immunity
+BATF2	associated with	Defense Response to Protozoan
+ETV7	associated with	Cell Fate Commitment
+HP	associated with	Acute-Phase Response
+EPSTI1	associated with	Epithelial to Mesenchymal Transition in Colorectal Cancer
+GBP6	associated with	Interferon Gamma Signaling
+ATF3	associated with	Cell Fate Commitment
+SOX5	associated with	Asymmetric Cell Division
+GPR84	associated with	Myeloid Leukocyte Activation
+MYOM2	associated with	Cytoskeleton in Muscle Cells
+NRCAM	associated with	Cell Adhesion Molecule (CAM) Interaction
+LRP1B	associated with	Small Cell Lung Cancer
+NRN1	associated with	Presynaptic Modulation of Chemical Synaptic Transmission
+LYPD6B	associated with	ncRNAs in Wnt Signaling in Hepatocellular Carcinoma
+EIF1AY	associated with	Coronavirus Disease - COVID-19
+C1orf226	associated with	AGE-RAGE Signaling Pathway in Diabetic Complications
+NAIP	associated with	NOD-like Receptor Signaling Pathway
+NOS1AP	associated with	Cardiac Muscle Cell Action Potential
+TMEM119	associated with	Microglia Pathogen Phagocytosis Pathway
+IL27	associated with	T Cell Costimulation
+CORIN	associated with	Formation of Fibrin Clot (Clotting Cascade)
+ZFY	associated with	Female Gonad Development
+CSMD1	associated with	Startle Response
+ANOS1	associated with	Development of Ureteric Derived Collecting System
+SYBU	associated with	Synaptic Maturation
+KIF20A	associated with	Cell Junction Disassembly
+RPS4Y1	associated with	Coronavirus Disease - COVID-19
+APOL4	associated with	Cell Recognition
+SLC26A8	associated with	Dicarboxylic Acid Transport
+DDX3Y	associated with	Pertussis
+GRIN3A	associated with	Prion Disease
+HPN	associated with	Acute-Phase Response
+ANXA3	associated with	Neutrophil Activation Involved in Immune Response
+KDM5D	associated with	Adaptive Immune Response Based on Somatic Recombination of Immune Receptors Built from Immunoglobulin Superfamily Domains
+USP9Y	associated with	Pertussis
+FOLR3	associated with	Cell Recognition
+C4BPA	associated with	Complement and Coagulation Cascades
+MMP19	associated with	Collagen Degradation
+XKR3	associated with	Axon Guidance
+BHLHE41	associated with	Negative Regulation of Myotube Differentiation
+WNT16	associated with	lncRNA in Canonical Wnt Signaling and Colorectal Cancer
+COCH	associated with	Sensory Perception of Sound
+COL4A3	associated with	Focal Adhesion
+CACNA1E	associated with	Transmission Across Chemical Synapses
+KREMEN1	associated with	lncRNA in Canonical Wnt Signaling and Colorectal Cancer
+ROR1	associated with	lncRNA in Canonical Wnt Signaling and Colorectal Cancer
+BTNL9	associated with	Cancer Immunotherapy by PD-1 Blockade
+GRIP1	associated with	IgSF CAM Signaling
+FBXO39	associated with	Pertussis
+FFAR3	associated with	Positive Regulation of Acute Inflammatory Response
+COL4A4	associated with	Focal Adhesion
+MOCS1	associated with	Dicarboxylic Acid Transport
+KCNK17	associated with	Neuronal System
+PLLP	associated with	Myelin Assembly
+SLITRK5	associated with	Cell Adhesion Molecule (CAM) Interaction
+PARVA	associated with	Focal Adhesion
+INSYN2B	associated with	Synaptic Vesicle Pathway
+DDO	associated with	Grooming Behavior
+MOXD1	associated with	Collagen Degradation
+GDF7	associated with	Brain Morphogenesis
+VSIG10	associated with	Synapse Assembly
+FHAD1	associated with	Epithelial to Mesenchymal Transition in Colorectal Cancer
+OTX1	associated with	Brain Morphogenesis
+ZDHHC11B	associated with	Negative Regulation of Myotube Differentiation
+OLAH	associated with	AGE-RAGE Signaling Pathway in Diabetic Complications
+ARL17A	associated with	Nervous System Development
+ARL17B	associated with	Nervous System Development
+PLEKHG7	associated with	Cell Fate Commitment
+IFT56	associated with	Cytoskeleton in Muscle Cells
+FAM118A	associated with	Cell Fate Commitment
+SRGAP1	associated with	IgSF CAM Signaling
+WDR17	associated with	STAT3 Signaling Pathway
+PKIB	associated with	TFAP2C targets
+PRR16	associated with	SMAD4 targets
+SPDYE4	associated with	Chagas Disease
+SPDY4	associated with	Chagas Disease
+FN1	interacts with	Focal Adhesion
+FN1	interacts with	ECM-Receptor Interaction
+FN1	interacts with	Collagen Biosynthesis and Modifying Enzymes
+ANKRD22	interacts with	Myeloid Leukocyte Activation
+CD274	interacts with	T Cell Costimulation
+FCGR1A	interacts with	Staphylococcus Aureus Infection
+C1QC	interacts with	Efferocytosis
+C1QA	interacts with	Efferocytosis
+C1QB	interacts with	Efferocytosis
+SERPING1	interacts with	Complement and Coagulation Cascades
+FGF13	interacts with	Cardiac Conduction
+PDCD1LG2	interacts with	Cancer Immunotherapy by PD-1 Blockade
+GBP5	interacts with	NOD-like Receptor Signaling Pathway
+CD177	interacts with	Neutrophil Activation
+IFI27	interacts with	Interferon Signaling
+SEPTIN4	interacts with	Cytoskeleton in Muscle Cells
+SLC1A3	interacts with	Neurotransmitter Release Cycle
+SYN2	interacts with	Synaptic Vesicle Pathway
+GBP1	interacts with	NOD-like Receptor Signaling Pathway
+CASP5	interacts with	NOD-like Receptor Signaling Pathway
+SLAMF8	interacts with	Leukocyte Mediated Immunity
+BATF2	interacts with	Defense Response to Protozoan
+ETV7	interacts with	Cell Fate Commitment
+HP	interacts with	Acute-Phase Response
+EPSTI1	interacts with	Epithelial to Mesenchymal Transition in Colorectal Cancer
+GBP6	interacts with	Interferon Gamma Signaling
+ATF3	interacts with	Cell Fate Commitment
+SOX5	interacts with	Asymmetric Cell Division
+GPR84	interacts with	Myeloid Leukocyte Activation
+MYOM2	interacts with	Cytoskeleton in Muscle Cells
+NRCAM	interacts with	Cell Adhesion Molecule (CAM) Interaction
+LRP1B	interacts with	Small Cell Lung Cancer
+NRN1	interacts with	Presynaptic Modulation of Chemical Synaptic Transmission
+LYPD6B	interacts with	ncRNAs in Wnt Signaling in Hepatocellular Carcinoma
+EIF1AY	interacts with	Coronavirus Disease - COVID-19
+C1orf226	interacts with	AGE-RAGE Signaling Pathway in Diabetic Complications
+NAIP	interacts with	NOD-like Receptor Signaling Pathway
+NOS1AP	interacts with	Cardiac Muscle Cell Action Potential
+TMEM119	interacts with	Microglia Pathogen Phagocytosis Pathway
+IL27	interacts with	T Cell Costimulation
+CORIN	interacts with	Formation of Fibrin Clot (Clotting Cascade)
+ZFY	interacts with	Female Gonad Development
+CSMD1	interacts with	Startle Response
+ANOS1	interacts with	Development of Ureteric Derived Collecting System
+SYBU	interacts with	Synaptic Maturation
+KIF20A	interacts with	Cell Junction Disassembly
+RPS4Y1	interacts with	Coronavirus Disease - COVID-19
+APOL4	interacts with	Cell Recognition
+SLC26A8	interacts with	Dicarboxylic Acid Transport
+DDX3Y	interacts with	Pertussis
+GRIN3A	interacts with	Prion Disease
+HPN	interacts with	Acute-Phase Response
+ANXA3	interacts with	Neutrophil Activation Involved in Immune Response
+KDM5D	interacts with	Adaptive Immune Response Based on Somatic Recombination of Immune Receptors Built from Immunoglobulin Superfamily Domains
+USP9Y	interacts with	Pertussis
+FOLR3	interacts with	Cell Recognition
+C4BPA	interacts with	Complement and Coagulation Cascades
+MMP19	interacts with	Collagen Degradation
+XKR3	interacts with	Axon Guidance
+BHLHE41	interacts with	Negative Regulation of Myotube Differentiation
+WNT16	interacts with	lncRNA in Canonical Wnt Signaling and Colorectal Cancer
+COCH	interacts with	Sensory Perception of Sound
+COL4A3	interacts with	Focal Adhesion
+CACNA1E	interacts with	Transmission Across Chemical Synapses
+KREMEN1	interacts with	lncRNA in Canonical Wnt Signaling and Colorectal Cancer
+ROR1	interacts with	lncRNA in Canonical Wnt Signaling and Colorectal Cancer
+BTNL9	interacts with	Cancer Immunotherapy by PD-1 Blockade
+GRIP1	interacts with	IgSF CAM Signaling
+FBXO39	interacts with	Pertussis
+FFAR3	interacts with	Positive Regulation of Acute Inflammatory Response
+COL4A4	interacts with	Focal Adhesion
+MOCS1	interacts with	Dicarboxylic Acid Transport
+KCNK17	interacts with	Neuronal System
+PLLP	interacts with	Myelin Assembly
+SLITRK5	interacts with	Cell Adhesion Molecule (CAM) Interaction
+PARVA	interacts with	Focal Adhesion
+INSYN2B	interacts with	Synaptic Vesicle Pathway
+DDO	interacts with	Grooming Behavior
+MOXD1	interacts with	Collagen Degradation
+GDF7	interacts with	Brain Morphogenesis
+VSIG10	interacts with	Synapse Assembly
+FHAD1	interacts with	Epithelial to Mesenchymal Transition in Colorectal Cancer
+OTX1	interacts with	Brain Morphogenesis
+ZDHHC11B	interacts with	Negative Regulation of Myotube Differentiation
+OLAH	interacts with	AGE-RAGE Signaling Pathway in Diabetic Complications
+ARL17A	interacts with	Nervous System Development
+ARL17B	interacts with	Nervous System Development
+PLEKHG7	interacts with	Cell Fate Commitment
+IFT56	interacts with	Cytoskeleton in Muscle Cells
+FAM118A	interacts with	Cell Fate Commitment
+SRGAP1	interacts with	IgSF CAM Signaling
+WDR17	interacts with	STAT3 Signaling Pathway
+PKIB	associated with	TFAP2C targets
+PRR16	associated with	SMAD4 targets
+SPDYE4	associated with	Chagas Disease
+SPDY4	associated with	Chagas Disease
+```

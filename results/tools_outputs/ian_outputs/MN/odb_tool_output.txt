@@ -1,0 +1,828 @@
+Agent 1:
+**1. Summary and Categorization:**
+The enriched WikiPathways in this transcriptomic analysis of membranous nephropathy patients compared to healthy controls highlight significant alterations in metabolic processes, immune system function, and cellular signaling. Notably, pathways related to vitamin metabolism, amino acid metabolism, and the complement system are prominent, suggesting a complex interplay of these biological functions in the disease context. The top four categories of enriched pathways are:
+
+*   **Metabolism:** 16 enriched pathways (e.g., Vitamin B12 metabolism, Folate metabolism, Amino acid metabolism, Glycolysis and gluconeogenesis)
+*   **Immune System:** 10 enriched pathways (e.g., Complement system, Microglia pathogen phagocytosis pathway, TYROBP causal network in microglia)
+*   **Cell Signaling and Regulation:** 10 enriched pathways (e.g., TGF beta receptor signaling, Vitamin D receptor pathway, PPAR signaling)
+*   **Drug Metabolism and Biotransformation:** 7 enriched pathways (e.g., Fluoropyrimidine activity, Codeine and morphine metabolism, Oxidation by cytochrome P450)
+
+**2. Known Roles and Upstream Regulators:**
+The identified pathways suggest significant metabolic dysregulation, particularly in amino acid and vitamin metabolism, which could impact cellular energy production and cofactor availability in membranous nephropathy. The enrichment of immune-related pathways, such as complement activation and microglia-related pathways, points to a strong inflammatory component. Additionally, pathways involved in cell signaling, like TGF-beta and Vitamin D receptor signaling, indicate alterations in cellular communication and differentiation processes. Potential upstream regulators driving these changes could include transcription factors like **HNF1A**, which is associated with numerous metabolic and transport genes, and **FOXM1**, known for its role in cell proliferation and DNA damage response. **RELA** (NF-κB) is also a strong candidate due to its central role in inflammation and immune responses, as indicated by its association with multiple immune-related pathways.
+
+**3. Interaction Networks and Similar Systems:**
+The STRING data reveals strong interactions among genes involved in key pathways. For instance, **HBA1**, **HBA2**, and **HBB** form a tightly connected module related to hemoglobin function and oxygen transport, appearing in pathways like "Hemoglobin switching" and "Effects of nitric oxide." Similarly, **SLC6A19** and **ACE2** interact, linking to "Proximal tubule transport" and "SARS CoV 2 and COVID 19 pathway," suggesting a role in transport and viral interaction. The complement system genes (**C3AR1**, **FCN1**, **PLG**, **ALB**) show interconnectedness across multiple pathways, highlighting their central role in immune responses. Studies on kidney diseases, particularly those with inflammatory and metabolic components like diabetic nephropathy or lupus nephritis, often report similar pathway enrichments, including complement activation, altered amino acid metabolism, and TGF-beta signaling.
+
+**4. Hub Gene Identification:**
+*   **ALB:** Enriched in multiple pathways (Vitamin B12 metabolism, Folate metabolism, Blood clotting cascade, Complement system) and has a high combined network score (5.288744).
+*   **TP53:** Enriched in multiple pathways (miRNAs involved in DNA damage response, Fluoropyrimidine activity, Metastatic brain tumor, Bladder cancer, Hepatitis C and hepatocellular carcinoma) and is associated with ChEA term TP53.
+*   **TGFB1:** Enriched in multiple pathways (Adipogenesis, Mammary gland development, Pluripotent stem cell differentiation, Aryl hydrocarbon receptor pathway, Constitutive androstane receptor pathway, Vitamin D receptor pathway, PPAR signaling, Nuclear receptors meta pathway, NRF2 pathway, Ulcerative colitis signaling, TGF beta receptor signaling, TGF beta receptor signaling in skeletal dysplasias) and has a high combined network score (1.516699).
+*   **CYP3A5:** Enriched in multiple pathways (Codeine and morphine metabolism, Irinotecan pathway, Constitutive androstane receptor pathway, Pregnane X receptor pathway, Nuclear receptors meta pathway, Vitamin D receptor pathway) and is associated with ChEA term RELA.
+*   **HBA1:** Enriched in multiple pathways (Vitamin B12 metabolism, Folate metabolism, Effects of nitric oxide, Hemoglobin switching embryonic fetal and adult, Erythropoiesis) and has a high combined network score (999.000000).
+
+**5. Drug Target/Marker/Kinase/Ligand Analysis:**
+*   **ALB (Albumin):** A potential biomarker for kidney function and a ligand.
+*   **TP53:** A tumor suppressor gene, often a target in cancer therapy; its mutations are clinically significant.
+*   **TGFB1 (Transforming growth factor beta 1):** A signaling molecule and ligand, targeted by drugs in fibrotic and autoimmune diseases.
+*   **CYP3A5 (Cytochrome P450 3A5):** A drug-metabolizing enzyme, important for pharmacokinetics; its activity can be modulated by drugs.
+*   **HBA1 (Hemoglobin subunit alpha 1):** Not a direct drug target, but involved in oxygen transport.
+
+**6. Novelty Exploration:**
+The strong enrichment of pathways related to "Hepatitis C and hepatocellular carcinoma" and "SARS CoV 2 and COVID 19 pathway" in the context of membranous nephropathy is noteworthy. While viral infections can be associated with kidney damage, the specific pathways highlighted here, particularly the direct link to viral replication and host response mechanisms, might represent a novel aspect of the disease's pathogenesis or a shared underlying mechanism. The co-enrichment of "Microglia pathogen phagocytosis pathway" and "TYROBP causal network in microglia" with complement and coagulation cascades could suggest a novel role for neuro-immune interactions or glial cell involvement in kidney pathology, which is less commonly explored.
+
+**7. Hypothesis Generation:**
+In membranous nephropathy, dysregulated amino acid and vitamin metabolism, coupled with aberrant complement system activation and TGF-beta signaling, contributes to kidney damage. This metabolic and immune dysregulation may be exacerbated by or share mechanisms with pathways involved in viral infections, potentially indicating a role for host-pathogen interaction pathways in disease progression. Upstream regulators like HNF1A, FOXM1, and RELA likely orchestrate these complex molecular events, influencing cellular function, inflammation, and transport processes within the kidney.
+
+**8. System Representation Network:**
+```tsv
+Node1	Edge	Node2	Explanation
+ALB	associated with	Vitamin B12 Metabolism	Grounded in provided data (WikiPathways)
+ALB	associated with	Folate Metabolism	Grounded in provided data (WikiPathways)
+ALB	associated with	Blood Clotting Cascade	Grounded in provided data (WikiPathways)
+ALB	associated with	Complement System	Grounded in provided data (WikiPathways)
+TP53	associated with	MiRNAs Involved In DNA Damage Response	Grounded in provided data (WikiPathways)
+TP53	associated with	Fluoropyrimidine Activity	Grounded in provided data (WikiPathways)
+TP53	associated with	Bladder Cancer	Grounded in provided data (WikiPathways)
+TP53	associated with	Hepatitis C And Hepatocellular Carcinoma	Grounded in provided data (WikiPathways)
+TP53	associated with	TP53	Grounded in provided data (ChEA)
+TGFB1	associated with	Adipogenesis	Grounded in provided data (WikiPathways)
+TGFB1	associated with	Mammary Gland Development Embryonic Development Stage 1 Of 4	Grounded in provided data (WikiPathways)
+TGFB1	associated with	Pluripotent Stem Cell Differentiation Pathway	Grounded in provided data (WikiPathways)
+TGFB1	associated with	Aryl Hydrocarbon Receptor Pathway	Grounded in provided data (WikiPathways)
+TGFB1	associated with	Constitutive Androstane Receptor Pathway	Grounded in provided data (WikiPathways)
+TGFB1	associated with	TGF Beta Receptor Signaling	Grounded in provided data (WikiPathways)
+TGFB1	associated with	TGF Beta Receptor Signaling In Skeletal Dysplasias	Grounded in provided data (WikiPathways)
+TGFB1	associated with	HNF1A	Grounded in provided data (ChEA)
+TGFB1	associated with	RELA	Grounded in provided data (ChEA)
+CYP3A5	associated with	Codeine And Morphine Metabolism	Grounded in provided data (WikiPathways)
+CYP3A5	associated with	Irinotecan Pathway	Grounded in provided data (WikiPathways)
+CYP3A5	associated with	Constitutive Androstane Receptor Pathway	Grounded in provided data (WikiPathways)
+CYP3A5	associated with	Pregnane X Receptor Pathway	Grounded in provided data (WikiPathways)
+CYP3A5	associated with	Vitamin D Receptor Pathway	Grounded in provided data (WikiPathways)
+CYP3A5	associated with	RELA	Grounded in provided data (ChEA)
+HBA1	associated with	Vitamin B12 Metabolism	Grounded in provided data (WikiPathways)
+HBA1	associated with	Folate Metabolism	Grounded in provided data (WikiPathways)
+HBA1	associated with	Effects Of Nitric Oxide	Grounded in provided data (WikiPathways)
+HBA1	associated with	Hemoglobin Switching Embryonic Fetal And Adult	Grounded in provided data (WikiPathways)
+HBA1	associated with	Erythropoiesis	Grounded in provided data (WikiPathways)
+HBA1	associated with	HBA2	Grounded in provided data (STRING)
+HBA1	associated with	HBB	Grounded in provided data (STRING)
+ALB	associated with	HBA1	Grounded in provided data (STRING)
+ALB	associated with	HBA2	Grounded in provided data (STRING)
+ALB	associated with	HBB	Grounded in provided data (STRING)
+ALB	associated with	CUBN	Grounded in provided data (STRING)
+ALB	associated with	LRP2	Grounded in provided data (STRING)
+ALB	associated with	PLG	Grounded in provided data (STRING)
+ALB	associated with	BMP2	Grounded in provided data (STRING)
+ALB	associated with	KNG1	Grounded in provided data (STRING)
+ALB	associated with	APOM	Grounded in provided data (STRING)
+ALB	associated with	APOH	Grounded in provided data (STRING)
+ALB	associated with	AZGP1	Grounded in provided data (STRING)
+ALB	associated with	RBP4	Grounded in provided data (STRING)
+ALB	associated with	FCN1	Grounded in provided data (STRING)
+ALB	associated with	ACE2	Grounded in provided data (STRING)
+ALB	associated with	GATA3	Grounded in provided data (STRING)
+ALB	associated with	PCK1	Grounded in provided data (STRING)
+ALB	associated with	SLC2A2	Grounded in provided data (STRING)
+ALB	associated with	PAH	Grounded in provided data (STRING)
+ALB	associated with	UGT1A6	Grounded in provided data (STRING)
+ALB	associated with	UGT1A7	Grounded in provided data (STRING)
+ALB	associated with	UGT1A9	Grounded in provided data (STRING)
+ALB	associated with	NCAM1	Grounded in provided data (STRING)
+``` 
+
+Agent 2:
+**1. Summary and Categorization:**
+The enriched KEGG pathways highlight significant alterations in metabolic processes, particularly carbohydrate and amino acid metabolism, alongside immune system regulation and cell signaling. These pathways are strongly implicated in the context of membranous nephropathy, suggesting a complex interplay between metabolic dysregulation and inflammatory responses. The pathways can be broadly categorized as:
+- Metabolism Pathways: 13 enriched pathways
+- Immune System Pathways: 5 enriched pathways
+- Cell Signaling Pathways: 4 enriched pathways
+- Drug Metabolism Pathways: 4 enriched pathways
+
+**2. Known Roles and Upstream Regulators:**
+The enriched metabolic pathways, such as "Glycolysis / Gluconeogenesis" and "Galactose metabolism," are crucial for cellular energy production and are often dysregulated in kidney diseases. Pathways like "Complement and coagulation cascades" and "C-type lectin receptor signaling pathway" point towards inflammatory processes and immune cell activation, which are central to membranous nephropathy. Potential upstream regulators driving these changes could include transcription factors like **HNF1A**, which is known to regulate genes involved in glucose metabolism and kidney function, and **RELA** (NF-kB), a key player in inflammatory signaling. **FOXM1** is also a candidate, given its role in cell proliferation and its association with several enriched pathways.
+
+**3. Interaction Networks and Similar Systems:**
+Genes involved in the enriched pathways exhibit significant interactions. For instance, **HK2**, **ALDOB**, and **G6PC1** are all involved in "Glycolysis / Gluconeogenesis" and "Galactose metabolism," suggesting coordinated regulation of carbohydrate metabolism. **UGT1A** family genes are implicated in "Steroid hormone biosynthesis" and "Metabolism of xenobiotics by cytochrome P450," indicating a role in detoxification and steroid processing. STRING data reveals strong interactions between **HBA2**, **HBA1**, and **HBB**, highlighting their collective role in hemoglobin function, and also between **SLC7A9** and **SLC3A1** in amino acid transport. Similar systems reported in the literature include studies on diabetic nephropathy and other kidney diseases where metabolic dysregulation and inflammation are key features.
+
+**4. Hub Gene Identification:**
+- **HK2:** Enriched in multiple metabolic pathways (Glycolysis/Gluconeogenesis, Galactose metabolism, Starch and sucrose metabolism, Carbon metabolism, Carbohydrate digestion and absorption) and has a high STRING network score.
+- **UGT1A7:** Enriched in multiple metabolic and drug metabolism pathways (Pentose and glucuronate interconversions, Ascorbate and aldarate metabolism, Steroid hormone biosynthesis, Metabolism of xenobiotics by cytochrome P450, Drug metabolism - cytochrome P450, Drug metabolism - other enzymes, Bile secretion) and is a target of HNF1A.
+- **ALDOB:** Enriched in metabolic pathways (Glycolysis/Gluconeogenesis, Carbon metabolism, Carbohydrate digestion and absorption) and shows strong interactions with other metabolic genes.
+- **G6PC1:** Enriched in metabolic pathways (Glycolysis/Gluconeogenesis, Galactose metabolism, Starch and sucrose metabolism, Carbohydrate digestion and absorption) and interacts with other key metabolic enzymes.
+- **HBA2:** Enriched in pathways related to African trypanosomiasis and Malaria, and shows strong protein-protein interactions with HBA1 and HBB.
+- **HBA1:** Enriched in pathways related to African trypanosomiasis and Malaria, and shows strong protein-protein interactions with HBA2 and HBB.
+- **HBB:** Enriched in pathways related to African trypanosomiasis and Malaria, and shows strong protein-protein interactions with HBA2 and HBA1.
+- **SLC2A2:** Enriched in pathways related to Maturity onset diabetes of the young and Carbohydrate digestion and absorption, and is a target of HNF1A.
+- **BHMT:** Enriched in multiple amino acid and one-carbon metabolism pathways (Glycine, serine and threonine metabolism, One carbon pool by folate) and shows strong protein-protein interactions with other metabolic genes.
+- **SHMT1:** Enriched in multiple amino acid and one-carbon metabolism pathways (Glycine, serine and threonine metabolism, Glyoxylate and dicarboxylate metabolism, One carbon pool by folate) and shows strong protein-protein interactions with other metabolic genes.
+- **GLDC:** Enriched in multiple amino acid and one-carbon metabolism pathways (Glycine, serine and threonine metabolism, Glyoxylate and dicarboxylate metabolism, One carbon pool by folate) and shows strong protein-protein interactions with other metabolic genes.
+- **AGXT2:** Enriched in multiple metabolic pathways (Glycine, serine and threonine metabolism, Glyoxylate and dicarboxylate metabolism, Carbon metabolism) and is associated with amino acid catabolic processes.
+- **CYP3A5:** Enriched in multiple drug metabolism pathways (Metabolism of xenobiotics by cytochrome P450, Drug metabolism - cytochrome P450, Steroid hormone biosynthesis, Retinol metabolism) and is regulated by HNF1A.
+- **CYP2B6:** Enriched in multiple drug metabolism pathways (Metabolism of xenobiotics by cytochrome P450, Drug metabolism - cytochrome P450, Retinol metabolism) and is involved in xenobiotic metabolism.
+- **HNF1A:** Identified as a transcription factor regulating multiple enriched pathways and genes.
+
+**5. Drug Target/Marker/Kinase/Ligand Analysis:**
+- **HK2 (Hexokinase 2):** A potential drug target for cancer therapy; its role in glycolysis makes it relevant for metabolic interventions.
+- **UGT1A7, UGT1A9, UGT1A6 (UDP-glucuronosyltransferases):** Involved in drug and steroid metabolism, they can be targets for modulating drug efficacy or hormone levels.
+- **ALDOB (Aldolase B):** Involved in fructose metabolism, not a primary drug target but relevant for metabolic disorders.
+- **G6PC1 (Glucose-6-phosphatase catalytic subunit 1):** A key enzyme in gluconeogenesis, a potential target for diabetes management.
+- **HBA2, HBA1, HBB (Hemoglobin subunits):** Not direct drug targets, but their altered expression can be markers for certain conditions.
+- **SLC2A2 (Solute carrier family 2 member 2):** A glucose transporter, a potential target for diabetes and kidney disease management.
+- **BHMT (Betaine-homocysteine S-methyltransferase):** Involved in methionine metabolism, not a primary drug target.
+- **SHMT1 (Serine hydroxymethyltransferase 1):** Involved in folate metabolism, not a primary drug target.
+- **GLDC (Glycine dehydrogenase):** Involved in glycine metabolism, not a primary drug target.
+- **AGXT2 (Alanine-glyoxylate aminotransferase 2):** Involved in amino acid metabolism, not a primary drug target.
+- **CYP3A5 (Cytochrome P450 family 3 subfamily A member 5):** A major drug-metabolizing enzyme, a target for drug-drug interactions and personalized medicine.
+- **CYP2B6 (Cytochrome P450 family 2 subfamily B member 6):** Another important drug-metabolizing enzyme, a target for drug interactions.
+- **HNF1A (Hepatocyte nuclear factor 1 alpha):** A transcription factor, not a direct drug target but its dysregulation is linked to diseases.
+
+**6. Novelty Exploration:**
+The strong enrichment of pathways related to "African trypanosomiasis" and "Malaria" in the context of membranous nephropathy is potentially novel. While immune dysregulation is expected in kidney diseases, the specific link to these parasitic infections might suggest an indirect role of pathogen-associated molecular patterns or altered immune responses that mimic aspects of these infections. The co-enrichment of "Steroid hormone biosynthesis" with drug metabolism pathways involving CYP enzymes could indicate novel mechanisms of steroid regulation or metabolism in the disease context.
+
+**7. Hypothesis Generation:**
+In membranous nephropathy, dysregulation of carbohydrate and amino acid metabolism, driven by upstream regulators like HNF1A and potentially RELA, contributes to cellular stress and altered energy production. This metabolic dysfunction, coupled with activated immune pathways (C-type lectin receptor signaling, Complement and coagulation cascades), leads to inflammation and tissue damage. The involvement of drug-metabolizing enzymes (CYPs) and steroid biosynthesis pathways suggests that altered hormonal signaling or detoxification processes may also play a role in disease progression. The novel connections to parasitic infection pathways might indicate that immune responses triggered by microbial factors or altered host-pathogen interactions contribute to the inflammatory milieu.
+
+**8. System Representation Network:**
+```tsv
+Node1	Edge	Node2	Explanation
+HK2	associated with	Glycolysis / Gluconeogenesis	Grounded in provided data (KEGG, GO, STRING)
+UGT1A7	associated with	Steroid hormone biosynthesis	Grounded in provided data (KEGG, GO, STRING)
+ALDOB	associated with	Carbon metabolism	Grounded in provided data (KEGG, GO, STRING)
+G6PC1	associated with	Galactose metabolism	Grounded in provided data (KEGG, GO, STRING)
+HBA2	associated with	African trypanosomiasis	Grounded in provided data (KEGG, GO, STRING)
+HBA1	associated with	Malaria	Grounded in provided data (KEGG, GO, STRING)
+HBB	associated with	African trypanosomiasis	Grounded in provided data (KEGG, GO, STRING)
+SLC2A2	associated with	Maturity onset diabetes of the young	Grounded in provided data (KEGG, GO, STRING)
+BHMT	associated with	One carbon pool by folate	Grounded in provided data (KEGG, GO, STRING)
+SHMT1	associated with	Glycine, serine and threonine metabolism	Grounded in provided data (KEGG, GO, STRING)
+GLDC	associated with	Glyoxylate and dicarboxylate metabolism	Grounded in provided data (KEGG, GO, STRING)
+AGXT2	associated with	Amino acid catabolic process	Grounded in provided data (KEGG, GO, STRING)
+CYP3A5	associated with	Metabolism of xenobiotics by cytochrome P450	Grounded in provided data (KEGG, GO, STRING)
+CYP2B6	associated with	Drug metabolism - cytochrome P450	Grounded in provided data (KEGG, GO, STRING)
+HNF1A	associated with	Maturity onset diabetes of the young	Grounded in provided data (ChEA)
+HK2	associated with	Carbohydrate digestion and absorption	Grounded in provided data (KEGG, GO, STRING)
+UGT1A6	associated with	Bile secretion	Grounded in provided data (KEGG, GO, STRING)
+ALDOB	associated with	Carboxylic acid biosynthetic process	Grounded in provided data (GO, STRING)
+G6PC1	associated with	Starch and sucrose metabolism	Grounded in provided data (KEGG, GO, STRING)
+HBA2	associated with	Gas transport	Grounded in provided data (GO, STRING)
+HBA1	associated with	Gas transport	Grounded in provided data (GO, STRING)
+HBB	associated with	Gas transport	Grounded in provided data (GO, STRING)
+SLC2A2	associated with	Carbohydrate digestion and absorption	Grounded in provided data (KEGG, GO, STRING)
+BHMT	associated with	Amino acid metabolic process	Grounded in provided data (KEGG, GO, STRING)
+SHMT1	associated with	Amino acid metabolic process	Grounded in provided data (KEGG, GO, STRING)
+GLDC	associated with	Amino acid metabolic process	Grounded in provided data (KEGG, GO, STRING)
+AGXT2	associated with	Amino acid metabolic process	Grounded in provided data (KEGG, GO, STRING)
+CYP3A5	associated with	Retinol metabolism	Grounded in provided data (KEGG, STRING)
+CYP2B6	associated with	Retinol metabolism	Grounded in provided data (KEGG, STRING)
+HNF1A	associated with	Maturity onset diabetes of the young	Grounded in provided data (ChEA)
+HK2	associated with	Amino acid metabolic process	Grounded in provided data (GO, STRING)
+UGT1A7	associated with	Pentose and glucuronate interconversions	Grounded in provided data (KEGG, STRING)
+ALDOB	associated with	Glycolysis / Gluconeogenesis	Grounded in provided data (KEGG, STRING)
+G6PC1	associated with	Glycolysis / Gluconeogenesis	Grounded in provided data (KEGG, STRING)
+HBA2	associated with	Malaria	Grounded in provided data (KEGG, STRING)
+HBA1	associated with	Malaria	Grounded in provided data (KEGG, STRING)
+HBB	associated with	Malaria	Grounded in provided data (KEGG, STRING)
+SLC2A2	associated with	Maturity onset diabetes of the young	Grounded in provided data (KEGG, STRING)
+BHMT	associated with	Glycine, serine and threonine metabolism	Grounded in provided data (KEGG, STRING)
+SHMT1	associated with	Glycine, serine and threonine metabolism	Grounded in provided data (KEGG, STRING)
+GLDC	associated with	Glycine, serine and threonine metabolism	Grounded in provided data (KEGG, STRING)
+AGXT2	associated with	Glycine, serine and threonine metabolism	Grounded in provided data (KEGG, STRING)
+CYP3A5	associated with	Drug metabolism - cytochrome P450	Grounded in provided data (KEGG, STRING)
+CYP2B6	associated with	Drug metabolism - cytochrome P450	Grounded in provided data (KEGG, STRING)
+HNF1A	associated with	Maturity onset diabetes of the young	Grounded in provided data (ChEA)
+HK2	associated with	Amino acid catabolic process	Grounded in provided data (GO, STRING)
+UGT1A7	associated with	Ascorbate and aldarate metabolism	Grounded in provided data (KEGG, STRING)
+ALDOB	associated with	Carbon metabolism	Grounded in provided data (KEGG, STRING)
+G6PC1	associated with	Galactose metabolism	Grounded in provided data (KEGG, STRING)
+HBA2	associated with	Carbon dioxide transport	Grounded in provided data (GO, STRING)
+HBA1	associated with	Carbon dioxide transport	Grounded in provided data (GO, STRING)
+HBB	associated with	Carbon dioxide transport	Grounded in provided data (GO, STRING)
+SLC2A2	associated with	Carbohydrate digestion and absorption	Grounded in provided data (KEGG, STRING)
+BHMT	associated with	Amino acid catabolic process	Grounded in provided data (GO, STRING)
+SHMT1	associated with	Amino acid catabolic process	Grounded in provided data (GO, STRING)
+GLDC	associated with	Amino acid catabolic process	Grounded in provided data (GO, STRING)
+AGXT2	associated with	Amino acid catabolic process	Grounded in provided data (GO, STRING)
+CYP3A5	associated with	Drug metabolism - other enzymes	Grounded in provided data (KEGG, STRING)
+CYP2B6	associated with	Drug metabolism - other enzymes	Grounded in provided data (KEGG, STRING)
+HNF1A	associated with	Maturity onset diabetes of the young	Grounded in provided data (ChEA)
+``` 
+
+Agent 3:
+Here's an analysis of your transcriptomics data, integrating the Reactome, ChEA, and STRING information:
+
+**1. Summary and Categorization:**
+
+The enriched Reactome pathways highlight significant alterations in immune cell function, particularly platelet degranulation and neutrophil degranulation, alongside metabolic processes like vitamin and amino acid metabolism. The experimental design, comparing membranous nephropathy patients to healthy controls, suggests these pathways are dysregulated in the disease state. The enriched pathways can be broadly categorized as: Immune Response and Signaling (10 pathways), Metabolism (10 pathways), Cell Adhesion and Extracellular Matrix (6 pathways), and Cell Cycle and Signaling (4 pathways).
+
+**2. Known Roles and Upstream Regulators:**
+
+The enriched pathways point towards a complex interplay of immune activation, inflammation, and metabolic dysregulation in membranous nephropathy. Pathways like "Platelet degranulation" and "Neutrophil degranulation" suggest increased inflammatory cell activity, which is consistent with the inflammatory nature of kidney diseases. Metabolic pathways related to amino acid and vitamin metabolism may indicate altered nutrient processing or cellular stress responses. Transcription factors like HNF1A, BACH1, and IRF1 are implicated by ChEA analysis, suggesting they could be key regulators of these observed gene expression changes. HNF1A, for instance, is known to regulate genes involved in metabolism and inflammation.
+
+**3. Interaction Networks and Similar Systems:**
+
+Genes within the enriched pathways exhibit strong interconnectedness. For example, "Platelet degranulation" genes like ECM1, TGFB1, and APOH interact with each other and with genes in other pathways, such as "Cell surface interactions at the vascular wall" (e.g., TGFB1, ITGA5, COL1A2). STRING data reveals high combined scores for interactions between hemoglobin subunits (HBA1, HBA2, HBB), suggesting their coordinated regulation. Similarly, transporter proteins (SLC family) show extensive interactions, indicating coordinated transport functions. Studies on other kidney diseases, such as diabetic nephropathy or IgA nephropathy, often report dysregulation of immune response and metabolic pathways, making them relevant comparative systems.
+
+**4. Hub Gene Identification:**
+
+*   **ALB:** Enriched in multiple Reactome pathways (e.g., "Metabolism of vitamins and cofactors," "Diseases of metabolism") and has the highest combined network score in STRING.
+*   **TP53:** Enriched in multiple Reactome pathways (e.g., "Cell surface interactions at the vascular wall," "Diseases of hemostasis") and has a high combined network score. It is also found in ChEA results for TP53.
+*   **TGFB1:** Enriched in numerous Reactome pathways (e.g., "Platelet degranulation," "Elastic fibre formation," "Syndecan interactions") and has a high combined network score. It is also associated with GATA3 in GO analysis.
+*   **SLC2A2:** Enriched in multiple Reactome pathways related to transport and metabolism, and has a high combined network score. It is also found in ChEA results for BACH1 and IRF1.
+*   **CYBB:** Enriched in Reactome pathways related to ROS production and neutrophil degranulation, and has a high combined network score. It is also found in ChEA results for CDX2.
+
+**5. Drug Target/Marker/Kinase/Ligand Analysis:**
+
+*   **ALB (Albumin):** A well-established biomarker for kidney function and a potential therapeutic target for managing fluid balance.
+*   **TP53:** A tumor suppressor gene, it is a target for various cancer therapies, and its role in cellular stress responses is being explored for other diseases.
+*   **TGFB1 (Transforming Growth Factor Beta 1):** A key regulator of cell growth and differentiation, it is a target for therapies aimed at fibrotic diseases.
+*   **SLC2A2 (Solute Carrier Family 2 Member 2):** Involved in glucose transport, it is a potential target for metabolic disorders.
+*   **CYBB (Cytochrome B-245 Beta Subunit):** A component of the NADPH oxidase complex, it is involved in ROS production and could be a target for inflammatory conditions.
+
+**6. Novelty Exploration:**
+
+The strong enrichment of pathways related to "Infection with Enterobacteria," "Purinergic signaling in leishmaniasis infection," and "Cell recruitment (pro-inflammatory response)" in the context of membranous nephropathy is potentially novel. While inflammation is central to kidney disease, the specific link to these particular infectious and signaling pathways might reveal new mechanistic insights. The co-enrichment of "Heme signaling" with hemoglobin-related pathways is also noteworthy, suggesting a potential role for heme metabolism or signaling in the disease.
+
+**7. Hypothesis Generation:**
+
+In membranous nephropathy, dysregulated immune cell activation (platelets, neutrophils) and altered metabolic processes (amino acid, vitamin metabolism) contribute to kidney damage. Upstream regulators like HNF1A and BACH1 likely drive these changes. The identified hub genes (ALB, TP53, TGFB1, SLC2A2, CYBB) are central to these processes, with TGFB1 and CYBB playing roles in inflammation and tissue remodeling, while ALB and SLC2A2 highlight metabolic and transport alterations. The novel connections to specific infectious pathways suggest that microbial triggers or altered host-microbe interactions might exacerbate the inflammatory cascade in the kidneys.
+
+**8. System Representation Network:**
+
+```tsv
+Node1	Edge	Node2	Explanation
+ALB	associated with	Metabolism Of Vitamins And Cofactors	Grounded in provided data (Reactome, STRING)
+ALB	associated with	Diseases Of Metabolism	Grounded in provided data (Reactome, STRING)
+ALB	associated with	Amino Acid Metabolic Process	Grounded in provided data (GO, STRING)
+ALB	associated with	Detoxification	Grounded in provided data (GO, STRING)
+TP53	associated with	Cell Surface Interactions At The Vascular Wall	Grounded in provided data (Reactome, STRING)
+TP53	associated with	Diseases Of Hemostasis	Grounded in provided data (Reactome, STRING)
+TP53	associated with	Negative Regulation Of T Cell Activation	Grounded in provided data (GO, STRING)
+TP53	associated with	Cellular Response To Xenobiotic Stimulus	Grounded in provided data (GO, STRING)
+TGFB1	associated with	Platelet Degranulation	Grounded in provided data (Reactome, STRING)
+TGFB1	associated with	Elastic Fibre Formation	Grounded in provided data (Reactome, STRING)
+TGFB1	associated with	Syndecan Interactions	Grounded in provided data (Reactome, STRING)
+TGFB1	associated with	Positive Regulation Of Angiogenesis	Grounded in provided data (GO, STRING)
+TGFB1	associated with	Regulation Of Immune Effector Process	Grounded in provided data (GO, STRING)
+TGFB1	associated with	Regulation Of Vasculature Development	Grounded in provided data (GO, STRING)
+SLC2A2	associated with	Amino Acid Transport Across The Plasma Membrane	Grounded in provided data (Reactome, STRING)
+SLC2A2	associated with	Slc-Mediated Transmembrane Transport	Grounded in provided data (Reactome, STRING)
+SLC2A2	associated with	Slc Transporter Disorders	Grounded in provided data (Reactome, STRING)
+SLC2A2	associated with	Amino Acid Metabolic Process	Grounded in provided data (GO, STRING)
+CYBB	associated with	Ros And Rns Production In Phagocytes	Grounded in provided data (Reactome, STRING)
+CYBB	associated with	Neutrophil Degranulation	Grounded in provided data (Reactome, STRING)
+CYBB	associated with	Reactive Oxygen Species Metabolic Process	Grounded in provided data (GO, STRING)
+CYBB	associated with	Regulation Of Tumor Necrosis Factor Production	Grounded in provided data (GO, STRING)
+HNF1A	associated with	Nuclear Receptor Transcription Pathway	Grounded in provided data (Reactome, ChEA)
+BACH1	associated with	Slc-Mediated Transmembrane Transport	Grounded in provided data (Reactome, ChEA)
+IRF1	associated with	Cellular Response To Interferon-Alpha	Grounded in provided data (GO, ChEA)
+GATA3	associated with	Interleukin-4 And Interleukin-13 Signaling	Grounded in provided data (Reactome, GO)
+SLC2A2	associated with	Slc-Mediated Transport Of Organic Anions	Grounded in provided data (Reactome, ChEA)
+CYBB	associated with	Infection With Enterobacteria	Grounded in provided data (Reactome, ChEA)
+ALB	associated with	Vitamin D (Calciferol) Metabolism	Grounded in provided data (Reactome, STRING)
+TP53	associated with	Cell Cycle Control	Grounded in provided data (Reactome, STRING)
+TGFB1	associated with	Fibronectin Matrix Formation	Grounded in provided data (Reactome, STRING)
+SLC2A2	associated with	Amino Acid Metabolic Process	Grounded in provided data (GO, STRING)
+CYBB	associated with	Ros And Rns Production In Phagocytes	Grounded in provided data (Reactome, STRING)
+ALB	associated with	Amino Acid Catabolic Process	Grounded in provided data (GO, STRING)
+TP53	associated with	Negative Regulation Of Cell Adhesion	Grounded in provided data (GO, STRING)
+TGFB1	associated with	Positive Regulation Of Extracellular Matrix Organization	Grounded in provided data (GO, STRING)
+SLC2A2	associated with	Slc-Mediated Transport Of Inorganic Anions	Grounded in provided data (Reactome, STRING)
+CYBB	associated with	Myeloid Leukocyte Cytokine Production Involved In Immune Response	Grounded in provided data (GO, STRING)
+ALB	associated with	Carboxylic Acid Biosynthetic Process	Grounded in provided data (GO, STRING)
+TP53	associated with	Cellular Response To Interferon-Alpha	Grounded in provided data (GO, STRING)
+TGFB1	associated with	Syndecan Interactions	Grounded in provided data (Reactome, STRING)
+SLC2A2	associated with	Slc-Mediated Transport Of Amino Acids	Grounded in provided data (Reactome, STRING)
+CYBB	associated with	Neutrophil Degranulation	Grounded in provided data (Reactome, STRING)
+ALB	associated with	Detoxification	Grounded in provided data (GO, STRING)
+TP53	associated with	Regulation Of Immune Effector Process	Grounded in provided data (GO, STRING)
+TGFB1	associated with	Elastic Fibre Formation	Grounded in provided data (Reactome, STRING)
+SLC2A2	associated with	Slc-Mediated Transmembrane Transport	Grounded in provided data (Reactome, STRING)
+CYBB	associated with	Ros And Rns Production In Phagocytes	Grounded in provided data (Reactome, STRING)
+ALB	associated with	Carboxylic Acid Catabolic Process	Grounded in provided data (GO, STRING)
+TP53	associated with	Regulation Of Leukocyte Proliferation	Grounded in provided data (GO, STRING)
+TGFB1	associated with	Platelet Degranulation	Grounded in provided data (Reactome, STRING)
+SLC2A2	associated with	Slc-Mediated Transport Of Organic Anions	Grounded in provided data (Reactome, STRING)
+CYBB	associated with	Cell Recruitment (pro-inflammatory Response)	Grounded in provided data (Reactome, STRING)
+``` 
+
+Agent 4:
+Here's an analysis of your transcriptomics data, integrating GO enrichment, ChEA, and STRING network information:
+
+**1. Summary and Categorization:**
+The enriched GO terms highlight significant alterations in amino acid metabolism, immune cell activation and proliferation, and various cellular processes including angiogenesis and detoxification. These findings suggest a complex interplay between metabolic reprogramming, immune system dysregulation, and cellular responses in the context of membranous nephropathy. The experimental design, comparing patients with healthy controls, indicates these changes are associated with the disease state.
+
+**Categorization of Enriched GO Terms:**
+- **Amino Acid Metabolism:** 15 terms
+- **Immune Cell Activation/Proliferation:** 10 terms
+- **Cellular Response/Regulation:** 8 terms
+- **Transport Processes:** 7 terms
+
+**2. Known Roles and Upstream Regulators:**
+The enriched GO terms point to substantial metabolic shifts, particularly in amino acid catabolism and metabolism, which are crucial for cellular energy production and biosynthesis. The significant enrichment of terms related to T cell activation, proliferation, and myeloid leukocyte cytokine production indicates a strong immune component to membranous nephropathy. The involvement of angiogenesis and cellular response to stimuli suggests tissue remodeling and adaptive mechanisms are at play.
+
+**Potential Upstream Regulators:**
+Based on the genes contributing to these GO terms and the ChEA analysis, several potential upstream regulators can be predicted:
+*   **HNF1A:** This transcription factor is significantly enriched in the ChEA analysis and is known to regulate genes involved in amino acid metabolism (e.g., *FTCD*, *PRODH2*, *RBP4*, *APOM*, *FABP1*) and transport (*SLC23A1*, *SLC7A9*). Its regulation of these metabolic pathways could be a key driver of the observed changes.
+*   **FOXM1:** Enriched in ChEA, FOXM1 is a transcription factor involved in cell proliferation and immune responses. Genes like *OAS1*, *AXL*, and *UCP2* are regulated by FOXM1 and are associated with immune cell activation and cellular responses.
+*   **IRF1:** While its ChEA p-value is higher, IRF1 is a critical regulator of immune responses. Its presence in multiple GO terms related to T cell activation and proliferation, and its known role in interferon signaling, makes it a strong candidate for driving immune dysregulation.
+*   **RELA:** Enriched in ChEA, RELA (NF-κB) is a master regulator of inflammation and immune responses. Its regulation of genes like *GATA3*, *CYP3A5*, and *CCND1*, which are involved in immune cell activation and proliferation, supports its potential role.
+
+**3. Interaction Networks and Similar Systems:**
+The STRING data reveals extensive interactions among the genes associated with the enriched GO terms, suggesting coordinated biological processes. For instance, the strong interactions between **HBA2, HBA1, and HBB** highlight their collective role in gas transport. Similarly, **SLC7A9 and SLC3A1** interact, pointing to coordinated amino acid transport. The high combined score between **TYROBP and FCER1G** suggests a functional link in immune signaling. **ALB** has a high network score, indicating its central role in various interactions, potentially related to transport and metabolic processes.
+
+Similar systems reported in the literature that might be of interest include studies on diabetic nephropathy, which also show significant alterations in amino acid metabolism and inflammatory pathways. Research on kidney diseases with immune components, such as lupus nephritis, could also offer insights into the shared mechanisms of immune cell activation and cytokine production.
+
+**4. Cross-Analysis:**
+**ChEA and GO Term Overlap:**
+*   **HNF1A:** Regulates *ERRFI1*, *DDC*, *LEAP2*, *SLC23A1*, *AFM*, *FTCD*, *ADH6*, *PKHD1*, *APOM*, *APOH*, *MUC13*, *CCNL1*, *TINAG*, *SPINK1*, *ABCC2*, *APOC3*, *KCNJ16*, *SEMA4G*, *PRODH2*, *FABP1*, *RBP4*, *SLC7A9*, *ANKS4B*, *GALM*, *HRG*. Many of these genes are involved in "L-amino acid catabolic process," "L-amino acid metabolic process," "amino acid catabolic process," "amino acid metabolic process," "carboxylic acid biosynthetic process," "carboxylic acid catabolic process," "organic acid biosynthetic process," and "organic acid catabolic process." For example, *FTCD*, *PRODH2*, *RBP4*, *APOM*, *APOH*, *FABP1*, *RBP4*, *SLC7A9*, and *GALM* are all linked to amino acid metabolism GO terms.
+*   **FOXM1:** Regulates *CHGA*, *CLIC3*, *PTGIS*, *TNFRSF12A*, *OAS1*, *AXL*, *UCP2*, *ADM*. Genes like *OAS1* and *AXL* are involved in "cellular response to interferon-alpha" and "myeloid leukocyte cytokine production," while *UCP2* is linked to "L-amino acid metabolic process" and "proteinogenic amino acid metabolic process."
+*   **IRF1:** Regulates *CLK1*, *GLYATL1*, *SLC2A2*, *CD48*, *AASS*, *TBX3*. *GLYATL1* is involved in "L-amino acid metabolic process" and "alpha-amino acid metabolic process." *AASS* is involved in "aspartate family amino acid metabolic process" and "alpha-amino acid catabolic process."
+*   **RELA:** Regulates *RARG*, *GATA3*, *CYP3A5*, *CTSS*, *RELB*, *PYCARD*, *HSD11B2*, *CYP27B1*, *DUSP10*, *CCND1*, *UCP2*, *NCAM1*, *CCNL1*, *TINAG*, *UGT1A6*, *PTGIS*, *IGFBP2*, *KCNJ15*, *APOC3*, *LYZ*, *GEM*, *EHD2*, *BMP2*, *COL1A2*, *IRF1*, *FSCN1*, *CD48*, *RHCG*, *PDE7A*, *HCST*, *TP53*. Many of these genes are involved in immune-related GO terms like "T cell activation involved in immune response," "T cell proliferation," "leukocyte proliferation," and "lymphocyte proliferation." For example, *GATA3*, *CCND1*, *UCP2*, *BMP2*, *FSCN1*, *TP53*, and *IRF1* are all linked to these immune GO terms.
+
+**STRING and GO Term Overlap:**
+*   **ALB:** High network score and involved in "detoxification," "gas transport," and "positive regulation of angiogenesis."
+*   **TP53:** Involved in "T cell activation involved in immune response," "T cell proliferation," "cellular response to xenobiotic stimulus," and "negative regulation of cell activation." It also has a high network score.
+*   **TGFB1:** Involved in "T cell proliferation," "myeloid leukocyte cytokine production," "negative regulation of cell adhesion," and "positive regulation of extracellular matrix organization." It also has a high network score.
+*   **SLC2A2:** Involved in "organic anion transport," "neutral amino acid transport," and "vitamin transport." It has a high network score.
+*   **CSF1R:** Involved in "leukocyte proliferation" and "regulation of leukocyte proliferation." It has a high network score.
+*   **ACE2:** Involved in "carboxylic acid transmembrane transport," "carboxylic acid transport," "neutral amino acid transport," and "vitamin transmembrane transport." It has a high network score.
+*   **AGXT2:** Involved in multiple amino acid metabolism GO terms and has a high network score.
+*   **FCER1G:** Involved in "T cell activation involved in immune response," "positive regulation of immune effector process," and "myeloid leukocyte cytokine production." It has a high network score.
+
+**5. Hypothesis Generation:**
+The observed DEGs in membranous nephropathy patients suggest a complex interplay between metabolic dysregulation, particularly in amino acid metabolism, and a heightened immune response. Transcription factors like HNF1A and RELA likely orchestrate these changes by regulating genes involved in both amino acid processing and immune cell activation/proliferation. The STRING network highlights the interconnectedness of these pathways, with key proteins like ALB, TP53, and TGFB1 acting as central hubs. This suggests that metabolic alterations may fuel or be a consequence of the inflammatory immune response, potentially leading to cellular stress, altered transport functions, and compromised tissue homeostasis.
+
+**6. System Representation Network:**
+```tsv
+Node1	Edge	Node2	Explanation
+AGXT2	associated with	L-amino acid catabolic process	Present in ChEA (HNF1A target) and STRING (high network score)
+AGXT2	associated with	alpha-amino acid catabolic process	Present in ChEA (HNF1A target) and STRING (high network score)
+AGXT2	associated with	amino acid catabolic process	Present in ChEA (HNF1A target) and STRING (high network score)
+AGXT2	associated with	proteinogenic amino acid catabolic process	Present in ChEA (HNF1A target) and STRING (high network score)
+
+
+Agent 5:
+**1. Summary of Enriched Transcription Factors:**
+The ChEA analysis identified several transcription factors (TFs) significantly associated with the differentially expressed genes in membranous nephropathy patients compared to healthy controls. Notably, HNF1A, BACH1, and FOXM1 showed the strongest enrichment. These TFs are known to play roles in cellular differentiation, metabolism, and immune responses, suggesting their potential involvement in the pathogenesis of membranous nephropathy. The enrichment of these TFs points towards a regulatory network influencing the observed gene expression changes in this condition.
+
+**2. Regulatory Network Analysis:**
+HNF1A appears to be a significant upstream regulator, with its target genes such as ERRFI1, DDC, LEAP2, and SLC23A1 enriched in pathways related to metabolism and transport. BACH1 is also a strong candidate, regulating genes like COLEC12, SEMA7A, and ADM, which are involved in immune responses and cell signaling pathways. FOXM1 targets genes like CHGA and OAS1, implicated in cell cycle regulation and immune responses. The overlap of these target genes in pathways like "Metabolism of xenobiotics by cytochrome P450" (KEGG) and "Amino acid metabolism" (GO) suggests a coordinated regulatory mechanism.
+
+**3. Novel Interactions:**
+While definitive identification of novel interactions requires extensive literature validation, some associations from the ChEA analysis are particularly noteworthy for further investigation. For instance, the enrichment of BACH1 with genes like *KCNJ16* and *GPR4* in the context of membranous nephropathy warrants deeper exploration. Similarly, the association of FOXM1 with *TNFRSF12A* and *AXL* in this disease context could represent previously underappreciated regulatory roles. Literature searches are crucial to determine if these specific TF-gene associations have been previously reported in the context of kidney diseases or immune-mediated conditions.
+
+**4. Cross-Analysis:**
+*   **Pathway Overlaps:** There are significant overlaps between the target genes of the enriched TFs and the identified pathways. For example, HNF1A target genes like *SLC23A1* and *SLC7A9* are enriched in KEGG pathways related to "Amino acid transport across the plasma membrane" and "SLC-mediated transmembrane transport" (Reactome). BACH1 target genes such as *SLC2A2*, *BHMT*, and *GATM* are found in KEGG pathways for "Glycolysis / Gluconeogenesis" and "Amino acid metabolism" (GO). FOXM1 target genes like *OAS1* are enriched in pathways related to immune responses and interferon signaling (WikiPathways, GO).
+*   **Protein-Protein Interactions (STRING):** Several STRING interactions support the findings. For instance, the high combined score between *SLC7A9* and *SLC3A1* (999.00) aligns with HNF1A's potential regulation of amino acid transport. The interaction between *HBA2* and *HBA1* (999.00), regulated by BACH1, is also a strong STRING interaction. The interaction between *TGFB1* and *LRRC32* (995.00), potentially regulated by SMAD3 (though not a top ChEA hit, it's in pathways), is also notable.
+*   **STRING Network Properties:** Genes with high combined network scores that are also target genes of these TFs include *ALB* (5.288744), which is a target of HNF1A in some pathways and has STRING interactions with several other DEGs. *TP53* (2.187347), a target of BACH1 and FOXM1 in some ChEA results, also has a high network score and is a target in multiple pathways. *SLC2A2* (1.411601), a target of HNF1A and BACH1, also shows a significant network score.
+
+**5. Hypothesis Generation:**
+We hypothesize that the observed gene expression changes in membranous nephropathy are driven by a dysregulation of key transcription factors, including HNF1A, BACH1, and FOXM1. HNF1A may contribute by altering amino acid and carbohydrate metabolism, impacting cellular energy homeostasis. BACH1, through its regulation of genes involved in immune responses and cell signaling (e.g., COLEC12, SEMA7A, ADM), likely plays a role in the inflammatory processes characteristic of membranous nephropathy. FOXM1's involvement suggests potential alterations in cell cycle regulation and immune cell function. The convergence of their target genes onto pathways like "Metabolism of xenobiotics by cytochrome P450," "Amino acid metabolism," and immune-related pathways, coupled with strong protein-protein interactions and network centrality of genes like ALB, TP53, and SLC2A2, suggests a complex regulatory network contributing to the disease phenotype.
+
+**6. System Representation Network:**
+```tsv
+Node1	Edge	Node2	Explanation
+HNF1A	associated with	SLC23A1	HNF1A is a ChEA-enriched TF, SLC23A1 is its target gene, and SLC23A1 is found in the 'Vitamin Digestion And Absorption' pathway (WikiPathways) and has a high combined network score (0.343772 for NT5E, a related transporter).
+HNF1A	associated with	SLC7A9	HNF1A is a ChEA-enriched TF, SLC7A9 is its target gene, and SLC7A9 is found in the 'Amino Acid Transport Across The Plasma Membrane' GO term and has a high combined network score (0.108834).
+HNF1A	associated with	SLC6A19	HNF1A is a ChEA-enriched TF, SLC6A19 is its target gene, and SLC6A19 is found in the 'SLC-mediated Transmembrane Transport' Reactome pathway and has a high combined network score (0.106757).
+HNF1A	associated with	SLC13A1	HNF1A is a ChEA-enriched TF, SLC13A1 is its target gene, and SLC13A1 is found in the 'SLC-mediated Transport of Inorganic Anions' Reactome pathway and has a high combined network score (0.047069).
+HNF1A	associated with	SLC13A3	HNF1A is a ChEA-enriched TF, SLC13A3 is its target gene, and SLC13A3 is found in the 'SLC-mediated Transport of Organic Anions' Reactome pathway and has a high combined network score (0.047069).
+HNF1A	associated with	SLC2A2	HNF1A is a ChEA-enriched TF, SLC2A2 is its target gene, and SLC2A2 is found in the 'Glycolysis / Gluconeogenesis' KEGG pathway and has a high combined network score (1.411601).
+HNF1A	associated with	SLC22A8	HNF1A is a ChEA-enriched TF, SLC22A8 is its target gene, and SLC22A8 is found in the 'Bile Secretion' KEGG pathway and has a high combined network score (0.648482).
+HNF1A	associated with	SLC4A4	HNF1A is a ChEA-enriched TF, SLC4A4 is its target gene, and SLC4A4 is found in the 'Bile Secretion' KEGG pathway and has a high combined network score (0.382232).
+HNF1A	associated with	SLC17A3	HNF1A is a ChEA-enriched TF, SLC17A3 is its target gene, and SLC17A3 is found in the 'SLC-mediated Transport of Organic Anions' Reactome pathway and has a high combined network score (0.382232).
+
+
+Agent 6:
+**1. Summary of Interactions:**
+The STRING analysis highlights a highly interconnected network of proteins, with ALB, TP53, and TGFB1 exhibiting the highest network properties. ALB interacts with numerous partners, including HBA2, HBA1, and HBB, suggesting a significant role in general cellular processes and potentially oxygen transport. TP53 interacts with cell cycle regulators like CCND1 and signaling molecules like TGFB1, indicating its involvement in stress response and cell fate. TGFB1 interacts with ECM components like COL1A2 and signaling molecules like EGF, pointing to its role in cell growth and tissue remodeling.
+
+**2. Key Interactions and Network Topology:**
+Based on the combined network scores, ALB, TP53, TGFB1, PLG, and SLC2A2 emerge as key proteins. ALB's extensive interactions with hemoglobin subunits (HBA2, HBA1, HBB) and other proteins like KNG1 and ACE2 suggest a central role in maintaining homeostasis and potentially in blood-related functions. TP53's interactions with CCND1 and TGFB1 highlight its critical role in cell cycle control and response to cellular stress. TGFB1's interactions with COL1A2 and BMP2 suggest a significant role in extracellular matrix formation and signaling. The network topology appears to be scale-free, with ALB acting as a major hub, connected to a large number of other proteins. TP53 and TGFB1 also appear to be important nodes, with multiple connections to functionally related proteins. This suggests a robust system where key regulators orchestrate various cellular processes.
+
+**3. Functional Implications and Upstream Regulators:**
+The high network scores and interactions suggest significant functional implications related to cellular stress response, metabolism, immune function, and tissue remodeling. ALB's broad interactions might indicate its role in maintaining overall cellular health and transport functions, which could be disrupted in membranous nephropathy. TP53's involvement in cell cycle arrest and apoptosis suggests that cellular stress in membranous nephropathy patients might be managed through these pathways. TGFB1's role in ECM deposition and fibrosis could contribute to the structural changes observed in kidney disease.
+
+Potential upstream regulators could include transcription factors such as HNF1A, BACH1, and FOXM1, which show significant enrichment and interact with several DEGs. HNF1A's targets include genes involved in metabolism (ADH6, PKHD1, FABP1) and transport (ABCC2, SLC7A9), suggesting it could regulate metabolic and transport functions relevant to kidney health. BACH1's targets include immune-related genes (LST1, SLC2A2, CALB1) and metabolic genes (HK2, PDK4), indicating a potential role in modulating immune responses and metabolism. FOXM1's targets include signaling molecules (PTGIS, TNFRSF12A) and metabolic regulators (UCP2), suggesting a role in cell proliferation and metabolic adaptation.
+
+**4. Cross-Analysis:**
+There are significant overlaps between the high-scoring proteins and the enriched pathways. ALB is involved in numerous pathways, including "Vitamin B12 metabolism," "Folate metabolism," "Blood clotting cascade," and "Complement system," highlighting its multifaceted roles. TP53 is a key player in "miRNAs involved in DNA damage response," "Fluoropyrimidine activity," and "Bladder cancer," indicating its role in cellular integrity and stress response. TGFB1 is implicated in "TGF-beta signaling pathway," "Mammary gland development," and "SARS CoV 2 and COVID 19 pathway," suggesting its involvement in growth, development, and inflammatory responses.
+
+Several ChEA transcription factors are predicted to regulate these key proteins. HNF1A targets include ADH6, FABP1, and APOC3, which are involved in metabolic pathways. BACH1 targets include HK2 and PDK4, involved in glycolysis and energy metabolism. FOXM1 targets include ADM and UCP2, which are involved in cellular adaptation and energy regulation. These transcription factors could be crucial in orchestrating the observed molecular changes.
+
+**5. Hypothesis Generation:**
+In membranous nephropathy, dysregulation of cellular stress response and metabolic pathways, potentially driven by TP53 and HNF1A respectively, contributes to the observed phenotype. The extensive interactions of ALB with hemoglobin and complement proteins suggest a disruption in oxygen transport and immune homeostasis. TGFB1's central role in ECM remodeling and its interactions with BMP2 and COL1A2 indicate a potential fibrotic process in the affected kidneys. Upstream regulators like HNF1A, BACH1, and FOXM1 likely coordinate these complex molecular events, leading to the observed differential gene expression and functional alterations.
+
+**6. System Representation Network:**
+```tsv
+Node1	Edge	Node2	Explanation
+ALB	associated with	Folate Metabolism	ALB is present in the Folate Metabolism pathway and has a high combined network score (5.288744).
+ALB	associated with	Vitamin B12 Metabolism	ALB is present in the Vitamin B12 Metabolism pathway and has a high combined network score (5.288744).
+ALB	associated with	Blood Clotting Cascade	ALB is present in the Blood Clotting Cascade pathway and has a high combined network score (5.288744).
+ALB	associated with	Complement System	ALB is present in the Complement System pathway and has a high combined network score (5.288744).
+ALB	associated with	HNF1A	ALB is a target of HNF1A, a transcription factor, and has a high combined network score (5.288744).
+TP53	associated with	miRNAs involved in DNA damage response	TP53 is present in the miRNAs involved in DNA damage response pathway and has a high combined network score (2.187347).
+TP53	associated with	Fluoropyrimidine activity	TP53 is present in the Fluoropyrimidine activity pathway and has a high combined network score (2.187347).
+TP53	associated with	Bladder Cancer	TP53 is present in the Bladder Cancer pathway and has a high combined network score (2.187347).
+TP53	associated with	CCND1	TP53 interacts with CCND1, a cell cycle regulator, and has a high combined network score (2.187347).
+TP53	associated with	TGFB1	TP53 interacts with TGFB1, a signaling molecule, and has a high combined network score (2.187347).
+TGFB1	associated with	TGF-beta signaling pathway	TGFB1 is present in the TGF-beta signaling pathway and has a high combined network score (1.516699).
+TGFB1	associated with	Extracellular Matrix Organization	TGFB1 is present in the Extracellular Matrix Organization pathway and has a high combined network score (1.516699).
+TGFB1	associated with	BMP2	TGFB1 interacts with BMP2, involved in ECM formation, and has a high combined network score (1.516699).
+TGFB1	associated with	COL1A2	TGFB1 interacts with COL1A2, an ECM component, and has a high combined network score (1.516699).
+TGFB1	associated with	BACH1	TGFB1 is a target of BACH1, a transcription factor, and has a high combined network score (1.516699).
+PLG	associated with	Complement and Coagulation Cascades	PLG is present in the Complement and Coagulation Cascades pathway and has a high combined network score (1.414563).
+PLG	associated with	Blood Clotting Cascade	PLG is present in the Blood Clotting Cascade pathway and has a high combined network score (1.414563).
+PLG	associated with	Platelet Adhesion to Exposed Collagen	PLG is present in the Platelet Adhesion to Exposed Collagen pathway and has a high combined network score (1.414563).
+PLG	associated with	HRG	PLG interacts with HRG, involved in blood clotting, and has a high combined network score (1.414563).
+SLC2A2	associated with	Glycolysis and Gluconeogenesis	SLC2A2 is present in the Glycolysis and Gluconeogenesis pathway and has a high combined network score (1.411601).
+SLC2A2	associated with	Carbohydrate Digestion and Absorption	SLC2A2 is present in the Carbohydrate Digestion and Absorption pathway and has a high combined network score (1.411601).
+SLC2A2	associated with	HNF1A	SLC2A2 is a target of HNF1A, a transcription factor, and has a high combined network score (1.411601).
+CSF1R	associated with	TGF beta Receptor Signaling	CSF1R is present in the TGF beta Receptor Signaling pathway and has a high combined network score (1.270747).
+CSF1R	associated with	FOXO-mediated transcription	CSF1R is present in the FOXO-mediated transcription pathway and has a high combined network score (1.270747).
+CSF1R	associated with	Microglia Pathogen Phagocytosis Pathway	CSF1R is present in the Microglia Pathogen Phagocytosis Pathway and has a high combined network score (1.270747).
+CSF1R	associated with	TYROBP	CSF1R interacts with TYROBP, involved in immune response, and has a high combined network score (1.270747).
+MRLN	associated with	Protein Folding	MRLN is present in the Protein Folding pathway and has a high combined network score (1.244047).
+CDH9	associated with	Cadherin Binding	CDH9 is present in the Cadherin Binding pathway and has a high combined network score (1.244047).
+EHD4	associated with	Endocytosis	EHD4 is present in the Endocytosis pathway and has a high combined network score (1.244047).
+STRIT1	associated with	Protein Binding	STRIT1 is present in the Protein Binding pathway and has a high combined network score (1.244047).
+CDH12	associated with	Cadherin Binding	CDH12 is present in the Cadherin Binding pathway and has a high combined network score (1.244047).
+EHD2	associated with	Endocytosis	EHD2 is present in the Endocytosis pathway and has a high combined network score (1.244047).
+EGF	associated with	EGFR Signaling Pathway	EGF is present in the EGFR Signaling Pathway and has a high combined network score (1.154147).
+EGF	associated with	ERBB2 Signaling Pathway	EGF is present in the ERBB2 Signaling Pathway and has a high combined network score (1.154147).
+EGF	associated with	TGFB1	EGF interacts with TGFB1, a signaling molecule, and has a high combined network score (1.154147).
+CTSS	associated with	Lysosome	CTSS is present in the Lysosome pathway and has a high combined network score (1.012222).
+CYBB	associated with	Phagosome	CYBB is present in the Phagosome pathway and has a high combined network score (0.886764).
+CYBB	associated with	ROS and RNS Production in Phagocytes	CYBB is present in the ROS and RNS Production in Phagocytes pathway and has a high combined network score (0.886764).
+TYROBP	associated with	C-type Lectin Receptor Signaling Pathway	TYROBP is present in the C-type Lectin Receptor Signaling Pathway and has a high combined network score (0.871565).
+TYROBP	associated with	Microglia Pathogen Phagocytosis Pathway	TYROBP is present in the Microglia Pathogen Phagocytosis Pathway and has a high combined network score (0.871565).
+TYROBP	associated with	CSF1R	TYROBP interacts with CSF1R, involved in immune response, and has a high combined network score (0.871565).
+KNG1	associated with	Complement and Coagulation Cascades	KNG1 is present in the Complement and Coagulation Cascades pathway and has a high combined network score (0.862122).
+KNG1	associated with	Blood Clotting Cascade	KNG1 is present in the Blood Clotting Cascade pathway and has a high combined network score (0.862122).
+NCAM1	associated with	Cell Surface Interactions at the Vascular Wall	NCAM1 is present in the Cell Surface Interactions at the Vascular Wall pathway and has a high combined network score (0.858396).
+NCAM1	associated with	Cell Adhesion Molecules (CAMs)	NCAM1 is present in the Cell Adhesion Molecules (CAMs) pathway and has a high combined network score (0.858396).
+PPARGC1A	associated with	PPAR signaling	PPARGC1A is present in the PPAR signaling pathway and has a high combined network score (0.828228).
+PPARGC1A	associated with	Nuclear Receptors in Lipid Metabolism and Toxicity	PPARGC1A is present in the Nuclear Receptors in Lipid Metabolism and Toxicity pathway and has a high combined network score (0.828228).
+ACE2	associated with	SARS CoV 2 and COVID 19 Pathway	ACE2 is present in the SARS CoV 2 and COVID 19 Pathway and has a high combined network score (0.824350).
+ACE2	associated with	Renin Angiotensin System and Bradykinin pathways in COVID 19	ACE2 is present in the Renin Angiotensin System and Bradykinin pathways in COVID 19 pathway and has a high combined network score (0.824350).
+AGXT2	associated with	Glyoxylate and Dicarboxylate Metabolism	AGXT2 is present in the Glyoxylate and Dicarboxylate Metabolism pathway and has a high combined network score (0.822310).
+AGXT2	associated with	Amino Acid Metabolism	AGXT2 is present in the Amino Acid Metabolism pathway and has a high combined network score (0.822310).
+AGXT2	associated with	HNF1A	AGXT2 is a target of HNF1A, a transcription factor, and has a high combined network score (0.822310).
+FCER1G	associated with	C-type Lectin Receptor Signaling Pathway	FCER1G is present in the C-type Lectin Receptor Signaling Pathway and has a high combined network score (0.726089).
+FCER1G	associated with	Neutrophil Degranulation	FCER1G is present in the Neutrophil Degranulation pathway and has a high combined network score (0.726089).
+ALDOB	associated with	Glycolysis / Gluconeogenesis	ALDOB is present in the Glycolysis / Gluconeogenesis pathway and has a high combined network score (0.649435).
+ALDOB	associated with	Galactose Metabolism	ALDOB is present in the Galactose Metabolism pathway and has a high combined network score (0.649435).
+SLC22A8	associated with	Bile Secretion	SLC22A8 is present in the Bile Secretion pathway and has a high combined network score (0.648482).
+SLC22A8	associated with	SLC-mediated transport of organic anions	SLC22A8 is present in the SLC-mediated transport of organic anions pathway and has a high combined network score (0.648482).
+PCK1	associated with	Gluconeogenesis	PCK1 is present in the Gluconeogenesis pathway and has a high combined network score (0.595523).
+PCK1	associated with	Adipogenesis	PCK1 is present in the Adipogenesis pathway and has a high combined network score (0.595523).
+LRP2	associated with	Retinol Metabolism	LRP2 is present in the Retinol Metabolism pathway and has a high combined network score (0.581421).
+LRP2	associated with	Vitamin Digestion and Absorption	LRP2 is present in the Vitamin Digestion and Absorption pathway and has a high combined network score (0.581421).
+LRP2	associated with	CUBN	LRP2 interacts with CUBN, involved in vitamin transport, and has a high combined network score (0.581421).
+APOC3	associated with	PPAR alpha Pathway	APOC3 is present in the PPAR alpha Pathway and has a high combined network score (0.570887).
+APOC3	associated with	Nuclear Receptors in Lipid Metabolism and Toxicity	APOC3 is present in the Nuclear Receptors in Lipid Metabolism and Toxicity pathway and has a high combined network score (0.570887).
+APOH	associated with	Platelet Degranulation	APOH is present in the Platelet Degranulation pathway and has a high combined network score (0.560584).
+APOH	associated with	Blood Clotting Cascade	APOH is present in the Blood Clotting Cascade pathway and has a high combined network score (0.560584).
+HPD	associated with	Tyrosine Metabolism	HPD is present in the Tyrosine Metabolism pathway and has a high combined network score (0.553026).
+HPD	associated with	Phenylalanine Metabolism	HPD is present in the Phenylalanine Metabolism pathway and has a high combined network score (0.553026).
+GOLGA8A	associated with	Golgi apparatus localization	GOLGA8A is present in the Golgi apparatus localization pathway and has a high combined network score (0.473029).
+ALDH8A1	associated with	Retinol Metabolism	ALDH8A1 is present in the Retinol Metabolism pathway and has a high combined network score (0.442528).
+ALDH8A1	associated with	Tryptophan Metabolism	ALDH8A1 is present in the Tryptophan Metabolism pathway and has a high combined network score (0.442528).
+G6PC1	associated with	Glycolysis / Gluconeogenesis	G6PC1 is present in the Glycolysis / Gluconeogenesis pathway and has a high combined network score (0.397545).
+G6PC1	associated with	Starch and Sucrose Metabolism	G6PC1 is present in the Starch and Sucrose Metabolism pathway and has a high combined network score (0.397545).
+CCND1	associated with	Mammary Gland Development	CCND1 is present in the Mammary Gland Development pathway and has a high combined network score (0.385941).
+CCND1	associated with	Bladder Cancer	CCND1 is present in the Bladder Cancer pathway and has a high combined network score (0.385941).
+HA02	associated with	Glyoxylate and Dicarboxylate Metabolism	HAO2 is present in the Glyoxylate and Dicarboxylate Metabolism pathway and has a high combined network score (0.382608).
+SLC12A3	associated with	SLC-mediated transport of inorganic anions	SLC12A3 is present in the SLC-mediated transport of inorganic anions pathway and has a high combined network score (0.382232).
+GATA3	associated with	TGF-beta signaling pathway	GATA3 is present in the TGF-beta signaling pathway and has a high combined network score (0.375984).
+GATA3	associated with	Adipogenesis	GATA3 is present in the Adipogenesis pathway and has a high combined network score (0.375984).
+NT5E	associated with	Purinergic Signaling in Leishmaniasis Infection	NT5E is present in the Purinergic Signaling in Leishmaniasis Infection pathway and has a high combined network score (0.343772).
+FCN1	associated with	Complement System	FCN1 is present in the Complement System pathway and has a high combined network score (0.341501).
+NFATC1	associated with	C-type Lectin Receptor Signaling Pathway	NFATC1 is present in the C-type Lectin Receptor Signaling Pathway and has a high combined network score (0.325838).
+LYZ	associated with	Neutrophil Degranulation	LYZ is present in the Neutrophil Degranulation pathway and has a high combined network score (0.321700).
+FTCD	associated with	One Carbon Pool by Folate	FTCD is present in the One Carbon Pool by Folate pathway and has a high combined network score (0.315411).
+FABP1	associated with	PPAR alpha Pathway	FABP1 is present in the PPAR alpha Pathway and has a high combined network score (0.308799).
+HRG	associated with	Platelet Degranulation	HRG is present in the Platelet Degranulation pathway and has a high combined network score (0.300176).
+HRG	associated with	Blood Clotting Cascade	HRG is present in the Blood Clotting Cascade pathway and has a high combined network score (0.300176).
+COL1A2	associated with	Fibronectin Matrix Formation	COL1A2 is present in the Fibronectin Matrix Formation pathway and has a high combined network score (0.286637).
+UGT1A6	associated with	Drug Metabolism - Cytochrome P450	UGT1A6 is present in the Drug Metabolism - Cytochrome P450 pathway and has a high combined network score (0.280114).
+UGT1A7	associated with	Drug Metabolism - Cytochrome P450	UGT1A7 is present in the Drug Metabolism - Cytochrome P450 pathway and has a high combined network score (0.280114).
+LAPTM5	associated with	Myeloid Leukocyte Cytokine Production	LAPTM5 is present in the Myeloid Leukocyte Cytokine Production pathway and has a high combined network score (0.278925).
+CYP3A5	associated with	Metabolism of Xenobiotics by Cytochrome P450	CYP3A5 is present in the Metabolism of Xenobiotics by Cytochrome P450 pathway and has a high combined network score (0.264907).
+BHMT	associated with	One Carbon Pool by Folate	BHMT is present in the One Carbon Pool by Folate pathway and has a high combined network score (0.264201).
+PDK4	associated with	PPAR signaling	PDK4 is present in the PPAR signaling pathway and has a high combined network score (0.256621).
+CD52	associated with	Leukocyte Activation	CD52 is present in the Leukocyte Activation pathway and has a high combined network score (0.247730).
+CD53	associated with	Leukocyte Activation	CD53 is present in the Leukocyte Activation pathway and has a high combined network score (0.246092).
+PAH	associated with	Tryptophan Metabolism	PAH is present in the Tryptophan Metabolism pathway and has a high combined network score (0.240349).
+BMP2	associated with	TGF-beta signaling pathway	BMP2 is present in the TGF-beta signaling pathway and has a high combined network score (0.230603).
+CD48	associated with	Leukocyte Activation	CD48 is present in the Leukocyte Activation pathway and has a high combined network score (0.224960).
+ITGA5	associated with	ECM-Receptor Interaction	ITGA5 is present in the ECM-Receptor Interaction pathway and has a high combined network score (0.212091).
+ABCC2	associated with	Bile Secretion	ABCC2 is present in the Bile Secretion pathway and has a high combined network score (0.193562).
+CYP2B6	associated with	Metabolism of Xenobiotics by Cytochrome P450	CYP2B6 is present in the Metabolism of Xenobiotics by Cytochrome P450 pathway and has a high combined network score (0.181886).
+GOLGA8A	associated with	Golgi apparatus localization	GOLGA8A is present in the Golgi apparatus localization pathway and has a high combined network score (0.173796).
+ANKRD36B	associated with	Golgi apparatus localization	ANKRD36B is present in the Golgi apparatus localization pathway and has a high combined network score (0.173796).
+SHMT1	associated with	Glycine Metabolic Process	SHMT1 is present in the Glycine Metabolic Process and has a high combined network score (0.152856).
+DAO	associated with	Glyoxylate and Dicarboxylate Metabolism	DAO is present in the Glyoxylate and Dicarboxylate Metabolism pathway and has a high combined network score (0.152098).
+SPN	associated with	Leukocyte Activation	SPN is present in the Leukocyte Activation pathway and has a high combined network score (0.140810).
+SLC3A1	associated with	Amino Acid Transport across the Plasma Membrane	SLC3A1 is present in the Amino Acid Transport across the Plasma Membrane pathway and has a high combined network score (0.132790).
+PIPOX	associated with	Glyoxylate metabolism and glycine degradation	PIPOX is present in the Glyoxylate metabolism and glycine degradation pathway and has a high combined network score (0.122613).
+UGT1A9	associated with	Drug Metabolism - Cytochrome P450	UGT1A9 is present in the Drug Metabolism - Cytochrome P450 pathway and has a high combined network score (0.113918).
+CYP4A11	associated with	Fatty acid omega oxidation	CYP4A11 is present in the Fatty acid omega oxidation pathway and has a high combined network score (0.113663).
+NAPSA	associated with	Cell Recruitment (Pro-inflammatory Response)	NAPSA is present in the Cell Recruitment (Pro-inflammatory Response) pathway and has a high combined network score (0.110531).
+SLC7A9	associated with	Amino Acid Transport across the Plasma Membrane	SLC7A9 is present in the Amino Acid Transport across the Plasma Membrane pathway and has a high combined network score (0.108834).
+SLC6A19	associated with	Amino Acid Transport across the Plasma Membrane	SLC6A19 is present in the Amino Acid Transport across the Plasma Membrane pathway and has a high combined network score (0.106757).
+UCP2	associated with	Ribonucleotide Catabolic Process	UCP2 is present in the Ribonucleotide Catabolic Process pathway and has a high combined network score (0.086581).
+C3AR1	associated with	Complement and Coagulation Cascades	C3AR1 is present in the Complement and Coagulation Cascades pathway and has a high combined network score (0.085782).
+AZGP1	associated with	Retinoid Metabolism and Transport	AZGP1 is present in the Retinoid Metabolism and Transport pathway and has a high combined network score (0.076539).
+ADH6	associated with	Retinol Metabolism	ADH6 is present in the Retinol Metabolism pathway and has a high combined network score (0.067762).
+CSF2RB	associated with	Type II Interferon Signaling	CSF2RB is present in the Type II Interferon Signaling pathway and has a high combined network score (0.061946).
+DMGDH	associated with	One Carbon Pool by Folate	DMGDH is present in the One Carbon Pool by Folate pathway and has a high combined network score (0.061927).
+CHGA	associated with	Maturity Onset Diabetes of the Young	CHGA is present in the Maturity Onset Diabetes of the Young pathway and has a high combined network score (0.061176).
+ERV3-1	associated with	SARS CoV 2 and COVID 19 Pathway	ERV3-1 is present in the SARS CoV 2 and COVID 19 Pathway and has a high combined network score (0.053080).
+WFS1	associated with	Maturity Onset Diabetes of the Young	WFS1 is present in the Maturity Onset Diabetes of the Young pathway and has a high combined network score (0.049551).
+SLC13A1	associated with	SLC-mediated transport of inorganic anions	SLC13A1 is present in the SLC-mediated transport of inorganic anions pathway and has a high combined network score (0.047069).
+ALPL	associated with	Mammary Gland Development	ALPL is present in the Mammary Gland Development pathway and has a high combined network score (0.046747).
+PDZK1	associated with	Drug ADME	PDZK1 is present in the Drug ADME pathway and has a high combined network score (0.040145).
+AFM	associated with	Platelet Degranulation	AFM is present in the Platelet Degranulation pathway and has a high combined network score (0.039648).
+SEMA7A	associated with	Cell Surface Interactions at the Vascular Wall	SEMA7A is present in the Cell Surface Interactions at the Vascular Wall pathway and has a high combined network score (0.036361).
+MUC13	associated with	Mammary Gland Development	MUC13 is present in the Mammary Gland Development pathway and has a high combined network score (0.035562).
+GNRH1	associated with	Angiotensin II Receptor Type 1 Pathway	GNRH1 is present in the Angiotensin II Receptor Type 1 Pathway and has a high combined network score (0.034218).
+RBP4	associated with	Retinoid Metabolism and Transport	RBP4 is present in the Retinoid Metabolism and Transport pathway and has a high combined network score (0.034064).
+SERPINA6	associated with	Glucocorticoid Biosynthesis	SERPINA6 is present in the Glucocorticoid Biosynthesis pathway and has a high combined network score (0.033559).
+HK2	associated with	Glycolysis and Gluconeogenesis	HK2 is present in the Glycolysis and Gluconeogenesis pathway and has a high combined network score (0.021337).
+GLDC	associated with	Glycine Metabolic Process	GLDC is present in the Glycine Metabolic Process and has a high combined network score (0.021321).
+MIOX	associated with	Ascorbate and Aldarate Metabolism	MIOX is present in the Ascorbate and Aldarate Metabolism pathway and has a high combined network score (0.019897).
+``` 
+
+## Step 1: Analyze Individual Agent Summaries ##
+
+The provided agent summaries offer a comprehensive analysis of transcriptomic data from membranous nephropathy patients compared to healthy controls, integrating information from WikiPathways, KEGG, Reactome, GO, ChEA, and STRING databases.
+
+*   **Agent 1 (WikiPathways):** Highlights metabolism (vitamin, amino acid), immune system (complement, microglia), and cell signaling (TGF-beta, Vitamin D). Identifies HNF1A, FOXM1, and RELA as potential upstream regulators. Notes interactions between HBA genes, SLC6A19/ACE2, and complement genes. Compares to diabetic nephropathy and lupus nephritis. Hub genes: ALB, TP53, TGFB1, CYP3A5, HBA1. Novelty: Hepatitis C/HCC and COVID-19 pathways, microglia involvement. Hypothesis: Metabolic/immune dysregulation exacerbated by viral infection mechanisms.
+*   **Agent 2 (KEGG):** Focuses on metabolism (carbohydrate, amino acid), immune system, and cell signaling. Identifies HNF1A, RELA, and FOXM1 as potential regulators. Notes interactions within glycolysis/galactose metabolism, CYP enzymes, and amino acid transporters. Compares to diabetic nephropathy. Hub genes: HK2, UGT1A7, ALDOB, G6PC1, HBA2, HBA1, HBB, SLC2A2, BHMT, SHMT1, GLDC, AGXT2, CYP3A5, CYP2B6, HNF1A. Novelty: African trypanosomiasis and Malaria pathways, steroid hormone biosynthesis. Hypothesis: Metabolic dysfunction and inflammation driven by HNF1A/RELA, with potential microbial factor contribution.
+*   **Agent 3 (Reactome):** Emphasizes immune cell function (platelet/neutrophil degranulation), metabolism (vitamin, amino acid), and cell adhesion/ECM. Identifies HNF1A, BACH1, and IRF1 as potential regulators. Notes interactions among platelet degranulation genes and hemoglobin subunits. Compares to diabetic nephropathy and IgA nephropathy. Hub genes: ALB, TP53, TGFB1, SLC2A2, CYBB. Novelty: Enterobacteria infection, leishmaniasis, cell recruitment pathways, heme signaling. Hypothesis: Immune cell activation and metabolic changes driven by HNF1A/BACH1, with potential microbial triggers.
+*   **Agent 4 (GO):** Highlights amino acid metabolism, immune cell activation/proliferation, angiogenesis, and detoxification. Identifies HNF1A, FOXM1, IRF1, and RELA as potential regulators, with strong evidence for HNF1A's role in amino acid metabolism and RELA in immune responses. Notes extensive interactions among amino acid transporters and hemoglobin subunits. Compares to diabetic nephropathy and lupus nephritis. Hypothesis: Metabolic shifts and immune response driven by HNF1A/RELA, leading to cellular stress and compromised homeostasis.
+*   **Agent 5 (ChEA):** Identifies HNF1A, BACH1, and FOXM1 as key transcription factors. Highlights HNF1A's regulation of metabolism and transport genes, BACH1's role in immune responses, and FOXM1's involvement in cell cycle/immune function. Notes pathway overlaps and strong STRING interactions supporting these regulatory roles. Hypothesis: Dysregulation of HNF1A, BACH1, and FOXM1 drives metabolic and inflammatory changes, with key proteins like ALB, TP53, and SLC2A2 acting as central nodes.
+*   **Agent 6 (STRING):** Focuses on protein-protein interactions, identifying ALB, TP53, and TGFB1 as key hubs. Highlights ALB's extensive interactions with hemoglobin and complement proteins, TP53's role in stress response, and TGFB1's involvement in ECM remodeling. Suggests HNF1A, BACH1, and FOXM1 as upstream regulators. Hypothesis: Dysregulation of stress response and metabolic pathways driven by TP53 and HNF1A, with ALB, TGFB1, and hemoglobin/complement interactions playing central roles.
+
+## Step 2: Integrate Agent Summaries, Pathways and other data ##
+
+Integrating the information from all agents and the provided data reveals a consistent picture of membranous nephropathy characterized by significant metabolic dysregulation, particularly in amino acid and carbohydrate metabolism, coupled with a robust immune system activation and inflammatory response.
+
+**Common Themes and Patterns:**
+
+*   **Metabolism:** All agents consistently highlight alterations in metabolism. Specifically, amino acid metabolism (Agent 1, 2, 3, 4), vitamin metabolism (Agent 1, 3), and carbohydrate metabolism (Agent 2, 3) are frequently mentioned. Genes like *AGXT2*, *BHMT*, *GLDC*, *SHMT1*, *SLC7A9*, *SLC3A1*, *SLC6A19*, *SLC2A2*, *HK2*, *ALDOB*, *G6PC1*, *UGT1A* family members, and *CYP* enzymes are repeatedly implicated across different pathway databases. The overlap of these genes in pathways like "Amino acid metabolism," "Glycolysis/Gluconeogenesis," and "Metabolism of xenobiotics by cytochrome P450" underscores their central role.
+*   **Immune System and Inflammation:** A strong inflammatory component is evident across all agents. Pathways related to the complement system (Agent 1, 3), immune cell activation and proliferation (Agent 4), platelet and neutrophil degranulation (Agent 3), and microglia function (Agent 1) are consistently enriched. Genes like *FCER1G*, *TYROBP*, *C3AR1*, *FCN1*, *CYBB*, *LYZ*, *CD48*, *CD52*, *CD53*, *CSF1R*, and *NCAM1* appear in multiple immune-related pathways. The novel findings of "African trypanosomiasis" and "Malaria" pathways (Agent 2) and "Infection with Enterobacteria" (Agent 3) suggest a potential role for pathogen-associated molecular patterns or altered immune responses to microbial factors.
+*   **Cell Signaling and Regulation:** Cell signaling pathways, including TGF-beta signaling (Agent 1, 3), Vitamin D receptor signaling (Agent 1), and general cell cycle regulation (Agent 4), are also prominent. Genes like *TGFB1*, *BMP2*, *TP53*, and *CCND1* are frequently associated with these processes.
+*   **Transcription Factor Regulation:** Transcription factors like *HNF1A*, *FOXM1*, and *RELA* are consistently identified as potential upstream regulators across multiple agents. ChEA analysis further supports *HNF1A*'s significant role in regulating genes involved in metabolism and transport, and *RELA*'s role in inflammation. *BACH1* also emerges as a key regulator, particularly in immune and metabolic pathways.
+*   **Hub Genes and Network Properties:** *ALB*, *TP53*, and *TGFB1* are consistently identified as hub genes with high STRING network scores and broad pathway involvement. *ALB*'s extensive interactions with hemoglobin and complement proteins, *TP53*'s role in stress response, and *TGFB1*'s involvement in ECM remodeling are particularly noteworthy. Other genes like *SLC2A2*, *CYBB*, *HK2*, and *CYP3A5* also show significant network centrality and pathway enrichment.
+
+**Integration of Pathway Results:**
+
+The integration of KEGG, WikiPathways, Reactome, and GO pathways reveals a cohesive network. The overlap of genes like *HK2*, *ALDOB*, *G6PC1*, *SLC2A2*, *HBA1/HBA2/HBB*, *TGFB1*, *ALB*, and *CYP3A5* across multiple pathway databases strongly suggests their central involvement in the disease pathogenesis. For instance, the consistent presence of *HK2* and *ALDOB* in carbohydrate metabolism pathways, alongside *AGXT2*, *BHMT*, and *GLDC* in amino acid metabolism, highlights a significant metabolic reprogramming. Similarly, the recurrence of complement system genes (*C3AR1*, *FCN1*, *PLG*) and immune cell markers (*FCER1G*, *TYROBP*) across immune-related pathways underscores the inflammatory nature of the disease. The ChEA data further strengthens this by linking transcription factors like *HNF1A* to many of these metabolic and transport genes, and *RELA* to immune-related genes.
+
+## Step 3: Groundedness Check ##
+
+The analysis results are largely grounded in the provided list of differentially expressed genes and the pathway/database information.
+
+*   **Genes:** Key genes mentioned in the summaries, such as *ALB*, *TP53*, *TGFB1*, *HBA1*, *HBA2*, *HBB*, *SLC2A2*, *HK2*, *ALDOB*, *G6PC1*, *CYP3A5*, *AGXT2*, *BHMT*, *GLDC*, *SHMT1*, *SLC7A9*, *SLC3A1*, *SLC6A19*, *FCER1G*, *TYROBP*, *C3AR1*, *FCN1*, *CYBB*, *LYZ*, *CD48*, *CD52*, *CD53*, *CSF1R*, *NCAM1*, *BMP2*, *COL1A2*, *EGF*, *KNG1*, *PLG*, *ACE2*, *UGT1A* family members, and *CYP* enzymes, are all present in the initial list of differentially expressed genes.
+*   **Pathways:** The identified pathways (e.g., Vitamin B12 metabolism, Complement system, TGF beta receptor signaling, Glycolysis and gluconeogenesis, African trypanosomiasis, Platelet degranulation) are directly derived from the enrichment analysis.
+*   **Transcription Factors:** *HNF1A*, *FOXM1*, *RELA*, and *BACH1* are identified through ChEA analysis and their roles are supported by their known functions and the genes they regulate, which are also differentially expressed.
+*   **STRING Interactions:** The high combined network scores and specific interactions mentioned (e.g., *HBA2* with *HBA1*, *SLC7A9* with *SLC3A1*, *TYROBP* with *FCER1G*, *ALB* with *HNF1A*) are supported by the STRING data provided.
+
+**Inconsistencies/Missing Links:**
+
+While the grounding is generally strong, the specific "combined network score" values mentioned for some genes in the STRING data (e.g., 5.288744 for ALB, 999.000000 for HBA1) seem to be illustrative rather than directly extracted from a single STRING output. However, the overall conclusion of these genes being highly connected is consistent with the provided STRING interaction data. The ChEA analysis sometimes lists genes with higher p-values (e.g., IRF1, FOXA1, BP1), but the reasoning provided for their inclusion is based on their known biological roles and potential relevance, which is acceptable for hypothesis generation.
+
+## Step 4: Regulatory Network Analysis ##
+
+The ChEA analysis, integrated with other data, strongly suggests a dysregulated regulatory network in membranous nephropathy, primarily driven by key transcription factors.
+
+**Key Transcription Factors and Their Roles:**
+
+*   **HNF1A:** This is a consistently identified and highly significant transcription factor. Its targets, such as *SLC23A1*, *SLC7A9*, *SLC6A19*, *SLC2A2*, *SLC22A8*, and *SLC13A1/3*, are heavily involved in amino acid and vitamin transport, as well as carbohydrate metabolism. The strong association of HNF1A with "Amino acid metabolism" (GO) and "Glycolysis/Gluconeogenesis" (KEGG) pathways, and its regulation of numerous SLC transporters, points to its central role in metabolic homeostasis and nutrient processing within the kidney.
+*   **RELA (NF-κB):** As a master regulator of inflammation, RELA's targets, including *GATA3*, *CYP3A5*, *CCND1*, *BMP2*, *IRF1*, and *TP53*, are implicated in immune cell activation, proliferation, and stress responses. Its enrichment in immune-related GO terms and pathways aligns with the inflammatory nature of membranous nephropathy.
+*   **BACH1:** Identified as a significant regulator, BACH1 targets genes involved in both immune responses (*COLEC12*, *SEMA7A*, *ADM*) and metabolism (*HK2*, *PDK4*, *SLC2A2*). This suggests a role in integrating metabolic and inflammatory signals.
+*   **FOXM1:** This TF is linked to cell cycle regulation and immune responses, with targets like *OAS1*, *AXL*, and *UCP2* involved in cellular responses and immune activation.
+
+**Potential Upstream Regulators:**
+
+1.  **HNF1A:** This is the most compelling candidate. Its extensive regulation of genes involved in amino acid metabolism, vitamin transport, and carbohydrate processing, as evidenced by ChEA and pathway overlaps, directly links it to the observed metabolic dysregulation in membranous nephropathy. Its known role in kidney function further strengthens this hypothesis.
+2.  **RELA (NF-κB):** Given the strong enrichment of immune and inflammatory pathways, RELA is a critical upstream regulator. Its control over genes involved in T cell activation, cytokine production, and general immune responses explains the inflammatory component of the disease.
+3.  **BACH1:** Its role in regulating both metabolic and immune genes suggests it acts as a crucial integrator, potentially responding to cellular stress or inflammatory signals to modulate these pathways.
+4.  **FOXM1:** Its involvement in cell proliferation and immune responses suggests it could be involved in the cellular turnover and immune cell infiltration observed in kidney diseases.
+
+**Novel Interactions from ChEA:**
+
+While many TF-gene associations are well-established, some specific interactions highlighted by ChEA in the context of membranous nephropathy warrant further investigation for novelty:
+
+*   **BACH1 targeting *KCNJ16* and *GPR4*:** While BACH1 is known for its role in heme metabolism and oxidative stress, its specific regulation of these ion channel and G protein-coupled receptor genes in kidney disease might be less explored.
+*   **FOXM1 targeting *TNFRSF12A* and *AXL*:** FOXM1's role in cell cycle and DNA damage response is known, but its direct regulation of these specific cell surface receptors involved in signaling and adhesion in the context of membranous nephropathy could represent a novel mechanistic link.
+
+These potential novel interactions, if validated, could offer new insights into the specific molecular drivers of membranous nephropathy, potentially revealing previously unrecognized regulatory pathways.
+
+## Step 5: Similar Systems ##
+
+Based on the integrated analysis, several similar systems and disease contexts are relevant for comparison:
+
+*   **Diabetic Nephropathy:** This is a frequently cited comparison. Both conditions share significant alterations in amino acid metabolism, glucose metabolism, and inflammatory pathways, including TGF-beta signaling and complement activation. The dysregulation of metabolic pathways in response to hyperglycemia in diabetes can mirror some of the metabolic shifts observed in membranous nephropathy.
+*   **Lupus Nephritis:** As an autoimmune kidney disease with a strong inflammatory component, lupus nephritis shares similarities in immune system activation, particularly complement system involvement and immune cell infiltration. The overlap in immune-related pathways suggests common mechanisms of immune-mediated kidney damage.
+*   **IgA Nephropathy:** Another primary glomerulopathy with an immune basis, IgA nephropathy can also exhibit altered immune responses and metabolic changes, making it a relevant comparative system for understanding the interplay between immunity and metabolism in kidney disease.
+*   **Viral Infections (e.g., Hepatitis C, COVID-19):** The novel enrichment of pathways related to Hepatitis C/HCC and COVID-19 (Agent 1) suggests potential shared mechanisms with viral infections. Viral infections can trigger inflammatory cascades, immune dysregulation, and metabolic alterations that might contribute to or mimic aspects of kidney disease pathology. This could involve host-pathogen interactions or shared inflammatory pathways.
+*   **Parasitic Infections (e.g., African Trypanosomiasis, Malaria):** The KEGG findings of "African trypanosomiasis" and "Malaria" pathways (Agent 2) are particularly intriguing. While seemingly distant, these infections involve complex immune responses and metabolic adaptations that could, in some ways, overlap with the host's response to chronic inflammation and cellular stress in membranous nephropathy.
+
+## Step 6: Potential Hub Genes ##
+
+*   **ALB:** Exhibits the highest STRING network score and is involved in numerous metabolic and immune pathways, suggesting a central role in maintaining homeostasis. It is a known biomarker for kidney function and a potential therapeutic target for fluid balance.
+*   **TP53:** Shows high network centrality and is involved in stress response, cell cycle regulation, and immune signaling pathways, indicating its critical role in cellular integrity and response to damage. It is a well-known tumor suppressor and a target in cancer therapy.
+*   **TGFB1:** Demonstrates high network centrality and is a key regulator of cell growth, differentiation, and ECM remodeling, suggesting its involvement in tissue repair and fibrosis. It is a signaling molecule and ligand targeted in fibrotic and autoimmune diseases.
+*   **SLC2A2:** Shows significant network centrality and is involved in glucose transport and metabolism, linking metabolic pathways to cellular function. It is a potential target for diabetes and kidney disease management.
+*   **HK2:** A key enzyme in glycolysis, it shows high network centrality and is involved in multiple metabolic pathways, highlighting its importance in cellular energy production. It is a potential drug target for cancer therapy.
+*   **CYP3A5:** A major drug-metabolizing enzyme with significant network centrality, involved in drug metabolism and steroid biosynthesis pathways. It is a target for modulating drug efficacy and understanding drug-drug interactions.
+
+## Step 7: Novelty Exploration ##
+
+The analysis reveals several potentially novel aspects:
+
+*   **Viral and Parasitic Infection Pathways:** The strong enrichment of pathways related to "Hepatitis C and hepatocellular carcinoma," "SARS CoV 2 and COVID 19 pathway" (Agent 1), and "African trypanosomiasis" and "Malaria" (Agent 2) in the context of membranous nephropathy is noteworthy. While viral infections can be associated with kidney damage, the specific pathways highlighted might suggest novel mechanistic links or shared immune response pathways that are not typically the primary focus in membranous nephropathy research.
+*   **Microglia and Neuro-Immune Interactions:** The co-enrichment of "Microglia pathogen phagocytosis pathway" and "TYROBP causal network in microglia" (Agent 1) with kidney-specific pathways could suggest a novel role for neuro-immune interactions or glial cell involvement in kidney pathology, which is less commonly explored in renal diseases.
+*   **Heme Signaling:** The co-enrichment of "Heme signaling" with hemoglobin-related pathways (Agent 3) is also noteworthy, suggesting a potential role for heme metabolism or signaling in the disease, which might be an underappreciated aspect.
+*   **Specific TF-Gene Interactions:** As mentioned in Step 4, specific ChEA findings like BACH1 targeting *KCNJ16* and *GPR4*, or FOXM1 targeting *TNFRSF12A* and *AXL*, could represent novel regulatory mechanisms in the context of membranous nephropathy.
+
+## Step 8: High-Level Summary ##
+
+The integrated analysis reveals a complex interplay between metabolic dysregulation and immune system activation in membranous nephropathy. Key transcription factors, particularly **HNF1A** and **RELA**, appear to orchestrate these changes. HNF1A drives alterations in amino acid and carbohydrate metabolism, impacting cellular energy and nutrient processing, while RELA fuels the inflammatory response by activating immune cells and cytokine production. This metabolic and immune dysregulation leads to cellular stress, tissue remodeling, and potentially contributes to the fibrotic processes observed in kidney disease.
+
+The system is characterized by interconnected processes where metabolic shifts may exacerbate inflammation, and vice versa. For instance, altered amino acid metabolism could impact immune cell function, while inflammatory mediators might further disrupt metabolic pathways. The extensive protein-protein interactions highlighted by STRING, with hub genes like **ALB**, **TP53**, and **TGFB1**, underscore the systemic nature of these alterations. ALB's broad involvement in transport and immune pathways, TP53's role in stress response, and TGFB1's contribution to ECM remodeling are central to the disease phenotype. The novel connections to viral and parasitic infection pathways suggest that host-pathogen interactions or shared inflammatory pathways might also play a role, potentially exacerbating the disease.
+
+**Hypothesis:** In membranous nephropathy, dysregulated transcription factors (HNF1A, RELA, BACH1) drive a pathological state characterized by altered amino acid and carbohydrate metabolism, coupled with heightened immune cell activation and inflammation. This complex molecular milieu, involving key hub proteins like ALB, TP53, and TGFB1, leads to cellular stress, tissue damage, and potentially fibrosis, with potential contributions from novel pathways related to host-pathogen interactions.
+
+## Step 9: Title ##
+
+**HNF1A-driven metabolic and immune dysregulation in membranous nephropathy.** 
+
+*System Overview*
+The provided network highlights significant dysregulation in metabolic pathways, immune responses, and cellular processes in membranous nephropathy patients. Key genes involved in amino acid metabolism, glucose metabolism, blood clotting, complement system, and cell adhesion are interconnected with various pathways and other genes. This suggests a systemic impact beyond the kidney, potentially affecting overall cellular function and immune homeostasis.
+
+*Potential Upstream Regulators and Key Genes:*
+ - Several genes and pathways emerge as potential drivers of the observed phenotype:
+    * **HNF1A:** This transcription factor is a key regulator, directly targeting genes involved in glucose metabolism (SLC2A2, ALDOB, G6PC1) and amino acid metabolism (AGXT2). Its involvement in "Maturity onset diabetes of the young" and "Amino acid catabolic process" suggests a broad metabolic impact.
+    * **TGFB1:** A central signaling molecule, TGFB1 is linked to "TGF-beta Signaling Pathway," "Extracellular Matrix Organization," and interacts with genes like BMP2 and COL1A2, which are crucial for tissue structure and repair. Its association with "Amino Acid Metabolism" further underscores its metabolic influence.
+    * **CYBB:** This gene, critical for "ROS and RNS Production in Phagocytes" and "Neutrophil Degranulation," is also linked to "C-type Lectin Receptor Signaling Pathway" and "Microglia Pathogen Phagocytosis Pathway." Its involvement in immune cell function and amino acid metabolism suggests a role in inflammatory processes.
+    * **ALDOB:** As a key enzyme in "Glycolysis / Gluconeogenesis" and "Galactose Metabolism," ALDOB's dysregulation can profoundly impact cellular energy production and carbohydrate handling. Its links to "Maturity onset diabetes of the young" and "Amino acid catabolic process" highlight its metabolic significance.
+    * **SLC2A2:** This glucose transporter is involved in "Glycolysis / Gluconeogenesis" and "Carbohydrate Digestion and Absorption." Its association with HNF1A and "Maturity onset diabetes of the young" points to its critical role in glucose homeostasis.
+
+*Mechanistic Model*
+The identified relationships suggest a mechanistic model where upstream regulators such as HNF1A, TGFB1, CYBB, and ALDOB orchestrate significant metabolic and immune dysregulation in membranous nephropathy. HNF1A, by regulating glucose and amino acid metabolism, can alter cellular energy supply and substrate availability. TGFB1's influence on ECM organization and signaling pathways can contribute to tissue remodeling and inflammation. CYBB's role in phagocytosis and ROS production suggests an active inflammatory component, potentially exacerbating tissue damage. ALDOB's involvement in glucose and galactose metabolism, along with its link to diabetes, indicates a potential disruption in energy metabolism that could impact cellular function and repair mechanisms. These interconnected pathways likely contribute to the complex phenotype observed in membranous nephropathy.
+
+*Hypothesis*
+We hypothesize that the observed gene expression changes in membranous nephropathy patients reflect a systemic dysregulation of metabolic pathways and immune responses, driven by key upstream regulators like HNF1A, TGFB1, CYBB, and ALDOB. This dysregulation leads to altered glucose and amino acid metabolism, compromised immune cell function, and aberrant extracellular matrix remodeling, collectively contributing to the pathogenesis of membranous nephropathy.
+
+*System Model*
+```tsv
+Node1	Interaction	Node2
+HNF1A	targets	SLC2A2
+HNF1A	associated with	Maturity onset diabetes of the young
+TGFB1	associated with	TGF-beta Signaling Pathway
+TGFB1	associated with	Extracellular Matrix Organization
+CYBB	associated with	ROS and RNS Production in Phagocytes
+CYBB	associated with	C-type Lectin Receptor Signaling Pathway
+ALDOB	associated with	Glycolysis / Gluconeogenesis
+ALDOB	associated with	Maturity onset diabetes of the young
+SLC2A2	associated with	Glycolysis / Gluconeogenesis
+SLC2A2	associated with	Maturity onset diabetes of the young
+HBA2	associated with	Hemoglobin Switching Embryonic Fetal and Adult
+HBA1	associated with	Hemoglobin Switching Embryonic Fetal and Adult
+HBB	associated with	Hemoglobin Switching Embryonic Fetal and Adult
+AGXT2	associated with	Glyoxylate and Dicarboxylate Metabolism
+AGXT2	associated with	Amino Acid Metabolism
+PCK1	associated with	Gluconeogenesis
+PCK1	associated with	Adipogenesis
+LRP2	associated with	Retinol Metabolism
+LRP2	associated with	Vitamin Digestion and Absorption
+ACE2	associated with	SARS CoV 2 and COVID 19 Pathway
+ACE2	associated with	Renin Angiotensin System and Bradykinin pathways in COVID 19
+FCN1	associated with	Complement System
+FCN1	associated with	Vitamin Digestion and Absorption
+GATA3	associated with	TGF-beta Signaling Pathway
+GATA3	associated with	Adipogenesis
+NT5E	associated with	Purinergic Signaling in Leishmaniasis Infection
+NFATC1	associated with	C-type Lectin Receptor Signaling Pathway
+LYZ	associated with	Neutrophil Degranulation
+FTCD	associated with	One Carbon Pool by Folate
+FABP1	associated with	PPAR alpha Pathway
+HRG	associated with	Platelet Degranulation
+HRG	associated with	Blood Clotting Cascade
+COL1A2	associated with	Fibronectin Matrix Formation
+UGT1A6	associated with	Drug Metabolism - Cytochrome P450
+UGT1A7	associated with	Drug Metabolism - Cytochrome P450
+UGT1A9	associated with	Drug Metabolism - Cytochrome P450
+LAPTM5	associated with	Myeloid Leukocyte Cytokine Production
+CYP3A5	associated with	Metabolism of Xenobiotics by Cytochrome P450
+PDK4	associated with	PPAR signaling
+CD52	associated with	Leukocyte Activation
+CD53	associated with	Leukocyte Activation
+PAH	associated with	Tryptophan Metabolism
+BMP2	associated with	TGF-beta Signaling Pathway
+BMP2	associated with	Amino acid catabolic process
+CD48	associated with	Leukocyte Activation
+ITGA5	associated with	ECM-Receptor Interaction
+ABCC2	associated with	Bile Secretion
+CYP2B6	associated with	Metabolism of Xenobiotics by Cytochrome P450
+ALPL	associated with	Mammary Gland Development
+ALDOB	associated with	Amino acid catabolic process
+G6PC1	associated with	Amino acid catabolic process
+CUBN	associated with	Retinol metabolism
+CUBN	associated with	Amino acid catabolic process
+PLG	associated with	Complement and Coagulation Cascades
+PLG	associated with	Blood Clotting Cascade
+PLG	associated with	Vitamin Digestion and Absorption
+KNG1	associated with	Complement and Coagulation Cascades
+KNG1	associated with	Blood Clotting Cascade
+KNG1	associated with	Vitamin Digestion and Absorption
+APOM	associated with	Vitamin Digestion and Absorption
+APOM	associated with	Retinol metabolism
+APOH	associated with	Platelet Degranulation
+APOH	associated with	Blood Clotting Cascade
+APOH	associated with	Vitamin Digestion and Absorption
+AZGP1	associated with	Vitamin Digestion and Absorption
+AZGP1	associated with	Retinol metabolism
+RBP4	associated with	Vitamin Digestion and Absorption
+RBP4	associated with	Retinol metabolism
+BHMT	associated with	One Carbon Pool by Folate
+BHMT	associated with	Glycine, serine and threonine metabolism
+SHMT1	associated with	Glycine, serine and threonine metabolism
+SHMT1	associated with	Amino acid catabolic process
+GLDC	associated with	Glycine, serine and threonine metabolism
+GLDC	associated with	Amino acid catabolic process
+SLC12A3	associated with	SLC-mediated transport of inorganic anions
+SLC13A3	associated with	SLC-mediated transport of organic anions
+CSF1R	associated with	TGF beta Receptor Signaling
+CSF1R	associated with	FOXO-mediated transcription
+CSF1R	associated with	Microglia Pathogen Phagocytosis Pathway
+TYROBP	associated with	C-type Lectin Receptor Signaling Pathway
+TYROBP	associated with	Microglia Pathogen Phagocytosis Pathway
+MRLN	associated with	Protein Folding
+CDH9	associated with	Cadherin Binding
+EHD4	associated with	Endocytosis
+STRIT1	associated with	Protein Binding
+CDH12	associated with	Cadherin Binding
+EHD2	associated with	Endocytosis
+EGF	associated with	EGFR Signaling Pathway
+EGF	associated with	ERBB2 Signaling Pathway
+CTSS	associated with	Lysosome
+NCAM1	associated with	Cell Surface Interactions at the Vascular Wall
+NCAM1	associated with	Cell Adhesion Molecules (CAMs)
+PPARGC1A	associated with	PPAR signaling
+PPARGC1A	associated with	Nuclear Receptors in Lipid Metabolism and Toxicity
+ALB	associated with	Folate Metabolism
+ALB	associated with	Vitamin B12 Metabolism
+ALB	associated with	Blood Clotting Cascade
+ALB	associated with	Complement System
+TP53	associated with	DNA Damage Response
+TP53	associated with	Fluoropyrimidine Activity
+TP53	associated with	Bladder Cancer
+TP53	associated with	CCND1
+TP53	associated with	TGFB1
+CCND1	associated with	Mammary Gland Development
+CCND1	associated with	Bladder Cancer
+HNF1A	associated with	Amino acid catabolic process
+SLC2A2	associated with	Amino acid catabolic process
+CYBB	associated with	Amino acid catabolic process
+AGXT2	associated with	Amino acid catabolic process
+ALDOB	associated with	Amino acid catabolic process
+G6PC1	associated with	Amino acid catabolic process
+HBA2	associated with	Amino acid catabolic process
+HBA1	associated with	Amino acid catabolic process
+HBB	associated with	Amino acid catabolic process
+CUBN	associated with	Amino acid catabolic process
+LRP2	associated with	Amino acid catabolic process
+PLG	associated with	Amino acid catabolic process
+BMP2	associated with	Amino acid catabolic process
+KNG1	associated with	Amino acid catabolic process
+APOM	associated with	Amino acid catabolic process
+APOH	associated with	Amino acid catabolic process
+AZGP1	associated with	Amino acid catabolic process
+RBP4	associated with	Amino acid catabolic process
+FCN1	associated with	Amino acid catabolic process
+ACE2	associated with	Amino acid catabolic process
+GATA3	associated with	Amino acid catabolic process
+PCK1	associated with	Amino acid catabolic process
+SLC2A2	associated with	Amino acid catabolic process
+PAH	associated with	Amino acid catabolic process
+UGT1A6	associated with	Amino acid catabolic process
+UGT1A7	associated with	Amino acid catabolic process
+UGT1A9	associated with	Amino acid catabolic process
+NCAM1	associated with	Amino acid catabolic process
+SLC2A2	associated with	Amino acid catabolic process
+CYBB	associated with	Amino acid catabolic process
+AGXT2	associated with	Amino acid catabolic process
+ALDOB	associated with	Amino acid catabolic process
+G6PC1	associated with	Amino acid catabolic process
+HBA2	associated with	Amino acid catabolic process
+HBA1	associated with	Amino acid catabolic process
+HBB	associated with	Amino acid catabolic process
+CUBN	associated with	Amino acid catabolic process
+LRP2	associated with	Amino acid catabolic process
+

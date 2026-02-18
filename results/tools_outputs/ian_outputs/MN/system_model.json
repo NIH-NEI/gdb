@@ -1,0 +1,86 @@
+{
+  "modules": [
+    {
+      "module_name": "Metabolic Dysregulation",
+      "associated_phenotype": "Altered Amino Acid & Carbohydrate Metabolism",
+      "genes": [
+        "ACE2",
+        "AGXT2",
+        "AKR7A3",
+        "ALDOB",
+        "BHMT",
+        "CYP2B6",
+        "CYP3A5",
+        "DMGDH",
+        "G6PC1",
+        "GLDC",
+        "GSTA1",
+        "GSTA2",
+        "HNF4G",
+        "HK2",
+        "PCK1",
+        "SHMT1",
+        "SLC2A2",
+        "SLC3A1",
+        "SLC6A19",
+        "SLC7A9",
+        "UGT1A6",
+        "UGT1A7",
+        "UGT1A9"
+      ]
+    },
+    {
+      "module_name": "Immune & Inflammatory Response",
+      "associated_phenotype": "Immune Cell Activation & Complement Cascade",
+      "genes": [
+        "C3AR1",
+        "CD48",
+        "CD52",
+        "CD53",
+        "COLEC12",
+        "CSF1R",
+        "CTSS",
+        "CYBB",
+        "FCN1",
+        "FCER1G",
+        "KNG1",
+        "LYZ",
+        "MRC2",
+        "NCAM1",
+        "PLG",
+        "PYCARD",
+        "SERPINA5",
+        "TYROBP"
+      ]
+    },
+    {
+      "module_name": "Signaling & Remodeling",
+      "associated_phenotype": "Tissue Stress and Repair",
+      "genes": [
+        "ALB",
+        "BAMBI",
+        "BMP2",
+        "CCND1",
+        "COL1A2",
+        "EGF",
+        "HBEGF",
+        "LRRC32",
+        "NRROS",
+        "SKI",
+        "TGFB1",
+        "TP53"
+      ]
+    },
+    {
+      "module_name": "Upstream Regulatory TFs",
+      "associated_phenotype": "Orchestration of Gene Expression",
+      "genes": [
+        "BACH1",
+        "FOXM1",
+        "HNF1A",
+        "IRF1",
+        "RELA"
+      ]
+    }
+  ]
+}

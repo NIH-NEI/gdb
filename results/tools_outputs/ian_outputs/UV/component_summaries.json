@@ -1,0 +1,28 @@
+{
+  "summaries": [
+    {
+      "component": "KEGG",
+      "summary": "The significantly enriched KEGG pathways primarily highlight the involvement of the complement system, cell adhesion, and extracellular matrix (ECM) interactions in the uveitis patient group compared to healthy controls. These pathways are strongly interconnected, suggesting a coordinated dysregulation in immune response and tissue remodeling processes."
+    },
+    {
+      "component": "WikiPathway",
+      "summary": "The significantly enriched WikiPathways point towards a strong involvement of the complement system and Wnt signaling in the pathogenesis of uveitis in the studied patient population. Additionally, pathways related to immune response, particularly T cell modulation and cancer immunotherapy, are highlighted."
+    },
+    {
+      "component": "Reactome",
+      "summary": "The significantly enriched Reactome pathways in this Uveitis vs. control whole blood transcriptomics study point towards dysregulation in several interconnected biological processes, highlighting alterations in neuronal signaling, ECM remodeling, complement activation, and histone demethylation."
+    },
+    {
+      "component": "GO",
+      "summary": "The significantly enriched GO terms in this RNA-Seq analysis of uveitis patients versus healthy controls strongly implicate immune system dysregulation. Multiple GO terms related to B cell and T cell mediated immunity, complement activation, and acute inflammatory responses are highly enriched."
+    },
+    {
+      "component": "ChEA",
+      "summary": "The ChEA analysis identified several significantly enriched transcription factors (TFs) among the DEGs in uveitis patients, with RELB, TFAP2C, and SMAD4 showing the most significant enrichment. These TFs are known to be involved in immune regulation, cell differentiation, and ECM remodeling."
+    },
+    {
+      "component": "STRING",
+      "summary": "The STRING analysis reveals a highly interconnected network of proteins. Fibronectin (FN1) emerges as a central hub, interacting extensively with proteins involved in cytoskeletal organization, immune response (CD274, FCGR1A), and complement activation (C1QA, C1QB, C1QC). ANKRD22, another highly connected node, shows strong interactions with multiple immune-related proteins."
+    }
+  ]
+}

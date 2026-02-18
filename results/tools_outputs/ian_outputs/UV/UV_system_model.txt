@@ -1,0 +1,399 @@
+*System Overview*
+The provided network analysis reveals a complex interplay of differentially expressed genes in uveitis patients compared to healthy controls, primarily revolving around immune responses, cell adhesion, and cellular processes. Key pathways implicated include complement activation, inflammatory responses, Wnt signaling, and neuronal system functions. The presence of Y-chromosome genes among the differentially expressed genes suggests potential sex-specific differences or influences.
+
+*Potential Upstream Regulators and Key Genes:*
+Several transcription factors and signaling molecules appear to be central to regulating the observed gene expression changes:
+
+*   **RELB:** This transcription factor is a significant upstream regulator, directly targeting genes involved in immune responses such as GBP5, GBP6, C1QC, C1QB, C1QA, and FCGR1A. It also targets genes involved in cell adhesion and signaling like CD274, MYOM2, and PDCD1LG2, suggesting a broad impact on immune and cellular processes.
+
+*   **SMAD4:** As a key mediator of TGF-β signaling, SMAD4 is implicated in regulating extracellular matrix (ECM) components like FN1, COL4A3, and COL4A4, as well as cell adhesion molecules such as ANK2 and NRCAM. Its targeting of genes involved in immune responses (BATF2, ATF3) and neuronal pathways (GRIN3A, OTX1) highlights its multifaceted role.
+
+*   **TFAP2C:** This transcription factor is linked to the regulation of Wnt signaling (ROR1, KREMEN1, WNT16) and cell adhesion processes (VSIG10, NRCAM, SRGAP1). It also targets genes involved in immune responses (IFI27, IL27) and cell fate commitment (ETV7, SOX5), indicating its influence across various cellular functions.
+
+*   **POU5F1:** This pluripotency factor is shown to target genes involved in neuronal development (NRN1, OTX1), immune responses (GBP1, ANXA3), and Y-chromosome genes (EIF1AY), suggesting a role in maintaining cellular identity and potentially influencing immune cell function.
+
+*Mechanistic Model*
+The identified relationships suggest a mechanistic model where upstream regulators, particularly transcription factors like RELB, SMAD4, TFAP2C, and POU5F1, orchestrate the observed differential gene expression in uveitis. These regulators appear to influence key pathways such as complement activation, acute inflammatory response, and cell adhesion. For instance, RELB's targeting of complement components (C1QA, C1QB, C1QC) and immune activators (GBP5, FCGR1A) suggests a direct role in modulating the inflammatory cascade. Simultaneously, SMAD4's influence on ECM components (FN1, COL4A3) and cell adhesion molecules (ANK2, PARVA) points to its involvement in tissue remodeling and cellular interactions, which are critical in inflammatory conditions. TFAP2C's regulation of Wnt signaling and cell adhesion molecules further suggests a role in cellular communication and tissue integrity. The involvement of Y-chromosome genes, targeted by POU5F1 and others, might indicate a sex-specific component to the disease pathology. Overall, these upstream regulators likely converge to drive a pro-inflammatory and potentially dysregulated cellular environment characteristic of uveitis.
+
+*Hypothesis*
+The observed changes in gene expression in peripheral blood from uveitis patients reflect a systemic dysregulation of immune responses and cell adhesion processes, potentially driven by aberrant activity of key transcription factors. Specifically, we hypothesize that dysregulation of RELB, SMAD4, and TFAP2C leads to an overactive complement system, enhanced inflammatory signaling, and altered cell-cell and cell-matrix interactions, contributing to the pathogenesis of uveitis. The differential expression of Y-chromosome genes may also play a role, possibly modulated by factors like POU5F1.
+
+*System Model*
+```tsv
+Node1	Interaction	Node2
+RELB	targets	GBP5
+SMAD4	targets	FN1
+TFAP2C	targets	ROR1
+POU5F1	targets	NRN1
+RELB	targets	C1QC
+SMAD4	targets	COL4A3
+TFAP2C	targets	NRCAM
+POU5F1	targets	EIF1AY
+RELB	targets	FCGR1A
+SMAD4	targets	PARVA
+TFAP2C	targets	WNT16
+POU5F1	targets	OTX1
+C1QA	associated with	Complement Activation
+FN1	associated with	Acute Inflammatory Response
+CD274	associated with	T Cell Costimulation
+GBP1	associated with	NOD-like Receptor Signaling Pathway
+SERPING1	associated with	Complement and Coagulation Cascades
+SYN2	associated with	Synaptic Vesicle Pathway
+COL4A3	associated with	Glomerular Basement Membrane Development
+ANKRD22	associated with	Myeloid Leukocyte Activation
+BATF2	associated with	Defense Response to Protozoan
+CASP5	associated with	Pyroptotic Inflammatory Response
+ETV7	associated with	Cell Fate Commitment
+HP	associated with	Acute-Phase Response
+IFI27	associated with	Cellular Response to Type II Interferon
+SLAMF8	associated with	Leukocyte Mediated Immunity
+WNT16	associated with	Wnt Signaling
+SOX5	associated with	Cell Fate Commitment
+ROR1	associated with	Wnt Signaling
+ZFY	associated with	Y-Chromosome
+MMP19	associated with	Collagen Degradation
+CSMD1	associated with	Cell Adhesion Molecules
+KREMEN1	associated with	Wnt Signaling
+ATF3	associated with	Cell Fate Commitment
+FOLR3	associated with	Dicarboxylic Acid Transport
+ANXA3	associated with	Neutrophil Activation
+UTY	associated with	Y-Chromosome
+KDM5D	associated with	Y-Chromosome
+USP9Y	associated with	Y-Chromosome
+DDX3Y	associated with	Y-Chromosome
+RPS4Y1	associated with	Y-Chromosome
+EIF1AY	associated with	Y-Chromosome
+TTTY14	associated with	Female Gonad Development
+TTTY15	associated with	Female Gonad Development
+FN1	interacts with	Focal Adhesion
+C1QB	interacts with	Complement Activation
+C1QC	interacts with	Complement Activation
+ANK2	interacts with	Actin Filament-Based Movement
+CD274	interacts with	T Cell Costimulation
+GBP1	interacts with	NOD-like Receptor Signaling Pathway
+GBP5	interacts with	NOD-like Receptor Signaling Pathway
+GBP6	interacts with	Interferon Gamma Signaling
+SERPING1	interacts with	Complement and Coagulation Cascades
+PDCD1LG2	interacts with	Cancer Immunotherapy by PD-1 Blockade
+SYN2	interacts with	Synaptic Vesicle Pathway
+SLC1A3	interacts with	Astrocyte Development
+NRN1	interacts with	Synapse Assembly
+GRIN3A	interacts with	Synaptic Plasticity
+OTX1	interacts with	Brain Morphogenesis
+GDF7	interacts with	Brain Morphogenesis
+COL4A3	interacts with	Glomerular Basement Membrane Development
+COL4A4	interacts with	Glomerular Basement Membrane Development
+PARVA	interacts with	Focal Adhesion
+ANKRD22	interacts with	Myeloid Leukocyte Activation
+BATF2	interacts with	Defense Response to Protozoan
+CASP5	interacts with	Pyroptotic Inflammatory Response
+NAIP	interacts with	NOD-like Receptor Signaling Pathway
+ETV7	interacts with	Cell Fate Commitment
+HP	interacts with	Acute-Phase Response
+IFI27	interacts with	Cellular Response to Type II Interferon
+SLAMF8	interacts with	Leukocyte Mediated Immunity
+WNT16	interacts with	Wnt Signaling
+SOX5	interacts with	Cell Fate Commitment
+ROR1	interacts with	Wnt Signaling
+ZFY	interacts with	Y-Chromosome
+MMP19	interacts with	Collagen Degradation
+CSMD1	interacts with	Cell Adhesion Molecules
+KREMEN1	interacts with	Wnt Signaling
+ATF3	interacts with	Cell Fate Commitment
+FOLR3	interacts with	Dicarboxylic Acid Transport
+ANXA3	interacts with	Neutrophil Activation
+UTY	interacts with	Y-Chromosome
+KDM5D	interacts with	Y-Chromosome
+USP9Y	interacts with	Y-Chromosome
+DDX3Y	interacts with	Y-Chromosome
+RPS4Y1	interacts with	Y-Chromosome
+EIF1AY	interacts with	Y-Chromosome
+TTTY14	interacts with	Female Gonad Development
+TTTY15	interacts with	Female Gonad Development
+RELB	targets	CD274
+SMAD4	targets	FN1
+TFAP2C	targets	KCNK17
+POU5F1	targets	ROR1
+RELB	targets	GBP5
+SMAD4	targets	COL4A4
+TFAP2C	targets	VSIG10
+POU5F1	targets	GBP1
+RELB	targets	C1QB
+SMAD4	targets	PARVA
+TFAP2C	targets	SRGAP1
+POU5F1	targets	SERPING1
+RELB	targets	C1QA
+SMAD4	targets	ANK2
+TFAP2C	targets	GRIP1
+POU5F1	targets	FCGR1A
+RELB	targets	FCGR1A
+SMAD4	targets	FN1
+TFAP2C	targets	ETV7
+POU5F1	targets	GBP6
+RELB	targets	PDCD1LG2
+SMAD4	targets	BATF2
+TFAP2C	targets	IFI27
+POU5F1	targets	EPSTI1
+RELB	targets	GBP6
+SMAD4	targets	ATF3
+TFAP2C	targets	SOX5
+POU5F1	targets	GPR84
+RELB	targets	MYOM2
+SMAD4	targets	NRCAM
+TFAP2C	targets	LRP1B
+POU5F1	targets	NRN1
+RELB	targets	LYPD6B
+SMAD4	targets	EIF1AY
+TFAP2C	targets	C1orf226
+POU5F1	targets	NAIP
+RELB	targets	NOS1AP
+SMAD4	targets	TMEM119
+TFAP2C	targets	IL27
+POU5F1	targets	CORIN
+RELB	targets	ZFY
+SMAD4	targets	CSMD1
+TFAP2C	targets	ANOS1
+POU5F1	targets	SYBU
+RELB	targets	KIF20A
+SMAD4	targets	RPS4Y1
+TFAP2C	targets	APOL4
+POU5F1	targets	SLC26A8
+RELB	targets	DDX3Y
+SMAD4	targets	GRIN3A
+TFAP2C	targets	HPN
+POU5F1	targets	ANXA3
+RELB	targets	KDM5D
+SMAD4	targets	USP9Y
+TFAP2C	targets	FOLR3
+POU5F1	targets	C4BPA
+RELB	targets	MMP19
+SMAD4	targets	XKR3
+TFAP2C	targets	BHLHE41
+POU5F1	targets	WNT16
+RELB	targets	COCH
+SMAD4	targets	COL4A3
+TFAP2C	targets	CACNA1E
+POU5F1	targets	KREMEN1
+RELB	targets	ROR1
+SMAD4	targets	BTNL9
+TFAP2C	targets	GRIP1
+POU5F1	targets	FBXO39
+RELB	targets	FFAR3
+SMAD4	targets	COL4A4
+TFAP2C	targets	MOCS1
+POU5F1	targets	KCNK17
+RELB	targets	PLLP
+SMAD4	targets	SLITRK5
+TFAP2C	targets	PARVA
+POU5F1	targets	INSYN2B
+RELB	targets	DDO
+SMAD4	targets	MOXD1
+TFAP2C	targets	GDF7
+POU5F1	targets	VSIG10
+RELB	targets	FHAD1
+SMAD4	targets	OTX1
+TFAP2C	targets	ZDHHC11B
+POU5F1	targets	OLAH
+RELB	targets	ARL17A
+SMAD4	targets	ARL17B
+TFAP2C	targets	PLEKHG7
+POU5F1	targets	IFT56
+RELB	targets	FAM118A
+SMAD4	targets	WDR17
+TFAP2C	targets	PKIB
+POU5F1	targets	PRR16
+RELB	targets	SPDYE4
+SMAD4	targets	SPDY4
+FN1	associated with	Focal Adhesion
+FN1	associated with	ECM-Receptor Interaction
+FN1	associated with	Collagen Biosynthesis and Modifying Enzymes
+ANKRD22	associated with	Myeloid Leukocyte Activation
+CD274	associated with	T Cell Costimulation
+FCGR1A	associated with	Staphylococcus Aureus Infection
+C1QC	associated with	Efferocytosis
+C1QA	associated with	Efferocytosis
+C1QB	associated with	Efferocytosis
+SERPING1	associated with	Complement and Coagulation Cascades
+FGF13	associated with	Cardiac Conduction
+PDCD1LG2	associated with	Cancer Immunotherapy by PD-1 Blockade
+GBP5	associated with	NOD-like Receptor Signaling Pathway
+CD177	associated with	Neutrophil Activation
+IFI27	associated with	Interferon Signaling
+SEPTIN4	associated with	Cytoskeleton in Muscle Cells
+SLC1A3	associated with	Neurotransmitter Release Cycle
+SYN2	associated with	Synaptic Vesicle Pathway
+GBP1	associated with	NOD-like Receptor Signaling Pathway
+CASP5	associated with	NOD-like Receptor Signaling Pathway
+SLAMF8	associated with	Leukocyte Mediated Immunity
+BATF2	associated with	Defense Response to Protozoan
+ETV7	associated with	Cell Fate Commitment
+HP	associated with	Acute-Phase Response
+EPSTI1	associated with	Epithelial to Mesenchymal Transition in Colorectal Cancer
+GBP6	associated with	Interferon Gamma Signaling
+ATF3	associated with	Cell Fate Commitment
+SOX5	associated with	Asymmetric Cell Division
+GPR84	associated with	Myeloid Leukocyte Activation
+MYOM2	associated with	Cytoskeleton in Muscle Cells
+NRCAM	associated with	Cell Adhesion Molecule (CAM) Interaction
+LRP1B	associated with	Small Cell Lung Cancer
+NRN1	associated with	Presynaptic Modulation of Chemical Synaptic Transmission
+LYPD6B	associated with	ncRNAs in Wnt Signaling in Hepatocellular Carcinoma
+EIF1AY	associated with	Coronavirus Disease - COVID-19
+C1orf226	associated with	AGE-RAGE Signaling Pathway in Diabetic Complications
+NAIP	associated with	NOD-like Receptor Signaling Pathway
+NOS1AP	associated with	Cardiac Muscle Cell Action Potential
+TMEM119	associated with	Microglia Pathogen Phagocytosis Pathway
+IL27	associated with	T Cell Costimulation
+CORIN	associated with	Formation of Fibrin Clot (Clotting Cascade)
+ZFY	associated with	Female Gonad Development
+CSMD1	associated with	Startle Response
+ANOS1	associated with	Development of Ureteric Derived Collecting System
+SYBU	associated with	Synaptic Maturation
+KIF20A	associated with	Cell Junction Disassembly
+RPS4Y1	associated with	Coronavirus Disease - COVID-19
+APOL4	associated with	Cell Recognition
+SLC26A8	associated with	Dicarboxylic Acid Transport
+DDX3Y	associated with	Pertussis
+GRIN3A	associated with	Prion Disease
+HPN	associated with	Acute-Phase Response
+ANXA3	associated with	Neutrophil Activation Involved in Immune Response
+KDM5D	associated with	Adaptive Immune Response Based on Somatic Recombination of Immune Receptors Built from Immunoglobulin Superfamily Domains
+USP9Y	associated with	Pertussis
+FOLR3	associated with	Cell Recognition
+C4BPA	associated with	Complement and Coagulation Cascades
+MMP19	associated with	Collagen Degradation
+XKR3	associated with	Axon Guidance
+BHLHE41	associated with	Negative Regulation of Myotube Differentiation
+WNT16	associated with	lncRNA in Canonical Wnt Signaling and Colorectal Cancer
+COCH	associated with	Sensory Perception of Sound
+COL4A3	associated with	Focal Adhesion
+CACNA1E	associated with	Transmission Across Chemical Synapses
+KREMEN1	associated with	lncRNA in Canonical Wnt Signaling and Colorectal Cancer
+ROR1	associated with	lncRNA in Canonical Wnt Signaling and Colorectal Cancer
+BTNL9	associated with	Cancer Immunotherapy by PD-1 Blockade
+GRIP1	associated with	IgSF CAM Signaling
+FBXO39	associated with	Pertussis
+FFAR3	associated with	Positive Regulation of Acute Inflammatory Response
+COL4A4	associated with	Focal Adhesion
+MOCS1	associated with	Dicarboxylic Acid Transport
+KCNK17	associated with	Neuronal System
+PLLP	associated with	Myelin Assembly
+SLITRK5	associated with	Cell Adhesion Molecule (CAM) Interaction
+PARVA	associated with	Focal Adhesion
+INSYN2B	associated with	Synaptic Vesicle Pathway
+DDO	associated with	Grooming Behavior
+MOXD1	associated with	Collagen Degradation
+GDF7	associated with	Brain Morphogenesis
+VSIG10	associated with	Synapse Assembly
+FHAD1	associated with	Epithelial to Mesenchymal Transition in Colorectal Cancer
+OTX1	associated with	Brain Morphogenesis
+ZDHHC11B	associated with	Negative Regulation of Myotube Differentiation
+OLAH	associated with	AGE-RAGE Signaling Pathway in Diabetic Complications
+ARL17A	associated with	Nervous System Development
+ARL17B	associated with	Nervous System Development
+PLEKHG7	associated with	Cell Fate Commitment
+IFT56	associated with	Cytoskeleton in Muscle Cells
+FAM118A	associated with	Cell Fate Commitment
+SRGAP1	associated with	IgSF CAM Signaling
+WDR17	associated with	STAT3 Signaling Pathway
+PKIB	associated with	TFAP2C targets
+PRR16	associated with	SMAD4 targets
+SPDYE4	associated with	Chagas Disease
+SPDY4	associated with	Chagas Disease
+FN1	interacts with	Focal Adhesion
+FN1	interacts with	ECM-Receptor Interaction
+FN1	interacts with	Collagen Biosynthesis and Modifying Enzymes
+ANKRD22	interacts with	Myeloid Leukocyte Activation
+CD274	interacts with	T Cell Costimulation
+FCGR1A	interacts with	Staphylococcus Aureus Infection
+C1QC	interacts with	Efferocytosis
+C1QA	interacts with	Efferocytosis
+C1QB	interacts with	Efferocytosis
+SERPING1	interacts with	Complement and Coagulation Cascades
+FGF13	interacts with	Cardiac Conduction
+PDCD1LG2	interacts with	Cancer Immunotherapy by PD-1 Blockade
+GBP5	interacts with	NOD-like Receptor Signaling Pathway
+CD177	interacts with	Neutrophil Activation
+IFI27	interacts with	Interferon Signaling
+SEPTIN4	interacts with	Cytoskeleton in Muscle Cells
+SLC1A3	interacts with	Neurotransmitter Release Cycle
+SYN2	interacts with	Synaptic Vesicle Pathway
+GBP1	interacts with	NOD-like Receptor Signaling Pathway
+CASP5	interacts with	NOD-like Receptor Signaling Pathway
+SLAMF8	interacts with	Leukocyte Mediated Immunity
+BATF2	interacts with	Defense Response to Protozoan
+ETV7	interacts with	Cell Fate Commitment
+HP	interacts with	Acute-Phase Response
+EPSTI1	interacts with	Epithelial to Mesenchymal Transition in Colorectal Cancer
+GBP6	interacts with	Interferon Gamma Signaling
+ATF3	interacts with	Cell Fate Commitment
+SOX5	interacts with	Asymmetric Cell Division
+GPR84	interacts with	Myeloid Leukocyte Activation
+MYOM2	interacts with	Cytoskeleton in Muscle Cells
+NRCAM	interacts with	Cell Adhesion Molecule (CAM) Interaction
+LRP1B	interacts with	Small Cell Lung Cancer
+NRN1	interacts with	Presynaptic Modulation of Chemical Synaptic Transmission
+LYPD6B	interacts with	ncRNAs in Wnt Signaling in Hepatocellular Carcinoma
+EIF1AY	interacts with	Coronavirus Disease - COVID-19
+C1orf226	interacts with	AGE-RAGE Signaling Pathway in Diabetic Complications
+NAIP	interacts with	NOD-like Receptor Signaling Pathway
+NOS1AP	interacts with	Cardiac Muscle Cell Action Potential
+TMEM119	interacts with	Microglia Pathogen Phagocytosis Pathway
+IL27	interacts with	T Cell Costimulation
+CORIN	interacts with	Formation of Fibrin Clot (Clotting Cascade)
+ZFY	interacts with	Female Gonad Development
+CSMD1	interacts with	Startle Response
+ANOS1	interacts with	Development of Ureteric Derived Collecting System
+SYBU	interacts with	Synaptic Maturation
+KIF20A	interacts with	Cell Junction Disassembly
+RPS4Y1	interacts with	Coronavirus Disease - COVID-19
+APOL4	interacts with	Cell Recognition
+SLC26A8	interacts with	Dicarboxylic Acid Transport
+DDX3Y	interacts with	Pertussis
+GRIN3A	interacts with	Prion Disease
+HPN	interacts with	Acute-Phase Response
+ANXA3	interacts with	Neutrophil Activation Involved in Immune Response
+KDM5D	interacts with	Adaptive Immune Response Based on Somatic Recombination of Immune Receptors Built from Immunoglobulin Superfamily Domains
+USP9Y	interacts with	Pertussis
+FOLR3	interacts with	Cell Recognition
+C4BPA	interacts with	Complement and Coagulation Cascades
+MMP19	interacts with	Collagen Degradation
+XKR3	interacts with	Axon Guidance
+BHLHE41	interacts with	Negative Regulation of Myotube Differentiation
+WNT16	interacts with	lncRNA in Canonical Wnt Signaling and Colorectal Cancer
+COCH	interacts with	Sensory Perception of Sound
+COL4A3	interacts with	Focal Adhesion
+CACNA1E	interacts with	Transmission Across Chemical Synapses
+KREMEN1	interacts with	lncRNA in Canonical Wnt Signaling and Colorectal Cancer
+ROR1	interacts with	lncRNA in Canonical Wnt Signaling and Colorectal Cancer
+BTNL9	interacts with	Cancer Immunotherapy by PD-1 Blockade
+GRIP1	interacts with	IgSF CAM Signaling
+FBXO39	interacts with	Pertussis
+FFAR3	interacts with	Positive Regulation of Acute Inflammatory Response
+COL4A4	interacts with	Focal Adhesion
+MOCS1	interacts with	Dicarboxylic Acid Transport
+KCNK17	interacts with	Neuronal System
+PLLP	interacts with	Myelin Assembly
+SLITRK5	interacts with	Cell Adhesion Molecule (CAM) Interaction
+PARVA	interacts with	Focal Adhesion
+INSYN2B	interacts with	Synaptic Vesicle Pathway
+DDO	interacts with	Grooming Behavior
+MOXD1	interacts with	Collagen Degradation
+GDF7	interacts with	Brain Morphogenesis
+VSIG10	interacts with	Synapse Assembly
+FHAD1	interacts with	Epithelial to Mesenchymal Transition in Colorectal Cancer
+OTX1	interacts with	Brain Morphogenesis
+ZDHHC11B	interacts with	Negative Regulation of Myotube Differentiation
+OLAH	interacts with	AGE-RAGE Signaling Pathway in Diabetic Complications
+ARL17A	interacts with	Nervous System Development
+ARL17B	interacts with	Nervous System Development
+PLEKHG7	interacts with	Cell Fate Commitment
+IFT56	interacts with	Cytoskeleton in Muscle Cells
+FAM118A	interacts with	Cell Fate Commitment
+SRGAP1	interacts with	IgSF CAM Signaling
+WDR17	interacts with	STAT3 Signaling Pathway
+PKIB	associated with	TFAP2C targets
+PRR16	associated with	SMAD4 targets
+SPDYE4	associated with	Chagas Disease
+SPDY4	associated with	Chagas Disease
+```

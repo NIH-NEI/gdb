@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "source": "IRF1",
+      "target": "CD274"
+    },
+    {
+      "source": "IRF1",
+      "target": "GBP1"
+    },
+    {
+      "source": "POU5F1",
+      "target": "C1QA"
+    },
+    {
+      "source": "POU5F1",
+      "target": "OTX1"
+    },
+    {
+      "source": "POU5F1",
+      "target": "ROR1"
+    },
+    {
+      "source": "RELB",
+      "target": "CD274"
+    },
+    {
+      "source": "RELB",
+      "target": "GBP5"
+    },
+    {
+      "source": "RELB",
+      "target": "MMP19"
+    },
+    {
+      "source": "SMAD4",
+      "target": "ANK2"
+    },
+    {
+      "source": "SMAD4",
+      "target": "COL4A3"
+    },
+    {
+      "source": "SMAD4",
+      "target": "COL4A4"
+    },
+    {
+      "source": "SMAD4",
+      "target": "ETV7"
+    },
+    {
+      "source": "SMAD4",
+      "target": "FN1"
+    },
+    {
+      "source": "TFAP2C",
+      "target": "GPR84"
+    },
+    {
+      "source": "TFAP2C",
+      "target": "IL27"
+    },
+    {
+      "source": "TFAP2C",
+      "target": "KCNK17"
+    },
+    {
+      "source": "TFAP2C",
+      "target": "KREMEN1"
+    },
+    {
+      "source": "TFAP2C",
+      "target": "NRCAM"
+    }
+  ]
+}

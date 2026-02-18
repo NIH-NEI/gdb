@@ -1,0 +1,57 @@
+{
+  "categories": [
+    {
+      "component": "KEGG",
+      "categories": [
+        {
+          "category_name": "Immune Response",
+          "terms": [
+            "Complement and coagulation cascades",
+            "Staphylococcus aureus infection",
+            "Systemic lupus erythematosus",
+            "Pertussis",
+            "Coronavirus disease - COVID-19",
+            "Chagas disease"
+          ]
+        },
+        {
+          "category_name": "Cell Adhesion and ECM",
+          "terms": [
+            "Focal adhesion",
+            "ECM-receptor interaction",
+            "Cell adhesion molecules",
+            "Cytoskeleton in muscle cells",
+            "AGE-RAGE signaling pathway in diabetic complications",
+            "Amoebiasis",
+            "Small cell lung cancer"
+          ]
+        }
+      ]
+    },
+    {
+      "component": "WikiPathway",
+      "categories": [
+        {
+          "category_name": "Immune Response",
+          "terms": [
+            "Nucleotide binding oligomerization domain NOD pathway",
+            "Allograft rejection",
+            "Microglia pathogen phagocytosis pathway",
+            "Cancer immunotherapy by PD-1 blockade",
+            "Complement system in neuronal development and plasticity",
+            "Complement activation",
+            "Complement and coagulation cascades"
+          ]
+        },
+        {
+          "category_name": "Wnt Signaling",
+          "terms": [
+            "Wnt signaling",
+            "lncRNA in canonical Wnt signaling and colorectal cancer",
+            "ncRNAs in Wnt signaling in hepatocellular carcinoma"
+          ]
+        }
+      ]
+    }
+  ]
+}

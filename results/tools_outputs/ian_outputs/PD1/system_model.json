@@ -1,0 +1,62 @@
+{
+  "modules": [
+    {
+      "module_name": "T-Cell Immune Activation",
+      "associated_phenotype": "Pro-inflammatory Response & Antigen Presentation",
+      "genes": [
+        "CD200",
+        "CD58",
+        "CD74",
+        "CTLA4",
+        "HLA-DQA1",
+        "HLA-DQB1",
+        "HLA-DRB1",
+        "IFNG",
+        "IL18R1",
+        "IL1R1",
+        "IL2RB",
+        "ITGB1",
+        "LAG3",
+        "PDCD1",
+        "TBX21",
+        "TIGIT",
+        "VCAM1"
+      ]
+    },
+    {
+      "module_name": "Cell Cycle & Proliferation",
+      "associated_phenotype": "Clonal Expansion & Cellular Turnover",
+      "genes": [
+        "BIRC5",
+        "CCNA2",
+        "CDC20",
+        "CDKN1A",
+        "CDKN2C",
+        "CDKN3",
+        "CENPF",
+        "KIF14",
+        "MCM6",
+        "MKI67",
+        "MYBL2",
+        "RRM2",
+        "TOP2A"
+      ]
+    },
+    {
+      "module_name": "Upstream Regulatory TFs",
+      "associated_phenotype": "Orchestration of Gene Expression",
+      "genes": [
+        "FOXM1",
+        "GATA3",
+        "JUN",
+        "MAF",
+        "MYB",
+        "NR3C1",
+        "RELA",
+        "SOX2",
+        "STAT1",
+        "TP63"
+      ]
+    }
+  ]
+}

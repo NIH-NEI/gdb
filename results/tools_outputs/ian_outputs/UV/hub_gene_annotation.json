@@ -1,0 +1,14 @@
+{
+  "drug_targets": [
+    "CD274"
+  ],
+  "kinases": [],
+  "biomarkers": [
+    "C1QA",
+    "C1QB",
+    "C1QC",
+    "GBP1",
+    "GBP5",
+    "GBP6"
+  ]
+}

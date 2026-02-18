@@ -1,0 +1,11 @@
+{
+  "drug_targets": [
+    "FOS",
+    "PTGS2",
+    "TLR4"
+  ],
+  "kinases": [],
+  "biomarkers": [
+    "CDKN1A"
+  ]
+}

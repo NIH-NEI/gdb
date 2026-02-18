@@ -1,0 +1,13 @@
+{
+  "drug_targets": [
+    "ALB",
+    "CYP3A5",
+    "HK2",
+    "SLC2A2",
+    "TP53"
+  ],
+  "kinases": [],
+  "biomarkers": [
+    "ALB"
+  ]
+}

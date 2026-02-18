@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "source": "BACH1",
+      "target": "ADM"
+    },
+    {
+      "source": "BACH1",
+      "target": "COLEC12"
+    },
+    {
+      "source": "BACH1",
+      "target": "HK2"
+    },
+    {
+      "source": "BACH1",
+      "target": "PDK4"
+    },
+    {
+      "source": "BACH1",
+      "target": "SEMA7A"
+    },
+    {
+      "source": "FOXM1",
+      "target": "AXL"
+    },
+    {
+      "source": "FOXM1",
+      "target": "OAS1"
+    },
+    {
+      "source": "FOXM1",
+      "target": "UCP2"
+    },
+    {
+      "source": "HNF1A",
+      "target": "SLC22A8"
+    },
+    {
+      "source": "HNF1A",
+      "target": "SLC2A2"
+    },
+    {
+      "source": "HNF1A",
+      "target": "SLC6A19"
+    },
+    {
+      "source": "HNF1A",
+      "target": "SLC7A9"
+    },
+    {
+      "source": "RELA",
+      "target": "BMP2"
+    },
+    {
+      "source": "RELA",
+      "target": "CCND1"
+    },
+    {
+      "source": "RELA",
+      "target": "CYP3A5"
+    },
+    {
+      "source": "RELA",
+      "target": "GATA3"
+    },
+    {
+      "source": "RELA",
+      "target": "IRF1"
+    },
+    {
+      "source": "RELA",
+      "target": "TP53"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "categories": [
+    {
+      "component": "WikiPathways",
+      "categories": [
+        {
+          "category_name": "Apoptosis and Cell Death",
+          "terms": [
+            "Apoptosis modulation and signaling",
+            "TP53 network"
+          ]
+        },
+        {
+          "category_name": "Immune Response and Signaling",
+          "terms": [
+            "Spinal cord injury",
+            "Primary focal segmental glomerulosclerosis"
+          ]
+        },
+        {
+          "category_name": "Viral Infection",
+          "terms": [
+            "Dengue",
+            "Hepatitis C",
+            "Measles",
+            "Coronavirus"
+          ]
+        }
+      ]
+    },
+    {
+      "component": "KEGG",
+      "categories": [
+        {
+          "category_name": "Immune Response",
+          "terms": [
+            "NF-kappa B signaling pathway",
+            "MAPK signaling pathway"
+          ]
+        },
+        {
+          "category_name": "Apoptosis and Cell Death",
+          "terms": [
+            "Apoptosis"
+          ]
+        },
+        {
+          "category_name": "Cancer",
+          "terms": [
+            "Platinum drug resistance",
+            "Transcriptional misregulation in cancer"
+          ]
+        }
+      ]
+    },
+    {
+      "component": "Reactome",
+      "categories": [
+        {
+          "category_name": "Immune Response and Inflammation",
+          "terms": [
+            "The NLRP3 inflammasome",
+            "Signaling by Interleukins"
+          ]
+        },
+        {
+          "category_name": "Cell Signaling",
+          "terms": [
+            "RAF-independent MAPK1/3 activation",
+            "Signaling by TGF-beta Receptor Complex"
+          ]
+        },
+        {
+          "category_name": "Apoptosis and Cell Death",
+          "terms": []
+        }
+      ]
+    },
+    {
+      "component": "GO",
+      "categories": [
+        {
+          "category_name": "Immune Response",
+          "terms": [
+            "B cell activation",
+            "cytokine production",
+            "innate immune response"
+          ]
+        },
+        {
+          "category_name": "Apoptosis and Cell Death",
+          "terms": [
+            "apoptotic mitochondrial changes",
+            "extrinsic apoptotic signaling pathway",
+            "intrinsic apoptotic signaling pathway"
+          ]
+        }
+      ]
+    }
+  ]
+}

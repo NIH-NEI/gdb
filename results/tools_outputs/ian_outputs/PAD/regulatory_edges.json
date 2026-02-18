@@ -1,0 +1,116 @@
+{
+  "edges": [
+    {
+      "source": "JUND",
+      "target": "FOS"
+    },
+    {
+      "source": "JUND",
+      "target": "KLF4"
+    },
+    {
+      "source": "JUND",
+      "target": "SOD2"
+    },
+    {
+      "source": "RELA",
+      "target": "AFF1"
+    },
+    {
+      "source": "RELA",
+      "target": "BCL2A1"
+    },
+    {
+      "source": "RELA",
+      "target": "BLNK"
+    },
+    {
+      "source": "RELA",
+      "target": "CDKN1A"
+    },
+    {
+      "source": "RELA",
+      "target": "CXCR4"
+    },
+    {
+      "source": "RELA",
+      "target": "DUSP1"
+    },
+    {
+      "source": "RELA",
+      "target": "FOS"
+    },
+    {
+      "source": "RELA",
+      "target": "G0S2"
+    },
+    {
+      "source": "RELA",
+      "target": "IFIH1"
+    },
+    {
+      "source": "RELA",
+      "target": "KLF4"
+    },
+    {
+      "source": "RELA",
+      "target": "NAMPT"
+    },
+    {
+      "source": "RELA",
+      "target": "NLRP3"
+    },
+    {
+      "source": "RELA",
+      "target": "PMAIP1"
+    },
+    {
+      "source": "RELA",
+      "target": "PPP1R15A"
+    },
+    {
+      "source": "RELA",
+      "target": "PTGS2"
+    },
+    {
+      "source": "RELA",
+      "target": "SOD2"
+    },
+    {
+      "source": "RELA",
+      "target": "TAGAP"
+    },
+    {
+      "source": "RELA",
+      "target": "THBS1"
+    },
+    {
+      "source": "RELA",
+      "target": "TLR4"
+    },
+    {
+      "source": "RELB",
+      "target": "CDKN1A"
+    },
+    {
+      "source": "RELB",
+      "target": "DUSP1"
+    },
+    {
+      "source": "RELB",
+      "target": "PTGS2"
+    },
+    {
+      "source": "RUNX2",
+      "target": "CDKN1A"
+    },
+    {
+      "source": "RUNX2",
+      "target": "KLF4"
+    },
+    {
+      "source": "RUNX2",
+      "target": "SOD2"
+    }
+  ]
+}

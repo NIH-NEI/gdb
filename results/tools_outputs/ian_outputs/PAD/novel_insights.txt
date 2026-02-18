@@ -1,0 +1,4 @@
+The strong and consistent enrichment of pathways related to various viral infections (e.g., Hepatitis, Influenza, HIV, Coronavirus) is a significant and potentially novel finding in the context of PAD, suggesting an underappreciated role for viral mimicry or persistent viral activation in its pathogenesis.
+The co-enrichment of these viral pathways with cancer-related pathways suggests a novel and complex interplay between infection, inflammation, and cellular transformation that may be relevant to PAD.
+The potential regulatory role of RUNX2, a transcription factor primarily known for bone development, in vascular disease through its association with genes like ATF7IP and ANKRD46 warrants further investigation.
+Similarly, the association of the transcription factor JUND with GPR15 and GK might represent a less-explored regulatory axis in PAD.

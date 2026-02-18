@@ -1,0 +1,20 @@
+{
+  "drug_targets": [
+    "BIRC5",
+    "CTLA4",
+    "ITGB1",
+    "PDCD1",
+    "TBK1"
+  ],
+  "kinases": [
+    "TBK1"
+  ],
+  "biomarkers": [
+    "CCNA2",
+    "CDKN1A",
+    "IFNG",
+    "MYB",
+    "YWHAH",
+    "YWHAQ"
+  ]
+}

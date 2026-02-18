@@ -1,0 +1,3 @@
+The strong and repeated enrichment of pathways related to various viral infections (Ebola, SARS-CoV-1/2, HIV) in activated T cells from early RA patients is a significant and potentially novel finding, suggesting an underappreciated role for viral mimicry or persistent viral-induced signaling in RA pathogenesis.
+The unexpected enrichment of the "Platinum drug resistance" KEGG pathway in this autoimmune context warrants further investigation, as the mechanism linking it to T cell function is not immediately clear.
+The specific regulatory targeting of ion transport genes (CLIC1, CLIC3) by the master immune regulator MYB, and cell polarity genes (TROAP, VANGL1) by the cell cycle driver FOXM1, could represent novel regulatory axes in the context of T cell activation in RA.
