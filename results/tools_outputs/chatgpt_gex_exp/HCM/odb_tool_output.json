@@ -1,0 +1,251 @@
+{
+  "publication_title": "Integrated Transcriptomic Analysis Reveals Immune–Metabolic Coupling and Extracellular Matrix Remodeling as Central Drivers of Hypertrophic Cardiomyopathy",
+  "biological_process_synthesis": {
+    "text": "The DEG profile in hypertrophic cardiomyopathy heart tissue reveals a coordinated program of immune activation, extracellular matrix remodeling, metabolic reprogramming, and contractile adaptation. Strong enrichment of innate immune receptors, complement components, and Fc receptor signaling suggests macrophage infiltration and chronic inflammatory signaling within the myocardium. Concurrent upregulation of NPPA, MYH6, and EDNRA reflects classical hypertrophic stress signaling and altered contractile machinery. Metabolic shifts toward glycolysis (LDHA, SLC2A1) indicate energy remodeling characteristic of pathological hypertrophy. Together, the data support a model in which inflammatory activation and metabolic stress converge to drive structural remodeling and fibrosis in HCM."
+  },
+  "hub_genes_ranked": {
+    "genes": [
+      "JAK2",
+      "MAP3K8",
+      "EDNRA",
+      "NPPA",
+      "MYH6",
+      "THBS1",
+      "CD14",
+      "FCGR2A",
+      "IL18R1",
+      "GADD45A",
+      "LDHA",
+      "SLC2A1",
+      "MAFB",
+      "PDE4D",
+      "C1R"
+    ]
+  },
+  "enriched_pathways": {
+    "terms": [
+      "Innate immune response",
+      "Complement activation (classical pathway)",
+      "Fc receptor signaling pathway",
+      "Cytokine-mediated signaling pathway",
+      "JAK-STAT signaling pathway",
+      "MAPK cascade",
+      "Leukocyte activation",
+      "Macrophage differentiation",
+      "Extracellular matrix organization",
+      "Collagen fibril organization",
+      "Regulation of cardiac muscle contraction",
+      "Cardiac muscle hypertrophy",
+      "Response to oxidative stress",
+      "Cellular response to stress",
+      "Glycolytic process",
+      "Glucose transport",
+      "Endothelin signaling pathway",
+      "cAMP signaling pathway",
+      "Apoptotic signaling pathway",
+      "Angiogenesis"
+    ]
+  },
+  "hypotheses": {
+    "statements": [
+      "Macrophage-driven inflammation via JAK2/MAP3K8 signaling directly amplifies cardiomyocyte hypertrophic signaling in HCM.",
+      "Endothelin receptor (EDNRA) activation synergizes with inflammatory cytokine signaling to enhance NPPA expression and pathological hypertrophy.",
+      "Metabolic reprogramming toward glycolysis (LDHA/SLC2A1) causally contributes to fibrotic remodeling via redox imbalance.",
+      "Complement activation (C1R) promotes cardiac fibroblast activation and collagen deposition in HCM myocardium.",
+      "PDE4D dysregulation alters cAMP compartmentalization, exacerbating contractile dysfunction in HCM hearts."
+    ]
+  },
+  "novel_insights": {
+    "statements": [
+      "A strong immune-complement signature suggests a larger inflammatory component in HCM than traditionally emphasized.",
+      "Parallel activation of glycolytic and inflammatory pathways indicates metabolic-immune coupling in hypertrophic remodeling.",
+      "Macrophage lineage markers (MAFB, MARCO, CD209, MS4A family) suggest immune cell infiltration rather than purely cardiomyocyte-autonomous pathology.",
+      "Coexistence of endothelin signaling and Fc receptor pathways implies vascular-immune cross-talk within hypertrophic myocardium."
+    ]
+  },
+  "analogous_systems": {
+    "systems": [
+      "Dilated cardiomyopathy",
+      "Heart failure with preserved ejection fraction (HFpEF)",
+      "Myocarditis",
+      "Hypertensive cardiac fibrosis",
+      "Atherosclerotic vascular remodeling"
+    ]
+  },
+  "regulatory_network_edges": {
+    "edges": [
+      { "source": "JAK2", "target": "IL18R1" },
+      { "source": "JAK2", "target": "CD14" },
+      { "source": "MAP3K8", "target": "FCGR2A" },
+      { "source": "MAP3K8", "target": "IL18R1" },
+      { "source": "MAFB", "target": "MARCO" },
+      { "source": "MAFB", "target": "CD209" },
+      { "source": "MAFB", "target": "MS4A6A" },
+      { "source": "HES6", "target": "MYH6" },
+      { "source": "EDNRA", "target": "NPPA" },
+      { "source": "EDNRA", "target": "PDE4D" },
+      { "source": "GADD45A", "target": "GADD45B" },
+      { "source": "JAK2", "target": "GADD45A" },
+      { "source": "MAP3K8", "target": "GADD45A" },
+      { "source": "THBS1", "target": "COL16A1" },
+      { "source": "FCGR2A", "target": "MAP3K8" },
+      { "source": "CD14", "target": "MAP3K8" },
+      { "source": "RASD1", "target": "NPPA" },
+      { "source": "IRX2", "target": "MYH6" }
+    ]
+  },
+  "integrated_system_nodes": {
+    "modules": [
+      {
+        "module_name": "Innate Immune Activation",
+        "associated_phenotype": "Myocardial inflammation",
+        "genes": [
+          "CD14",
+          "FCGR2A",
+          "FCER1G",
+          "IL18R1",
+          "C1R",
+          "MARCO",
+          "CD209",
+          "MS4A6A",
+          "MS4A7",
+          "MAFB",
+          "MAP3K8",
+          "JAK2"
+        ]
+      },
+      {
+        "module_name": "Hypertrophic Signaling and Contractility",
+        "associated_phenotype": "Cardiomyocyte hypertrophy",
+        "genes": [
+          "NPPA",
+          "MYH6",
+          "EDNRA",
+          "PDE4D",
+          "TPM3",
+          "MAP4",
+          "RASD1",
+          "IRX2"
+        ]
+      },
+      {
+        "module_name": "ECM Remodeling and Fibrosis",
+        "associated_phenotype": "Interstitial fibrosis",
+        "genes": [
+          "THBS1",
+          "COL16A1",
+          "F13A1",
+          "PROS1",
+          "APOLD1"
+        ]
+      },
+      {
+        "module_name": "Metabolic Reprogramming",
+        "associated_phenotype": "Glycolytic shift",
+        "genes": [
+          "LDHA",
+          "SLC2A1",
+          "TIPARP",
+          "TMCO3"
+        ]
+      },
+      {
+        "module_name": "Stress and Apoptotic Response",
+        "associated_phenotype": "Cellular stress adaptation",
+        "genes": [
+          "GADD45A",
+          "GADD45B",
+          "IER3",
+          "PLEKHF1",
+          "IVNS1ABP"
+        ]
+      }
+    ]
+  },
+  "enrichment_categorization": {
+    "categories": [
+      {
+        "component": "GO/KEGG",
+        "categories": [
+          {
+            "category_name": "Immune Activation and Cytokine Signaling",
+            "terms": [
+              "Innate immune response",
+              "Complement activation",
+              "Fc receptor signaling",
+              "Cytokine-mediated signaling",
+              "JAK-STAT signaling",
+              "Leukocyte activation"
+            ]
+          },
+          {
+            "category_name": "Cardiac Remodeling and Hypertrophy",
+            "terms": [
+              "Cardiac muscle hypertrophy",
+              "Regulation of cardiac muscle contraction",
+              "Endothelin signaling pathway",
+              "cAMP signaling pathway"
+            ]
+          },
+          {
+            "category_name": "Extracellular Matrix Organization",
+            "terms": [
+              "Extracellular matrix organization",
+              "Collagen fibril organization",
+              "Angiogenesis"
+            ]
+          },
+          {
+            "category_name": "Metabolic and Stress Response",
+            "terms": [
+              "Glycolytic process",
+              "Glucose transport",
+              "Response to oxidative stress",
+              "Apoptotic signaling pathway"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "hub_gene_annotation": {
+    "drug_targets": [
+      "JAK2",
+      "EDNRA",
+      "PDE4D",
+      "MAP3K8",
+      "IL18R1",
+      "FCGR2A"
+    ],
+    "kinases": [
+      "JAK2",
+      "MAP3K8"
+    ],
+    "biomarkers": [
+      "NPPA",
+      "MYH6",
+      "THBS1",
+      "CD14",
+      "IL18R1",
+      "LDHA",
+      "SLC2A1",
+      "C1R"
+    ]
+  },
+  "component_summaries": {
+    "summaries": [
+      {
+        "component": "GO",
+        "summary": "GO enrichment highlights strong activation of innate immune processes, complement cascade, cytokine signaling, and macrophage differentiation, alongside extracellular matrix organization and cardiac hypertrophy terms. This indicates coordinated immune-driven structural remodeling in HCM myocardium."
+      },
+      {
+        "component": "KEGG",
+        "summary": "KEGG pathway interpretation emphasizes JAK-STAT, MAPK, Fc receptor, complement, endothelin, and cAMP signaling pathways. These collectively support a mechanistic axis linking inflammatory receptor activation to hypertrophic intracellular signaling and fibrotic remodeling."
+      },
+      {
+        "component": "Reactome",
+        "summary": "Reactome-level mapping would reveal interconnected modules of innate immune activation, extracellular matrix remodeling, metabolic reprogramming (glycolysis), and stress response pathways, supporting a systems-level immune–metabolic model of hypertrophic cardiomyopathy progression."
+      }
+    ]
+  }
+}

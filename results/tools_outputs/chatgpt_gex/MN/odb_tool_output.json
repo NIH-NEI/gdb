@@ -1,0 +1,263 @@
+{
+  "publication_title": "Integrated Immune Activation and Metabolic Reprogramming Drive TGF-β–Mediated Epithelial Remodeling in Chronic Inflammatory Tissue",
+  "biological_process_synthesis": {
+    "text": "The DEG profile reflects a coordinated program integrating innate immune activation, fibrotic remodeling, and epithelial metabolic reprogramming. Strong signatures of myeloid activation, complement signaling, and interferon response coexist with TGF-β-driven extracellular matrix deposition and EMT-related genes. Simultaneously, a robust metabolic shift is evident, including gluconeogenic, mitochondrial, and xenobiotic metabolism genes, suggesting tissue-level adaptation to stress or injury. The presence of renal transporters and epithelial markers indicates a polarized epithelial context undergoing remodeling. Collectively, this suggests an inflamed, metabolically reprogrammed epithelial tissue undergoing structural remodeling, potentially in response to chronic stress or injury."
+  },
+  "hub_genes_ranked": {
+    "genes": [
+      "TP53",
+      "TGFB1",
+      "IRF1",
+      "RELB",
+      "TET2",
+      "CCND1",
+      "AXL",
+      "CSF1R",
+      "NFATC1",
+      "GATA3",
+      "NR1D1",
+      "PPARGC1A",
+      "HHEX",
+      "SKI",
+      "BAMBI"
+    ]
+  },
+  "enriched_pathways": {
+    "terms": [
+      "Innate immune response",
+      "Myeloid leukocyte activation",
+      "Cytokine-mediated signaling pathway",
+      "Interferon signaling",
+      "Complement activation",
+      "NF-κB signaling pathway",
+      "TGF-β signaling pathway",
+      "Extracellular matrix organization",
+      "Epithelial cell differentiation",
+      "Angiogenesis",
+      "Cell adhesion and integrin signaling",
+      "Oxidative stress response",
+      "Apoptotic signaling pathway",
+      "Metabolic reprogramming (gluconeogenesis and lipid metabolism)",
+      "Xenobiotic/drug metabolism",
+      "Mitochondrial function",
+      "Renal tubular transport",
+      "Circadian rhythm regulation",
+      "Epithelial–mesenchymal transition",
+      "Hormone metabolic process"
+    ]
+  },
+  "hypotheses": {
+    "statements": [
+      "Chronic innate immune activation induces TGF-β–mediated epithelial metabolic reprogramming that precedes fibrotic remodeling.",
+      "NR1D1-mediated circadian disruption contributes to altered gluconeogenic gene expression in inflamed epithelial tissue.",
+      "AXL activation promotes immune–epithelial cross-talk driving EMT and extracellular matrix deposition.",
+      "TET2 dysregulation epigenetically amplifies interferon signaling in myeloid populations within the tissue.",
+      "Metabolic rewiring via the PPARGC1A–PDK4 axis is required to sustain prolonged inflammatory activation."
+    ]
+  },
+  "novel_insights": {
+    "statements": [
+      "Concurrent immune activation and renal metabolic transporter signatures suggest intrinsic epithelial metabolic dysfunction rather than purely immune infiltration.",
+      "Strong enrichment of TGF-β modulators (SKI, BAMBI, TGFB1) indicates tightly regulated and potentially oscillatory fibrotic signaling dynamics.",
+      "The coexistence of xenobiotic metabolism genes (CYPs, UGTs) with inflammatory signaling suggests stress-induced detoxification coupling with immune activation.",
+      "Involvement of the circadian regulator NR1D1 suggests temporal dysregulation in inflammatory–metabolic coordination."
+    ]
+  },
+  "analogous_systems": {
+    "systems": [
+      "Chronic kidney disease",
+      "Diabetic nephropathy",
+      "Chronic inflammatory liver disease",
+      "Idiopathic pulmonary fibrosis",
+      "Tumor microenvironment remodeling"
+    ]
+  },
+  "regulatory_network_edges": {
+    "edges": [
+      { "source": "TP53", "target": "CCND1" },
+      { "source": "TGFB1", "target": "COL1A2" },
+      { "source": "TGFB1", "target": "BAMBI" },
+      { "source": "TGFB1", "target": "SKI" },
+      { "source": "IRF1", "target": "OAS1" },
+      { "source": "IRF1", "target": "CXCL16" },
+      { "source": "RELB", "target": "TNFRSF12A" },
+      { "source": "NFATC1", "target": "CSF1R" },
+      { "source": "GATA3", "target": "SOX18" },
+      { "source": "HHEX", "target": "ALDOB" },
+      { "source": "NR1D1", "target": "PDK4" },
+      { "source": "PPARGC1A", "target": "PCK1" },
+      { "source": "TET2", "target": "IRF1" },
+      { "source": "AXL", "target": "RELB" },
+      { "source": "TGFB1", "target": "ITGA5" },
+      { "source": "TP53", "target": "TNFRSF10C" },
+      { "source": "GATA3", "target": "CDH12" }
+    ]
+  },
+  "integrated_system_nodes": {
+    "modules": [
+      {
+        "module_name": "Innate Immune Activation",
+        "associated_phenotype": "Myeloid-driven inflammation",
+        "genes": [
+          "CSF1R",
+          "FCN1",
+          "C3AR1",
+          "IRF1",
+          "RELB",
+          "TYROBP",
+          "SIGLEC10",
+          "LILRB1",
+          "OAS1",
+          "CXCL16"
+        ]
+      },
+      {
+        "module_name": "Fibrotic and ECM Remodeling",
+        "associated_phenotype": "TGF-β–dependent matrix deposition and EMT",
+        "genes": [
+          "TGFB1",
+          "COL1A2",
+          "ITGA5",
+          "BAMBI",
+          "SKI",
+          "TGFBI",
+          "TNFRSF12A",
+          "AXL"
+        ]
+      },
+      {
+        "module_name": "Metabolic Reprogramming",
+        "associated_phenotype": "Gluconeogenic and mitochondrial shift",
+        "genes": [
+          "PPARGC1A",
+          "PCK1",
+          "PDK4",
+          "NR1D1",
+          "ALDOB",
+          "G6PC1",
+          "SHMT1",
+          "HK2"
+        ]
+      },
+      {
+        "module_name": "Epithelial Transport and Differentiation",
+        "associated_phenotype": "Polarized epithelial stress adaptation",
+        "genes": [
+          "SLC2A2",
+          "SLC7A9",
+          "SLC12A3",
+          "SLC13A3",
+          "SLC22A8",
+          "CLDN8",
+          "LRP2",
+          "ACE2",
+          "HNF4G"
+        ]
+      },
+      {
+        "module_name": "Stress and Apoptosis Regulation",
+        "associated_phenotype": "Cellular stress response and survival control",
+        "genes": [
+          "TP53",
+          "CCND1",
+          "TNFRSF10C",
+          "UCP2",
+          "MT1A",
+          "MT1G"
+        ]
+      }
+    ]
+  },
+  "enrichment_categorization": {
+    "categories": [
+      {
+        "component": "GO",
+        "categories": [
+          {
+            "category_name": "Innate Immunity and Inflammation",
+            "terms": [
+              "Innate immune response",
+              "Myeloid leukocyte activation",
+              "Cytokine-mediated signaling pathway",
+              "Interferon signaling",
+              "Complement activation",
+              "NF-κB signaling pathway"
+            ]
+          },
+          {
+            "category_name": "Tissue Remodeling and Fibrosis",
+            "terms": [
+              "TGF-β signaling pathway",
+              "Extracellular matrix organization",
+              "Epithelial–mesenchymal transition",
+              "Cell adhesion and integrin signaling",
+              "Angiogenesis"
+            ]
+          },
+          {
+            "category_name": "Metabolic Reprogramming",
+            "terms": [
+              "Metabolic reprogramming",
+              "Mitochondrial function",
+              "Xenobiotic metabolism",
+              "Hormone metabolic process",
+              "Oxidative stress response"
+            ]
+          },
+          {
+            "category_name": "Epithelial and Transport Function",
+            "terms": [
+              "Epithelial cell differentiation",
+              "Renal tubular transport",
+              "Ion transport processes"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "hub_gene_annotation": {
+    "drug_targets": [
+      "TP53",
+      "TGFB1",
+      "AXL",
+      "CSF1R",
+      "CCND1",
+      "NR1D1",
+      "PPARGC1A",
+      "TNFRSF12A"
+    ],
+    "kinases": [
+      "AXL",
+      "CSF1R",
+      "PLCE1",
+      "HK2"
+    ],
+    "biomarkers": [
+      "TGFB1",
+      "COL1A2",
+      "CSF1R",
+      "OAS1",
+      "CXCL16",
+      "MT1A",
+      "PPARGC1A",
+      "CCND1"
+    ]
+  },
+  "component_summaries": {
+    "summaries": [
+      {
+        "component": "GO",
+        "summary": "GO enrichment highlights coordinated activation of innate immune response, extracellular matrix organization, epithelial differentiation, and metabolic regulation. The coexistence of inflammatory and epithelial metabolic terms suggests a multicellular tissue remodeling response rather than isolated immune activation."
+      },
+      {
+        "component": "KEGG",
+        "summary": "KEGG-level interpretation emphasizes NF-κB, TGF-β, complement cascades, cytokine signaling, and metabolic pathways including gluconeogenesis and xenobiotic metabolism. These results support cross-talk between inflammatory signaling and metabolic adaptation that reinforces tissue remodeling."
+      },
+      {
+        "component": "Reactome",
+        "summary": "Reactome pathway reconstruction underscores immune receptor signaling, SMAD-mediated TGF-β signaling, mitochondrial metabolism, apoptosis, and transport processes, supporting a systems-level shift toward a stress-adapted inflamed epithelial microenvironment."
+      }
+    ]
+  }
+}

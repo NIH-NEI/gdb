@@ -1,0 +1,283 @@
+{
+  "publication_title": "Integrated Adipogenic, Proliferative, and Stromal Remodeling Programs Define a Metabolically Active Tissue Expansion Signature",
+  "biological_process_synthesis": {
+    "text": "The DEG profile reveals a coordinated program integrating adipogenic metabolic activation with strong cell-cycle proliferation and extracellular matrix remodeling. Upregulation of core adipocyte markers (PPARG, ADIPOQ, FABP4, PLIN1) alongside lipid metabolic enzymes suggests active lipid storage and metabolic reprogramming. Concurrent enrichment of mitotic regulators (CDK1, TOP2A, UBE2C, AURKA) indicates a proliferative subpopulation, potentially stromal or progenitor cells. Extensive ECM components (COL11A1, POSTN, MMP11) and angiogenic genes (VWF, FIGF, EMCN) suggest tissue remodeling and vascular adaptation. Together, the system resembles metabolically active adipose tissue undergoing structural and proliferative remodeling."
+  },
+  "hub_genes_ranked": {
+    "genes": [
+      "PPARG",
+      "IGF1",
+      "CDK1",
+      "UBE2C",
+      "TOP2A",
+      "AURKA",
+      "UHRF1",
+      "INHBA",
+      "TGFBR3",
+      "LEP",
+      "ADIPOQ",
+      "MELK",
+      "SPP1",
+      "COL11A1",
+      "CDC20"
+    ]
+  },
+  "enriched_pathways": {
+    "terms": [
+      "Adipocyte differentiation",
+      "Regulation of lipid metabolic process",
+      "PPAR signaling pathway",
+      "Fatty acid metabolism",
+      "Lipid droplet organization",
+      "Insulin-like growth factor signaling",
+      "Cell cycle – mitotic phase",
+      "DNA replication",
+      "G2/M transition of mitotic cell cycle",
+      "Mitotic spindle assembly",
+      "Extracellular matrix organization",
+      "Collagen fibril organization",
+      "Angiogenesis",
+      "Blood vessel development",
+      "TGF-β signaling pathway",
+      "Wnt signaling pathway",
+      "Inflammatory response",
+      "Chemokine signaling pathway",
+      "Cytokine-mediated signaling pathway",
+      "Epithelial-to-mesenchymal transition"
+    ]
+  },
+  "hypotheses": {
+    "statements": [
+      "PPARG activation is driving a metabolic-stromal remodeling program that supports proliferative expansion of adipose progenitors.",
+      "A proliferative stromal cell population marked by CDK1, TOP2A, and UBE2C represents activated fibroblasts or preadipocytes undergoing expansion prior to differentiation.",
+      "TGF-β signaling via INHBA and TGFBR3 coordinates ECM remodeling necessary for adipose tissue expansion.",
+      "Metabolic-endocrine factors such as LEP and IGF1 create a paracrine feedback loop linking adipocytes and proliferating stromal cells.",
+      "Angiogenic activation is required to sustain metabolically active adipose remodeling."
+    ]
+  },
+  "novel_insights": {
+    "statements": [
+      "The coexistence of strong adipogenic and strong mitotic signatures suggests mixed cellular states rather than uniform differentiation.",
+      "High COL11A1, POSTN, and MMP11 expression indicates a fibroblast activation program resembling cancer-associated fibroblasts outside oncology contexts.",
+      "Simultaneous activation of IGF1 and PPARG axes suggests endocrine-metabolic coupling beyond classical adipogenesis models.",
+      "A robust angiogenic signature implies vascular adaptation is central rather than secondary to tissue expansion."
+    ]
+  },
+  "analogous_systems": {
+    "systems": [
+      "Obesity-associated adipose tissue expansion",
+      "Liposarcoma",
+      "Cancer-associated fibroblast-rich tumor microenvironment",
+      "Wound healing and tissue regeneration",
+      "Fibrotic metabolic disorders"
+    ]
+  },
+  "regulatory_network_edges": {
+    "edges": [
+      { "source": "PPARG", "target": "ADIPOQ" },
+      { "source": "PPARG", "target": "FABP4" },
+      { "source": "PPARG", "target": "PLIN1" },
+      { "source": "PPARG", "target": "CD36" },
+      { "source": "PPARG", "target": "LPL" },
+      { "source": "ZBTB16", "target": "PPARG" },
+      { "source": "IGF1", "target": "CDK1" },
+      { "source": "IGF1", "target": "CCNB1" },
+      { "source": "UHRF1", "target": "TOP2A" },
+      { "source": "UHRF1", "target": "UBE2C" },
+      { "source": "UHRF1", "target": "CDC20" },
+      { "source": "HOXA5", "target": "COL11A1" },
+      { "source": "INHBA", "target": "MMP11" },
+      { "source": "NFIB", "target": "IGF1" },
+      { "source": "FZD4", "target": "WISP1" }
+    ]
+  },
+  "integrated_system_nodes": {
+    "modules": [
+      {
+        "module_name": "Adipogenic-Metabolic Core",
+        "associated_phenotype": "Lipid accumulation and metabolic activation",
+        "genes": [
+          "PPARG",
+          "ADIPOQ",
+          "FABP4",
+          "PLIN1",
+          "PLIN4",
+          "CD36",
+          "LPL",
+          "LIPE",
+          "GPD1",
+          "THRSP",
+          "CIDEC",
+          "CIDEA",
+          "PCK1",
+          "LEP",
+          "LEPR"
+        ]
+      },
+      {
+        "module_name": "Cell Cycle and Proliferation",
+        "associated_phenotype": "Mitotic expansion",
+        "genes": [
+          "CDK1",
+          "CCNB1",
+          "CCNB2",
+          "CDC20",
+          "UBE2C",
+          "UBE2T",
+          "TOP2A",
+          "AURKA",
+          "BUB1B",
+          "MELK",
+          "NUSAP1",
+          "PRC1",
+          "RRM2",
+          "TK1",
+          "TYMS",
+          "ZWINT"
+        ]
+      },
+      {
+        "module_name": "ECM Remodeling and Fibroblast Activation",
+        "associated_phenotype": "Stromal activation and structural remodeling",
+        "genes": [
+          "COL11A1",
+          "POSTN",
+          "MMP11",
+          "TIMP4",
+          "LRRC15",
+          "MATN2",
+          "SVEP1",
+          "TNXB",
+          "TNMD",
+          "PCOLCE2",
+          "DPT",
+          "SPP1"
+        ]
+      },
+      {
+        "module_name": "Vascular and Endothelial Module",
+        "associated_phenotype": "Angiogenesis and vascular remodeling",
+        "genes": [
+          "VWF",
+          "EMCN",
+          "FIGF",
+          "CD300LG",
+          "LYVE1",
+          "JAM2",
+          "AQP1",
+          "CAV1",
+          "GPIHBP1"
+        ]
+      },
+      {
+        "module_name": "Growth Factor and Signaling Integration",
+        "associated_phenotype": "Paracrine regulation and tissue communication",
+        "genes": [
+          "IGF1",
+          "INHBA",
+          "TGFBR3",
+          "FZD4",
+          "WISP1",
+          "GHR",
+          "KLB",
+          "LIFR",
+          "RSPO3"
+        ]
+      }
+    ]
+  },
+  "enrichment_categorization": {
+    "categories": [
+      {
+        "component": "GO",
+        "categories": [
+          {
+            "category_name": "Metabolic Reprogramming",
+            "terms": [
+              "Adipocyte differentiation",
+              "Regulation of lipid metabolic process",
+              "Lipid droplet organization",
+              "Fatty acid metabolism"
+            ]
+          },
+          {
+            "category_name": "Cell Cycle Regulation",
+            "terms": [
+              "Cell cycle – mitotic phase",
+              "DNA replication",
+              "G2/M transition",
+              "Mitotic spindle assembly"
+            ]
+          }
+        ]
+      },
+      {
+        "component": "KEGG",
+        "categories": [
+          {
+            "category_name": "Signaling Pathways",
+            "terms": [
+              "PPAR signaling pathway",
+              "TGF-β signaling pathway",
+              "Wnt signaling pathway",
+              "Chemokine signaling pathway"
+            ]
+          },
+          {
+            "category_name": "Vascular and ECM Remodeling",
+            "terms": [
+              "Extracellular matrix organization",
+              "Collagen fibril organization",
+              "Angiogenesis",
+              "Blood vessel development"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "hub_gene_annotation": {
+    "drug_targets": [
+      "PPARG",
+      "CDK1",
+      "AURKA",
+      "IGF1",
+      "TGFBR3",
+      "MELK",
+      "UBE2C"
+    ],
+    "kinases": [
+      "CDK1",
+      "AURKA",
+      "MELK",
+      "SIK2",
+      "PBK"
+    ],
+    "biomarkers": [
+      "ADIPOQ",
+      "LEP",
+      "COL11A1",
+      "SPP1",
+      "TOP2A",
+      "UBE2C",
+      "VWF",
+      "IGF1"
+    ]
+  },
+  "component_summaries": {
+    "summaries": [
+      {
+        "component": "GO",
+        "summary": "GO enrichment highlights coordinated activation of adipocyte differentiation, lipid metabolism, mitotic progression, extracellular matrix organization, and angiogenesis. These processes collectively define a system undergoing metabolic activation, proliferative expansion, and structural remodeling."
+      },
+      {
+        "component": "KEGG",
+        "summary": "KEGG pathway analysis emphasizes PPAR signaling, Cell Cycle, TGF-β signaling, Wnt signaling, and fatty acid metabolism. These pathways indicate tight coupling between metabolic specialization, growth signaling, and tissue restructuring."
+      },
+      {
+        "component": "Reactome",
+        "summary": "Reactome pathways reinforce enrichment of mitotic progression, ECM organization, IGF signaling, and cytokine-mediated pathways, suggesting dynamic tissue expansion governed by metabolic-endocrine and stromal regulatory networks."
+      }
+    ]
+  }
+}

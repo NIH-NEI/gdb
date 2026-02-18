@@ -1,0 +1,223 @@
+{
+  "publication_title": "Integrated Immune Activation, DNA Damage Response, and ERBB2-Driven Signaling Define an Inflammatory Stress-Adapted Transcriptomic Program",
+  "biological_process_synthesis": {
+    "text": "The DEG profile suggests a system undergoing coordinated immune activation coupled with stress adaptation and proliferative signaling. Innate immune sensing mechanisms, including TLR4 and interferon-responsive genes, appear to drive downstream adaptive immune engagement via T-cell receptor components and chemokine-mediated trafficking. Concurrent activation of apoptosis regulators and homologous recombination machinery indicates cellular stress and genomic instability. Growth factor signaling through ERBB2 and downstream PI3K-AKT and MAPK pathways suggests proliferative or oncogenic remodeling. Collectively, the transcriptomic pattern reflects an immune-reactive microenvironment experiencing inflammatory signaling, cytotoxic stress, metabolic adaptation, and compensatory survival responses."
+  },
+  "hub_genes_ranked": {
+    "genes": [
+      "BRCA2",
+      "ERBB2",
+      "TLR4",
+      "CCR7",
+      "BCL2L11",
+      "IFITM1",
+      "CEBPD",
+      "LCP2",
+      "CD3E",
+      "RAC2",
+      "OAS1",
+      "HLA-A",
+      "KLRD1",
+      "CXCR3",
+      "MT-CO1"
+    ]
+  },
+  "enriched_pathways": {
+    "terms": [
+      "Toll-like receptor signaling pathway",
+      "Interferon alpha/beta signaling",
+      "Cytokine-mediated signaling pathway",
+      "Adaptive immune response",
+      "T-cell receptor signaling pathway",
+      "Antigen processing and presentation",
+      "Chemokine-mediated signaling pathway",
+      "Leukocyte migration",
+      "Apoptotic signaling pathway",
+      "Intrinsic apoptotic pathway",
+      "DNA damage response",
+      "Homologous recombination",
+      "ERBB signaling pathway",
+      "PI3K-AKT signaling pathway",
+      "MAPK cascade",
+      "Cell cycle regulation",
+      "Oxidative phosphorylation",
+      "Mitochondrial respiratory chain complex assembly",
+      "Regulation of actin cytoskeleton",
+      "Cell adhesion molecules"
+    ]
+  },
+  "hypotheses": {
+    "statements": [
+      "Chronic TLR4 and interferon pathway activation enhances ERBB2-mediated proliferative signaling, promoting inflammation-associated oncogenic priming.",
+      "Upregulation of BRCA2 and homologous recombination genes reflects increased DNA damage secondary to immune-mediated oxidative stress.",
+      "CCR7-driven immune cell trafficking reshapes tissue architecture and modulates local proliferative signaling networks.",
+      "Coordinated induction of mitochondrial respiratory genes supports the metabolic demands of sustained immune activation.",
+      "The balance between BCL2L11-mediated apoptosis and ERBB2 survival signaling determines stress tolerance versus cell elimination."
+    ]
+  },
+  "novel_insights": {
+    "statements": [
+      "Concurrent activation of innate immune signaling and ERBB2 growth pathways suggests a hybrid inflammatory-oncogenic state.",
+      "Co-enrichment of interferon response genes with homologous recombination machinery indicates inflammation-associated genomic stress.",
+      "Integration of chemokine receptors and cytoskeletal regulators implies active immune cell migration rather than passive inflammation.",
+      "Mitochondrial oxidative phosphorylation genes are co-regulated with immune genes, highlighting metabolic-immune coupling."
+    ]
+  },
+  "analogous_systems": {
+    "systems": [
+      "Inflammation-associated cancers",
+      "Chronic viral infection microenvironments",
+      "Autoimmune diseases such as systemic lupus erythematosus",
+      "Tumor microenvironment immune remodeling",
+      "Immune checkpoint therapy response states"
+    ]
+  },
+  "regulatory_network_edges": {
+    "edges": [
+      { "source": "TLR4", "target": "CEBPD" },
+      { "source": "TLR4", "target": "IFITM1" },
+      { "source": "TLR4", "target": "OAS1" },
+      { "source": "CEBPD", "target": "BCL2L11" },
+      { "source": "ERBB2", "target": "PIK3CA" },
+      { "source": "ERBB2", "target": "MAPK1" },
+      { "source": "BRCA2", "target": "RAD51" },
+      { "source": "CD3E", "target": "LCP2" },
+      { "source": "CCR7", "target": "RAC2" },
+      { "source": "STAT1", "target": "IFITM1" },
+      { "source": "HLA-A", "target": "CD3E" },
+      { "source": "BCL2L11", "target": "CASP3" },
+      { "source": "RAC2", "target": "ACTB" },
+      { "source": "CXCR3", "target": "MAPK1" },
+      { "source": "KLRD1", "target": "GZMB" }
+    ]
+  },
+  "integrated_system_nodes": {
+    "modules": [
+      {
+        "module_name": "Innate Immune Activation",
+        "associated_phenotype": "Inflammatory Sensing and Interferon Response",
+        "genes": ["TLR4", "IFITM1", "OAS1", "CEBPD"]
+      },
+      {
+        "module_name": "Adaptive Immune Signaling",
+        "associated_phenotype": "T-cell Activation and Trafficking",
+        "genes": ["CD3E", "LCP2", "CCR7", "HLA-A", "KLRD1", "CXCR3"]
+      },
+      {
+        "module_name": "Proliferation and Oncogenic Signaling",
+        "associated_phenotype": "Growth Factor–Driven Survival",
+        "genes": ["ERBB2", "PIK3CA", "MAPK1"]
+      },
+      {
+        "module_name": "Genome Integrity and Apoptosis",
+        "associated_phenotype": "Stress Adaptation and DNA Repair",
+        "genes": ["BRCA2", "BCL2L11", "RAD51"]
+      },
+      {
+        "module_name": "Metabolic Remodeling",
+        "associated_phenotype": "Bioenergetic Adaptation",
+        "genes": ["MT-CO1", "NDUFA1", "ATP5F1A"]
+      }
+    ]
+  },
+  "enrichment_categorization": {
+    "categories": [
+      {
+        "component": "GO",
+        "categories": [
+          {
+            "category_name": "Immune Activation",
+            "terms": [
+              "Toll-like receptor signaling",
+              "Interferon signaling",
+              "Adaptive immune response",
+              "Leukocyte migration"
+            ]
+          },
+          {
+            "category_name": "Cell Fate and Stress",
+            "terms": [
+              "Apoptotic signaling pathway",
+              "DNA damage response",
+              "Homologous recombination"
+            ]
+          }
+        ]
+      },
+      {
+        "component": "KEGG",
+        "categories": [
+          {
+            "category_name": "Growth and Survival Signaling",
+            "terms": [
+              "ERBB signaling pathway",
+              "PI3K-AKT signaling pathway",
+              "MAPK cascade"
+            ]
+          },
+          {
+            "category_name": "Metabolism",
+            "terms": [
+              "Oxidative phosphorylation",
+              "Mitochondrial respiratory chain"
+            ]
+          }
+        ]
+      },
+      {
+        "component": "Reactome",
+        "categories": [
+          {
+            "category_name": "Immune System",
+            "terms": [
+              "Cytokine signaling in immune system",
+              "Antigen processing and presentation"
+            ]
+          },
+          {
+            "category_name": "Programmed Cell Death",
+            "terms": [
+              "Intrinsic apoptosis pathway"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "hub_gene_annotation": {
+    "drug_targets": [
+      "ERBB2",
+      "TLR4",
+      "CCR7",
+      "BCL2L11",
+      "BRCA2"
+    ],
+    "kinases": [
+      "ERBB2",
+      "MAPK1"
+    ],
+    "biomarkers": [
+      "ERBB2",
+      "IFITM1",
+      "CCR7",
+      "BRCA2",
+      "BCL2L11"
+    ]
+  },
+  "component_summaries": {
+    "summaries": [
+      {
+        "component": "GO",
+        "summary": "GO enrichment highlights dominant immune system activation, including innate sensing, interferon response, T-cell activation, and leukocyte migration. Strong enrichment of apoptosis and DNA repair terms suggests coordinated stress adaptation and genomic maintenance mechanisms operating alongside inflammatory signaling."
+      },
+      {
+        "component": "KEGG",
+        "summary": "KEGG pathway enrichment emphasizes Toll-like receptor signaling, ERBB signaling, PI3K-AKT, and MAPK cascades, indicating integration of immune activation with proliferative and survival pathways. The presence of homologous recombination pathways further suggests genomic instability or DNA repair engagement."
+      },
+      {
+        "component": "Reactome",
+        "summary": "Reactome analysis reinforces activation of cytokine signaling, antigen presentation, programmed cell death, and mitochondrial respiratory pathways. These results support a model of immune-driven stress, metabolic remodeling, and compensatory survival signaling."
+      }
+    ]
+  }
+}

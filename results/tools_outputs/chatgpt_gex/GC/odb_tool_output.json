@@ -1,0 +1,278 @@
+{
+  "publication_title": "Integrated Transcriptomic Analysis Reveals Coordinated Epithelial Plasticity, Extracellular Matrix Remodeling, and Inflammatory Reprogramming in Gastrointestinal Tissue Transformation",
+  "biological_process_synthesis": {
+    "text": "The DEG profile reflects a coordinated remodeling of epithelial identity accompanied by extensive extracellular matrix restructuring and inflammatory activation. Strong enrichment of collagen genes, matrix metalloproteinases, and focal adhesion components suggests stromal engagement and tissue remodeling. Concurrent expression of lineage-specific epithelial genes alongside EMT-associated regulators indicates epithelial plasticity rather than complete dedifferentiation. Activation of inflammatory mediators such as PTGS2, CXCL8, and IL32 suggests microenvironmental signaling and immune modulation. Metabolic enzymes including AKR1B10, CYP3A5, and ALDH family members indicate metabolic reprogramming typical of stress adaptation and tumorigenesis."
+  },
+  "hub_genes_ranked": {
+    "genes": [
+      "KLF4",
+      "FOXA1",
+      "FOXA2",
+      "HOXB7",
+      "PRRX1",
+      "PTGS2",
+      "SERPINE1",
+      "SPP1",
+      "MMP3",
+      "MMP11",
+      "COL1A1",
+      "CEACAM5",
+      "TMPRSS2",
+      "AKR1B10",
+      "SFRP4"
+    ]
+  },
+  "enriched_pathways": {
+    "terms": [
+      "Extracellular matrix organization",
+      "Collagen fibril organization",
+      "Epithelial cell differentiation",
+      "Regulation of epithelial-to-mesenchymal transition",
+      "Wnt signaling pathway",
+      "PI3K-Akt signaling pathway",
+      "Focal adhesion",
+      "Cell adhesion molecules",
+      "Inflammatory response",
+      "Cytokine-mediated signaling pathway",
+      "Chemokine signaling pathway",
+      "Angiogenesis",
+      "Gastric acid secretion",
+      "Xenobiotic metabolism",
+      "Drug metabolism - cytochrome P450",
+      "Proteolysis",
+      "Hormone response",
+      "Retinoic acid signaling",
+      "Hypoxia response",
+      "Tight junction organization"
+    ]
+  },
+  "hypotheses": {
+    "statements": [
+      "PRRX1-driven epithelial-to-mesenchymal transition enhances collagen deposition and matrix metalloproteinase expression, promoting a feed-forward extracellular matrix remodeling loop.",
+      "Altered KLF4 and FOXA1 regulatory activity promotes a hybrid epithelial-mesenchymal state rather than a complete EMT program.",
+      "PTGS2-mediated inflammatory signaling induces metabolic enzymes such as AKR1B10 and CYP family members, linking inflammation to metabolic adaptation.",
+      "Upregulation of SFRP4 represents a compensatory response to aberrant Wnt activation during epithelial transformation.",
+      "Hypoxia-induced CA9 cooperates with SERPINE1 and collagen genes to increase extracellular matrix stiffness and tumor microenvironment remodeling."
+    ]
+  },
+  "novel_insights": {
+    "statements": [
+      "The coexistence of mature gastric epithelial markers and EMT drivers suggests lineage instability rather than simple dedifferentiation.",
+      "The presence of diverse collagen isoforms indicates profound extracellular matrix reprogramming beyond typical stromal activation.",
+      "Strong enrichment of detoxification enzymes implies altered redox balance and drug metabolism capacity.",
+      "Tight junction gene alterations suggest functional barrier disruption contributing to tumor progression."
+    ]
+  },
+  "analogous_systems": {
+    "systems": [
+      "Gastric adenocarcinoma",
+      "Colorectal cancer with EMT features",
+      "Pancreatic ductal adenocarcinoma",
+      "Fibrotic gastrointestinal disorders",
+      "Inflammatory bowel disease with dysplasia"
+    ]
+  },
+  "regulatory_network_edges": {
+    "edges": [
+      { "source": "FOXA1", "target": "MUC1" },
+      { "source": "FOXA1", "target": "CLDN3" },
+      { "source": "FOXA2", "target": "ATP4A" },
+      { "source": "FOXA2", "target": "ATP4B" },
+      { "source": "KLF4", "target": "CLDN1" },
+      { "source": "KLF4", "target": "CDH3" },
+      { "source": "HOXB7", "target": "MMP3" },
+      { "source": "PRRX1", "target": "COL1A1" },
+      { "source": "PRRX1", "target": "COL1A2" },
+      { "source": "ESRRG", "target": "ATP4A" },
+      { "source": "PTGS2", "target": "CXCL8" },
+      { "source": "FOXQ1", "target": "MUC1" },
+      { "source": "GATA5", "target": "CLDN18" },
+      { "source": "SERPINE1", "target": "MMP3" },
+      { "source": "FOXC1", "target": "SFRP4" }
+    ]
+  },
+  "integrated_system_nodes": {
+    "modules": [
+      {
+        "module_name": "ECM Remodeling Module",
+        "associated_phenotype": "Invasion and stromal activation",
+        "genes": [
+          "COL1A1",
+          "COL1A2",
+          "COL4A1",
+          "COL5A2",
+          "COL6A3",
+          "COL8A1",
+          "COL10A1",
+          "MMP3",
+          "MMP11",
+          "THBS2",
+          "THBS4",
+          "SPP1",
+          "SERPINE1",
+          "SERPINE2",
+          "FAP",
+          "CTHRC1"
+        ]
+      },
+      {
+        "module_name": "Epithelial Differentiation Module",
+        "associated_phenotype": "Gastric epithelial identity",
+        "genes": [
+          "ATP4A",
+          "ATP4B",
+          "TFF1",
+          "TFF2",
+          "MUC1",
+          "MUC6",
+          "MUC17",
+          "CLDN1",
+          "CLDN3",
+          "CLDN18",
+          "GKN1",
+          "GKN2",
+          "ESRRG",
+          "FOXA1",
+          "FOXA2"
+        ]
+      },
+      {
+        "module_name": "Inflammatory Signaling Module",
+        "associated_phenotype": "Tumor-promoting inflammation",
+        "genes": [
+          "PTGS2",
+          "CXCL8",
+          "CXCL14",
+          "IL32",
+          "SPP1",
+          "TNFRSF17",
+          "PLA2G2A"
+        ]
+      },
+      {
+        "module_name": "Metabolic Reprogramming Module",
+        "associated_phenotype": "Detoxification and redox adaptation",
+        "genes": [
+          "AKR1B10",
+          "AKR1C2",
+          "AKR1C3",
+          "AKR1C4",
+          "ALDH1A1",
+          "ALDH3A1",
+          "ADH1A",
+          "ADH1C",
+          "ADH7",
+          "CYP3A5",
+          "CYP2C18",
+          "NQO1",
+          "GSTA1"
+        ]
+      },
+      {
+        "module_name": "Developmental and EMT Regulation Module",
+        "associated_phenotype": "Plasticity and transformation",
+        "genes": [
+          "KLF4",
+          "PRRX1",
+          "HOXB7",
+          "FOXQ1",
+          "FOXC1",
+          "SFRP4",
+          "PMEPA1",
+          "HEYL",
+          "IRX3"
+        ]
+      }
+    ]
+  },
+  "enrichment_categorization": {
+    "categories": [
+      {
+        "component": "GO/KEGG",
+        "categories": [
+          {
+            "category_name": "Extracellular Matrix Remodeling",
+            "terms": [
+              "Extracellular matrix organization",
+              "Collagen fibril organization",
+              "Focal adhesion",
+              "Proteolysis",
+              "Cell adhesion molecules",
+              "Angiogenesis"
+            ]
+          },
+          {
+            "category_name": "Epithelial Differentiation and Lineage",
+            "terms": [
+              "Epithelial cell differentiation",
+              "Tight junction organization",
+              "Gastric acid secretion",
+              "Hormone response",
+              "Retinoic acid signaling"
+            ]
+          },
+          {
+            "category_name": "Inflammation and Microenvironment",
+            "terms": [
+              "Inflammatory response",
+              "Cytokine-mediated signaling pathway",
+              "Chemokine signaling pathway",
+              "Hypoxia response"
+            ]
+          },
+          {
+            "category_name": "Oncogenic Signaling and Metabolism",
+            "terms": [
+              "Wnt signaling pathway",
+              "PI3K-Akt signaling pathway",
+              "Regulation of EMT",
+              "Xenobiotic metabolism",
+              "Drug metabolism - cytochrome P450"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "hub_gene_annotation": {
+    "drug_targets": [
+      "PTGS2",
+      "SERPINE1",
+      "MMP3",
+      "MMP11",
+      "TMPRSS2",
+      "AKR1B10",
+      "SPP1"
+    ],
+    "kinases": [
+      "PIK3C2G"
+    ],
+    "biomarkers": [
+      "CEACAM5",
+      "CA9",
+      "MUC1",
+      "SPP1",
+      "SERPINE1",
+      "AKR1B10",
+      "CLDN18",
+      "TMPRSS2",
+      "COL1A1"
+    ]
+  },
+  "component_summaries": {
+    "summaries": [
+      {
+        "component": "GO",
+        "summary": "GO analysis highlights strong enrichment for extracellular matrix organization, epithelial differentiation, inflammatory signaling, and cell adhesion processes. These findings indicate coordinated tissue remodeling with simultaneous lineage plasticity and immune microenvironment engagement."
+      },
+      {
+        "component": "KEGG",
+        "summary": "KEGG pathway enrichment emphasizes PI3K-Akt signaling, Wnt signaling, focal adhesion, cytokine signaling, and drug metabolism pathways. Together, these suggest activation of oncogenic signaling networks coupled with metabolic reprogramming and stromal interaction."
+      },
+      {
+        "component": "Reactome",
+        "summary": "Reactome pathway analysis would underscore collagen biosynthesis, ECM degradation, interleukin signaling, and phase I/II metabolic pathways. These results reinforce a systems-level model integrating structural remodeling, inflammation, and redox adaptation."
+      }
+    ]
+  }
+}

@@ -1,0 +1,286 @@
+{
+  "publication_title": "Integrated Mitotic Activation and Metabolic–Microenvironmental Reprogramming Define a Proliferative Breast Cancer Transcriptomic Signature",
+  "biological_process_synthesis": {
+    "text": "The DEG profile reveals a dual biological program in breast cancer characterized by strong activation of mitotic cell cycle machinery alongside profound remodeling of the extracellular matrix and metabolic reprogramming. A core proliferative signature centered on CDK1, AURKA, CCNB1, UBE2C, and TOP2A suggests enhanced genomic instability and rapid cell division. Concurrently, altered expression of ECM components such as COL11A1, POSTN, and MMP11, together with angiogenic markers including VWF and FIGF, indicates active tumor–stromal crosstalk and vascular remodeling. Metabolic genes tied to adipocyte differentiation and lipid handling, including PPARG, ADIPOQ, FABP4, and LPL, point to disrupted adipose–tumor interactions. Together, these signatures support a model in which aggressive proliferation is coupled to microenvironmental adaptation and metabolic rewiring."
+  },
+  "hub_genes_ranked": {
+    "genes": [
+      "CDK1",
+      "AURKA",
+      "CCNB1",
+      "CDC20",
+      "UBE2C",
+      "TOP2A",
+      "BIRC5",
+      "MELK",
+      "INHBA",
+      "PPARG",
+      "SPP1",
+      "UHRF1",
+      "HMGB3",
+      "TPX2",
+      "ZWINT"
+    ]
+  },
+  "enriched_pathways": {
+    "terms": [
+      "Mitotic cell cycle phase transition",
+      "G2/M checkpoint",
+      "Spindle assembly checkpoint",
+      "Chromosome segregation",
+      "DNA replication initiation",
+      "APC/C-mediated degradation",
+      "PI3K-Akt signaling pathway",
+      "TGF-β signaling pathway",
+      "Wnt signaling pathway",
+      "IGF signaling pathway",
+      "Extracellular matrix organization",
+      "Collagen fibril organization",
+      "Integrin-mediated signaling",
+      "Focal adhesion",
+      "Angiogenesis",
+      "Endothelial cell differentiation",
+      "VEGF signaling pathway",
+      "PPAR signaling pathway",
+      "Lipid storage",
+      "Triglyceride metabolism"
+    ]
+  },
+  "hypotheses": {
+    "statements": [
+      "AURKA and CDK1 hyperactivation cooperates with UHRF1-mediated epigenetic silencing to sustain a highly proliferative breast cancer subtype.",
+      "PPARG pathway dysregulation alters adipocyte–tumor metabolic coupling, enhancing lipid-dependent tumor growth.",
+      "INHBA-driven TGF-β signaling promotes extracellular matrix remodeling via SPP1 and MMP11, facilitating metastatic progression.",
+      "High UBE2C and CDC20 expression predicts sensitivity to mitotic checkpoint inhibitors in breast cancer.",
+      "Loss of CDKN1C combined with elevated HMGB3 drives a stem-like transcriptional program contributing to tumor aggressiveness."
+    ]
+  },
+  "novel_insights": {
+    "statements": [
+      "The coexistence of strong adipocyte metabolic signatures with aggressive mitotic markers suggests metabolic–proliferative coupling specific to the breast tissue context.",
+      "Simultaneous upregulation of angiogenic and lymphatic markers such as FIGF, LYVE1, and VWF indicates coordinated vascular and lymphatic remodeling.",
+      "Multiple epigenetic regulators including UHRF1 and HMGB3 are embedded within the dominant mitotic cluster, suggesting chromatin remodeling is central to proliferative maintenance.",
+      "Integration of ECM genes such as COL11A1 and POSTN with TGF-β axis components INHBA and TGFBR3 indicates active stromal reprogramming."
+    ]
+  },
+  "analogous_systems": {
+    "systems": [
+      "Ovarian serous carcinoma",
+      "Hepatocellular carcinoma",
+      "Prostate cancer",
+      "Fibrosis and wound healing",
+      "Placental trophoblast invasion"
+    ]
+  },
+  "regulatory_network_edges": {
+    "edges": [
+      { "source": "PPARG", "target": "ADIPOQ" },
+      { "source": "PPARG", "target": "PLIN1" },
+      { "source": "PPARG", "target": "FABP4" },
+      { "source": "PPARG", "target": "LPL" },
+      { "source": "HOXA5", "target": "CDKN1C" },
+      { "source": "NFIB", "target": "IGF1" },
+      { "source": "ESRP1", "target": "CLDN3" },
+      { "source": "UHRF1", "target": "CDKN1C" },
+      { "source": "HMGB3", "target": "CCNB1" },
+      { "source": "AURKA", "target": "CDC20" },
+      { "source": "CDK1", "target": "CCNB1" },
+      { "source": "SPP1", "target": "MMP11" },
+      { "source": "TGFBR3", "target": "INHBA" },
+      { "source": "SOX5", "target": "COL11A1" },
+      { "source": "IGF1", "target": "IGFBP6" }
+    ]
+  },
+  "integrated_system_nodes": {
+    "modules": [
+      {
+        "module_name": "Mitotic Proliferation Core",
+        "associated_phenotype": "Rapid cell division and chromosomal instability",
+        "genes": [
+          "CDK1",
+          "CCNB1",
+          "CCNB2",
+          "CDC20",
+          "UBE2C",
+          "BIRC5",
+          "TOP2A",
+          "AURKA",
+          "TPX2",
+          "ZWINT",
+          "CENPF",
+          "CENPU",
+          "RRM2",
+          "TYMS",
+          "MAD2L1"
+        ]
+      },
+      {
+        "module_name": "Epigenetic and Transcriptional Control",
+        "associated_phenotype": "Stemness and proliferative maintenance",
+        "genes": [
+          "UHRF1",
+          "HMGB3",
+          "HOXA5",
+          "NFIB",
+          "ESRP1",
+          "ZBTB16",
+          "EBF1"
+        ]
+      },
+      {
+        "module_name": "ECM and Stromal Remodeling",
+        "associated_phenotype": "Invasion and metastatic potential",
+        "genes": [
+          "COL11A1",
+          "POSTN",
+          "MMP11",
+          "ITIH5",
+          "LRRC15",
+          "SPP1",
+          "SVEP1",
+          "MATN2",
+          "TGFBR3"
+        ]
+      },
+      {
+        "module_name": "Angiogenesis and Vascular Remodeling",
+        "associated_phenotype": "Tumor vascularization",
+        "genes": [
+          "VWF",
+          "FIGF",
+          "LYVE1",
+          "EMCN",
+          "ANGPTL1",
+          "CD300LG",
+          "JAM2"
+        ]
+      },
+      {
+        "module_name": "Metabolic and Adipocyte-Linked Reprogramming",
+        "associated_phenotype": "Lipid metabolism adaptation",
+        "genes": [
+          "PPARG",
+          "ADIPOQ",
+          "FABP4",
+          "LPL",
+          "PLIN1",
+          "PLIN4",
+          "LEP",
+          "LEPR",
+          "PDK4",
+          "THRSP",
+          "LIPE"
+        ]
+      }
+    ]
+  },
+  "enrichment_categorization": {
+    "categories": [
+      {
+        "component": "GO/Cell Cycle",
+        "categories": [
+          {
+            "category_name": "Mitotic Progression and Genomic Stability",
+            "terms": [
+              "Mitotic cell cycle phase transition",
+              "G2/M checkpoint",
+              "Spindle assembly checkpoint",
+              "Chromosome segregation",
+              "DNA replication initiation",
+              "APC/C-mediated degradation"
+            ]
+          }
+        ]
+      },
+      {
+        "component": "KEGG/Signaling",
+        "categories": [
+          {
+            "category_name": "Oncogenic Growth Signaling",
+            "terms": [
+              "PI3K-Akt signaling pathway",
+              "TGF-β signaling pathway",
+              "Wnt signaling pathway",
+              "IGF signaling pathway"
+            ]
+          },
+          {
+            "category_name": "Metabolic Reprogramming",
+            "terms": [
+              "PPAR signaling pathway",
+              "Lipid storage",
+              "Triglyceride metabolism"
+            ]
+          }
+        ]
+      },
+      {
+        "component": "Reactome/ECM-Angiogenesis",
+        "categories": [
+          {
+            "category_name": "Tumor Microenvironment Remodeling",
+            "terms": [
+              "Extracellular matrix organization",
+              "Collagen fibril organization",
+              "Integrin-mediated signaling",
+              "Focal adhesion"
+            ]
+          },
+          {
+            "category_name": "Angiogenesis",
+            "terms": [
+              "Angiogenesis",
+              "Endothelial cell differentiation",
+              "VEGF signaling pathway"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "hub_gene_annotation": {
+    "drug_targets": [
+      "CDK1",
+      "AURKA",
+      "MELK",
+      "PPARG",
+      "TOP2A",
+      "BIRC5",
+      "UBE2C",
+      "INHBA"
+    ],
+    "kinases": [
+      "CDK1",
+      "AURKA",
+      "MELK",
+      "SIK2",
+      "PDK4"
+    ],
+    "biomarkers": [
+      "TOP2A",
+      "BIRC5",
+      "UBE2C",
+      "SPP1",
+      "COL11A1",
+      "AURKA",
+      "UHRF1",
+      "RRM2"
+    ]
+  },
+  "component_summaries": {
+    "summaries": [
+      {
+        "component": "GO",
+        "summary": "GO enrichment emphasizes mitotic processes including chromosome segregation, spindle organization, and DNA replication, indicating a dominant proliferative phenotype. Additional enrichment of extracellular matrix organization and angiogenesis terms highlights active tumor microenvironment remodeling. Lipid metabolic process enrichment reflects tissue-specific metabolic rewiring linked to breast adipose biology."
+      },
+      {
+        "component": "KEGG",
+        "summary": "KEGG pathway analysis highlights Cell Cycle, PI3K-Akt signaling, TGF-β signaling, PPAR signaling, and Focal Adhesion pathways. These collectively suggest that proliferative signaling is integrated with extracellular matrix interactions and metabolic adaptation, forming a coordinated tumor progression network."
+      },
+      {
+        "component": "Reactome",
+        "summary": "Reactome pathway enrichment centers on APC/C-mediated mitotic progression, DNA replication, ECM proteoglycan interactions, and TGF-β family signaling. These findings reinforce a systems model where mitotic drive and stromal signaling cooperate to shape tumor aggressiveness and metastatic potential."
+      }
+    ]
+  }
+}

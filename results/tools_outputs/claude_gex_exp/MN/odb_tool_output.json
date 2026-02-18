@@ -1,0 +1,370 @@
+{
+  "publication_title": "Integrated Transcriptomic Profiling Reveals Coordinate Innate Immune Activation and Glomerular-Tubular Metabolic Dysfunction in Membranous Nephropathy",
+  "biological_process_synthesis": {
+    "text": "Membranous nephropathy exhibits a complex pathophysiology characterized by immune complex deposition triggering complement activation and Fc receptor-mediated inflammatory responses, evidenced by upregulation of FCER1G, TYROBP, C3AR1, and macrophage markers (CSF1R, CTSS, LYZ). This immune activation drives podocyte injury through calcium dysregulation (TRPC6, NFATC1) and oxidative stress (CYBB), leading to glomerular basement membrane disruption and proteinuria. Concurrently, extensive proximal tubular dysfunction is apparent through downregulation of metabolic enzymes and solute transporters (SLC family genes, amino acid metabolism genes), reflecting tubular atrophy secondary to proteinuric injury. The fibrotic response mediated by TGF-beta signaling (TGFB1, TGFBI) and extracellular matrix remodeling (COL1A2, ECM1) represents a maladaptive repair mechanism that perpetuates chronic kidney injury."
+  },
+  "hub_genes_ranked": {
+    "genes": [
+      "TP53",
+      "TGFB1",
+      "ADM",
+      "CSF1R",
+      "TYROBP",
+      "FCER1G",
+      "IRF1",
+      "AXL",
+      "INPP5D",
+      "CTSS",
+      "LYZ",
+      "CYBB",
+      "TET2",
+      "NFATC1",
+      "TRPC6"
+    ]
+  },
+  "enriched_pathways": {
+    "terms": [
+      "Immune complex-mediated complement activation",
+      "Fc receptor signaling pathway",
+      "Glomerular basement membrane organization",
+      "Podocyte differentiation and foot process maintenance",
+      "Proximal tubule epithelial cell differentiation",
+      "Renal tubular reabsorption",
+      "Organic anion/cation transport",
+      "Macrophage activation and infiltration",
+      "Myeloid leukocyte activation",
+      "TGF-beta signaling in fibrosis",
+      "Extracellular matrix organization and collagen deposition",
+      "Response to oxidative stress",
+      "Regulation of blood pressure (renin-angiotensin)",
+      "Amino acid metabolic processes",
+      "Xenobiotic and drug metabolism",
+      "Vitamin D metabolic process",
+      "Apoptotic signaling pathway",
+      "Calcium-mediated signaling",
+      "Angiogenesis and vascular remodeling",
+      "Type I interferon signaling"
+    ]
+  },
+  "hypotheses": {
+    "statements": [
+      "The coordinate upregulation of CSF1R, TYROBP, and AXL suggests that M2-like macrophage polarization may promote fibrosis in membranous nephropathy, and therapeutic targeting of CSF1R could prevent both immune-mediated injury and subsequent fibrotic remodeling.",
+      "TET2 dysregulation may drive epigenetic changes in proximal tubular cells that suppress their metabolic and transport functions, and restoration of TET2 activity could promote tubular regeneration and metabolic recovery.",
+      "The presence of TRPC6, NFATC1, and calcium signaling dysregulation suggests a complement-independent mechanism of podocyte injury that could explain variability in therapeutic response to complement inhibitors.",
+      "The upregulation of IRF1 and OAS1 indicates an interferon-driven inflammatory state that may identify a subset of membranous nephropathy patients with more aggressive disease requiring immunomodulatory therapy.",
+      "Downregulation of CYP27B1 (1-alpha-hydroxylase) and vitamin D metabolic genes suggests that local renal vitamin D deficiency may contribute to immune dysregulation and could be therapeutically targeted."
+    ]
+  },
+  "novel_insights": {
+    "statements": [
+      "The simultaneous presence of podocyte injury markers (TRPC6, NFATC1) and extensive proximal tubular metabolic dysfunction (downregulation of >50 tubular-specific genes) suggests that membranous nephropathy pathogenesis involves early, coordinate glomerular-tubular crosstalk rather than sequential injury patterns.",
+      "The gene signature is heavily enriched for innate immune mediators (macrophage markers, complement receptors, Fc receptors) with minimal adaptive immune signatures, suggesting that innate immunity perpetuates disease even after initial autoantibody-mediated insult.",
+      "The downregulation extends beyond simple transporter dysfunction to include key metabolic enzymes (amino acid catabolism, gluconeogenesis), indicating fundamental metabolic reprogramming of tubular cells toward a dedifferentiated state.",
+      "CYBB upregulation combined with antioxidant pathway dysregulation positions reactive oxygen species generation as a potential therapeutic target linking immune activation to podocyte and tubular injury."
+    ]
+  },
+  "analogous_systems": {
+    "systems": [
+      "Focal Segmental Glomerulosclerosis (FSGS)",
+      "Diabetic Nephropathy",
+      "IgA Nephropathy",
+      "Systemic Lupus Erythematosus (Lupus Nephritis)",
+      "Acute Kidney Injury (AKI) to Chronic Kidney Disease (CKD) transition"
+    ]
+  },
+  "regulatory_network_edges": {
+    "edges": [
+      {
+        "source": "TP53",
+        "target": "CCND1"
+      },
+      {
+        "source": "TP53",
+        "target": "PYCARD"
+      },
+      {
+        "source": "TP53",
+        "target": "ADM"
+      },
+      {
+        "source": "IRF1",
+        "target": "OAS1"
+      },
+      {
+        "source": "IRF1",
+        "target": "CXCL16"
+      },
+      {
+        "source": "RELB",
+        "target": "CTSS"
+      },
+      {
+        "source": "RELB",
+        "target": "CD48"
+      },
+      {
+        "source": "NFATC1",
+        "target": "FCER1G"
+      },
+      {
+        "source": "NFATC1",
+        "target": "CSF1R"
+      },
+      {
+        "source": "GATA3",
+        "target": "TGFB1"
+      },
+      {
+        "source": "HLX",
+        "target": "HHEX"
+      },
+      {
+        "source": "TBX3",
+        "target": "NCAM1"
+      },
+      {
+        "source": "EGR3",
+        "target": "HBEGF"
+      },
+      {
+        "source": "RARG",
+        "target": "TGFBI"
+      },
+      {
+        "source": "SOX18",
+        "target": "CDH12"
+      },
+      {
+        "source": "HNF4G",
+        "target": "SLC13A1"
+      },
+      {
+        "source": "HNF4G",
+        "target": "PAH"
+      },
+      {
+        "source": "ESRRG",
+        "target": "PPARGC1A"
+      },
+      {
+        "source": "TET2",
+        "target": "FCER1G"
+      },
+      {
+        "source": "SKI",
+        "target": "TGFB1"
+      }
+    ]
+  },
+  "integrated_system_nodes": {
+    "modules": [
+      {
+        "module_name": "Immune Complex & Complement Activation",
+        "associated_phenotype": "Antibody deposition and complement-mediated glomerular injury",
+        "genes": [
+          "FCER1G",
+          "TYROBP",
+          "C3AR1",
+          "PYCARD",
+          "HCST",
+          "CD52",
+          "CTSS",
+          "INPP5D",
+          "LAPTM5",
+          "SCIMP",
+          "SIGLEC10",
+          "SIGLEC14"
+        ]
+      },
+      {
+        "module_name": "Macrophage Infiltration & Inflammatory Response",
+        "associated_phenotype": "Mononuclear cell infiltration and inflammatory cytokine production",
+        "genes": [
+          "CSF1R",
+          "CSF2RB",
+          "LYZ",
+          "FCN1",
+          "MS4A7",
+          "LST1",
+          "CD48",
+          "CD53",
+          "SPN",
+          "CYBB",
+          "NRROS",
+          "MPEG1",
+          "LILRB1",
+          "MRC2",
+          "ADGRE5"
+        ]
+      },
+      {
+        "module_name": "Podocyte Injury & Calcium Dysregulation",
+        "associated_phenotype": "Foot process effacement and proteinuria",
+        "genes": [
+          "TRPC6",
+          "NFATC1",
+          "NCAM1",
+          "CDH12",
+          "PLCE1-AS1",
+          "ZYX",
+          "FSCN1",
+          "SDC3",
+          "NT5E"
+        ]
+      },
+      {
+        "module_name": "Fibrosis & Extracellular Matrix Remodeling",
+        "associated_phenotype": "Glomerulosclerosis and interstitial fibrosis",
+        "genes": [
+          "TGFB1",
+          "TGFBI",
+          "COL1A2",
+          "COLGALT1",
+          "ECM1",
+          "AXL",
+          "ITGA5",
+          "BMP2",
+          "SKI",
+          "BAMBI",
+          "HBEGF",
+          "SEMA7A"
+        ]
+      },
+      {
+        "module_name": "Tubular Injury & Metabolic Dysfunction",
+        "associated_phenotype": "Tubular atrophy, metabolic acidosis, and transport defects",
+        "genes": [
+          "SLC3A1",
+          "SLC2A2",
+          "SLC22A8",
+          "SLC13A1",
+          "SLC13A3",
+          "SLC4A4",
+          "LRP2",
+          "CUBN",
+          "PAH",
+          "HPD",
+          "ALDOB",
+          "PCK1",
+          "G6PC1",
+          "PDZK1",
+          "SLC6A19",
+          "SLC7A9",
+          "BHMT",
+          "GLDC",
+          "ACE2"
+        ]
+      }
+    ]
+  },
+  "enrichment_categorization": {
+    "categories": [
+      {
+        "component": "Immune Response & Inflammation",
+        "categories": [
+          {
+            "category_name": "Immune Activation",
+            "terms": [
+              "Immune complex-mediated complement activation",
+              "Fc receptor signaling pathway",
+              "Macrophage activation and infiltration",
+              "Myeloid leukocyte activation",
+              "Type I interferon signaling"
+            ]
+          }
+        ]
+      },
+      {
+        "component": "Glomerular & Podocyte Dysfunction",
+        "categories": [
+          {
+            "category_name": "Glomerular Injury",
+            "terms": [
+              "Glomerular basement membrane organization",
+              "Podocyte differentiation and foot process maintenance",
+              "Extracellular matrix organization and collagen deposition",
+              "TGF-beta signaling in fibrosis",
+              "Calcium-mediated signaling"
+            ]
+          }
+        ]
+      },
+      {
+        "component": "Tubular Injury & Metabolic Dysfunction",
+        "categories": [
+          {
+            "category_name": "Tubular Metabolism",
+            "terms": [
+              "Proximal tubule epithelial cell differentiation",
+              "Renal tubular reabsorption",
+              "Organic anion/cation transport",
+              "Amino acid metabolic processes",
+              "Xenobiotic and drug metabolism",
+              "Vitamin D metabolic process"
+            ]
+          }
+        ]
+      },
+      {
+        "component": "Cellular Stress & Tissue Remodeling",
+        "categories": [
+          {
+            "category_name": "Stress Response",
+            "terms": [
+              "Response to oxidative stress",
+              "Apoptotic signaling pathway",
+              "Angiogenesis and vascular remodeling"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "hub_gene_annotation": {
+    "drug_targets": [
+      "CSF1R",
+      "TGFB1",
+      "AXL",
+      "TRPC6",
+      "CTSS",
+      "INPP5D",
+      "TYROBP",
+      "CYBB",
+      "NFATC1"
+    ],
+    "kinases": [
+      "CSF1R",
+      "AXL",
+      "INPP5D"
+    ],
+    "biomarkers": [
+      "TP53",
+      "LYZ",
+      "CTSS",
+      "FCER1G",
+      "TYROBP",
+      "CSF1R",
+      "TGFB1",
+      "CYBB",
+      "IRF1",
+      "ADM",
+      "TRPC6"
+    ]
+  },
+  "component_summaries": {
+    "summaries": [
+      {
+        "component": "GO",
+        "summary": "The GO biological process analysis reveals membranous nephropathy as a disease of three converging pathologies: immune dysregulation characterized by complement activation and Fc receptor-mediated responses; glomerular structural disruption involving podocyte calcium signaling abnormalities and basement membrane remodeling; and profound tubular epithelial dysfunction marked by suppression of metabolic processes including amino acid catabolism, gluconeogenesis, and organic solute transport. The coordinate regulation of these processes suggests systemic kidney injury rather than isolated glomerular pathology."
+      },
+      {
+        "component": "KEGG",
+        "summary": "KEGG pathway analysis highlights several interconnected disease mechanisms including complement and coagulation cascades linking immune activation to thrombotic complications, lysosomal degradation pathways reflecting immune cell activation and tissue remodeling, and metabolic pathway suppression particularly in amino acid metabolism and drug/xenobiotic processing. The presence of multiple cytokine-cytokine receptor interactions and chemokine signaling pathways underscores the inflammatory milieu, while calcium signaling and ECM-receptor interaction pathways mechanistically connect immune injury to structural glomerular damage."
+      },
+      {
+        "component": "Reactome",
+        "summary": "Reactome analysis emphasizes the disease's molecular choreography, revealing robust activation of innate immune signaling through pattern recognition receptors and inflammatory cytokine cascades, coordinated with adaptive suppression of specialized tubular functions including vitamin D metabolism, organic anion/cation exchange, and renal hormone regulation. The prominent representation of oxidative stress responses, apoptotic pathways, and TGF-beta signaling illustrates how acute immune injury transitions to chronic fibrotic kidney disease through maladaptive repair mechanisms involving both resident kidney cells and infiltrating immune populations."
+      }
+    ]
+  }
+}

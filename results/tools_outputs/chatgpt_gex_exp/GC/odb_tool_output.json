@@ -1,0 +1,272 @@
+{
+  "publication_title": "Integrated Transcriptomic Analysis Reveals Extracellular Matrix Remodeling, Lineage Plasticity, and Metabolic Reprogramming as Central Drivers of Gastric Cancer Progression",
+  "biological_process_synthesis": {
+    "text": "The DEG profile reflects a gastric tumor microenvironment characterized by extensive extracellular matrix remodeling, epithelial identity disruption, and activation of pro-invasive signaling pathways. Upregulation of collagen genes, integrins, metalloproteinases, and matricellular proteins suggests a fibrotic, invasion-permissive stroma. Concurrent alterations in tight junction components, mucins, and gastric differentiation markers indicate partial loss of normal gastric epithelial identity and induction of EMT-like programs. Hypoxia-associated genes and metabolic enzymes reveal adaptation to tumor metabolic stress. Collectively, the data depict a transition from differentiated gastric epithelium to a metabolically flexible, ECM-remodeling, pro-metastatic state."
+  },
+  "hub_genes_ranked": {
+    "genes": [
+      "KLF4",
+      "FOXA1",
+      "FOXA2",
+      "PRRX1",
+      "HOXB7",
+      "SFRP4",
+      "CTHRC1",
+      "SERPINE1",
+      "ITGA5",
+      "SPP1",
+      "CA9",
+      "CLDN1",
+      "THBS2",
+      "MMP3",
+      "MUC1"
+    ]
+  },
+  "enriched_pathways": {
+    "terms": [
+      "Extracellular matrix organization",
+      "Collagen fibril organization",
+      "Cell adhesion and focal adhesion",
+      "Epithelial to mesenchymal transition",
+      "Integrin-mediated signaling pathway",
+      "PI3K-Akt signaling pathway",
+      "Wnt signaling pathway",
+      "TGF-beta signaling pathway",
+      "Hypoxia response",
+      "Angiogenesis",
+      "Gastric acid secretion",
+      "Xenobiotic metabolism (Cytochrome P450)",
+      "Retinol metabolism",
+      "Tight junction organization",
+      "Inflammatory response",
+      "Chemokine signaling pathway",
+      "Proteolysis and matrix metalloproteinase activity",
+      "Mucin-type O-glycan biosynthesis",
+      "Epithelial cell differentiation",
+      "Digestive system development"
+    ]
+  },
+  "hypotheses": {
+    "statements": [
+      "PRRX1-driven EMT in gastric cancer directly enhances collagen deposition and ECM stiffening via COL1A1 and COL1A2 induction.",
+      "Loss of gastric differentiation factors (FOXA2 and GATA5 axis imbalance) cooperates with Wnt signaling dysregulation via SFRP4 alterations to promote lineage plasticity.",
+      "Hypoxia-induced SERPINE1 and CA9 coordinate metabolic reprogramming with ECM remodeling to facilitate invasion.",
+      "Integrin ITGA5 signaling amplifies PI3K-Akt activation in collagen-rich tumor regions, creating spatially localized proliferative niches.",
+      "Aberrant mucin glycosylation mediated by GCNT1 and ST6GALNAC1 reshapes immune microenvironment interactions in gastric tumors."
+    ]
+  },
+  "novel_insights": {
+    "statements": [
+      "The strong co-enrichment of gastric acid secretion genes (ATP4A, ATP4B, GIF, LIPF) with ECM remodeling genes suggests a hybrid tumor phenotype retaining partial gastric identity while acquiring invasive characteristics.",
+      "Concurrent enrichment of xenobiotic metabolism genes (CYP3A5, ADH family, AKR1C genes) implies altered drug metabolism capacity in gastric tumors.",
+      "Parallel upregulation of structural collagens (COL1A1, COL1A2, COL5A2, COL6A3, COL10A1) indicates desmoplastic stromal reprogramming as a dominant tumor feature.",
+      "Chemokine enrichment (CXCL8, CXCL14, CXCL17) suggests immune recruitment is tightly coupled with ECM remodeling dynamics."
+    ]
+  },
+  "analogous_systems": {
+    "systems": [
+      "Pancreatic ductal adenocarcinoma",
+      "Colorectal adenocarcinoma",
+      "Esophageal adenocarcinoma",
+      "Liver fibrosis and cirrhosis",
+      "Idiopathic pulmonary fibrosis"
+    ]
+  },
+  "regulatory_network_edges": {
+    "edges": [
+      { "source": "KLF4", "target": "CLDN1" },
+      { "source": "KLF4", "target": "MUC1" },
+      { "source": "FOXA1", "target": "MUC1" },
+      { "source": "FOXA2", "target": "TFF1" },
+      { "source": "FOXA2", "target": "GKN1" },
+      { "source": "PRRX1", "target": "COL1A1" },
+      { "source": "PRRX1", "target": "COL1A2" },
+      { "source": "HOXB7", "target": "MMP3" },
+      { "source": "FOXC1", "target": "ITGA5" },
+      { "source": "HIF1A", "target": "CA9" },
+      { "source": "HIF1A", "target": "SERPINE1" },
+      { "source": "GATA5", "target": "CLDN18" },
+      { "source": "FOXQ1", "target": "MMP11" },
+      { "source": "HOXA10", "target": "COL1A1" },
+      { "source": "IL32", "target": "CXCL8" }
+    ]
+  },
+  "integrated_system_nodes": {
+    "modules": [
+      {
+        "module_name": "ECM Remodeling and Desmoplasia",
+        "associated_phenotype": "Invasion and stromal stiffening",
+        "genes": [
+          "COL1A1",
+          "COL1A2",
+          "COL5A2",
+          "COL6A3",
+          "COL10A1",
+          "MMP3",
+          "MMP11",
+          "THBS2",
+          "THBS4",
+          "SERPINE1",
+          "CTHRC1",
+          "BGN",
+          "FAP",
+          "TIMP1"
+        ]
+      },
+      {
+        "module_name": "Epithelial Identity and Differentiation",
+        "associated_phenotype": "Loss of gastric lineage fidelity",
+        "genes": [
+          "FOXA1",
+          "FOXA2",
+          "KLF4",
+          "GATA5",
+          "CLDN18",
+          "TFF1",
+          "TFF2",
+          "GKN1",
+          "GKN2",
+          "MUC6",
+          "ATP4A",
+          "ATP4B"
+        ]
+      },
+      {
+        "module_name": "EMT and Oncogenic Signaling",
+        "associated_phenotype": "Enhanced migration and survival",
+        "genes": [
+          "PRRX1",
+          "HOXB7",
+          "SFRP4",
+          "ITGA5",
+          "PIK3C2G",
+          "FOXQ1",
+          "PMEPA1",
+          "FOXC1"
+        ]
+      },
+      {
+        "module_name": "Metabolic Reprogramming and Detoxification",
+        "associated_phenotype": "Tumor metabolic flexibility",
+        "genes": [
+          "CA9",
+          "ADH1A",
+          "ADH1C",
+          "ADH7",
+          "ALDH1A1",
+          "ALDH3A1",
+          "CYP3A5",
+          "CYP2C18",
+          "AKR1B10",
+          "NQO1",
+          "GSTA1"
+        ]
+      },
+      {
+        "module_name": "Immune and Microenvironment Signaling",
+        "associated_phenotype": "Immune modulation and inflammation",
+        "genes": [
+          "CXCL8",
+          "CXCL14",
+          "CXCL17",
+          "IL32",
+          "TNFRSF17",
+          "CD79A",
+          "PIGR",
+          "LGALS1"
+        ]
+      }
+    ]
+  },
+  "enrichment_categorization": {
+    "categories": [
+      {
+        "component": "KEGG",
+        "categories": [
+          {
+            "category_name": "ECM and Cell Adhesion",
+            "terms": [
+              "ECM-receptor interaction",
+              "Focal adhesion",
+              "PI3K-Akt signaling pathway",
+              "Proteoglycans in cancer"
+            ]
+          },
+          {
+            "category_name": "Oncogenic Signaling",
+            "terms": [
+              "Wnt signaling pathway",
+              "TGF-beta signaling pathway",
+              "Chemokine signaling pathway"
+            ]
+          }
+        ]
+      },
+      {
+        "component": "GO",
+        "categories": [
+          {
+            "category_name": "Extracellular Matrix Organization",
+            "terms": [
+              "Extracellular matrix organization",
+              "Collagen fibril organization",
+              "Proteolysis"
+            ]
+          },
+          {
+            "category_name": "Epithelial Differentiation",
+            "terms": [
+              "Epithelial cell differentiation",
+              "Tight junction organization",
+              "Digestive system development"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "hub_gene_annotation": {
+    "drug_targets": [
+      "ITGA5",
+      "SERPINE1",
+      "CA9",
+      "PIK3C2G",
+      "MMP3",
+      "MMP11",
+      "SPP1",
+      "CLDN1",
+      "THBS2"
+    ],
+    "kinases": [
+      "PIK3C2G"
+    ],
+    "biomarkers": [
+      "CA9",
+      "MUC1",
+      "CEACAM5",
+      "CLDN1",
+      "CLDN18",
+      "KRT20",
+      "SPP1",
+      "SERPINE1",
+      "COL1A1",
+      "CTHRC1"
+    ]
+  },
+  "component_summaries": {
+    "summaries": [
+      {
+        "component": "GO",
+        "summary": "GO enrichment strongly emphasizes extracellular matrix organization, epithelial differentiation, and collagen fibril assembly. These findings indicate that structural remodeling of the tumor microenvironment and altered epithelial identity are dominant biological processes in gastric cancer tissue relative to normal mucosa."
+      },
+      {
+        "component": "KEGG",
+        "summary": "KEGG pathway interpretation highlights activation of PI3K-Akt, Wnt, and TGF-beta signaling pathways, all central to EMT, proliferation, and survival. Pathways related to gastric acid secretion and xenobiotic metabolism reflect lineage disruption combined with metabolic rewiring."
+      },
+      {
+        "component": "Reactome",
+        "summary": "Reactome-level analysis underscores integrin signaling, extracellular matrix proteoglycan interactions, and hypoxia-driven transcriptional programs. These collectively suggest coordinated activation of mechanotransduction and stress adaptation pathways facilitating tumor progression."
+      }
+    ]
+  }
+}

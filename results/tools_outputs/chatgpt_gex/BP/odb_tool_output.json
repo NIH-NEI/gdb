@@ -1,0 +1,213 @@
+{
+  "publication_title": "Integrated Inflammasome Activation and Granulocytic Transcriptional Remodeling Define a Myeloid-Dominant Inflammatory State",
+  "biological_process_synthesis": {
+    "text": "The DEG profile strongly reflects activation of innate immune and granulocytic inflammatory programs centered on inflammasome signaling, neutrophil biology, and cytokine production. Key components of the AIM2–CASP1 axis indicate active inflammasome-mediated IL-1 family signaling, while enrichment of neutrophil granule genes suggests robust granulocyte activation or expansion. Concurrent induction of anti-apoptotic regulators and metabolic modulators indicates coordinated survival and immunometabolic reprogramming. The presence of chromatin regulators and Wnt pathway components suggests higher-order transcriptional remodeling. Overall, the system represents a pro-inflammatory, myeloid-dominant state with integrated metabolic and epigenetic adaptation."
+  },
+  "hub_genes_ranked": {
+    "genes": [
+      "CASP1",
+      "AIM2",
+      "IDO1",
+      "CEBPE",
+      "OSM",
+      "IL1RL1",
+      "AXIN2",
+      "STAG2",
+      "NFIL3",
+      "BCL2A1",
+      "SATB1-AS1",
+      "FCGR1A",
+      "TLR5",
+      "APOBEC3A",
+      "SERPINB2"
+    ]
+  },
+  "enriched_pathways": {
+    "terms": [
+      "Inflammasome complex assembly",
+      "IL-1β production and processing",
+      "Neutrophil degranulation",
+      "Granulocyte differentiation",
+      "Innate immune response",
+      "Toll-like receptor signaling pathway",
+      "NOD-like receptor signaling pathway",
+      "Cytokine-mediated signaling pathway",
+      "Response to bacterium",
+      "Regulation of apoptosis",
+      "NF-κB signaling pathway",
+      "Wnt signaling pathway",
+      "Immune receptor signaling pathway",
+      "Oxidative stress response",
+      "Antigen processing and presentation",
+      "Leukocyte activation",
+      "Myeloid cell differentiation",
+      "Chemotaxis and leukocyte migration",
+      "Lipid metabolic process",
+      "Extracellular matrix remodeling"
+    ]
+  },
+  "hypotheses": {
+    "statements": [
+      "AIM2-driven inflammasome activation is a primary upstream event coordinating neutrophil-associated transcriptional remodeling in this system.",
+      "IDO1-mediated immunometabolic reprogramming functions as a compensatory regulatory mechanism limiting excessive inflammasome-driven inflammation.",
+      "CEBPE-dependent granulocyte differentiation is aberrantly sustained, leading to prolonged inflammatory tissue remodeling.",
+      "STAG2-mediated chromatin restructuring stabilizes inflammatory gene expression programs in activated myeloid cells.",
+      "Wnt pathway feedback via AXIN2 modulates immune cell differentiation under inflammatory stress conditions."
+    ]
+  },
+  "novel_insights": {
+    "statements": [
+      "Concurrent inflammasome activation and granulocyte differentiation signatures suggest the system may represent emergency myelopoiesis rather than simple immune activation.",
+      "Co-enrichment of metabolic regulators implies strong immunometabolic coupling rarely appreciated in standard DEG interpretations.",
+      "Presence of chromatin and cohesin regulators indicates structural epigenetic remodeling supporting sustained inflammation.",
+      "APOBEC3A induction may link inflammation to genomic instability or antiviral-like responses."
+    ]
+  },
+  "analogous_systems": {
+    "systems": [
+      "Sepsis",
+      "Inflammatory Bowel Disease",
+      "Severe Asthma",
+      "Myeloproliferative Disorders",
+      "Autoinflammatory Syndromes"
+    ]
+  },
+  "regulatory_network_edges": {
+    "edges": [
+      { "source": "CEBPE", "target": "MMP8" },
+      { "source": "CEBPE", "target": "LTF" },
+      { "source": "CEBPE", "target": "OLFM4" },
+      { "source": "NFIL3", "target": "IL3RA" },
+      { "source": "NFIL3", "target": "BCL2A1" },
+      { "source": "TLR5", "target": "NFKB1" },
+      { "source": "NFKB1", "target": "BCL2A1" },
+      { "source": "NFKB1", "target": "SERPINB2" },
+      { "source": "NFKB1", "target": "OSM" },
+      { "source": "AIM2", "target": "CASP1" },
+      { "source": "CASP1", "target": "IL1B" },
+      { "source": "IL1RL1", "target": "OSM" },
+      { "source": "STAG2", "target": "CellCycle_Genes" },
+      { "source": "PIK3C2B", "target": "AKT_Pathway" },
+      { "source": "RPS6KA2", "target": "Transcription_Factors" }
+    ]
+  },
+  "integrated_system_nodes": {
+    "modules": [
+      {
+        "module_name": "Inflammasome Activation Core",
+        "associated_phenotype": "IL-1–driven inflammatory signaling",
+        "genes": ["AIM2", "CASP1", "CASP5", "CARD16", "IL1R2", "IL1RL1", "OSM"]
+      },
+      {
+        "module_name": "Granulocyte Differentiation and Degranulation",
+        "associated_phenotype": "Neutrophil expansion and activation",
+        "genes": ["CEBPE", "MMP8", "LTF", "OLFM4", "CEACAM8", "ARG1", "MS4A3", "FCGR1A"]
+      },
+      {
+        "module_name": "Immunometabolic Reprogramming",
+        "associated_phenotype": "Metabolic adaptation during inflammation",
+        "genes": ["IDO1", "ACSL1", "ACSL4", "PDK4", "SAT1", "ACAT1"]
+      },
+      {
+        "module_name": "Apoptosis and Survival Regulation",
+        "associated_phenotype": "Inflammatory cell survival",
+        "genes": ["BCL2A1", "CASP3", "HRK", "TP53I3"]
+      },
+      {
+        "module_name": "Chromatin and Signal Integration",
+        "associated_phenotype": "Stable inflammatory transcriptional reprogramming",
+        "genes": ["STAG2", "SATB1-AS1", "AXIN2", "RPS6KA2", "PIK3C2B"]
+      }
+    ]
+  },
+  "enrichment_categorization": {
+    "categories": [
+      {
+        "component": "GO/KEGG",
+        "categories": [
+          {
+            "category_name": "Inflammasome and Innate Immune Activation",
+            "terms": [
+              "Inflammasome complex assembly",
+              "IL-1β production",
+              "NOD-like receptor signaling pathway",
+              "Toll-like receptor signaling pathway",
+              "NF-κB signaling pathway",
+              "Cytokine-mediated signaling pathway"
+            ]
+          },
+          {
+            "category_name": "Granulocyte and Myeloid Differentiation",
+            "terms": [
+              "Neutrophil degranulation",
+              "Granulocyte differentiation",
+              "Myeloid cell differentiation",
+              "Leukocyte activation",
+              "Chemotaxis"
+            ]
+          },
+          {
+            "category_name": "Apoptosis and Survival Regulation",
+            "terms": [
+              "Regulation of apoptosis",
+              "Caspase activation",
+              "Oxidative stress response"
+            ]
+          },
+          {
+            "category_name": "Metabolic and Signaling Integration",
+            "terms": [
+              "Lipid metabolic process",
+              "Wnt signaling pathway",
+              "Mitochondrial respiratory chain"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "hub_gene_annotation": {
+    "drug_targets": [
+      "CASP1",
+      "IDO1",
+      "IL1RL1",
+      "PIK3C2B",
+      "RPS6KA2",
+      "TLR5",
+      "FCGR1A"
+    ],
+    "kinases": [
+      "RPS6KA2",
+      "PIK3C2B",
+      "TEC"
+    ],
+    "biomarkers": [
+      "CEACAM8",
+      "MMP8",
+      "LTF",
+      "S100A8",
+      "S100A9",
+      "OLFM4",
+      "ARG1",
+      "SERPINB2",
+      "FCGR1A",
+      "IL1RL1"
+    ]
+  },
+  "component_summaries": {
+    "summaries": [
+      {
+        "component": "GO",
+        "summary": "GO enrichment emphasizes innate immune activation, particularly inflammasome assembly, neutrophil degranulation, leukocyte activation, and regulation of apoptosis. These findings indicate a coordinated inflammatory program involving effector cytokine production and granulocytic lineage expansion, alongside chromatin and metabolic adaptation."
+      },
+      {
+        "component": "KEGG",
+        "summary": "KEGG pathway analysis highlights NOD-like receptor signaling, Toll-like receptor signaling, cytokine–cytokine receptor interactions, and NF-κB signaling as central axes. Apoptosis and metabolic pathways further indicate integration between inflammatory signaling and cellular energy adaptation."
+      },
+      {
+        "component": "Reactome",
+        "summary": "Reactome interpretation points to inflammasome activation, neutrophil degranulation cascades, interleukin signaling, and immune receptor downstream signaling. Integration with chromatin remodeling and Wnt signaling pathways suggests multi-layered regulation of immune cell identity and persistence."
+      }
+    ]
+  }
+}

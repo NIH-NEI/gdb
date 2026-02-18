@@ -1,0 +1,264 @@
+{
+  "publication_title": "Integrated Immune–Fibrotic and Metabolic Reprogramming Signatures Define the Molecular Landscape of Membranous Nephropathy",
+  "biological_process_synthesis": {
+    "text": "The DEG profile in membranous nephropathy reveals coordinated activation of immune-inflammatory pathways, particularly NF-κB and interferon signaling, alongside complement engagement and macrophage recruitment. Concomitantly, strong TGF-β–driven extracellular matrix remodeling and collagen deposition signatures indicate progressive fibrotic transformation of the glomerular microenvironment. Renal epithelial transporters and metabolic regulators show extensive dysregulation, suggesting metabolic reprogramming and tubular stress responses. Oxidative stress and apoptotic signaling pathways further implicate podocyte injury and epithelial dysfunction. Collectively, the gene program supports an integrated model of immune-mediated glomerular injury coupled to maladaptive fibrotic repair and metabolic collapse."
+  },
+  "hub_genes_ranked": {
+    "genes": [
+      "TGFB1",
+      "TP53",
+      "RELB",
+      "IRF1",
+      "CCND1",
+      "AXL",
+      "CSF1R",
+      "NFATC1",
+      "TET2",
+      "GATA3",
+      "NR1D1",
+      "PPARGC1A",
+      "HNF4G",
+      "TNFRSF12A",
+      "BAMBI"
+    ]
+  },
+  "enriched_pathways": {
+    "terms": [
+      "TGF-β signaling pathway",
+      "Extracellular matrix organization",
+      "Collagen fibril organization",
+      "Focal adhesion",
+      "Integrin-mediated signaling",
+      "NF-κB signaling pathway",
+      "Interferon signaling pathway",
+      "Complement activation",
+      "Leukocyte activation and migration",
+      "Macrophage differentiation",
+      "Cytokine-mediated signaling pathway",
+      "Apoptotic signaling pathway",
+      "Epithelial-to-mesenchymal transition",
+      "Oxidative stress response",
+      "Angiogenesis",
+      "Renin–angiotensin system",
+      "Transmembrane transporter activity",
+      "Mitochondrial metabolic process",
+      "Glomerular basement membrane organization",
+      "Adaptive immune response"
+    ]
+  },
+  "hypotheses": {
+    "statements": [
+      "Non-canonical NF-κB (RELB-driven) signaling sustains chronic glomerular inflammation independently of classical NF-κB activation.",
+      "Metabolic reprogramming via PPARGC1A and PDK4 dysregulation contributes directly to podocyte detachment and proteinuria.",
+      "AXL–TGF-β signaling crosstalk amplifies fibrotic ECM deposition in membranous nephropathy glomeruli.",
+      "Epigenetic dysregulation via TET2 modulates persistent interferon signaling in membranous nephropathy.",
+      "Solute transporter repression (e.g., SLC family genes) reflects dedifferentiation of tubular epithelial cells secondary to immune injury."
+    ]
+  },
+  "novel_insights": {
+    "statements": [
+      "The coexistence of strong immune activation and extensive metabolic transporter repression suggests dual glomerular and tubular involvement in disease progression.",
+      "A prominent non-canonical NF-κB (RELB) signature indicates chronic inflammatory programming rather than acute immune activation.",
+      "Concurrent pro-fibrotic (TGFB1) and EMT-related markers imply early structural remodeling beyond immune complex deposition.",
+      "High abundance of small nucleolar RNAs (SNORDs and SNORAs) suggests altered ribosomal biogenesis or stress-induced RNA processing dysregulation."
+    ]
+  },
+  "analogous_systems": {
+    "systems": [
+      "Lupus nephritis",
+      "Diabetic nephropathy",
+      "IgA nephropathy",
+      "Chronic allograft nephropathy",
+      "Systemic sclerosis–associated renal fibrosis"
+    ]
+  },
+  "regulatory_network_edges": {
+    "edges": [
+      { "source": "TGFB1", "target": "COL1A2" },
+      { "source": "TGFB1", "target": "TGFBI" },
+      { "source": "TGFB1", "target": "BAMBI" },
+      { "source": "RELB", "target": "CXCL16" },
+      { "source": "RELB", "target": "CSF1R" },
+      { "source": "IRF1", "target": "OAS1" },
+      { "source": "IRF1", "target": "CXCL16" },
+      { "source": "NFATC1", "target": "CCND1" },
+      { "source": "TP53", "target": "CCND1" },
+      { "source": "PPARGC1A", "target": "PDK4" },
+      { "source": "HNF4G", "target": "SLC22A8" },
+      { "source": "NR1D1", "target": "HK2" },
+      { "source": "TET2", "target": "IRF1" },
+      { "source": "TNFRSF12A", "target": "RELB" },
+      { "source": "AXL", "target": "TGFB1" }
+    ]
+  },
+  "integrated_system_nodes": {
+    "modules": [
+      {
+        "module_name": "Immune Activation Module",
+        "associated_phenotype": "Chronic inflammatory infiltration",
+        "genes": [
+          "RELB",
+          "IRF1",
+          "CSF1R",
+          "TYROBP",
+          "LILRB1",
+          "CXCL16",
+          "OAS1",
+          "FCER1G",
+          "SIGLEC10",
+          "MS4A7",
+          "C3AR1",
+          "PYCARD"
+        ]
+      },
+      {
+        "module_name": "Fibrosis and ECM Remodeling Module",
+        "associated_phenotype": "Glomerular basement membrane thickening",
+        "genes": [
+          "TGFB1",
+          "TGFBI",
+          "COL1A2",
+          "ITGA5",
+          "BAMBI",
+          "AXL",
+          "TNFRSF12A",
+          "SKI",
+          "GPC6",
+          "SLIT2"
+        ]
+      },
+      {
+        "module_name": "Metabolic and Mitochondrial Stress Module",
+        "associated_phenotype": "Podocyte and tubular metabolic dysfunction",
+        "genes": [
+          "PPARGC1A",
+          "PDK4",
+          "HK2",
+          "NR1D1",
+          "ALDOB",
+          "G6PC1",
+          "PCK1",
+          "SLC22A8",
+          "SLC13A3",
+          "SLC6A19"
+        ]
+      },
+      {
+        "module_name": "Apoptosis and Cell Cycle Control Module",
+        "associated_phenotype": "Podocyte depletion and epithelial stress",
+        "genes": [
+          "TP53",
+          "CCND1",
+          "NFATC1",
+          "TET2",
+          "EGR3",
+          "UCP2"
+        ]
+      },
+      {
+        "module_name": "Vascular and Endothelial Dysfunction Module",
+        "associated_phenotype": "Microvascular injury",
+        "genes": [
+          "ESM1",
+          "APLNR",
+          "GPR4",
+          "SOX18",
+          "JCAD",
+          "HBEGF"
+        ]
+      }
+    ]
+  },
+  "enrichment_categorization": {
+    "categories": [
+      {
+        "component": "GO/KEGG/Reactome",
+        "categories": [
+          {
+            "category_name": "Immune and Inflammatory Activation",
+            "terms": [
+              "NF-κB signaling pathway",
+              "Interferon signaling pathway",
+              "Complement activation",
+              "Cytokine-mediated signaling pathway",
+              "Leukocyte activation and migration",
+              "Macrophage differentiation",
+              "Adaptive immune response"
+            ]
+          },
+          {
+            "category_name": "Fibrosis and ECM Remodeling",
+            "terms": [
+              "TGF-β signaling pathway",
+              "Extracellular matrix organization",
+              "Collagen fibril organization",
+              "Epithelial-to-mesenchymal transition",
+              "Focal adhesion",
+              "Integrin-mediated signaling",
+              "Glomerular basement membrane organization"
+            ]
+          },
+          {
+            "category_name": "Metabolic and Mitochondrial Reprogramming",
+            "terms": [
+              "Mitochondrial metabolic process",
+              "Oxidative stress response",
+              "Transmembrane transporter activity"
+            ]
+          },
+          {
+            "category_name": "Vascular and Hemodynamic Regulation",
+            "terms": [
+              "Angiogenesis",
+              "Renin–angiotensin system"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "hub_gene_annotation": {
+    "drug_targets": [
+      "TGFB1",
+      "AXL",
+      "CSF1R",
+      "TNFRSF12A",
+      "NFATC1",
+      "TP53",
+      "NR1D1",
+      "PPARGC1A"
+    ],
+    "kinases": [
+      "AXL",
+      "CSF1R",
+      "PRKG2",
+      "HK2"
+    ],
+    "biomarkers": [
+      "TGFB1",
+      "COL1A2",
+      "TGFBI",
+      "CXCL16",
+      "OAS1",
+      "ESM1",
+      "CCND1",
+      "RELB"
+    ]
+  },
+  "component_summaries": {
+    "summaries": [
+      {
+        "component": "GO",
+        "summary": "GO enrichment highlights strong activation of immune and inflammatory processes, extracellular matrix organization, and apoptotic pathways. The coexistence of fibrosis-related and immune activation terms supports a transition from immune injury to structural remodeling in membranous nephropathy."
+      },
+      {
+        "component": "KEGG",
+        "summary": "KEGG pathway analysis emphasizes TGF-β signaling, NF-κB signaling, complement cascade, focal adhesion, and metabolic pathways, indicating integrated immune signaling and fibrotic matrix deposition accompanied by metabolic reprogramming."
+      },
+      {
+        "component": "Reactome",
+        "summary": "Reactome enrichment underscores cytokine signaling, innate immune activation, extracellular matrix organization, and receptor tyrosine kinase signaling, reinforcing a systems-level model in which inflammatory receptor signaling drives transcriptional reprogramming and structural kidney damage."
+      }
+    ]
+  }
+}

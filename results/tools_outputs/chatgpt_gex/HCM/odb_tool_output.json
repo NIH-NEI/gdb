@@ -1,0 +1,247 @@
+{
+  "publication_title": "Integrated Innate Immune Activation and Metabolic Reprogramming Drive Vascular Remodeling Signatures in an Inflammatory Tissue Microenvironment",
+  "biological_process_synthesis": {
+    "text": "The DEG profile reflects activation of innate immune signaling centered on macrophage differentiation and inflammatory amplification. Core pattern-recognition and Fc receptor pathways converge through JAK2 and MAP3K8, suggesting heightened cytokine responsiveness and immune complex signaling. Enrichment of complement components and scavenger receptors indicates enhanced phagocytic and opsonization activity. Concurrent metabolic reprogramming toward glycolysis, highlighted by LDHA and SLC2A1, supports an activated inflammatory immune cell phenotype. Extracellular matrix remodeling and vascular signaling genes further suggest coordinated tissue-level adaptation within an inflammatory microenvironment."
+  },
+  "hub_genes_ranked": {
+    "genes": [
+      "JAK2",
+      "MAP3K8",
+      "MAFB",
+      "CD14",
+      "FCGR2A",
+      "FCER1G",
+      "IL18R1",
+      "MARCO",
+      "THBS1",
+      "EDNRA",
+      "GADD45A",
+      "LDHA",
+      "PDE4D",
+      "ZBTB47",
+      "SLC2A1"
+    ]
+  },
+  "enriched_pathways": {
+    "terms": [
+      "Toll-like receptor signaling pathway",
+      "Cytokine-mediated signaling pathway",
+      "JAK-STAT signaling pathway",
+      "Fc gamma receptor signaling pathway",
+      "Innate immune response",
+      "Macrophage activation",
+      "Leukocyte activation",
+      "Response to lipopolysaccharide",
+      "Complement activation (classical pathway)",
+      "Immune complex clearance",
+      "Extracellular matrix organization",
+      "Angiogenesis",
+      "Regulation of vasoconstriction",
+      "Platelet activation and coagulation",
+      "Cellular response to stress",
+      "Regulation of apoptotic process",
+      "DNA damage response",
+      "Glycolytic process",
+      "Cellular response to hypoxia",
+      "Cardiac muscle contraction"
+    ]
+  },
+  "hypotheses": {
+    "statements": [
+      "Upregulation of LDHA and SLC2A1 suggests that glycolytic reprogramming is required for sustained Fc receptor-mediated inflammatory activation in macrophages.",
+      "Coordinated activation of JAK2 and MAP3K8 forms a signaling amplification loop that drives chronic inflammatory signaling.",
+      "C1R and MARCO co-expression enhances immune complex clearance efficiency during inflammatory responses.",
+      "THBS1 and EDNRA mediate macrophage–endothelial crosstalk, promoting vascular remodeling in inflamed tissues.",
+      "GADD45A and GADD45B function as integrators linking inflammatory signaling with cellular stress and DNA damage responses."
+    ]
+  },
+  "novel_insights": {
+    "statements": [
+      "The simultaneous presence of immune activation genes and cardiac-associated genes such as MYH6 and NPPA suggests tissue infiltration or paracrine remodeling rather than isolated immune activation.",
+      "Co-enrichment of complement initiation components and Fc receptor signaling genes indicates coordinated activation of innate and adaptive immune interfaces.",
+      "The strong metabolic reprogramming signature supports a sustained pro-inflammatory macrophage phenotype.",
+      "THBS1 emerges as a central extracellular matrix–immune integrator potentially linking inflammation with fibrotic remodeling."
+    ]
+  },
+  "analogous_systems": {
+    "systems": [
+      "Atherosclerosis",
+      "Chronic inflammatory cardiomyopathy",
+      "Rheumatoid arthritis",
+      "Sepsis-induced vascular dysfunction",
+      "Pulmonary arterial hypertension"
+    ]
+  },
+  "regulatory_network_edges": {
+    "edges": [
+      { "source": "MAFB", "target": "CD14" },
+      { "source": "MAFB", "target": "MARCO" },
+      { "source": "MAFB", "target": "MS4A6A" },
+      { "source": "JAK2", "target": "IL18R1" },
+      { "source": "JAK2", "target": "FCGR2A" },
+      { "source": "MAP3K8", "target": "IL18R1" },
+      { "source": "MAP3K8", "target": "GADD45A" },
+      { "source": "ZBTB47", "target": "FCER1G" },
+      { "source": "HES6", "target": "IRX2" },
+      { "source": "GADD45A", "target": "GADD45B" },
+      { "source": "THBS1", "target": "EDNRA" },
+      { "source": "JAK2", "target": "GADD45B" },
+      { "source": "MAP3K8", "target": "IER3" },
+      { "source": "IL18R1", "target": "MAP3K8" },
+      { "source": "CD14", "target": "MAP3K8" },
+      { "source": "JAK2", "target": "SLC2A1" }
+    ]
+  },
+  "integrated_system_nodes": {
+    "modules": [
+      {
+        "module_name": "Innate Immune Activation",
+        "associated_phenotype": "Pro-inflammatory macrophage activation",
+        "genes": [
+          "CD14",
+          "FCGR2A",
+          "FCER1G",
+          "MARCO",
+          "IL18R1",
+          "MS4A6A",
+          "MS4A7",
+          "MAFB",
+          "MAP3K8",
+          "JAK2"
+        ]
+      },
+      {
+        "module_name": "Complement and Opsonization",
+        "associated_phenotype": "Immune complex recognition and clearance",
+        "genes": [
+          "C1R",
+          "FCGR2A",
+          "FCER1G",
+          "MARCO",
+          "PROS1",
+          "F13A1"
+        ]
+      },
+      {
+        "module_name": "Metabolic Reprogramming",
+        "associated_phenotype": "Glycolytic inflammatory metabolism",
+        "genes": [
+          "LDHA",
+          "SLC2A1",
+          "PDE4D",
+          "RASD1",
+          "GADD45A",
+          "GADD45B"
+        ]
+      },
+      {
+        "module_name": "Vascular and ECM Remodeling",
+        "associated_phenotype": "Endothelial activation and tissue remodeling",
+        "genes": [
+          "THBS1",
+          "EDNRA",
+          "APOLD1",
+          "COL16A1",
+          "TPM3",
+          "MAP4"
+        ]
+      },
+      {
+        "module_name": "Cardiac and Tissue Stress Signature",
+        "associated_phenotype": "Cardiac stress and structural adaptation",
+        "genes": [
+          "MYH6",
+          "NPPA",
+          "MBP",
+          "IRX2"
+        ]
+      }
+    ]
+  },
+  "enrichment_categorization": {
+    "categories": [
+      {
+        "component": "GO/KEGG",
+        "categories": [
+          {
+            "category_name": "Innate Immune Activation and Cytokine Signaling",
+            "terms": [
+              "Toll-like receptor signaling pathway",
+              "Cytokine-mediated signaling pathway",
+              "JAK-STAT signaling pathway",
+              "Fc gamma receptor signaling pathway",
+              "Innate immune response",
+              "Macrophage activation",
+              "Response to lipopolysaccharide"
+            ]
+          },
+          {
+            "category_name": "Complement and Immune Complex Processing",
+            "terms": [
+              "Complement activation (classical pathway)",
+              "Immune complex clearance"
+            ]
+          },
+          {
+            "category_name": "Vascular Remodeling and ECM Organization",
+            "terms": [
+              "Extracellular matrix organization",
+              "Angiogenesis",
+              "Regulation of vasoconstriction",
+              "Platelet activation and coagulation"
+            ]
+          },
+          {
+            "category_name": "Stress Response and Metabolic Adaptation",
+            "terms": [
+              "Cellular response to stress",
+              "DNA damage response",
+              "Glycolytic process",
+              "Cellular response to hypoxia"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "hub_gene_annotation": {
+    "drug_targets": [
+      "JAK2",
+      "MAP3K8",
+      "EDNRA",
+      "PDE4D",
+      "IL18R1",
+      "FCGR2A"
+    ],
+    "kinases": [
+      "JAK2",
+      "MAP3K8"
+    ],
+    "biomarkers": [
+      "CD14",
+      "MARCO",
+      "FCGR2A",
+      "THBS1",
+      "NPPA",
+      "SLC2A1",
+      "IL18R1",
+      "MAFB"
+    ]
+  },
+  "component_summaries": {
+    "summaries": [
+      {
+        "component": "GO",
+        "summary": "GO enrichment highlights strong activation of innate immune processes, particularly macrophage activation, cytokine signaling, and immune complex handling. Terms associated with stress response and apoptosis suggest integration of inflammatory signaling with cellular adaptation mechanisms."
+      },
+      {
+        "component": "KEGG",
+        "summary": "KEGG pathway interpretation emphasizes JAK-STAT signaling, Toll-like receptor signaling, Fc receptor signaling, complement cascades, and glycolysis. These pathways collectively indicate coordinated immune activation coupled with metabolic rewiring."
+      },
+      {
+        "component": "Reactome",
+        "summary": "Reactome-level interpretation supports activation of cytokine signaling in the immune system, innate immune system pathways, extracellular matrix organization, and vascular remodeling. The integration of immune and structural pathways suggests inflammatory tissue remodeling rather than isolated immune activation."
+      }
+    ]
+  }
+}

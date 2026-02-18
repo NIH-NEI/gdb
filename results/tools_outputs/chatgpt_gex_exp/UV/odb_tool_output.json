@@ -1,0 +1,210 @@
+{
+  "publication_title": "Whole-Blood Transcriptomics Reveals a Systemic Interferon–NF-κB Immune Activation Signature in Uveitis Patients",
+  "biological_process_synthesis": {
+    "text": "The DEG profile from whole blood of uveitis patients reveals a systemic immune activation state characterized by strong interferon-driven transcription, NF-κB–mediated inflammatory amplification, and enhanced cytokine receptor signaling. Both innate and adaptive immune pathways are upregulated, suggesting coordinated activation of myeloid cells and T lymphocytes. Enrichment of antigen presentation and chemokine signaling pathways indicates enhanced immune surveillance and leukocyte trafficking capacity. Apoptosis and survival pathways are also altered, consistent with prolonged immune cell activation. Collectively, the transcriptional landscape reflects chronic immune stimulation with a prominent interferon–inflammatory axis likely contributing to ocular tissue inflammation."
+  },
+  "hub_genes_ranked": {
+    "genes": [
+      "NFKB1",
+      "STAT1",
+      "IRF7",
+      "RELA",
+      "MAPK14",
+      "JAK1",
+      "CCR7",
+      "CXCR4",
+      "CD69",
+      "HLA-DRA",
+      "TLR signaling components",
+      "BCL2 family genes",
+      "ITGAM",
+      "TNFRSF family members",
+      "IFI family genes"
+    ]
+  },
+  "enriched_pathways": {
+    "terms": [
+      "Type I interferon signaling pathway",
+      "Response to interferon-gamma",
+      "Cytokine-mediated signaling pathway",
+      "NF-κB signaling pathway",
+      "JAK-STAT signaling pathway",
+      "Toll-like receptor signaling",
+      "Antigen processing and presentation",
+      "Leukocyte activation",
+      "Lymphocyte differentiation",
+      "T cell receptor signaling pathway",
+      "Chemokine signaling pathway",
+      "Myeloid leukocyte activation",
+      "Regulation of apoptotic process",
+      "Innate immune response",
+      "Adaptive immune response",
+      "Regulation of inflammatory response",
+      "Leukocyte chemotaxis",
+      "Complement activation",
+      "Response to viral infection",
+      "Regulation of immune effector process"
+    ]
+  },
+  "hypotheses": {
+    "statements": [
+      "Uveitis severity correlates with systemic interferon signature intensity, suggesting a stratifiable IFN-high subtype.",
+      "Persistent NF-κB activation in circulating monocytes contributes to ocular tissue infiltration and relapse risk.",
+      "Chemokine receptor upregulation (e.g., CCR7/CXCR4 axis) promotes trafficking of autoreactive T cells to the eye.",
+      "JAK-STAT pathway hyperactivation predicts responsiveness to JAK inhibitor therapy.",
+      "Altered apoptosis regulation prolongs survival of pathogenic immune subsets in circulation."
+    ]
+  },
+  "novel_insights": {
+    "statements": [
+      "The DEG pattern suggests uveitis may involve a systemic interferonopathy-like signature rather than solely localized ocular inflammation.",
+      "Concurrent enrichment of innate and adaptive modules implies dual-compartment immune dysregulation.",
+      "Chemotaxis pathway enrichment indicates circulatory immune priming preceding ocular infiltration.",
+      "Apoptosis-survival pathway alterations suggest impaired immune contraction mechanisms contributing to chronicity."
+    ]
+  },
+  "analogous_systems": {
+    "systems": [
+      "Systemic lupus erythematosus",
+      "Rheumatoid arthritis",
+      "Multiple sclerosis",
+      "Behçet’s disease",
+      "Viral-induced cytokine syndromes"
+    ]
+  },
+  "regulatory_network_edges": {
+    "edges": [
+      { "source": "NFKB1", "target": "TNF" },
+      { "source": "NFKB1", "target": "IL6" },
+      { "source": "RELA", "target": "CXCL8" },
+      { "source": "IRF7", "target": "IFIT family genes" },
+      { "source": "STAT1", "target": "CXCL10" },
+      { "source": "STAT1", "target": "IRF1" },
+      { "source": "JAK1", "target": "STAT1" },
+      { "source": "MAPK14", "target": "ATF2" },
+      { "source": "TLR signaling", "target": "NFKB1" },
+      { "source": "NFKB1", "target": "CCR7" },
+      { "source": "IRF7", "target": "ISG15" },
+      { "source": "STAT1", "target": "HLA class II genes" },
+      { "source": "RELA", "target": "BCL2" },
+      { "source": "TNFRSF1A", "target": "NFKB1" },
+      { "source": "NFKB1", "target": "ICAM1" },
+      { "source": "STAT1", "target": "GBP family genes" },
+      { "source": "IRF7", "target": "OAS family genes" },
+      { "source": "NFKB1", "target": "CD69" },
+      { "source": "IFN receptor", "target": "JAK1" }
+    ]
+  },
+  "integrated_system_nodes": {
+    "modules": [
+      {
+        "module_name": "Interferon Response Module",
+        "associated_phenotype": "Systemic antiviral-like immune activation",
+        "genes": ["STAT1", "IRF7", "ISG15", "OAS family genes", "IFI family genes"]
+      },
+      {
+        "module_name": "NF-κB / Inflammatory Amplification Module",
+        "associated_phenotype": "Chronic inflammatory signaling",
+        "genes": ["NFKB1", "RELA", "MAPK14", "TNFRSF family members"]
+      },
+      {
+        "module_name": "Antigen Presentation & Adaptive Activation",
+        "associated_phenotype": "Autoimmune priming",
+        "genes": ["HLA class II genes", "CD69", "TCR signaling components"]
+      },
+      {
+        "module_name": "Chemotaxis & Trafficking Module",
+        "associated_phenotype": "Immune cell migration to ocular tissue",
+        "genes": ["CCR7", "CXCR4", "ICAM1", "Chemokine ligands"]
+      },
+      {
+        "module_name": "Survival / Apoptosis Regulation Module",
+        "associated_phenotype": "Persistence of activated immune cells",
+        "genes": ["BCL2 family genes", "TNF pathway genes"]
+      }
+    ]
+  },
+  "enrichment_categorization": {
+    "categories": [
+      {
+        "component": "GO",
+        "categories": [
+          {
+            "category_name": "Interferon and Cytokine Signaling",
+            "terms": [
+              "Type I interferon signaling",
+              "Response to interferon-gamma",
+              "Cytokine-mediated signaling pathway",
+              "JAK-STAT signaling",
+              "Response to viral infection"
+            ]
+          },
+          {
+            "category_name": "Innate Immune Activation",
+            "terms": [
+              "Toll-like receptor signaling",
+              "NF-κB signaling pathway",
+              "Myeloid leukocyte activation",
+              "Complement activation"
+            ]
+          },
+          {
+            "category_name": "Adaptive Immunity",
+            "terms": [
+              "Antigen processing and presentation",
+              "T cell receptor signaling",
+              "Lymphocyte differentiation",
+              "Adaptive immune response"
+            ]
+          },
+          {
+            "category_name": "Leukocyte Trafficking",
+            "terms": [
+              "Chemokine signaling pathway",
+              "Leukocyte chemotaxis",
+              "Cell migration"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "hub_gene_annotation": {
+    "drug_targets": [
+      "JAK1",
+      "MAPK14",
+      "TNFRSF1A",
+      "CXCR4",
+      "CCR7",
+      "NFKB1"
+    ],
+    "kinases": [
+      "JAK1",
+      "MAPK14"
+    ],
+    "biomarkers": [
+      "STAT1",
+      "IRF7",
+      "CD69",
+      "HLA-DRA",
+      "CXCR4",
+      "ISG family genes"
+    ]
+  },
+  "component_summaries": {
+    "summaries": [
+      {
+        "component": "GO",
+        "summary": "GO enrichment indicates strong activation of interferon signaling, cytokine-mediated pathways, leukocyte activation, and antigen presentation, suggesting systemic immune dysregulation involving both innate and adaptive compartments."
+      },
+      {
+        "component": "KEGG",
+        "summary": "KEGG pathway mapping highlights JAK-STAT signaling, NF-κB signaling, chemokine signaling, and Toll-like receptor pathways, collectively describing a feed-forward inflammatory network consistent with chronic autoimmune activation."
+      },
+      {
+        "component": "Reactome",
+        "summary": "Reactome pathway analysis supports coordinated activation of interferon alpha/beta signaling, cytokine receptor interactions, antigen processing, and immune cell migration, reinforcing a systemic immune activation state with ocular inflammatory consequences."
+      }
+    ]
+  }
+}

@@ -1,0 +1,398 @@
+{
+  "publication_title": "Coordinated Suppression of PPARG-Driven Adipogenesis and Activation of Mitotic Programs Defines a Pro-Metastatic Stromal-Epithelial Signature in Breast Cancer",
+  "biological_process_synthesis": {
+    "text": "The gene expression profile reveals a fundamental dichotomy between aggressive proliferative machinery and adipogenic/metabolic differentiation programs in breast cancer versus normal tissue. The dramatic upregulation of mitotic regulators (AURKA, CDK1, TOP2A, BIRC5) alongside cell cycle checkpoint genes indicates highly proliferative tumor cells with dysregulated cell division. Conversely, the extensive downregulation of adipocyte differentiation genes (PPARG, ADIPOQ, LEP, FABP4, PLIN1) and lipid metabolism enzymes suggests loss of normal adipose/stromal tissue or displacement by dedifferentiated tumor cells. The upregulation of ECM remodeling genes (COL11A1, POSTN, MMP11, SPP1) points to active stromal reprogramming that facilitates invasion and metastasis. This pattern reflects the replacement of metabolically active, differentiated adipose tissue with highly proliferative, matrix-remodeling tumor tissue in breast cancer."
+  },
+  "hub_genes_ranked": {
+    "genes": [
+      "PPARG",
+      "AURKA",
+      "CDK1",
+      "TOP2A",
+      "BIRC5",
+      "IGF1",
+      "LEP",
+      "SPP1",
+      "POSTN",
+      "MMP11",
+      "CDC20",
+      "CCNB1",
+      "CCNB2",
+      "COL11A1",
+      "ADIPOQ",
+      "CAV1"
+    ]
+  },
+  "enriched_pathways": {
+    "terms": [
+      "Cell cycle regulation/mitotic cell cycle",
+      "Chromosome segregation and spindle assembly",
+      "DNA replication",
+      "Adipogenesis and adipocyte differentiation",
+      "Lipid metabolic process",
+      "Fatty acid metabolism and beta-oxidation",
+      "PPAR signaling pathway",
+      "Extracellular matrix organization",
+      "Collagen fibril organization",
+      "Angiogenesis and blood vessel development",
+      "Cell division and cytokinesis",
+      "G2/M checkpoint regulation",
+      "Lipid storage and lipolysis",
+      "Metabolic reprogramming",
+      "Cell proliferation regulation",
+      "Stromal-epithelial interactions",
+      "Immune response regulation",
+      "Oxidation-reduction processes",
+      "Monocarboxylic acid metabolic process",
+      "Regulation of apoptotic process"
+    ]
+  },
+  "hypotheses": {
+    "statements": [
+      "The profound suppression of PPARG and downstream lipid metabolism genes creates a metabolic dependency on alternative fuel sources (e.g., glucose, glutamine) that could be therapeutically exploited through combination metabolic inhibitors targeting both glycolysis and lipogenesis.",
+      "The coordinated downregulation of adipocyte markers suggests that peri-tumoral adipocytes undergo dedifferentiation or transdifferentiation into cancer-associated fibroblasts, contributing to the COL11A1/POSTN-positive stromal signature; lineage tracing experiments could confirm this cellular transition.",
+      "The concurrent upregulation of multiple mitotic kinases (AURKA, CDK1, PBK) may create synthetic lethal vulnerabilities when combined with PARP inhibitors in DNA repair-deficient tumors, as mitotic stress and replication stress would synergize.",
+      "The COL11A1/POSTN/MMP11 ECM remodeling signature increases matrix stiffness, which mechanically activates YAP/TAZ signaling to sustain the proliferative CDK1/AURKA program through a positive feedback loop.",
+      "Restoring LEP/LEPR signaling or ADIPOQ expression pharmacologically could reverse the pro-tumorigenic metabolic microenvironment and sensitize tumors to standard chemotherapy by normalizing stromal metabolism."
+    ]
+  },
+  "novel_insights": {
+    "statements": [
+      "The near-complete suppression of the PPARG-regulated adipogenic network (ADIPOQ, FABP4, PLIN1, PLIN4, LPL, CD36, CIDEA, CIDEC, GPD1, GPAM) represents one of the most comprehensive transcriptional program reversals observed, suggesting that breast tumors actively suppress adipocyte identity in the microenvironment, which may represent a novel therapeutic opportunity for PPARG agonist reprogramming strategies.",
+      "COL11A1 upregulation, typically associated with aggressive breast cancer subtypes, appears coordinated with POSTN, LRRC15, and MMP11, suggesting a specific pro-metastatic ECM signature that could serve as a composite biomarker for patients at high risk of distant recurrence.",
+      "The simultaneous upregulation of mitotic drivers (AURKA, CDK1, CCNB1/B2) and DNA replication licensing factors (MCM family members via GINS1, NUSAP1) alongside downregulation of CDKN1C indicates loss of both G1/S and G2/M checkpoints, creating a targetable vulnerability to checkpoint kinase inhibitors.",
+      "The divergent regulation of endothelial markers (EMCN, VWF upregulated) versus adipocyte markers (massively downregulated) suggests tumor-induced angiogenesis proceeds even as adipose tissue is lost, indicating spatial reorganization where tumor vasculature replaces adipose microvasculature."
+    ]
+  },
+  "analogous_systems": {
+    "systems": [
+      "Obesity-Associated Cancers (endometrial, colorectal, hepatocellular carcinoma)",
+      "Liver Fibrosis/Cirrhosis",
+      "Cardiac Fibrosis and Remodeling",
+      "Dedifferentiation in Liposarcoma",
+      "Polycystic Ovary Syndrome (PCOS)"
+    ]
+  },
+  "regulatory_network_edges": {
+    "edges": [
+      {
+        "source": "PPARG",
+        "target": "ADIPOQ"
+      },
+      {
+        "source": "PPARG",
+        "target": "FABP4"
+      },
+      {
+        "source": "PPARG",
+        "target": "LPL"
+      },
+      {
+        "source": "PPARG",
+        "target": "PLIN1"
+      },
+      {
+        "source": "PPARG",
+        "target": "CD36"
+      },
+      {
+        "source": "PPARG",
+        "target": "THRSP"
+      },
+      {
+        "source": "PPARG",
+        "target": "PDK4"
+      },
+      {
+        "source": "PPARG",
+        "target": "LIPE"
+      },
+      {
+        "source": "HOXA5",
+        "target": "CAV1"
+      },
+      {
+        "source": "HOXA5",
+        "target": "EDNRB"
+      },
+      {
+        "source": "SOX5",
+        "target": "COL11A1"
+      },
+      {
+        "source": "EBF1",
+        "target": "ADIPOQ"
+      },
+      {
+        "source": "EBF1",
+        "target": "LEP"
+      },
+      {
+        "source": "NFIB",
+        "target": "FHL1"
+      },
+      {
+        "source": "ZBTB16",
+        "target": "CDKN1C"
+      },
+      {
+        "source": "MEOX1",
+        "target": "POSTN"
+      },
+      {
+        "source": "MEOX2",
+        "target": "COL6A6"
+      },
+      {
+        "source": "CDK1",
+        "target": "CCNB1"
+      },
+      {
+        "source": "CDK1",
+        "target": "TOP2A"
+      },
+      {
+        "source": "ESRP1",
+        "target": "CLDN3"
+      }
+    ]
+  },
+  "integrated_system_nodes": {
+    "modules": [
+      {
+        "module_name": "Cell Cycle Progression and Mitosis",
+        "associated_phenotype": "Uncontrolled proliferation, chromosomal instability",
+        "genes": [
+          "AURKA",
+          "CDK1",
+          "CCNB1",
+          "CCNB2",
+          "TOP2A",
+          "BIRC5",
+          "CDC20",
+          "BUB1B",
+          "CENPF",
+          "CENPU",
+          "MAD2L1",
+          "NUSAP1",
+          "PBK",
+          "PRC1",
+          "PTTG1",
+          "TPX2",
+          "ANLN",
+          "ASPM",
+          "KIAA0101",
+          "MELK",
+          "RRM2",
+          "TK1",
+          "TYMS",
+          "UBE2C",
+          "UBE2T",
+          "UHRF1",
+          "ZWINT",
+          "CDKN3",
+          "CKS2",
+          "DTL"
+        ]
+      },
+      {
+        "module_name": "Adipogenic Program and Lipid Homeostasis",
+        "associated_phenotype": "Loss of adipose differentiation, metabolic dysfunction",
+        "genes": [
+          "PPARG",
+          "ADIPOQ",
+          "LEP",
+          "LEPR",
+          "LEPROT",
+          "FABP4",
+          "PLIN1",
+          "PLIN4",
+          "LPL",
+          "CD36",
+          "CIDEA",
+          "CIDEC",
+          "THRSP",
+          "GPD1",
+          "GPAM",
+          "LIPE",
+          "GPIHBP1",
+          "G0S2",
+          "ACACB",
+          "PDK4",
+          "PDE3B",
+          "RBP4",
+          "PCK1",
+          "SORBS1",
+          "CAV1",
+          "FXYD1"
+        ]
+      },
+      {
+        "module_name": "Stromal Activation and ECM Reorganization",
+        "associated_phenotype": "Tumor invasion, metastasis, desmoplasia",
+        "genes": [
+          "COL11A1",
+          "POSTN",
+          "MMP11",
+          "SPP1",
+          "LRRC15",
+          "INHBA",
+          "WISP1",
+          "COL6A6",
+          "PCOLCE2",
+          "TNXB",
+          "DPT",
+          "MATN2",
+          "MAMDC2",
+          "RSPO3",
+          "TGFBR3",
+          "TIMP4",
+          "LARP6"
+        ]
+      },
+      {
+        "module_name": "Neovascularization and Endothelial Function",
+        "associated_phenotype": "Tumor angiogenesis, vascular permeability",
+        "genes": [
+          "EMCN",
+          "VWF",
+          "FIGF",
+          "EDNRB",
+          "FZD4",
+          "ANGPTL1",
+          "MCAM",
+          "CLEC3B",
+          "ENPP2",
+          "LYVE1",
+          "ACKR1",
+          "AQP1",
+          "MMRN2",
+          "NPR1",
+          "JAM2",
+          "SDPR"
+        ]
+      },
+      {
+        "module_name": "Oxidation-Reduction and Xenobiotic Metabolism",
+        "associated_phenotype": "Altered redox balance, drug metabolism",
+        "genes": [
+          "ADH1B",
+          "ADH1C",
+          "ALDH1L1",
+          "AOC3",
+          "AKR1C2",
+          "CES1",
+          "FMO2",
+          "GLYAT",
+          "MAOA",
+          "PDK4",
+          "RDH5",
+          "ACSM5",
+          "COX7A1",
+          "GYG2",
+          "CA4"
+        ]
+      }
+    ]
+  },
+  "enrichment_categorization": {
+    "categories": [
+      {
+        "component": "Combined Analysis",
+        "categories": [
+          {
+            "category_name": "Cell Cycle and Proliferation",
+            "terms": [
+              "Cell cycle regulation/mitotic cell cycle",
+              "Chromosome segregation and spindle assembly",
+              "DNA replication",
+              "Cell division and cytokinesis",
+              "G2/M checkpoint regulation",
+              "Cell proliferation regulation"
+            ]
+          },
+          {
+            "category_name": "Metabolic Reprogramming",
+            "terms": [
+              "Adipogenesis and adipocyte differentiation",
+              "Lipid metabolic process",
+              "Fatty acid metabolism and beta-oxidation",
+              "PPAR signaling pathway",
+              "Lipid storage and lipolysis",
+              "Metabolic reprogramming",
+              "Oxidation-reduction processes",
+              "Monocarboxylic acid metabolic process"
+            ]
+          },
+          {
+            "category_name": "Tumor Microenvironment Remodeling",
+            "terms": [
+              "Extracellular matrix organization",
+              "Collagen fibril organization",
+              "Stromal-epithelial interactions",
+              "Angiogenesis and blood vessel development"
+            ]
+          },
+          {
+            "category_name": "Immune Modulation",
+            "terms": [
+              "Immune response regulation",
+              "Regulation of apoptotic process"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "hub_gene_annotation": {
+    "drug_targets": [
+      "AURKA",
+      "CDK1",
+      "TOP2A",
+      "BIRC5",
+      "PPARG",
+      "MMP11",
+      "IGF1",
+      "LEP",
+      "CDC20",
+      "CCNB1"
+    ],
+    "kinases": [
+      "AURKA",
+      "CDK1",
+      "PBK",
+      "MELK",
+      "ADRBK2",
+      "NTRK2"
+    ],
+    "biomarkers": [
+      "TOP2A",
+      "BIRC5",
+      "SPP1",
+      "POSTN",
+      "COL11A1",
+      "PPARG",
+      "ADIPOQ",
+      "LEP",
+      "MMP11",
+      "IGF1",
+      "CAV1"
+    ]
+  },
+  "component_summaries": {
+    "summaries": [
+      {
+        "component": "GO",
+        "summary": "The GO biological process analysis reveals two dominant opposing programs: an aggressive upregulation of mitotic cell cycle processes (M phase, chromosome segregation, spindle assembly, cytokinesis) indicating highly proliferative tumor cells with active DNA replication and cell division machinery, contrasted against profound downregulation of metabolic differentiation processes, particularly adipocyte differentiation, lipid biosynthesis, and fatty acid oxidation. This suggests wholesale replacement of functional adipose tissue with dedifferentiated, rapidly dividing tumor cells. Additional enrichment in ECM organization, angiogenesis, and inflammatory response processes indicates active microenvironmental remodeling."
+      },
+      {
+        "component": "KEGG",
+        "summary": "KEGG pathway analysis highlights cell cycle pathway activation as the dominant upregulated feature, with enrichment in DNA replication, mismatch repair, and mitotic machinery components. The most striking downregulated pathway is PPAR signaling, which normally drives adipogenesis and lipid metabolism, accompanied by suppression of fatty acid metabolism, adipocytokine signaling, and insulin signaling pathways. Additional activated pathways include ECM-receptor interaction and focal adhesion pathways, consistent with enhanced tumor-stromal interactions and invasive behavior. This pattern reflects a shift from differentiated metabolic tissue to proliferative, matrix-interacting tumor tissue."
+      },
+      {
+        "component": "Reactome",
+        "summary": "Reactome analysis emphasizes the coordinated activation of the entire cell cycle machinery from G1/S transition through M phase and cytokinesis, with particular enrichment in mitotic prometaphase, metaphase/anaphase transitions, and resolution of sister chromatid cohesion. The metabolic suppression manifests as decreased triglyceride metabolism, fatty acid beta-oxidation, and peroxisomal lipid metabolism pathways. Notably, Reactome also identifies changes in integrin signaling, syndecan interactions, and non-integrin membrane-ECM interactions, providing mechanistic detail on how tumor cells interact with the remodeled stromal environment. The vascular changes reflect VEGF and angiopoietin signaling activation supporting tumor angiogenesis despite loss of normal adipose tissue vasculature."
+      }
+    ]
+  }
+}

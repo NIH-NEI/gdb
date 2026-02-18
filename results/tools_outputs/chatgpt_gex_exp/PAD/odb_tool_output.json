@@ -1,0 +1,253 @@
+{
+  "publication_title": "Integrated Innate–Adaptive Immune and Immunometabolic Reprogramming Signatures in Peripheral Blood Mononuclear Cells of Patients with Peripheral Arterial Disease",
+  "biological_process_synthesis": {
+    "text": "The DEG profile from PBMCs of PAD patients reveals coordinated activation of innate immune signaling pathways, particularly TLR4 and NLRP3 inflammasome pathways, coupled with enhanced cytokine and chemokine production such as IL8 and PTGS2. This inflammatory signature integrates with adaptive immune modulation, especially involving B-cell regulatory transcription factors BACH2 and EBF1. Stress-response regulators including CDKN1A, DUSP1, and SOD2 suggest cellular adaptation to oxidative and metabolic stress. Genes involved in TGF-β signaling and extracellular matrix remodeling indicate systemic vascular remodeling processes. Overall, the transcriptional landscape reflects chronic immune activation, vascular inflammation, and maladaptive immunometabolic integration characteristic of PAD pathogenesis."
+  },
+  "hub_genes_ranked": {
+    "genes": [
+      "TLR4",
+      "NLRP3",
+      "PTGS2",
+      "IL8",
+      "CXCR4",
+      "KLF4",
+      "BACH2",
+      "EBF1",
+      "BCL2A1",
+      "CDKN1A",
+      "DUSP1",
+      "FOS",
+      "TGFBR1",
+      "NAMPT",
+      "THBS1"
+    ]
+  },
+  "enriched_pathways": {
+    "terms": [
+      "Toll-like receptor signaling pathway",
+      "NOD-like receptor signaling pathway",
+      "Cytokine-mediated signaling pathway",
+      "Chemokine signaling pathway",
+      "Regulation of inflammatory response",
+      "Positive regulation of NF-κB signaling",
+      "MAPK cascade",
+      "Inflammasome complex assembly",
+      "Leukocyte activation",
+      "B-cell receptor signaling pathway",
+      "Adaptive immune response",
+      "Apoptotic signaling pathway",
+      "Cellular response to oxidative stress",
+      "TGF-β signaling pathway",
+      "Prostaglandin biosynthetic process",
+      "Myeloid leukocyte differentiation",
+      "Regulation of cell cycle arrest",
+      "Response to hypoxia",
+      "Platelet activation",
+      "Extracellular matrix organization"
+    ]
+  },
+  "hypotheses": {
+    "statements": [
+      "PAD PBMCs exhibit a primed inflammasome phenotype driven by TLR4–NLRP3 signaling that enhances systemic vascular inflammation.",
+      "Altered B-cell regulatory networks involving the BACH2/EBF1 axis contribute to chronic immune dysregulation in PAD.",
+      "NAMPT-mediated metabolic reprogramming sustains inflammatory signaling in circulating monocytes in PAD patients.",
+      "KLF4-dependent transcriptional rewiring promotes a pro-atherogenic monocyte/macrophage phenotype in PAD.",
+      "PTGS2-driven prostaglandin signaling enhances platelet–immune crosstalk contributing to PAD progression."
+    ]
+  },
+  "novel_insights": {
+    "statements": [
+      "A strong adaptive immune (B-cell) regulatory signature suggests underappreciated B-cell involvement in PAD pathogenesis.",
+      "Concurrent activation of inflammasome and TLR pathways indicates systemic sterile inflammation beyond localized vascular plaques.",
+      "Integration of metabolic regulators such as NAMPT and SLC2A14 with inflammatory genes suggests immunometabolic dysregulation in PAD.",
+      "Stress-response and senescence-associated genes such as CDKN1A, G0S2, and DUSP1 imply chronic immune activation or exhaustion states in circulating immune cells."
+    ]
+  },
+  "analogous_systems": {
+    "systems": [
+      "Atherosclerosis",
+      "Coronary artery disease",
+      "Type 2 diabetes-associated vascular inflammation",
+      "Chronic obstructive pulmonary disease",
+      "Rheumatoid arthritis"
+    ]
+  },
+  "regulatory_network_edges": {
+    "edges": [
+      { "source": "TLR4", "target": "IL8" },
+      { "source": "TLR4", "target": "PTGS2" },
+      { "source": "TLR4", "target": "NLRP3" },
+      { "source": "FOS", "target": "PTGS2" },
+      { "source": "KLF4", "target": "CDKN1A" },
+      { "source": "KLF4", "target": "IL8" },
+      { "source": "BACH2", "target": "BCL2A1" },
+      { "source": "EBF1", "target": "FCRL2" },
+      { "source": "EBF1", "target": "BLNK" },
+      { "source": "NFIL3", "target": "NLRP3" },
+      { "source": "TGFBR1", "target": "CDKN1A" },
+      { "source": "IFIH1", "target": "OASL" },
+      { "source": "KLF6", "target": "PTGS2" },
+      { "source": "SATB1", "target": "BACH2" },
+      { "source": "DUSP1", "target": "FOS" }
+    ]
+  },
+  "integrated_system_nodes": {
+    "modules": [
+      {
+        "module_name": "Innate Immune and Inflammasome Activation",
+        "associated_phenotype": "Chronic systemic inflammation",
+        "genes": [
+          "TLR4",
+          "NLRP3",
+          "IL8",
+          "PTGS2",
+          "IFIH1",
+          "OASL",
+          "CMPK2",
+          "DUSP1",
+          "DUSP5",
+          "FOS"
+        ]
+      },
+      {
+        "module_name": "Adaptive Immune Regulation",
+        "associated_phenotype": "Dysregulated lymphocyte differentiation and activation",
+        "genes": [
+          "BACH2",
+          "EBF1",
+          "BLNK",
+          "FCRL2",
+          "TRBC1",
+          "SATB1",
+          "TAGAP",
+          "SAMSN1"
+        ]
+      },
+      {
+        "module_name": "Immunometabolic and Stress Response",
+        "associated_phenotype": "Oxidative stress adaptation and metabolic rewiring",
+        "genes": [
+          "NAMPT",
+          "SOD2",
+          "G0S2",
+          "SLC2A14",
+          "CDKN1A",
+          "PPP1R15A",
+          "PTP4A1"
+        ]
+      },
+      {
+        "module_name": "Vascular Remodeling and Fibrotic Signaling",
+        "associated_phenotype": "Endothelial dysfunction and vascular stiffness",
+        "genes": [
+          "TGFBR1",
+          "THBS1",
+          "CXCR4",
+          "PLAUR",
+          "NR3C2",
+          "TPM1"
+        ]
+      },
+      {
+        "module_name": "Apoptosis and Survival Regulation",
+        "associated_phenotype": "Altered immune cell survival",
+        "genes": [
+          "BCL2A1",
+          "PMAIP1",
+          "STK17B",
+          "DNAJB6",
+          "WWOX"
+        ]
+      }
+    ]
+  },
+  "enrichment_categorization": {
+    "categories": [
+      {
+        "component": "GO/KEGG",
+        "categories": [
+          {
+            "category_name": "Innate Immune Activation",
+            "terms": [
+              "Toll-like receptor signaling pathway",
+              "NOD-like receptor signaling pathway",
+              "Inflammasome complex assembly",
+              "Positive regulation of NF-κB signaling",
+              "Cytokine-mediated signaling pathway"
+            ]
+          },
+          {
+            "category_name": "Adaptive Immune Regulation",
+            "terms": [
+              "B-cell receptor signaling pathway",
+              "Adaptive immune response",
+              "Leukocyte activation",
+              "Myeloid leukocyte differentiation"
+            ]
+          },
+          {
+            "category_name": "Stress and Apoptosis",
+            "terms": [
+              "Apoptotic signaling pathway",
+              "Regulation of cell cycle arrest",
+              "Cellular response to oxidative stress",
+              "MAPK cascade",
+              "Response to hypoxia"
+            ]
+          },
+          {
+            "category_name": "Vascular Remodeling",
+            "terms": [
+              "TGF-β signaling pathway",
+              "Platelet activation",
+              "Extracellular matrix organization",
+              "Prostaglandin biosynthetic process"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "hub_gene_annotation": {
+    "drug_targets": [
+      "TLR4",
+      "PTGS2",
+      "CXCR4",
+      "NLRP3",
+      "TGFBR1",
+      "NAMPT",
+      "NR3C2"
+    ],
+    "kinases": [
+      "STK17B",
+      "BMP2KL",
+      "TGFBR1"
+    ],
+    "biomarkers": [
+      "IL8",
+      "PTGS2",
+      "TLR4",
+      "NLRP3",
+      "THBS1",
+      "NAMPT",
+      "CXCR4",
+      "CDKN1A"
+    ]
+  },
+  "component_summaries": {
+    "summaries": [
+      {
+        "component": "GO",
+        "summary": "GO enrichment highlights inflammatory response, leukocyte activation, cytokine signaling, oxidative stress, and apoptosis, indicating that PBMCs in PAD patients exist in a chronically activated immune state with coordinated innate and adaptive immune engagement."
+      },
+      {
+        "component": "KEGG",
+        "summary": "KEGG pathway enrichment emphasizes Toll-like receptor, NOD-like receptor, chemokine signaling, MAPK, TGF-β, and prostaglandin pathways, integrating innate immune sensing with downstream inflammatory amplification and vascular remodeling mechanisms."
+      },
+      {
+        "component": "Reactome",
+        "summary": "Reactome analysis reinforces inflammasome activation, cytokine signaling cascades, immune receptor signaling, apoptosis regulation, and extracellular matrix interactions, supporting the concept of systemic immune dysregulation contributing to PAD pathology."
+      }
+    ]
+  }
+}
