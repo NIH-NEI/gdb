@@ -55,16 +55,16 @@ The benchmark is built upon 8 diverse, publicly available human omics datasets. 
 
 <div align="center">
 
-| ID | Phenotype | Tissue / Cell Type | Source Publication (PMID) |
-|:---|:---|:---|:---|
-| **BC** | Breast Cancer | Breast Tissue | [31423162](https://pubmed.ncbi.nlm.nih.gov/31423162/) |
-| **HCM**| Hypertrophic Cardiomyopathy | Heart Tissue | [34225646](https://pubmed.ncbi.nlm.nih.gov/34225646/) |
-| **PD1**| Early Rheumatoid Arthritis | CD4⁺ T Cells | [36801909](https://pubmed.ncbi.nlm.nih.gov/36801909/) |
-| **BP** | Bullous Pemphigoid | PBMCs | [40736520](https://pubmed.ncbi.nlm.nih.gov/40736520/) |
-| **MN** | Membranous Nephropathy | Glomeruli | [37876929](https://pubmed.ncbi.nlm.nih.gov/37876929/) |
-| **GC** | Gastric Cancer | Gastric Tissue | [38041130](https://pubmed.ncbi.nlm.nih.gov/38041130/) |
-| **UV** | Uveitis | Whole Blood | [33503442](https://pubmed.ncbi.nlm.nih.gov/33503442/) |
-| **PAD**| Peripheral Arterial Disease | PBMCs | [22409835](https://pubmed.ncbi.nlm.nih.gov/22409835/) |
+| ID | Phenotype | Tissue | Hub Genes | DEGs | Original Tools | Source (PMID) |
+|:---|:---|:---|:---:|:---:|:---|:---|
+| **BC** | Breast Cancer | Breast Tissue | 15 | 254 | clusterProfiler, Cytoscape | [31423162](https://pubmed.ncbi.nlm.nih.gov/31423162/) |
+| **HCM**| Hypertrophic Cardiomyopathy| Heart Tissue | 8 | 48 | Python, STRING, Cytoscape | [34225646](https://pubmed.ncbi.nlm.nih.gov/34225646/) |
+| **PD1**| Early Rheumatoid Arthritis| CD4⁺ T Cells | 19 | 347 | IPA, GSVA | [36801909](https://pubmed.ncbi.nlm.nih.gov/36801909/) |
+| **BP** | Bullous Pemphigoid | PBMCs | 11 | 267 | DAVID, Reactome | [40736520](https://pubmed.ncbi.nlm.nih.gov/40736520/) |
+| **MN** | Membranous Nephropathy | Glomeruli | 14 | 501 | STRING, Metascape, GSVA | [37876929](https://pubmed.ncbi.nlm.nih.gov/37876929/) |
+| **GC** | Gastric Cancer | Gastric Tissue | 10 | 203 | clusterProfiler, STRING | [38041130](https://pubmed.ncbi.nlm.nih.gov/38041130/) |
+| **UV** | Uveitis | Whole Blood | 12 | 180 | edgeR (goana, kegga) | [33503442](https://pubmed.ncbi.nlm.nih.gov/33503442/) |
+| **PAD**| Peripheral Arterial Disease| PBMCs | 16 | 85 | DAVID, IPA | [22409835](https://pubmed.ncbi.nlm.nih.gov/22409835/) |
 
 </div>
 
