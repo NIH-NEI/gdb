@@ -23,8 +23,8 @@ To ensure clarity and reproducibility, the ODB project is organized into the fol
 | :--- | :--- |
 | `groundtruth_data/` | Contains the curated ground truth data for the 8 diverse omics datasets used in the benchmark. This is the baseline against which all tools are evaluated. |
 | `results/tools_outputs/` | Contains the raw JSON outputs from each benchmarked tool, organized by tool name and dataset ID. |
-| `analysis_scripts/` | Provides the R or Python scripts used to process the raw JSON outputs and calculate the final "Grounded Reasoning Score." |
-| `results/figures/` | Contains generated figures, plots, and other visual outputs from the analysis, such as the performance quadrant plot. |
+| `analysis_scripts/` | Provides the Python scripts used to process the raw JSON outputs and calculate the final "Grounded Reasoning Score." |
+| `results/figures/` | Contains generated figures and IAN's original analysis results for all the 8 datasets. |
 
 ---
 
