@@ -30,18 +30,18 @@ To ensure clarity and reproducibility, the ODB project is organized into the fol
 
 ## Ground truth datasets
 
-The benchmark is built upon 8 diverse, publicly available omics datasets. The ground truth for each dataset was manually curated from the corresponding peer-reviewed publication.
+The benchmark is built upon 8 diverse, publicly available human omics datasets. The ground truth for each was manually curated from the corresponding peer-reviewed publication. Full details can be found in the linked manuscripts and the JSON files within the `groundtruth_data/` directory.
 
-| ID | Species | PMID | Phenotype | Hub Genes | DEGs | DEGs (Clean) | Methods | Tools | Experimental Design |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **BC** | Human | [31423162](https://pubmed.ncbi.nlm.nih.gov/31423162/) | Breast Cancer | 15 | 322 | 254 | KEGG, GO, STRING, WGCNA | clusterProfiler, MCODE, Cytoscape | Differentially expressed genes from breast cancer patients vs. normal controls. |
-| **HCM**| Human | [34225646](https://pubmed.ncbi.nlm.nih.gov/34225646/) | Hypertrophic Cardiomyopathy | 8 | 48 | 48 | Integrated DEG calling, mRMR, SVM/RF/KNN classification | Python, STRINGDB, BioGRID, Cytoscape | Differentially expressed genes from heart tissues of HCM cases vs. healthy controls. |
-| **PD1**| Human | [36801909](https://pubmed.ncbi.nlm.nih.gov/36801909/) | Early Rheumatoid Arthritis | 19 | 347 | 347 | Pathway analysis, Regulator analysis, GSVA | IPA, GSVA | DEGs from sorted CD4⁺ PD-1⁺ T cells vs. CD4⁺ PD-1⁻ T cells from early RA patients. |
-| **BP** | Human | [34953935](https://pubmed.ncbi.nlm.nih.gov/34953935/) | Bullous Pemphigoid | 11 | 267 | 267 | GO enrichment, Pathway analysis | DAVID, Reactome pathways | DEGs from total PBMCs of new bullous pemphigoid patients vs. healthy controls. |
-| **MN** | Human | [37876929](https://pubmed.ncbi.nlm.nih.gov/37876929/) | Membranous Nephropathy | 14 | 501 | 501 | KEGG, GO, STRING, WGCNA, GSEA | STRING, CytoHubba, Metascape, GSVA | DEGs from membranous nephropathy patients vs. healthy controls using public data. |
-| **GC** | Human | [38041130](https://pubmed.ncbi.nlm.nih.gov/38041130/) | Gastric Cancer | 10 | 203 | 203 | KEGG, GO, STRING, PPI network analysis | clusterProfiler, STRING, Cytoscape, GEPIA2 | DEGs from gastric cancer tissues vs. normal gastric tissues using public data. |
-| **UV** | Human | [33503442](https://pubmed.ncbi.nlm.nih.gov/33503442/) | Uveitis | 12 | 180 | 180 | KEGG, GO enrichment | `goana` and `kegga` in edgeR | DEGs from whole-blood RNA-Seq of 90 uveitis patients vs. 18 healthy controls. |
-| **PAD**| Human | [22409835](https://pubmed.ncbi.nlm.nih.gov/22409835/) | Peripheral Arterial Disease | 16 | 87 | 85 | KEGG, Reactome, GO, Network analysis | DAVID, Ingenuity Pathway Analysis | DEGs from PBMCs in patients with Peripheral Arterial Disease vs. controls. |
+| ID | Phenotype | Tissue / Cell Type | Source Publication (PMID) |
+|:---|:---|:---|:---|
+| **BC** | Breast Cancer | Breast Tissue | [31423162](https://pubmed.ncbi.nlm.nih.gov/31423162/) |
+| **HCM**| Hypertrophic Cardiomyopathy | Heart Tissue | [34225646](https://pubmed.ncbi.nlm.nih.gov/34225646/) |
+| **PD1**| Early Rheumatoid Arthritis | CD4⁺ T Cells | [36801909](https://pubmed.ncbi.nlm.nih.gov/36801909/) |
+| **BP** | Bullous Pemphigoid | PBMCs | [34953935](https://pubmed.ncbi.nlm.nih.gov/34953935/) |
+| **MN** | Membranous Nephropathy | Glomeruli | [37876929](https://pubmed.ncbi.nlm.nih.gov/37876929/) |
+| **GC** | Gastric Cancer | Gastric Tissue | [38041130](https://pubmed.ncbi.nlm.nih.gov/38041130/) |
+| **UV** | Uveitis | Whole Blood | [33503442](https://pubmed.ncbi.nlm.nih.gov/33503442/) |
+| **PAD**| Peripheral Arterial Disease | PBMCs | [22409835](https://pubmed.ncbi.nlm.nih.gov/22409835/) |
 
 ---
 
