@@ -1,0 +1,2 @@
+enrichment_fidelity_jaccard,enrichment_fidelity_semantic,hub_gene_ndcg,analogous_systems_jaccard,analogous_systems_semantic,biological_synthesis_cosine,hypotheses_jaccard,hypotheses_semantic,novel_insights_jaccard,novel_insights_semantic,regulatory_network_mrr,hub_gene_annotation_f1,enrichment_categorization_jaccard,system_model_jaccard,publication_title_cosine,component_summaries_cosine
+0.03835227272727273,0.69825965,0.21041930789077334,0.0,0.37405223,0.07937187,0.0,0.3465068,0.0,0.35138032,0.0,0.1403371954842543,0.07584325396825396,0.14245525156936228,0.32825297,0.5323843

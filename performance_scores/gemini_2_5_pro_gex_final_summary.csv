@@ -1,0 +1,17 @@
+Metric,Mean,Standard Deviation
+enrichment_fidelity_jaccard,0.0,0.0
+enrichment_fidelity_semantic,0.44734902,0.14467630668349454
+hub_gene_ndcg,0.17841115744734076,0.15890104369937377
+analogous_systems_jaccard,0.01785714285714285,0.047245559126153386
+analogous_systems_semantic,0.39580227500000004,0.14615499028780712
+biological_synthesis_cosine,0.131573736875,0.0707581905892381
+hypotheses_jaccard,0.0,0.0
+hypotheses_semantic,0.38795587875000004,0.055449245756750046
+novel_insights_jaccard,0.0,0.0
+novel_insights_semantic,0.38031546,0.06982309474672153
+regulatory_network_mrr,0.0,0.0
+hub_gene_annotation_f1,0.1479256718227306,0.12576814771678724
+enrichment_categorization_jaccard,0.0,0.0
+system_model_jaccard,0.10755499069643804,0.10233993080295739
+publication_title_cosine,0.35983409875,0.14304188968867365
+component_summaries_cosine,0.16072886,0.28757239014504665
