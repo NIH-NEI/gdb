@@ -196,10 +196,11 @@ To ensure clarity and reproducibility, the ODB project is organized into the fol
 
 | Folder | Description |
 | :--- | :--- |
-| `groundtruth_data/` | Contains the curated ground truth data for the 8 diverse omics datasets in the benchmark. |
-| `results/tools_outputs/` | Contains the raw JSON outputs from each benchmarked tool, organized by tool name and dataset ID. |
-| `analysis_scripts/` | Provides the Python scripts used to process the raw JSON outputs and calculate the final scores. |
-| `results/figures/` | Contains generated figures and IAN's original analysis results for all 8 datasets. |
+| [`groundtruth_data/`](https://github.com/NIH-NEI/odb/tree/main/groundtruth_data) | Contains the curated ground truth data for the 8 diverse omics datasets in the benchmark. |
+| [`results/tools_outputs/`](https://github.com/NIH-NEI/odb/tree/main/results/tools_outputs) | Contains the raw JSON outputs from each benchmarked tool, organized by tool name and dataset ID. |
+| [`analysis_scripts/`](https://github.com/NIH-NEI/odb/tree/main/analysis_scripts) | Provides the Python scripts used to process the raw JSON outputs and calculate the final scores. |
+| [`results/`](https://github.com/NIH-NEI/odb/tree/main/results) | Contains generated figures and IAN's original analysis results for all 8 datasets. |
+| [`performance_scores/`](https://github.com/NIH-NEI/odb/tree/main/performance_scores) | Contains generated scores for all tools evaluated. |
 
 </div>
 
