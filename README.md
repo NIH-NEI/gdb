@@ -73,7 +73,7 @@ We benchmarked 7 different analytical approaches, including our novel **I**ntell
 
 While the ranked table provides the final verdict, the performance profile of each tool reveals a more nuanced story. The quadrant plot below visualizes the trade-off between pure factual recall ("Fidelity Score") and higher-order reasoning ("Discovery & Synthesis Score").
 
-![A quadrant plot showing Fidelity Score on the X-axis and Discovery & Synthesis Score on the Y-axis.](results/figures/ODB_OVERALL_PERFORMANCE_QUADRANT.png)
+![A quadrant plot showing Fidelity Score on the X-axis and Discovery & Synthesis Score on the Y-axis.](results/ODB_OVERALL_PERFORMANCE_QUADRANT.png)
 
 *__Figure 1:__ Performance profile of all benchmarked tools, averaged across 8 datasets. The plot highlights the unique analytical profile of the IAN framework.*
 
