@@ -17,7 +17,7 @@ The **Omics Discovery Bench (ODB)** was developed to address this gap. ODB is an
 
 ## 🏆 Official Leaderboard
 
-We benchmarked 7 different analytical approaches, including general-purpose LLMs and our novel **I**ntelligent System for Omics Data **An**lysis and Discovery (IAN).
+We benchmarked 7 different analytical approaches, including general-purpose LLMs and our novel **I**ntelligent System for Omics Data **An**lysis and Discovery [(IAN)](https://www.biorxiv.org/content/10.1101/2025.03.06.640921v1.full#ref-21).
 
 **The final ranking, based on our "Grounded Reasoning Score," demonstrates a clear performance hierarchy, with the specialized IAN framework showing a distinct advantage in structured biological interpretation.**
 
@@ -25,7 +25,7 @@ We benchmarked 7 different analytical approaches, including general-purpose LLMs
 
 | Rank | Tool | Final Grounded Score |
 | :---: | :--- | :---: |
-| **🥇 1** | IAN | **0.1689** |
+| **🥇 1** | [IAN](https://www.biorxiv.org/content/10.1101/2025.03.06.640921v1.full#ref-21) | **0.1689** |
 | **🥈 2** | Claude (DEG + Exp) | 0.1592 |
 | **🥉 3** | ChatGPT (DEG + Exp) | 0.1581 |
 | **4** | Claude (DEG Only) | 0.1297 |
@@ -37,7 +37,7 @@ We benchmarked 7 different analytical approaches, including general-purpose LLMs
 
 *   DEG - Differentially Expressed Genes
 *   Exp - Experimental Design
-*   IAN - The IAN benchmarked here used Gemini as the LLM, along with DEG, Exp and a novel data augmentation framework.
+*   IAN - The IAN benchmarked here used Gemini as the LLM, along with DEG, Exp and a [novel data augmentation framework described here](https://www.biorxiv.org/content/10.1101/2025.03.06.640921v1.full#ref-21).
 
 While the ranked table provides the final verdict, the performance profile of each tool reveals a more nuanced story. The quadrant plot below visualizes the trade-off between pure factual recall ("Fidelity Score") and higher-order reasoning ("Discovery & Synthesis Score").
 
@@ -199,7 +199,7 @@ To ensure clarity and reproducibility, the ODB project is organized into the fol
 | [`groundtruth_data/`](https://github.com/NIH-NEI/odb/tree/main/groundtruth_data) | Contains the curated ground truth data for the 8 diverse omics datasets in the benchmark. |
 | [`results/tools_outputs/`](https://github.com/NIH-NEI/odb/tree/main/results/tools_outputs) | Contains the raw JSON outputs from each benchmarked tool, organized by tool name and dataset ID. |
 | [`analysis_scripts/`](https://github.com/NIH-NEI/odb/tree/main/analysis_scripts) | Provides the Python scripts used to process the raw JSON outputs and calculate the final scores. |
-| [`results/`](https://github.com/NIH-NEI/odb/tree/main/results) | Contains generated figures and IAN's original analysis results for all 8 datasets. |
+| [`results/`](https://github.com/NIH-NEI/odb/tree/main/results) | Contains generated figures and [IAN's](https://www.biorxiv.org/content/10.1101/2025.03.06.640921v1.full#ref-21) original analysis results for all 8 datasets. |
 | [`performance_scores/`](https://github.com/NIH-NEI/odb/tree/main/performance_scores) | Contains generated scores for all tools evaluated. |
 
 </div>
@@ -208,7 +208,7 @@ To ensure clarity and reproducibility, the ODB project is organized into the fol
 
 ## Conclusion
 
-The Omics Discovery Bench successfully distinguishes between different classes of AI-driven analysis. While context-aware generalist LLMs are powerful, they function primarily as high-fidelity information recall engines. The IAN framework, by contrast, demonstrates a superior capacity for grounded, structural reasoning. Its top-ranking performance on our "Grounded Reasoning Score" and its unique position in the performance quadrant confirm that its structured, multi-agent methodology represents a more rigorous and scientifically valuable approach for genuine biological discovery.
+The Omics Discovery Bench successfully distinguishes between different classes of AI-driven analysis. While context-aware generalist LLMs are powerful, they function primarily as high-fidelity information recall engines. The [IAN framework](https://www.biorxiv.org/content/10.1101/2025.03.06.640921v1.full#ref-21), by contrast, demonstrates a superior capacity for grounded, structural reasoning. Its top-ranking performance on our "Grounded Reasoning Score" and its unique position in the performance quadrant confirm that its structured, multi-agent methodology represents a more rigorous and scientifically valuable approach for genuine biological discovery.
 
 ---
 
