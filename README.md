@@ -9,7 +9,7 @@
 
 ## Introduction: A Benchmark for scientific reasoning
 
-In complex scientific fields like bioinformatics, the true value of an AI tool is not just its accuracy, but its ability to perform higher-order reasoning—synthesizing data into coherent narratives, forming novel hypotheses, and constructing plausible models of biological systems. Standard NLP benchmarks often fail to capture this crucial dimension.
+In complex scientific fields like bioinformatics, the true value of an AI tool is not just its accuracy, but its ability to perform higher-order reasoning—synthesizing data into coherent narratives, forming novel hypotheses, and constructing plausible models of biological systems. Standard Natural Language Processing benchmarks often fail to capture this crucial dimension.
 
 The **Omics Discovery Bench (ODB)** was developed to address this gap. ODB is an open-source benchmark framework that evaluates and ranks analytical tools on their ability to interpret high-throughput omics data. Our "Groundedness-First" philosophy prioritizes structured, verifiable, and data-driven reasoning over simple narrative fluency.
 
@@ -35,9 +35,15 @@ We benchmarked 7 different analytical approaches, including general-purpose LLMs
 
 </div>
 
+* DEG - Differentially Expressed Genes
+* Exp - Experimental Design
+* IAN - The IAN benchmarked here used Gemini 2.5 as the LLM, along with DEG, Exp and the novel data augmentation framework as described in the [manuscript](https://www.biorxiv.org/content/10.1101/2025.03.06.640921v1.full#ref-21).
+  
 While the ranked table provides the final verdict, the performance profile of each tool reveals a more nuanced story. The quadrant plot below visualizes the trade-off between pure factual recall ("Fidelity Score") and higher-order reasoning ("Discovery & Synthesis Score").
 
-![A quadrant plot showing Fidelity Score on the X-axis and Discovery & Synthesis Score on the Y-axis.](results/ODB_OVERALL_PERFORMANCE_QUADRANT.png)
+<div align="center">
+  <img src="results/ODB_DISCOVERY_VS_FIDELITY_QUADRANT.png" alt="A quadrant plot showing Fidelity Score on the X-axis and Discovery & Synthesis Score on the Y-axis." width="70%">
+</div>
 
 *__Figure 1:__ Performance profile of all benchmarked tools, averaged across 8 datasets. The plot highlights the unique analytical profile of the IAN framework, which excels in Discovery & Synthesis.*
 
@@ -48,7 +54,7 @@ While the ranked table provides the final verdict, the performance profile of ea
 The ODB methodology evaluates tools against the curated ground truth. The final ranking is produced through a multi-step process designed to reward scientific rigor.
 
 1.  **12 Standardized Tasks:** Each tool is assessed on a suite of tasks, ranging from high-fidelity data extraction (e.g., `Hub Gene Identification`) to high-level abstractive reasoning (e.g., `System Model Reconstruction`).
-2.  **Quantitative Scoring:** Over 15 distinct metrics are calculated, including NDCG for ranking, Jaccard Similarity for set fidelity, and Cosine Similarity for semantic textual alignment.
+2.  **Quantitative Scoring:** Over 15 distinct metrics are calculated, including NDCG (Normalized Discounted Cumulative Gain) for ranking, Jaccard Similarity for set fidelity, and Cosine Similarity for semantic textual alignment.
 3.  **"Groundedness-Weighted" Composite Score:** To generate a final ranking, we developed the "Grounded Reasoning Score." This composite score assigns higher weights to tasks that require structured, verifiable reasoning and are resistant to ungrounded hallucination (e.g., `System Model`, `Hub Gene Annotation`). Free-form narrative tasks, where fluent but ungrounded answers can score deceptively high, are weighted lower.
 
 ---
@@ -64,7 +70,7 @@ The benchmark is built upon 8 diverse, publicly available human omics datasets. 
 | **BC** | Breast Cancer | Breast Tissue | [31423162](https://pubmed.ncbi.nlm.nih.gov/31423162/) |
 | **HCM**| Hypertrophic Cardiomyopathy | Heart Tissue | [34225646](https://pubmed.ncbi.nlm.nih.gov/34225646/) |
 | **PD1**| Early Rheumatoid Arthritis | CD4⁺ T Cells | [36801909](https://pubmed.ncbi.nlm.nih.gov/36801909/) |
-| **BP** | Bullous Pemphigoid | PBMCs | [34953935](https://pubmed.ncbi.nlm.nih.gov/34953935/) |
+| **BP** | Bullous Pemphigoid | PBMCs | [40736520](https://pubmed.ncbi.nlm.nih.gov/40736520/) |
 | **MN** | Membranous Nephropathy | Glomeruli | [37876929](https://pubmed.ncbi.nlm.nih.gov/37876929/) |
 | **GC** | Gastric Cancer | Gastric Tissue | [38041130](https://pubmed.ncbi.nlm.nih.gov/38041130/) |
 | **UV** | Uveitis | Whole Blood | [33503442](https://pubmed.ncbi.nlm.nih.gov/33503442/) |
