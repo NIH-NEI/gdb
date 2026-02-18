@@ -7,7 +7,7 @@
 - **Contact**: nagarajanv@nih.gov
 ------------
 
-## 📖 Introduction: A Benchmark for Scientific Reasoning
+## Introduction: A Benchmark for Scientific Reasoning
 
 In complex scientific fields like bioinformatics, the true value of an AI tool is not just its accuracy, but its ability to perform higher-order reasoning—synthesizing data into coherent narratives, forming novel hypotheses, and constructing plausible models of biological systems. Standard NLP benchmarks often fail to capture this crucial dimension.
 
@@ -15,7 +15,7 @@ The **Omics Discovery Bench (ODB)** was developed to address this gap. ODB is an
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 To ensure clarity and reproducibility, the ODB project is organized into the following directories:
 
@@ -28,7 +28,7 @@ To ensure clarity and reproducibility, the ODB project is organized into the fol
 
 ---
 
-## 🔬 Ground Truth Datasets
+## Ground Truth Datasets
 
 The benchmark is built upon 8 diverse, publicly available omics datasets. The ground truth for each dataset was manually curated from the corresponding peer-reviewed publication.
 
@@ -45,7 +45,7 @@ The benchmark is built upon 8 diverse, publicly available omics datasets. The gr
 
 ---
 
-## ⚙️ How The Benchmark Works
+## How The Benchmark Works
 
 The ODB methodology evaluates tools against the curated ground truth. The final ranking is produced through a multi-step process designed to reward scientific rigor.
 
@@ -55,7 +55,7 @@ The ODB methodology evaluates tools against the curated ground truth. The final 
 
 ---
 
-## 📊 Benchmark Results
+## Benchmark Results
 
 We benchmarked 7 different analytical approaches, including our novel **I**ntelligent System for Omics Data **An**lysis and Discovery (IAN) and several general-purpose LLMs (Gemini, ChatGPT, Claude) with and without experimental context. The final ranking, based on our "Grounded Reasoning Score," demonstrates a clear performance hierarchy.
 
@@ -79,13 +79,13 @@ While the ranked table provides the final verdict, the performance profile of ea
 
 ---
 
-## 💡 Conclusion
+## Conclusion
 
 The Omics Discovery Bench successfully distinguishes between different classes of AI-driven analysis. While context-aware generalist LLMs are powerful, they function primarily as high-fidelity information recall engines. The IAN framework, by contrast, demonstrates a superior capacity for grounded, structural reasoning. Its top-ranking performance on our "Grounded Reasoning Score" and its unique position in the performance quadrant confirm that its structured, multi-agent methodology represents a more rigorous and scientifically valuable approach for genuine biological discovery.
 
 ---
 
-## 📬 How to Contribute Your Tool
+## How to Contribute Your Tool
 
 We welcome and encourage submissions from the community. If you have a tool you would like to benchmark against ODB, please follow these steps:
 
