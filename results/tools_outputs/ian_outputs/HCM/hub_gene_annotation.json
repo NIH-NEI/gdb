@@ -1,0 +1,13 @@
+{
+  "drug_targets": [
+    "JAK2",
+    "LDHA"
+  ],
+  "kinases": [
+    "JAK2"
+  ],
+  "biomarkers": [
+    "GADD45A",
+    "THBS1"
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "edges": [
+    {
+      "source": "MAF",
+      "target": "FCER1G"
+    },
+    {
+      "source": "MAF",
+      "target": "GADD45A"
+    },
+    {
+      "source": "MAF",
+      "target": "LDHA"
+    },
+    {
+      "source": "MAF",
+      "target": "PLEK"
+    },
+    {
+      "source": "MAF",
+      "target": "S100A10"
+    },
+    {
+      "source": "MAF",
+      "target": "SLC2A1"
+    },
+    {
+      "source": "NR1H3",
+      "target": "ALOX5AP"
+    },
+    {
+      "source": "NR1H3",
+      "target": "MAFB"
+    },
+    {
+      "source": "NR1H3",
+      "target": "SLC2A1"
+    },
+    {
+      "source": "SMAD2",
+      "target": "GADD45A"
+    },
+    {
+      "source": "SMAD2",
+      "target": "MYH6"
+    },
+    {
+      "source": "SMAD2",
+      "target": "THBS1"
+    },
+    {
+      "source": "SMAD3",
+      "target": "GADD45A"
+    },
+    {
+      "source": "SMAD3",
+      "target": "LDHA"
+    },
+    {
+      "source": "SMAD3",
+      "target": "MYH6"
+    },
+    {
+      "source": "SMAD3",
+      "target": "THBS1"
+    },
+    {
+      "source": "SOX2",
+      "target": "COL16A1"
+    },
+    {
+      "source": "SOX2",
+      "target": "F13A1"
+    },
+    {
+      "source": "SOX2",
+      "target": "PROS1"
+    },
+    {
+      "source": "SOX2",
+      "target": "THBS1"
+    },
+    {
+      "source": "SPI1",
+      "target": "ALOX5AP"
+    },
+    {
+      "source": "SPI1",
+      "target": "CD14"
+    },
+    {
+      "source": "SPI1",
+      "target": "CD209"
+    },
+    {
+      "source": "SPI1",
+      "target": "CTSC"
+    },
+    {
+      "source": "SPI1",
+      "target": "FCER1G"
+    },
+    {
+      "source": "SPI1",
+      "target": "FCGR2A"
+    },
+    {
+      "source": "SPI1",
+      "target": "JAK2"
+    },
+    {
+      "source": "SPI1",
+      "target": "MARCO"
+    },
+    {
+      "source": "SPI1",
+      "target": "MS4A6A"
+    },
+    {
+      "source": "SPI1",
+      "target": "MS4A7"
+    }
+  ]
+}

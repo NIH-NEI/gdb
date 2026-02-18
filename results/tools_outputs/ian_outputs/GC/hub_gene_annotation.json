@@ -1,0 +1,11 @@
+{
+  "drug_targets": [
+    "ITGA5",
+    "PTGS2"
+  ],
+  "kinases": [],
+  "biomarkers": [
+    "COL1A1",
+    "MUC1"
+  ]
+}

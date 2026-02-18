@@ -1,0 +1,51 @@
+{
+  "modules": [
+    {
+      "module_name": "Inflammatory & Innate Immune Response",
+      "associated_phenotype": "Systemic Inflammation & Immune Activation",
+      "genes": [
+        "AIM2",
+        "ANXA1",
+        "BPI",
+        "CAMP",
+        "CARD16",
+        "CASP1",
+        "CASP5",
+        "LTF",
+        "NAIP",
+        "S100A12",
+        "S100A8",
+        "S100A9"
+      ]
+    },
+    {
+      "module_name": "Cellular Stress & Apoptosis",
+      "associated_phenotype": "Cellular Damage & Death",
+      "genes": [
+        "ARG1",
+        "BCL2A1",
+        "CASP3",
+        "TXN"
+      ]
+    },
+    {
+      "module_name": "Metabolic Reprogramming",
+      "associated_phenotype": "Altered Lipid & Energy Metabolism",
+      "genes": [
+        "ACSL1",
+        "ACSL4"
+      ]
+    },
+    {
+      "module_name": "Upstream Regulatory TFs",
+      "associated_phenotype": "Orchestration of Gene Expression",
+      "genes": [
+        "ATF3",
+        "GATA3",
+        "P53",
+        "RELA",
+        "SPI1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "edges": [
+    {
+      "source": "ATF3",
+      "target": "CASP3"
+    },
+    {
+      "source": "ATF3",
+      "target": "CSTA"
+    },
+    {
+      "source": "ATF3",
+      "target": "TXN"
+    },
+    {
+      "source": "ATF3",
+      "target": "USP53"
+    },
+    {
+      "source": "GATA3",
+      "target": "IL3RA"
+    },
+    {
+      "source": "GATA3",
+      "target": "IL5RA"
+    },
+    {
+      "source": "GATA3",
+      "target": "MMP8"
+    },
+    {
+      "source": "P53",
+      "target": "CASP3"
+    },
+    {
+      "source": "P53",
+      "target": "CSTA"
+    },
+    {
+      "source": "RELA",
+      "target": "IDO1"
+    },
+    {
+      "source": "RELA",
+      "target": "SELP"
+    },
+    {
+      "source": "SPI1",
+      "target": "AIF1"
+    },
+    {
+      "source": "SPI1",
+      "target": "BCL2A1"
+    },
+    {
+      "source": "SPI1",
+      "target": "S100A8"
+    },
+    {
+      "source": "SPI1",
+      "target": "S100A9"
+    }
+  ]
+}

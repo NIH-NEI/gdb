@@ -1,0 +1,60 @@
+{
+  "modules": [
+    {
+      "module_name": "ECM and Cell Adhesion",
+      "associated_phenotype": "Tissue Remodeling and Invasion",
+      "genes": [
+        "CDH3",
+        "CLDN1",
+        "CLDN18",
+        "CLDN3",
+        "COL1A1",
+        "COL1A2",
+        "COL4A1",
+        "COL5A2",
+        "COL6A3",
+        "ITGA5",
+        "SPP1",
+        "THBS2",
+        "THBS4"
+      ]
+    },
+    {
+      "module_name": "Metabolic Reprogramming",
+      "associated_phenotype": "Altered Energy and Biosynthesis",
+      "genes": [
+        "ADH1A",
+        "ADH1C",
+        "ADH7",
+        "AKR1C2",
+        "AKR1C3",
+        "AKR1C4",
+        "ALDH1A1",
+        "ALDH3A1",
+        "CYP3A5",
+        "GC",
+        "SULT2A1"
+      ]
+    },
+    {
+      "module_name": "Inflammation and Immune Response",
+      "associated_phenotype": "Pro-tumorigenic Microenvironment",
+      "genes": [
+        "CXCL8",
+        "IL32",
+        "PTGS2"
+      ]
+    },
+    {
+      "module_name": "Upstream Regulatory TFs",
+      "associated_phenotype": "Orchestration of Gene Expression",
+      "genes": [
+        "FOXA1",
+        "FOXA2",
+        "KLF4",
+        "RELA",
+        "SOX2"
+      ]
+    }
+  ]
+}

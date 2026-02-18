@@ -1,0 +1,73 @@
+{
+  "categories": [
+    {
+      "component": "WikiPathways",
+      "categories": [
+        {
+          "category_name": "Metabolism",
+          "terms": [
+            "Electron transport chain OXPHOS system in mitochondria",
+            "Fatty acid beta oxidation",
+            "Fatty acid biosynthesis",
+            "Ferroptosis"
+          ]
+        },
+        {
+          "category_name": "Immune Response & Inflammation",
+          "terms": [
+            "Nucleotide binding oligomerization domain NOD pathway",
+            "Apoptosis modulation and signaling",
+            "Acute viral myocarditis"
+          ]
+        }
+      ]
+    },
+    {
+      "component": "KEGG",
+      "categories": [
+        {
+          "category_name": "Immune Response and Signaling",
+          "terms": [
+            "NOD-like receptor signaling",
+            "Hematopoietic cell lineage"
+          ]
+        },
+        {
+          "category_name": "Metabolism",
+          "terms": [
+            "fatty acid metabolism",
+            "amino acid metabolism",
+            "oxidative phosphorylation"
+          ]
+        },
+        {
+          "category_name": "Cellular Stress and Death",
+          "terms": [
+            "Efferocytosis",
+            "Ferroptosis"
+          ]
+        }
+      ]
+    },
+    {
+      "component": "Reactome",
+      "categories": [
+        {
+          "category_name": "Immune System Pathways",
+          "terms": [
+            "Neutrophil degranulation",
+            "Toll Like Receptor Cascades",
+            "Inflammasomes"
+          ]
+        },
+        {
+          "category_name": "Metabolism Pathways",
+          "terms": [
+            "Aerobic respiration and respiratory electron transport",
+            "Formation of ATP by chemiosmotic coupling"
+          ]
+        }
+      ]
+    }
+  ]
+}

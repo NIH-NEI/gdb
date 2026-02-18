@@ -1,0 +1,21 @@
+{
+  "drug_targets": [
+    "AURKA",
+    "CDC20",
+    "CDK1",
+    "FOXM1",
+    "PPARG",
+    "RRM2",
+    "SPP1"
+  ],
+  "kinases": [
+    "AURKA",
+    "CDK1"
+  ],
+  "biomarkers": [
+    "CCNB1",
+    "CDC20",
+    "MAD2L1",
+    "VWF"
+  ]
+}

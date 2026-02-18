@@ -1,0 +1,12 @@
+{
+  "drug_targets": [
+    "ACSL1",
+    "S100A9"
+  ],
+  "kinases": [],
+  "biomarkers": [
+    "ACSL1",
+    "CASP3",
+    "S100A9"
+  ]
+}

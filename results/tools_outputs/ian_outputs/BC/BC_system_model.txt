@@ -1,0 +1,371 @@
+*System Overview*
+The provided differentially expressed genes from breast cancer patients, when analyzed in conjunction with the system network, highlight significant dysregulation in key cellular processes. The network reveals a strong emphasis on cell cycle regulation, particularly the G2/M transition and mitotic progression, with numerous genes involved in chromosome segregation and nuclear division. Alongside this, there's a prominent involvement of lipid metabolism and storage, as well as processes related to cell adhesion and extracellular matrix interactions. The interconnectedness of these pathways suggests a coordinated cellular response that likely contributes to the aggressive nature of breast cancer.
+
+*Potential Upstream Regulators and Key Genes:*
+Several genes and pathways emerge as potential drivers of the observed phenotype:
+
+*   **CDK1:** This is a central kinase in cell cycle control, particularly the G2/M transition and mitotic progression. Its extensive associations with numerous cell cycle-related GO terms and interactions with other cell cycle regulators (e.g., CCNB1, AURKA, CDC20, BUB1B) underscore its critical role. CDK1 also targets FOXM1, a known oncogene involved in cell proliferation and differentiation.
+*   **CCNB1 (Cyclin B1):** As a regulatory subunit of CDK1, CCNB1 is intrinsically linked to CDK1's function in driving the cell cycle through mitosis. Its strong associations with G2/M transition, chromosome segregation, and mitotic nuclear division, along with its interaction with CDC20, highlight its importance.
+*   **AURKA (Aurora Kinase A):** This kinase is a master regulator of mitosis, involved in centrosome maturation, spindle assembly, and chromosome segregation. Its consistent presence in pathways related to G2/M transition, mitotic nuclear division, and chromosome segregation, and its interaction with key mitotic regulators like TPX2 and CDC20, point to its significant influence.
+*   **CDC20:** This protein is a crucial activator of the Anaphase-Promoting Complex/Cyclosome (APC/C), which orchestrates the degradation of key mitotic regulators, driving progression through mitosis. Its strong associations with various mitotic phases and chromosome segregation, and its interactions with numerous cell cycle proteins (e.g., CCNB1, BUB1B, MAD2L1, UBE2C), position it as a key player.
+*   **FABP4 (Fatty Acid Binding Protein 4):** This gene is prominently associated with lipid metabolism, storage, and transport, including fatty acid metabolic processes and acylglycerol metabolism. Its interactions with other lipid-related genes like LIPE and PLIN1, and its association with PPAR signaling, suggest a role in altered lipid homeostasis in breast cancer.
+*   **LIPE (Lipase E):** Similar to FABP4, LIPE is heavily involved in lipid metabolism, particularly triglyceride hydrolysis and acylglycerol metabolic processes. Its interactions with FABP4 and PLIN1 further solidify its role in lipid handling.
+*   **SPP1 (Osteopontin):** This gene is linked to focal adhesion, ECM-receptor interaction, and integrin signaling. Its association with NFKB1 signaling suggests a potential role in inflammatory responses and cell migration, which are hallmarks of cancer progression.
+*   **VWF (Von Willebrand Factor):** Also associated with focal adhesion, ECM-receptor interaction, and integrin signaling, VWF's connection to NFKB1 signaling mirrors that of SPP1, suggesting a coordinated role in cell adhesion and potentially inflammatory pathways.
+
+*Mechanistic Model*
+The identified relationships suggest a mechanistic model where dysregulation of cell cycle regulators, particularly the CDK1/CCNB1 complex and Aurora Kinase A (AURKA), drives uncontrolled proliferation and genomic instability in breast cancer. These regulators are central to the G2/M transition, mitotic nuclear division, and chromosome segregation. Key activators of mitotic progression, such as CDC20, are also heavily implicated. Furthermore, alterations in lipid metabolism, mediated by genes like FABP4 and LIPE, may provide energy and building blocks for rapidly dividing cancer cells, and could also influence signaling pathways like PPAR. Simultaneously, changes in cell adhesion and extracellular matrix interactions, involving SPP1 and VWF, likely contribute to tumor invasiveness and metastasis, potentially through NFKB1 signaling. The transcription factor FOXM1, a target of CDK1, is a known oncogene that further amplifies cell cycle progression and proliferation.
+
+*Hypothesis*
+We hypothesize that the observed gene expression changes in breast cancer patients reflect a coordinated dysregulation of cell cycle progression and lipid metabolism, driven by key regulators like CDK1, CCNB1, and AURKA, leading to uncontrolled proliferation and genomic instability. Concurrently, altered lipid handling and enhanced cell adhesion mechanisms, involving FABP4, LIPE, SPP1, and VWF, contribute to tumor growth, survival, and metastatic potential, potentially through the activation of pathways like PPAR and NFKB1.
+
+*System Model*
+```tsv
+Node1	Interaction	Node2
+CDK1	associated with	Cell Cycle G2/M Phase Transition
+CCNB1	associated with	Cell Cycle G2/M Phase Transition
+AURKA	associated with	Cell Cycle G2/M Phase Transition
+CDC20	associated with	Cell Cycle G2/M Phase Transition
+MAD2L1	associated with	Cell Cycle G2/M Phase Transition
+CDK1	targets	FOXM1
+CCNB1	targets	FOXM1
+AURKA	targets	FOXM1
+CDC20	targets	FOXM1
+MAD2L1	targets	FOXM1
+RRM2	associated with	Pyrimidine Metabolism
+LIPE	associated with	Lipid Storage
+FABP4	associated with	Lipid Storage
+SPP1	associated with	Focal Adhesion
+VWF	associated with	Focal Adhesion
+LIPE	associated with	PPAR Signaling Pathway
+FABP4	associated with	PPAR Signaling Pathway
+SPP1	associated with	NFKB1
+VWF	associated with	NFKB1
+CDK1	associated with	Chromosome Segregation
+CCNB1	associated with	Chromosome Segregation
+AURKA	associated with	Chromosome Segregation
+CDC20	associated with	Chromosome Segregation
+MAD2L1	associated with	Chromosome Segregation
+CDK1	associated with	Mitotic Nuclear Division
+CCNB1	associated with	Mitotic Nuclear Division
+AURKA	associated with	Mitotic Nuclear Division
+CDC20	associated with	Mitotic Nuclear Division
+MAD2L1	associated with	Mitotic Nuclear Division
+FABP4	associated with	Lipid Metabolic Process
+LIPE	associated with	Lipid Metabolic Process
+SPP1	associated with	ECM-Receptor Interaction
+VWF	associated with	ECM-Receptor Interaction
+CCNB1	associated with	Mitotic Cell Cycle Phase Transition
+CDK1	associated with	Mitotic Cell Cycle Phase Transition
+CDC20	associated with	Mitotic Cell Cycle Phase Transition
+BUB1B	associated with	Mitotic Cell Cycle Phase Transition
+FABP4	associated with	Lipid Storage
+LIPE	associated with	Lipid Storage
+PLIN1	associated with	Lipid Storage
+AURKA	associated with	Mitotic Sister Chromatid Segregation
+LEP	associated with	Lipid Transport
+ADIPOQ	associated with	Lipid Metabolic Process
+CDK1	associated with	Cell Cycle, Mitotic
+CDC20	associated with	Cell Cycle, Mitotic
+BUB1B	associated with	Cell Cycle G2/M Phase Transition
+FABP4	associated with	Lipid Storage
+LIPE	associated with	Lipid Storage
+PLIN1	associated with	Lipid Storage
+AURKA	associated with	Cell Cycle G2/M Phase Transition
+LEP	associated with	Lipid Storage
+ADIPOQ	associated with	Lipid Storage
+CCNB1	associated with	Mitotic Sister Chromatid Segregation
+CDK1	associated with	Mitotic Sister Chromatid Segregation
+CDC20	associated with	Mitotic Sister Chromatid Segregation
+BUB1B	associated with	Mitotic Sister Chromatid Segregation
+FABP4	associated with	Lipid Catabolic Process
+LIPE	associated with	Lipid Catabolic Process
+PLIN1	associated with	Lipid Catabolic Process
+AURKA	associated with	Mitotic Sister Chromatid Segregation
+LEP	associated with	Lipid Catabolic Process
+ADIPOQ	associated with	Lipid Catabolic Process
+AURKA	associated with	G2/M Transition Of Mitotic Cell Cycle
+BIRC5	associated with	G2/M Transition Of Mitotic Cell Cycle
+CCNB1	associated with	G2/M Transition Of Mitotic Cell Cycle
+CDC20	associated with	G2/M Transition Of Mitotic Cell Cycle
+CDK1	associated with	G2/M Transition Of Mitotic Cell Cycle
+CENPF	associated with	G2/M Transition Of Mitotic Cell Cycle
+DTL	associated with	G2/M Transition Of Mitotic Cell Cycle
+MELK	associated with	G2/M Transition Of Mitotic Cell Cycle
+NUSAP1	associated with	G2/M Transition Of Mitotic Cell Cycle
+PRC1	associated with	G2/M Transition Of Mitotic Cell Cycle
+PTTG1	associated with	G2/M Transition Of Mitotic Cell Cycle
+RRM2	associated with	G2/M Transition Of Mitotic Cell Cycle
+TK1	associated with	G2/M Transition Of Mitotic Cell Cycle
+TOP2A	associated with	G2/M Transition Of Mitotic Cell Cycle
+TPX2	associated with	G2/M Transition Of Mitotic Cell Cycle
+UBE2C	associated with	G2/M Transition Of Mitotic Cell Cycle
+UHRF1	associated with	G2/M Transition Of Mitotic Cell Cycle
+ZWINT	associated with	G2/M Transition Of Mitotic Cell Cycle
+AURKA	associated with	Chromosome Segregation
+BIRC5	associated with	Chromosome Segregation
+BUB1B	associated with	Chromosome Segregation
+CCNB1	associated with	Chromosome Segregation
+CCNB2	associated with	Chromosome Segregation
+CDC20	associated with	Chromosome Segregation
+CDK1	associated with	Chromosome Segregation
+CENPF	associated with	Chromosome Segregation
+DTL	associated with	Chromosome Segregation
+MAD2L1	associated with	Chromosome Segregation
+NUSAP1	associated with	Chromosome Segregation
+PRC1	associated with	Chromosome Segregation
+TOP2A	associated with	Chromosome Segregation
+TPX2	associated with	Chromosome Segregation
+UBE2C	associated with	Chromosome Segregation
+UHRF1	associated with	Chromosome Segregation
+ZWINT	associated with	Chromosome Segregation
+AURKA	associated with	Mitotic Nuclear Division
+BIRC5	associated with	Mitotic Nuclear Division
+BUB1B	associated with	Mitotic Nuclear Division
+CCNB1	associated with	Mitotic Nuclear Division
+CDC20	associated with	Mitotic Nuclear Division
+CDK1	associated with	Mitotic Nuclear Division
+CENPF	associated with	Mitotic Nuclear Division
+DTL	associated with	Mitotic Nuclear Division
+MAD2L1	associated with	Mitotic Nuclear Division
+NFIB	associated with	Mitotic Nuclear Division
+NUSAP1	associated with	Mitotic Nuclear Division
+PRC1	associated with	Mitotic Nuclear Division
+TOP2A	associated with	Mitotic Nuclear Division
+TPX2	associated with	Mitotic Nuclear Division
+UBE2C	associated with	Mitotic Nuclear Division
+UHRF1	associated with	Mitotic Nuclear Division
+ZWINT	associated with	Mitotic Nuclear Division
+LIPE	associated with	Acylglycerol Metabolic Process
+FABP4	associated with	Acylglycerol Metabolic Process
+PLIN1	associated with	Acylglycerol Metabolic Process
+LPL	associated with	Acylglycerol Metabolic Process
+PPARG	associated with	Acylglycerol Metabolic Process
+ADIPOQ	associated with	Acylglycerol Metabolic Process
+LIPE	interacts with	FABP4
+BUB1B	interacts with	MAD2L1
+LIPE	interacts with	PLIN1
+AURKA	interacts with	TPX2
+BUB1B	interacts with	CENPF
+CCNB1	interacts with	CDC20
+BUB1B	interacts with	CDC20
+CCNB2	interacts with	CDC20
+MAD2L1	interacts with	CDC20
+UBE2C	interacts with	CDC20
+CDC20	interacts with	PTTG1
+TPX2	interacts with	PRC1
+CCNB1	interacts with	CDK1
+BUB1B	interacts with	CDK1
+CCNB2	interacts with	CDK1
+CDC20	interacts with	CDK1
+TOP2A	interacts with	NUSAP1
+CCNB1	interacts with	BUB1B
+CCNB1	interacts with	CCNB2
+BIRC5	interacts with	CDK1
+CDK1	interacts with	TOP2A
+BUB1B	interacts with	ZWINT
+AURKA	interacts with	CDC20
+BIRC5	interacts with	CDC20
+LEP	interacts with	ADIPOQ
+FABP4	interacts with	PPARG
+BUB1B	interacts with	CCNB2
+AURKA	interacts with	BIRC5
+CCNB1	interacts with	BIRC5
+CCNB2	interacts with	BIRC5
+BIRC5	interacts with	UBE2C
+MAD2L1	interacts with	CDK1
+BUB1B	interacts with	UBE2C
+CCNB1	interacts with	UBE2C
+CENPF	interacts with	CDC20
+CCNB1	interacts with	TOP2A
+AURKA	interacts with	CCNB2
+CCNB1	interacts with	MAD2L1
+CCNB1	interacts with	CENPF
+BUB1B	interacts with	BIRC5
+AURKA	interacts with	UBE2C
+PTTG1	interacts with	CDK1
+CCNB1	interacts with	PTTG1
+UBE2C	interacts with	CDK1
+MAD2L1	interacts with	BIRC5
+UBE2C	interacts with	PTTG1
+BUB1B	interacts with	TOP2A
+CDC20	interacts with	TOP2A
+AURKA	interacts with	CCNB1
+BUB1B	interacts with	PTTG1
+CENPF	interacts with	CDK1
+BIRC5	interacts with	TOP2A
+CCNB2	interacts with	MELK
+CCNB2	interacts with	TOP2A
+CCNB2	interacts with	CENPF
+CENPF	interacts with	TOP2A
+RRM2	interacts with	CDK1
+UBE2C	interacts with	TOP2A
+CCNB1	interacts with	MELK
+CCNB2	interacts with	PTTG1
+CCNB2	interacts with	UBE2C
+CDC20	interacts with	ZWINT
+AURKA	interacts with	PTTG1
+MELK	interacts with	BIRC5
+TPX2	interacts with	UBE2C
+PPARG	interacts with	ADIPOQ
+FABP4	interacts with	LPL
+MELK	interacts with	CDC20
+TPX2	interacts with	NUSAP1
+UBE2C	interacts with	NUSAP1
+AURKA	interacts with	TOP2A
+CCNB2	interacts with	MAD2L1
+CCNB2	interacts with	NUSAP1
+TPX2	interacts with	CDC20
+BIRC5	interacts with	CENPF
+MELK	interacts with	TPX2
+RRM2	interacts with	TOP2A
+MELK	interacts with	TOP2A
+TPX2	interacts with	CENPF
+BUB1B	interacts with	MELK
+CCNB2	interacts with	TPX2
+CENPF	interacts with	ZWINT
+BUB1B	interacts with	NUSAP1
+BIRC5	interacts with	NUSAP1
+TPX2	interacts with	BIRC5
+TPX2	interacts with	CDK1
+AURKA	interacts with	CDK1
+RRM2	interacts with	NUSAP1
+CCNB1	interacts with	ZWINT
+ZWINT	interacts with	CDK1
+CCNB1	interacts with	TPX2
+PPARG	interacts with	LEP
+MELK	interacts with	UBE2C
+CDC20	interacts with	PRC1
+PLIN1	interacts with	ADIPOQ
+MAD2L1	interacts with	MELK
+CDC20	interacts with	NUSAP1
+CDK1	interacts with	NUSAP1
+CENPF	interacts with	NUSAP1
+TPX2	interacts with	RRM2
+RRM2	interacts with	ZWINT
+FABP4	interacts with	ADIPOQ
+TPX2	interacts with	TOP2A
+PTTG1	interacts with	TOP2A
+PPARG	interacts with	LPL
+UBE2C	interacts with	CENPF
+BIRC5	interacts with	PRC1
+CENPF	interacts with	PRC1
+PRC1	interacts with	CDK1
+BUB1B	interacts with	TPX2
+PRC1	interacts with	NUSAP1
+MELK	interacts with	RRM2
+CCNB1	interacts with	PRC1
+PRC1	interacts with	TOP2A
+UBE2C	interacts with	RRM2
+MELK	interacts with	NUSAP1
+AURKA	interacts with	MAD2L1
+PPARG	interacts with	PLIN1
+MAD2L1	interacts with	UBE2C
+FABP4	interacts with	PLIN1
+BIRC5	interacts with	PTTG1
+CCNB2	interacts with	PRC1
+AURKA	interacts with	BUB1B
+CCNB1	interacts with	NUSAP1
+BUB1B	interacts with	RRM2
+TPX2	interacts with	PTTG1
+CCNB2	interacts with	ZWINT
+BIRC5	interacts with	TK1
+MELK	interacts with	CENPF
+BIRC5	interacts with	ZWINT
+MAD2L1	interacts with	CENPF
+RRM2	interacts with	TK1
+AURKA	interacts with	MELK
+CCNB2	interacts with	RRM2
+TPX2	interacts with	ZWINT
+AURKA	interacts with	PRC1
+RRM2	interacts with	CDC20
+PTTG1	interacts with	NUSAP1
+CCNB1	interacts with	RRM2
+DTL	interacts with	CDK1
+MELK	interacts with	ZWINT
+LIPE	interacts with	LPL
+AURKA	interacts with	CENPF
+MELK	interacts with	CDK1
+ZWINT	interacts with	NUSAP1
+MAD2L1	interacts with	ZWINT
+ZWINT	interacts with	TK1
+BIRC5	interacts with	RRM2
+CENPF	interacts with	DTL
+BUB1B	interacts with	PRC1
+MELK	interacts with	PRC1
+AURKA	interacts with	RRM2
+MAD2L1	interacts with	PTTG1
+MAD2L1	interacts with	TOP2A
+MAD2L1	interacts with	RRM2
+CDC20	interacts with	TK1
+RRM2	interacts with	DTL
+CCNB2	interacts with	TK1
+CCNB1	interacts with	TK1
+UBE2C	interacts with	ZWINT
+ZWINT	interacts with	TOP2A
+MELK	interacts with	PTTG1
+UBE2C	interacts with	TK1
+RRM2	interacts with	PRC1
+MAD2L1	interacts with	TPX2
+LIPE	interacts with	ADIPOQ
+LIPE	interacts with	PPARG
+TOP2A	interacts with	UHRF1
+RRM2	interacts with	UHRF1
+MAD2L1	interacts with	NUSAP1
+PLIN1	interacts with	LEP
+PTTG1	interacts with	PRC1
+AURKA	interacts with	NUSAP1
+MELK	interacts with	DTL
+CDK1	interacts with	TK1
+DTL	interacts with	NUSAP1
+CENPF	interacts with	PTTG1
+UBE2C	interacts with	PRC1
+ZWINT	interacts with	PRC1
+RRM2	interacts with	CENPF
+DTL	interacts with	TOP2A
+RRM2	interacts with	PTTG1
+DTL	interacts with	ZWINT
+BUB1B	interacts with	DTL
+VWF	interacts with	SPP1
+TOP2A	interacts with	TK1
+FABP4	interacts with	LEP
+MAD2L1	interacts with	PRC1
+ADIPOQ	interacts with	LPL
+MELK	interacts with	TK1
+TPX2	interacts with	TK1
+PTTG1	interacts with	TK1
+AURKA	interacts with	ZWINT
+DTL	interacts with	UHRF1
+CENPF	interacts with	TK1
+LEP	interacts with	SPP1
+LIPE	interacts with	LEP
+TK1	interacts with	NUSAP1
+ZWINT	interacts with	PTTG1
+MAD2L1	interacts with	TK1
+BIRC5	interacts with	UHRF1
+ZWINT	interacts with	UHRF1
+TPX2	interacts with	UHRF1
+PRC1	interacts with	UHRF1
+CDC20	interacts with	UHRF1
+UBE2C	interacts with	UHRF1
+DTL	interacts with	CDC20
+BUB1B	interacts with	UHRF1
+TPX2	interacts with	DTL
+PLIN1	interacts with	LPL
+TK1	interacts with	UHRF1
+BUB1B	interacts with	TK1
+CCNB1	interacts with	DTL
+AURKA	interacts with	UHRF1
+UHRF1	interacts with	NUSAP1
+CDK1	interacts with	UHRF1
+PTTG1	interacts with	UHRF1
+DTL	interacts with	PRC1
+PPARG	interacts with	SPP1
+AURKA	interacts with	TK1
+MELK	interacts with	UHRF1
+BIRC5	interacts with	DTL
+CENPF	interacts with	UHRF1
+UBE2C	interacts with	DTL
+CCNB1	interacts with	UHRF1
+CCNB2	interacts with	DTL
+```

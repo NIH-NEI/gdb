@@ -1,0 +1,58 @@
+{
+  "modules": [
+    {
+      "module_name": "Cardiac Function and Remodeling",
+      "associated_phenotype": "Hypertrophy and Contractile Dysfunction",
+      "genes": [
+        "COL16A1",
+        "MYH6",
+        "NPPA",
+        "THBS1",
+        "TPM3"
+      ]
+    },
+    {
+      "module_name": "Immune & Inflammatory Response",
+      "associated_phenotype": "Inflammatory Infiltration and Signaling",
+      "genes": [
+        "ALOX5AP",
+        "C1R",
+        "CD14",
+        "CD209",
+        "CTSC",
+        "FCER1G",
+        "FCGR2A",
+        "JAK2",
+        "MAP3K8",
+        "MARCO",
+        "MS4A6A",
+        "MS4A7",
+        "PLEK"
+      ]
+    },
+    {
+      "module_name": "Cellular Stress & Metabolism",
+      "associated_phenotype": "Metabolic Shift and Stress Response",
+      "genes": [
+        "GADD45A",
+        "GADD45B",
+        "IER3",
+        "LDHA",
+        "RASD1",
+        "S100A10",
+        "SLC2A1"
+      ]
+    },
+    {
+      "module_name": "Upstream Regulatory TFs",
+      "associated_phenotype": "Orchestration of Gene Expression",
+      "genes": [
+        "MAFB",
+        "SMAD2",
+        "SMAD3",
+        "SOX2",
+        "SPI1"
+      ]
+    }
+  ]
+}

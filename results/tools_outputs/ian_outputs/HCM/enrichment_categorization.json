@@ -1,0 +1,74 @@
+{
+  "categories": [
+    {
+      "component": "WikiPathways",
+      "categories": [
+        {
+          "category_name": "Metabolic Pathways",
+          "terms": [
+            "Glycolysis",
+            "Cori cycle",
+            "Aerobic glycolysis"
+          ]
+        },
+        {
+          "category_name": "Immune System Pathways",
+          "terms": [
+            "Complement system",
+            "Leukocyte-targeted miRNAs in cardiac injury"
+          ]
+        },
+        {
+          "category_name": "DNA Damage and Repair",
+          "terms": []
+        }
+      ]
+    },
+    {
+      "component": "KEGG",
+      "categories": [
+        {
+          "category_name": "Immune Response and Inflammation",
+          "terms": [
+            "NF-kappa B signaling pathway",
+            "Phagosome",
+            "Complement and coagulation cascades"
+          ]
+        },
+        {
+          "category_name": "Cardiovascular System",
+          "terms": [
+            "Cardiac muscle contraction"
+          ]
+        }
+      ]
+    },
+    {
+      "component": "GO",
+      "categories": [
+        {
+          "category_name": "Immune System Function",
+          "terms": [
+            "T cell differentiation",
+            "acute inflammatory response",
+            "leukocyte activation"
+          ]
+        },
+        {
+          "category_name": "Blood Coagulation and Hemostasis",
+          "terms": [
+            "blood coagulation",
+            "platelet function"
+          ]
+        },
+        {
+          "category_name": "Cardiac Muscle Function",
+          "terms": [
+            "cardiac muscle contraction",
+            "cardiac muscle hypertrophy"
+          ]
+        }
+      ]
+    }
+  ]
+}

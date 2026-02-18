@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "source": "AR",
+      "target": "CDK1"
+    },
+    {
+      "source": "AR",
+      "target": "CENPF"
+    },
+    {
+      "source": "AR",
+      "target": "LIPE"
+    },
+    {
+      "source": "AR",
+      "target": "PPARG"
+    },
+    {
+      "source": "FOXM1",
+      "target": "AURKA"
+    },
+    {
+      "source": "FOXM1",
+      "target": "BUB1B"
+    },
+    {
+      "source": "FOXM1",
+      "target": "CCNB1"
+    },
+    {
+      "source": "FOXM1",
+      "target": "CCNB2"
+    },
+    {
+      "source": "FOXM1",
+      "target": "CDC20"
+    },
+    {
+      "source": "FOXM1",
+      "target": "CDK1"
+    },
+    {
+      "source": "FOXM1",
+      "target": "CDKN3"
+    },
+    {
+      "source": "FOXM1",
+      "target": "CENPF"
+    },
+    {
+      "source": "FOXM1",
+      "target": "PTTG1"
+    },
+    {
+      "source": "FOXM1",
+      "target": "RRM2"
+    },
+    {
+      "source": "FOXM1",
+      "target": "TOP2A"
+    },
+    {
+      "source": "FOXM1",
+      "target": "UBE2C"
+    },
+    {
+      "source": "FOXM1",
+      "target": "UHRF1"
+    },
+    {
+      "source": "NFIB",
+      "target": "CDK1"
+    },
+    {
+      "source": "NFIB",
+      "target": "CENPF"
+    },
+    {
+      "source": "NFIB",
+      "target": "ZWINT"
+    },
+    {
+      "source": "NR3C1",
+      "target": "CDK1"
+    },
+    {
+      "source": "NR3C1",
+      "target": "CENPF"
+    },
+    {
+      "source": "NR3C1",
+      "target": "LIPE"
+    },
+    {
+      "source": "NR3C1",
+      "target": "PPARG"
+    },
+    {
+      "source": "NR3C1",
+      "target": "ZWINT"
+    }
+  ]
+}

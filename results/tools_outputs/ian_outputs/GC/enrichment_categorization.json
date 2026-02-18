@@ -1,0 +1,56 @@
+{
+  "categories": [
+    {
+      "component": "WikiPathways",
+      "categories": [
+        {
+          "category_name": "Metabolism and Biotransformation",
+          "terms": [
+            "fatty acid metabolism",
+            "eicosanoid synthesis"
+          ]
+        },
+        {
+          "category_name": "Extracellular Matrix and Cell Adhesion",
+          "terms": [
+            "matrix metalloproteinases",
+            "focal adhesion"
+          ]
+        },
+        {
+          "category_name": "Cell Signaling and Receptors",
+          "terms": [
+            "Vitamin D receptor pathway",
+            "Glucocorticoid receptor pathway",
+            "Gastrin signaling"
+          ]
+        },
+        {
+          "category_name": "Inflammation and Immune Response",
+          "terms": []
+        }
+      ]
+    },
+    {
+      "component": "KEGG",
+      "categories": [
+        {
+          "category_name": "Metabolism",
+          "terms": [
+            "Glycolysis",
+            "pyruvate metabolism",
+            "fatty acid degradation",
+            "Steroid Hormone Biosynthesis"
+          ]
+        },
+        {
+          "category_name": "Cell Adhesion and Extracellular Matrix",
+          "terms": [
+            "focal adhesion",
+            "ECM-receptor interaction"
+          ]
+        }
+      ]
+    }
+  ]
+}

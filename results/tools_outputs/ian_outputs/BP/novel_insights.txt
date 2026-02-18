@@ -1,0 +1,4 @@
+The strong enrichment of pathways typically associated with neurological or cardiac damage ("Spinal cord injury", "Acute viral myocarditis") in PBMCs is unexpected and may suggest unappreciated systemic damage-response mechanisms in BP.
+The significant enrichment of bacterial infection pathways (e.g., Salmonella, Legionellosis) and bacterial response pathways (LPS) suggests a prominent role for innate immune sensing, possibly triggered by the microbiome, in perpetuating the autoimmune response.
+The novel regulatory interactions identified by ChEA for the stress-response factor ATF3 with USP53 (deubiquitination) and SUSD4 (complement regulation) point to new potential mechanisms of immune modulation in BP.
+The enrichment of developmental pathways (e.g., integumentary system, mammary gland) in blood cells is unexpected and may hint at novel roles for immune cell plasticity or shared regulatory networks in BP.

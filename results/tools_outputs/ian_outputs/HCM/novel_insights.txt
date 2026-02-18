@@ -1,0 +1,3 @@
+The strong co-enrichment of metabolic reprogramming (specifically aerobic glycolysis and the Cori cycle) with immune system pathways (complement and leukocyte-targeted miRNAs) suggests a novel, intricate link between inflammation and metabolic shifts in the context of hypertrophic cardiomyopathy.
+The potential regulation of extracellular matrix (COL16A1) and coagulation (F13A1) genes by the pluripotency factor SOX2 in adult cardiac tissue represents a potentially new regulatory axis in HCM pathogenesis.
+The specific involvement of the nuclear receptor NR1H3 (LXRα) in regulating the inflammatory genes MAFB and ALOX5AP could be a less-explored mechanism of metabolic and inflammatory crosstalk within the hypertrophied heart.

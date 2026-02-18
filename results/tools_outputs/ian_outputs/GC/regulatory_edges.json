@@ -1,0 +1,108 @@
+{
+  "edges": [
+    {
+      "source": "BACH1",
+      "target": "CYP3A5"
+    },
+    {
+      "source": "BACH1",
+      "target": "MUC1"
+    },
+    {
+      "source": "BACH1",
+      "target": "PTGS2"
+    },
+    {
+      "source": "FOXC1",
+      "target": "SOX2"
+    },
+    {
+      "source": "GATA4",
+      "target": "CLDN1"
+    },
+    {
+      "source": "GATA4",
+      "target": "CTSE"
+    },
+    {
+      "source": "GATA4",
+      "target": "MUC1"
+    },
+    {
+      "source": "GATA4",
+      "target": "TMPRSS2"
+    },
+    {
+      "source": "KLF4",
+      "target": "CDH3"
+    },
+    {
+      "source": "KLF4",
+      "target": "CLDN1"
+    },
+    {
+      "source": "KLF4",
+      "target": "CLDN3"
+    },
+    {
+      "source": "KLF4",
+      "target": "SOX2"
+    },
+    {
+      "source": "RELA",
+      "target": "IL32"
+    },
+    {
+      "source": "RELA",
+      "target": "KRT6B"
+    },
+    {
+      "source": "RELA",
+      "target": "MUC1"
+    },
+    {
+      "source": "RELA",
+      "target": "NQO1"
+    },
+    {
+      "source": "RELA",
+      "target": "PTGS2"
+    },
+    {
+      "source": "SOX2",
+      "target": "BCAS1"
+    },
+    {
+      "source": "SOX2",
+      "target": "CLDN1"
+    },
+    {
+      "source": "SOX2",
+      "target": "CLDN18"
+    },
+    {
+      "source": "SOX2",
+      "target": "CLDN3"
+    },
+    {
+      "source": "SOX2",
+      "target": "FOXA1"
+    },
+    {
+      "source": "SOX2",
+      "target": "FOXA2"
+    },
+    {
+      "source": "SOX2",
+      "target": "ITGA5"
+    },
+    {
+      "source": "SOX2",
+      "target": "KRT20"
+    },
+    {
+      "source": "SOX2",
+      "target": "RASSF6"
+    }
+  ]
+}

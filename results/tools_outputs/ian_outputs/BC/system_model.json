@@ -1,0 +1,94 @@
+{
+  "modules": [
+    {
+      "module_name": "Cell Cycle & Mitosis",
+      "associated_phenotype": "Uncontrolled Proliferation",
+      "genes": [
+        "ANLN",
+        "ASPM",
+        "AURKA",
+        "BIRC5",
+        "BUB1B",
+        "CCNB1",
+        "CCNB2",
+        "CDC20",
+        "CDK1",
+        "CDKN3",
+        "CENPF",
+        "CENPU",
+        "CKS2",
+        "DTL",
+        "GINS1",
+        "MAD2L1",
+        "MELK",
+        "NUSAP1",
+        "PBK",
+        "PRC1",
+        "PTTG1",
+        "RRM2",
+        "TK1",
+        "TOP2A",
+        "TPX2",
+        "UBE2C",
+        "UBE2T",
+        "UHRF1",
+        "ZWINT"
+      ]
+    },
+    {
+      "module_name": "Lipid Metabolism & Adipogenesis",
+      "associated_phenotype": "Metabolic Reprogramming",
+      "genes": [
+        "ACACB",
+        "ADIPOQ",
+        "CAV1",
+        "CD36",
+        "CIDEA",
+        "CIDEC",
+        "FABP4",
+        "G0S2",
+        "GPD1",
+        "LEP",
+        "LEPR",
+        "LIPE",
+        "LPL",
+        "PCK1",
+        "PDK4",
+        "PLIN1",
+        "PLIN4",
+        "PPARG",
+        "RBP4",
+        "RBP7",
+        "SORBS1"
+      ]
+    },
+    {
+      "module_name": "ECM & Cell Adhesion",
+      "associated_phenotype": "Invasion and Metastasis Potential",
+      "genes": [
+        "COL11A1",
+        "ITGA7",
+        "MMP11",
+        "POSTN",
+        "SDC1",
+        "SPP1",
+        "TNXB",
+        "VWF"
+      ]
+    },
+    {
+      "module_name": "Upstream Regulatory TFs",
+      "associated_phenotype": "Orchestration of Gene Expression",
+      "genes": [
+        "AR",
+        "FOXM1",
+        "GATA3",
+        "NFIB",
+        "NR3C1",
+        "POU5F1",
+        "PPARG",
+        "TFAP2C"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "categories": [
+    {
+      "component": "WikiPathways",
+      "categories": [
+        {
+          "category_name": "Metabolism and Lipid Regulation",
+          "terms": [
+            "Fatty acid omega oxidation",
+            "SREBP signaling",
+            "PPAR signaling"
+          ]
+        },
+        {
+          "category_name": "Cell Cycle and Proliferation",
+          "terms": [
+            "Cell cycle",
+            "Retinoblastoma gene in cancer",
+            "Regulation of sister chromatid separation"
+          ]
+        },
+        {
+          "category_name": "Signaling and Adipogenesis",
+          "terms": [
+            "Leptin signaling",
+            "AMPK signaling",
+            "Adipogenesis"
+          ]
+        }
+      ]
+    },
+    {
+      "component": "KEGG",
+      "categories": [
+        {
+          "category_name": "Cell Cycle and Mitosis",
+          "terms": [
+            "Cell cycle",
+            "Oocyte meiosis",
+            "p53 signaling pathway"
+          ]
+        },
+        {
+          "category_name": "Metabolism",
+          "terms": [
+            "Pyruvate metabolism",
+            "PPAR signaling"
+          ]
+        }
+      ]
+    },
+    {
+      "component": "Reactome",
+      "categories": [
+        {
+          "category_name": "Cell Cycle Regulation",
+          "terms": [
+            "Mitotic G2-G2/M phases",
+            "Cell Cycle, Mitotic"
+          ]
+        },
+        {
+          "category_name": "Metabolism",
+          "terms": [
+            "Triglyceride catabolism",
+            "Transcriptional regulation of white adipocyte differentiation"
+          ]
+        }
+      ]
+    }
+  ]
+}
