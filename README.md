@@ -7,7 +7,7 @@
 - **Contact**: nagarajanv@nih.gov
 ------------
 
-## Introduction: A Benchmark for scientific reasoning
+## Introduction: A Benchmark for scientific discovery
 
 In complex scientific fields like bioinformatics, the true value of an AI tool is not just its accuracy, but its ability to perform higher-order reasoning—synthesizing data into coherent narratives, forming novel hypotheses, and constructing plausible models of biological systems. Standard Natural Language Processing benchmarks often fail to capture this crucial dimension.
 
