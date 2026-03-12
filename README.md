@@ -1,5 +1,5 @@
 # The Omics Discovery Bench (ODB)
-*A Novel Benchmark Framework for Evaluating Higher-Order Reasoning in AI-driven Biological Interpretation*
+*A Novel Benchmark Framework for Evaluating Higher-Order Reasoning and Discovery in AI-driven Biological Interpretation*
 
 ------------
 - **Authors**: Vijay Nagarajan PhD, Reiko Horai PhD
