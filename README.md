@@ -234,7 +234,7 @@ The Grounded Discovery Bench successfully distinguishes between different classe
 ---
 
 <p align="center">
-  The Grounded Discovery Bench (ODB) Project | 2026
+  The Grounded Discovery Bench (GDB) Project | 2026
   <br>
   (P.S. Gemini was my research and coding assistant for this project!)
 </p>
