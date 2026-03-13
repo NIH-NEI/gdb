@@ -1,17 +1,38 @@
-# The Omics Discovery Bench (ODB)
-*A Novel Benchmark Framework for Evaluating Higher-Order Reasoning and Discovery in AI-driven Biological Interpretation*
+# The Grounded Discovery Bench (GDB)
+*A Multi-dimensional benchmark framework for evaluating grounded reasoning and discovery capabilities in scientific AI*
 
 ------------
-- **Authors**: Vijay Nagarajan PhD, Reiko Horai PhD
-- **Affiliation**: Laboratory of Immunology, NEI/NIH
-- **Contact**: nagarajanv@nih.gov
+- **Authors**: Vijayaraj Nagarajan PhD, Reiko Horai PhD  
+- **Affiliation**: Laboratory of Immunology, NEI/NIH  
+- **Contact**: nagarajanv@nih.gov  
 ------------
 
-## Introduction: A Benchmark for scientific discovery
+## Introduction: A Benchmark for grounded scientific discovery
 
-In complex scientific fields like bioinformatics, the true value of an AI tool is not just its accuracy, but its ability to perform higher-order reasoning—synthesizing data into coherent narratives, forming novel hypotheses, and constructing plausible models of biological systems. Standard Natural Language Processing benchmarks often fail to capture this crucial dimension.
+As AI systems become increasingly integrated into scientific workflows, *simple accuracy metrics are no longer sufficient* to capture what truly matters: a model’s ability to perform **grounded reasoning**, *interpret complex data*, *synthesize coherent insights*, and *propose meaningful hypotheses* based on real evidence. Traditional natural language benchmarks — focused on factual recall or surface comprehension — miss this deeper dimension of reasoning that drives *discovery-oriented science*.
 
-The **Omics Discovery Bench (ODB)** was developed to address this gap. ODB is an open-source benchmark framework that evaluates and ranks analytical tools on their ability to interpret high-throughput omics data. Our "Groundedness-First" philosophy prioritizes structured, verifiable, and data-driven reasoning over simple narrative fluency.
+The **Grounded Discovery Bench (GDB)** was developed to fill this gap. GDB is an **open-source, multi-dimensional benchmark framework** that evaluates and ranks analytical tools based on:
+- **Fidelity to curated ground truth** (evidence-aligned reasoning), and  
+- **Discovery & synthesis capacity** (higher-order insight and novel hypothesis generation).
+
+GDB’s *groundedness-first* philosophy prioritizes structured, verifiable, and data-driven reasoning over simple narrative fluency or memorized patterns. Unlike domain-specific benchmarks, the Grounded Discovery Bench is designed to be *generalizable*, enabling its application to scientific fields beyond omics — including but not limited to biology, chemistry, materials science, and physics — where evidence-aligned discovery is essential.
+
+## Why GDB Matters
+
+Modern AI evaluation research increasingly highlights the limitations of simple performance metrics and the need for **rich, multi-axis evaluation frameworks** that measure reasoning, synthesis, and trustworthiness alongside accuracy and recall — moving evaluation from *surface correctness* toward *meaningful scientific interpretation*.
+
+Grounded Discovery Bench achieves this by:
+- Combining established sub-metrics (e.g., ranking quality, set similarity, semantic similarity) into normalized task scores;  
+- Aggregating those into a **Composite Grounded Reasoning Score (CGRS)** using a principled, weighted scheme; and  
+- Generating a **Grounded Discovery Score (GDS)** that reflects a model’s balance of *evidence fidelity* and *discovery potential* in a multi-dimensional performance space.
+
+Together, these components provide a *holistic evaluation* of AI capabilities in **scientific discovery contexts**, supporting rigorous comparison, model selection, and further research on grounded reasoning.
+
+## Broader Impact
+
+The Grounded Discovery Bench framework helps bridge the gap between:
+- Benchmarks focused on task accuracy (e.g., question answering, classification) and  
+- Benchmarks measuring *meaningful scientific insight and interpretive reasoning*, which are increasingly important as AI moves from *assistive* to *collaborative* roles in research and scientific decision-making.
 
 ---
 
@@ -19,7 +40,7 @@ The **Omics Discovery Bench (ODB)** was developed to address this gap. ODB is an
 
 We benchmarked 7 different analytical approaches, including general-purpose LLMs and our novel **I**ntelligent System for Omics Data **An**lysis and Discovery [(IAN)](https://www.biorxiv.org/content/10.1101/2025.03.06.640921v1.full).
 
-**The final ranking, based on our "Grounded Reasoning Score," demonstrates a clear performance hierarchy, with the specialized IAN framework showing a distinct advantage in structured biological interpretation.**
+**The final ranking, based on our "Composite Grounded Reasoning Score (CGRS)," demonstrates a clear performance hierarchy, with the specialized IAN framework showing a distinct advantage in structured biological interpretation.**
 
 <div align="center">
 
@@ -72,7 +93,7 @@ The benchmark is built upon 8 diverse, publicly available human omics datasets. 
 
 ## Benchmark Methodology
 
-The Omics Discovery Benchmark (ODB) evaluates the analytical and interpretative capabilities of AI tools by scoring their outputs against a curated ground truth. The methodology is executed through a series of sequential scripts, ensuring a reproducible and transparent workflow.
+The Grounded Discovery Bench (GDB) evaluates the analytical and interpretative capabilities of AI tools by scoring their outputs against a curated ground truth. The methodology is executed through a series of sequential scripts, ensuring a reproducible and transparent workflow.
 
 ### **Step 1: Data Setup and Standardization**
 
@@ -153,13 +174,13 @@ The core evaluation is performed by the main benchmark script (`4_odb_run_benchm
 ### **Step 3: Aggregate Analysis and Final Ranking**
 
 1.  **Aggregate Statistics (`5_odb_analysis_script.py`):** The detailed, per-dataset scores are aggregated to calculate the mean and standard deviation for each metric, summarizing each tool's average performance.
-2.  **Final Weighted Ranking (`7_odb-final-score.py`):** A composite **"Grounded Reasoning Score"** is calculated for each tool. This score is a weighted average of the primary metrics from the 12 tasks, with weights specifically chosen to prioritize performance on structured, verifiable tasks over more subjective ones. The tools are then ranked in descending order based on this final score to produce the definitive ODB benchmark ranking.
+2.  **Final Weighted Ranking (`7_odb-final-score.py`):** A Composite Grounded Reasoning Score (CGRS) is calculated for each tool. This score is a weighted average of the primary metrics from the 12 tasks, with weights specifically chosen to prioritize performance on structured, verifiable tasks over more subjective ones. The tools are then ranked in descending order based on this final score to produce the definitive GDB benchmark ranking.
 
 ---
 
 ## How to Contribute Your Tool
 
-We welcome and encourage submissions from the community. If you have a tool you would like to benchmark against ODB, please follow these steps:
+We welcome and encourage submissions from the community. If you have a tool you would like to benchmark against GDB, please follow these steps:
 
 1.  **Generate Outputs:** For each of the 8 datasets, run your tool using the provided input data (DEG lists and experimental design text).
 2.  **Format Your Results:** Your tool must produce one `odb_tool_output.json` file for each of the 8 datasets. The JSON file must strictly adhere to the structure and field names of the standardized output format.
@@ -169,28 +190,28 @@ We welcome and encourage submissions from the community. If you have a tool you 
     ```
     your_tool_name/
     ├── BC/
-    │   └── odb_tool_output.json
+    │   └── gdb_tool_output.json
     ├── BP/
-    │   └── odb_tool_output.json
+    │   └── gdb_tool_output.json
     ├── GC/
-    │   └── odb_tool_output.json
+    │   └── gdb_tool_output.json
     ├── HCM/
-    │   └── odb_tool_output.json
+    │   └── gdb_tool_output.json
     ├── MN/
-    │   └── odb_tool_output.json
+    │   └── gdb_tool_output.json
     ├── PAD/
-    │   └── odb_tool_output.json
+    │   └── gdb_tool_output.json
     ├── PD1/
-    │   └── odb_tool_output.json
+    │   └── gdb_tool_output.json
     └── UV/
-        └── odb_tool_output.json
+        └── gdb_tool_output.json
     ```
 
 ---
 
 ## Project Structure
 
-To ensure clarity and reproducibility, the ODB project is organized into the following directories:
+To ensure clarity and reproducibility, the GDB project is organized into the following directories:
 
 <div align="center">
 
@@ -208,12 +229,12 @@ To ensure clarity and reproducibility, the ODB project is organized into the fol
 
 ## Conclusion
 
-The Omics Discovery Bench successfully distinguishes between different classes of AI-driven analysis. While context-aware generalist LLMs are powerful, they function primarily as high-fidelity information recall engines. The [IAN framework](https://www.biorxiv.org/content/10.1101/2025.03.06.640921v1.full), by contrast, demonstrates a superior capacity for grounded, structural reasoning. Its top-ranking performance on our "Grounded Reasoning Score" and its unique position in the performance quadrant confirm that its structured, multi-agent methodology represents a more rigorous and scientifically valuable approach for genuine biological discovery.
+The Grounded Discovery Bench successfully distinguishes between different classes of AI-driven analysis. While context-aware generalist LLMs are powerful, they function primarily as high-fidelity information recall engines. The [IAN framework](https://www.biorxiv.org/content/10.1101/2025.03.06.640921v1.full), by contrast, demonstrates a superior capacity for grounded, structural reasoning. Its top-ranking performance on our "Grounded Reasoning Score" and its unique position in the performance quadrant confirm that its structured, multi-agent methodology represents a more rigorous and scientifically valuable approach for genuine biological discovery.
 
 ---
 
 <p align="center">
-  The Omics Discovery Bench (ODB) Project | 2026
+  The Grounded Discovery Bench (ODB) Project | 2026
   <br>
   (P.S. Gemini was my research and coding assistant for this project!)
 </p>
